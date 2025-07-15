@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "titulo": "Concierto de Rock Clásico en Barranco",
+    "fecha": "2025-07-18",
+    "descripcion": "Disfruta una noche inolvidable con las mejores bandas de rock clásico en vivo.",
+    "imagen": "https://picsum.photos/seed/rock/600/400",
+    "fuente": "teleticket.com.pe"
+  },
+  {
+    "id": "2",
+    "titulo": "Taller de Cerámica para Niños en Miraflores",
+    "fecha": "2025-07-22",
+    "descripcion": "Un taller artístico y divertido para los más pequeños de casa.",
+    "imagen": "https://picsum.photos/seed/ceramica/600/400",
+    "fuente": "tuentrada.com.pe"
+  },
+  {
+    "id": "3",
+    "titulo": "Reto de Caminata Gastronómica por el Centro de Lima",
+    "fecha": "2025-07-25",
+    "descripcion": "Descubre los sabores más auténticos del centro histórico con este recorrido guiado.",
+    "imagen": "https://picsum.photos/seed/gastronomia/600/400",
+    "fuente": "joinnus.com"
+  },
+  {
+    "id": "4",
+    "titulo": "Festival de Comedia con Stand-Up en vivo",
+    "fecha": "2025-07-17",
+    "descripcion": "Una noche de risas con los mejores comediantes del país.",
+    "imagen": "https://picsum.photos/seed/standup/600/400",
+    "fuente": "ticketmaster.pe"
+  }
+]
