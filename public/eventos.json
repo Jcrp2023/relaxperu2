@@ -1,0 +1,26 @@
+[
+  {
+    "titulo": "Concierto de Pedro Suárez-Vértiz",
+    "fecha": "2025-08-10",
+    "url": "https://www.joinnus.com/pe/lima/conciertos/pedro-suarez-vertiz-en-vivo-12345",
+    "fuente": "Joinnus"
+  },
+  {
+    "titulo": "Obra de Teatro: Toc Toc",
+    "fecha": "2025-08-12",
+    "url": "https://teleticket.com.pe/evento/teatro-toc-toc",
+    "fuente": "Teleticket"
+  },
+  {
+    "titulo": "Feria Gastronómica Mistura",
+    "fecha": "2025-08-15",
+    "url": "https://www.tuentrada.com.pe/evento/mistura-2025",
+    "fuente": "Tuentrada"
+  },
+  {
+    "titulo": "Festival Internacional de Cine de Lima",
+    "fecha": "2025-08-18",
+    "url": "https://www.ticketmaster.pe/evento/cine/festival-lima-2025",
+    "fuente": "Ticketmaster Perú"
+  }
+]
