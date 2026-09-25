@@ -1,16 +1,17 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { activities } from './data/activities';
 import autoActivities from './data/auto-activities.json';
+import vaopeActivities from './data/vaope-activities.json';
 import { categories, cities, filterActivities, limaDate, safeSourceUrl, safePosterUrl, upcomingDate } from './catalog';
 
-const catalogActivities = [...activities, ...autoActivities];
+const catalogActivities = [...activities, ...autoActivities, ...vaopeActivities];
 
 const copy = {
   es: {
     explore: 'Explorar', favorites: 'Guardados', how: 'Cómo funciona', eyebrow: 'TU PRÓXIMO PLAN EMPIEZA AQUÍ', heading: 'Sal de la rutina.', highlight: 'Encuentra tu plan.',
     intro: 'Conciertos, cultura, escapadas y momentos para desconectar. Descubre actividades en el Perú desde un solo lugar.', search: 'Busca un concierto, lugar o experiencia', city: 'Ciudad', date: 'Fecha', exactDate: 'Fecha exacta',
     today: 'Hoy', week: 'Próximos 7 días', anytime: 'Todos los planes', exploreAnytime: 'Para explorar', all: 'Todos', shows: 'Conciertos y espectáculos', travel: 'Turismo y escapadas',
-    food: 'Gastronomía', culture: 'Cultura y talleres', family: 'Familia y mascotas', wellness: 'Bienestar y naturaleza', featured: 'Ideas para salir', results: 'planes encontrados', source: 'Fuente',
+    food: 'Gastronomía', culture: 'Cultura y talleres', family: 'Familia y mascotas', wellness: 'Bienestar y naturaleza', sports: 'Deportes', featured: 'Ideas para salir', results: 'planes encontrados', source: 'Fuente',
     reviewed: 'Enlace revisado', guide: 'Guía de destino', experience: 'Experiencia permanente', event: 'Evento con fecha', view: 'Ver fuente oficial', verify: 'Confirma horarios, cupos y condiciones en la fuente antes de pagar.',
     noResults: 'Aún no hay planes confirmados para esta búsqueda.', noResultsText: 'Prueba otra ciudad, fecha o categoría. No mostramos eventos sin fecha comprobada.', clear: 'Limpiar filtros',
     saved: 'Guardado', save: 'Guardar', remove: 'Quitar de guardados', savedEmpty: 'Todavía no has guardado planes.', savedEmptyText: 'Pulsa el corazón en una ficha para encontrarla después en este navegador.',
@@ -24,7 +25,7 @@ const copy = {
     explore: 'Explore', favorites: 'Saved', how: 'How it works', eyebrow: 'YOUR NEXT PLAN STARTS HERE', heading: 'Break the routine.', highlight: 'Find your plan.',
     intro: 'Concerts, culture, short trips and moments to unwind. Discover activities in Peru from one place.', search: 'Search concerts, places or experiences', city: 'City', date: 'Date', exactDate: 'Exact date',
     today: 'Today', week: 'Next 7 days', anytime: 'All plans', exploreAnytime: 'Explore anytime', all: 'All', shows: 'Concerts & shows', travel: 'Trips & getaways',
-    food: 'Food & tastings', culture: 'Culture & workshops', family: 'Family & pets', wellness: 'Wellness & nature', featured: 'Ideas to go out', results: 'plans found', source: 'Source',
+    food: 'Food & tastings', culture: 'Culture & workshops', family: 'Family & pets', wellness: 'Wellness & nature', sports: 'Sports', featured: 'Ideas to go out', results: 'plans found', source: 'Source',
     reviewed: 'Link reviewed', guide: 'Destination guide', experience: 'Ongoing experience', event: 'Dated event', view: 'Visit official source', verify: 'Confirm times, availability and terms at the source before paying.',
     noResults: 'No confirmed plans match this search yet.', noResultsText: 'Try another city, date or category. We do not display events without confirmed dates.', clear: 'Clear filters',
     saved: 'Saved', save: 'Save', remove: 'Remove saved plan', savedEmpty: 'You have no saved plans yet.', savedEmptyText: 'Tap the heart on a card to find it later in this browser.',
@@ -35,10 +36,10 @@ const copy = {
     language: 'Language', share: 'Share', copied: 'Link copied', missing: 'This listing is no longer available.', back: 'Back to catalog', allCities: 'All cities', interest: 'Find something you like'
   }
 };
-const glyphs = { shows: '♫', travel: '✳', food: '✦', culture: '◈', family: '♡', wellness: '☼', all: '✧' };
+const glyphs = { shows: '♫', travel: '✳', food: '✦', culture: '◈', family: '♡', wellness: '☼', sports: '⚑', all: '✧' };
 function illustration(item) {
   if (item.category === 'family' && item.tags?.includes('mascotas')) return '/illustrations/wellness.webp';
-  const category = item.category === 'family' ? 'culture' : item.category;
+  const category = item.category === 'family' || item.category === 'sports' ? 'culture' : item.category;
   return `/illustrations/${category}.webp`;
 }
 function EventImage({ item, lang, loading = 'lazy' }) {
