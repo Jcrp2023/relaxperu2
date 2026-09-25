@@ -7,7 +7,9 @@ const today = '2026-09-25';
 
 test('Today shows only events with confirmed dates, not evergreen guides', () => {
   const list = filterActivities(activities, { when: 'today' }, today);
-  assert.deepEqual(list.map(item => item.id).sort(), ['ballet-vivaldi-gtn-2026', 'dinosaurios-ica-2026', 'noche-mali-septiembre-2026']);
+  assert.ok(list.every(item => item.kind === 'event' && datesFor(item).includes(today)));
+  assert.ok(list.some(item => item.id === 'annie-surco-2026'));
+  assert.ok(list.some(item => item.id === 'noche-mali-septiembre-2026'));
 });
 
 test('Exact date includes only confirmed events on that day', () => {

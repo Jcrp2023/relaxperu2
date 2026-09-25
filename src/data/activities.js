@@ -2,6 +2,41 @@
 // Add only dates confirmed on the linked page; recheck before changing reviewedAt.
 export const activities = [
   {
+    id: 'laura-brenda-lima-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Miguel',
+    title: 'Laura y Brenda · Amigas del Corazón', titleEn: 'Laura and Brenda · Amigas del Corazón',
+    description: 'Concierto reprogramado para el 25 de septiembre en Costa 21. Confirma ingreso y entradas en Teleticket.',
+    descriptionEn: 'Rescheduled show on September 25 at Costa 21. Confirm admission and tickets with Teleticket.',
+    venue: 'Costa 21', dates: ['2026-09-25'], source: 'Teleticket', url: 'https://teleticket.com.pe/laura-y-brenda-lima-2026',
+    reviewedAt: '2026-09-25', icon: 'music', tone: 'coral', tags: ['concierto', 'pop']
+  },
+  {
+    id: 'dolores-barranco-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Barranco',
+    title: 'La Loca Historia con Dolores', titleEn: 'The Crazy Story with Dolores',
+    description: 'Show de humor a las 8 p. m. en La Estación de Barranco. El local indica consumo mínimo; revisa condiciones.',
+    descriptionEn: 'Comedy at 8 p.m. at La Estación de Barranco. The venue lists a minimum purchase; check terms.',
+    venue: 'La Estación de Barranco', sessions: ['2026-09-25T20:00:00-05:00'], source: 'Teleticket',
+    url: 'https://teleticket.com.pe/evento/la-loca-historia-con-dolores-la-estacion-de-barranco',
+    reviewedAt: '2026-09-25', icon: 'art', tone: 'peach', tags: ['humor', 'teatro']
+  },
+  {
+    id: 'no-soy-una-senora-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Santiago de Surco',
+    title: 'No soy una señora · Rebeca Escribens', titleEn: 'No soy una señora · Rebeca Escribens',
+    description: 'Espectáculo musical en La Cúpula de las Artes. Selecciona la función y confirma cupos en la boletería.',
+    descriptionEn: 'Music show at La Cúpula de las Artes. Select the performance and confirm availability at the ticket office.',
+    venue: 'La Cúpula de las Artes', dates: ['2026-09-25'], source: 'Teleticket',
+    url: 'https://teleticket.com.pe/no-soy-una-seniora-rebeca-escribens',
+    reviewedAt: '2026-09-25', icon: 'music', tone: 'lilac', tags: ['musical', 'teatro']
+  },
+  {
+    id: 'lago-cisnes-municipal-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'Cercado de Lima',
+    title: 'El lago de los cisnes · Ballet Municipal', titleEn: 'Swan Lake · Municipal Ballet',
+    description: 'Ballet clásico en el Teatro Municipal de Lima. Selecciona la función del 25 y confirma el horario en Teleticket.',
+    descriptionEn: 'Classical ballet at the Municipal Theater of Lima. Select the September 25 performance and confirm its time.',
+    venue: 'Teatro Municipal de Lima', dates: ['2026-09-25'], source: 'Teleticket',
+    url: 'https://teleticket.com.pe/el-lago-de-los-cisnes',
+    reviewedAt: '2026-09-25', icon: 'ballet', tone: 'blue', tags: ['ballet', 'teatro']
+  },
+  {
     id: 'dinosaurios-ica-2026', kind: 'event', category: 'family', city: 'Ica', district: 'Ica',
     title: 'Mundo de Dinosaurios en Ica', titleEn: 'World of Dinosaurs in Ica',
     description: 'Espectáculo de circo familiar en el Campo Ferial. Selecciona el horario de cada función en Teleticket.',
@@ -90,7 +125,7 @@ export const activities = [
     description: 'Funciones familiares de jueves a domingo. Selecciona el horario exacto en la boletería.',
     descriptionEn: 'Family performances from Thursday to Sunday. Select the exact showtime at the ticket office.',
     venue: 'Teatro Municipal de Surco',
-    dates: ['2026-09-26', '2026-09-27', '2026-10-01', '2026-10-02', '2026-10-03', '2026-10-04', '2026-10-08', '2026-10-09', '2026-10-10', '2026-10-11', '2026-10-15', '2026-10-16', '2026-10-17', '2026-10-18', '2026-10-22', '2026-10-23', '2026-10-24', '2026-10-25', '2026-10-29', '2026-10-30', '2026-10-31', '2026-11-01', '2026-11-05', '2026-11-06', '2026-11-07', '2026-11-08'],
+    dates: ['2026-09-25', '2026-09-26', '2026-09-27', '2026-10-01', '2026-10-02', '2026-10-03', '2026-10-04', '2026-10-08', '2026-10-09', '2026-10-10', '2026-10-11', '2026-10-15', '2026-10-16', '2026-10-17', '2026-10-18', '2026-10-22', '2026-10-23', '2026-10-24', '2026-10-25', '2026-10-29', '2026-10-30', '2026-10-31', '2026-11-01', '2026-11-05', '2026-11-06', '2026-11-07', '2026-11-08'],
     source: 'Teleticket', url: 'https://teleticket.com.pe/annie-2026', reviewedAt: '2026-09-25', icon: 'art', tone: 'gold', tags: ['teatro', 'musical', 'familia']
   },
   {
