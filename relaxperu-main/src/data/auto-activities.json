@@ -1,0 +1,578 @@
+[
+  {
+    "id": "gtn-sesiones-gtn-2",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Sesiones GTN",
+    "titleEn": "Sesiones GTN",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-10-06"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/sesiones-gtn-2",
+    "reviewedAt": "2026-09-25",
+    "icon": "art",
+    "tone": "green",
+    "tags": [
+      "¡es gratis!"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/sesiones%20GTN%20banner_1.jpg?itok=paHKUOwB"
+  },
+  {
+    "id": "gtn-el-ensayo-en-el-montaje-escenico-11",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "El ensayo en el montaje escénico",
+    "titleEn": "El ensayo en el montaje escénico",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-10-08"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/el-ensayo-en-el-montaje-escenico-11",
+    "reviewedAt": "2026-09-25",
+    "icon": "art",
+    "tone": "green",
+    "tags": [
+      "montaje"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/WEB-MONTAJE_0_18_9_2.jpg?itok=Af3eVR4J"
+  },
+  {
+    "id": "gtn-coro-nacional-y-orquesta-sinfonica-nacional-temporada-de-opera",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Coro Nacional y Orquesta Sinfónica Nacional: Temporada de Ópera",
+    "titleEn": "Coro Nacional y Orquesta Sinfónica Nacional: Temporada de Ópera",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-10-11"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/coro-nacional-y-orquesta-sinfonica-nacional-temporada-de-opera",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "green",
+    "tags": [
+      "música"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/coro_2.jpg?itok=xT95BfiZ"
+  },
+  {
+    "id": "gtn-sesiones-gtn-1",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Sesiones GTN",
+    "titleEn": "Sesiones GTN",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-10-13"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/sesiones-gtn-1",
+    "reviewedAt": "2026-09-25",
+    "icon": "art",
+    "tone": "green",
+    "tags": [
+      "¡es gratis!"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/sesiones%20GTN%20banner_3.jpg?itok=9wb0ZdnF"
+  },
+  {
+    "id": "gtn-sesiones-gtn-3",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Sesiones GTN",
+    "titleEn": "Sesiones GTN",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-10-14"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/sesiones-gtn-3",
+    "reviewedAt": "2026-09-25",
+    "icon": "art",
+    "tone": "green",
+    "tags": [
+      "¡es gratis!"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/sesiones%20GTN%20banner_2.jpg?itok=cc9QalLV"
+  },
+  {
+    "id": "gtn-orquesta-sinfonica-nacional-juvenil-bicentenario-concierto-6",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Orquesta Sinfónica Nacional Juvenil Bicentenario: Concierto 6",
+    "titleEn": "Orquesta Sinfónica Nacional Juvenil Bicentenario: Concierto 6",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-10-16"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/orquesta-sinfonica-nacional-juvenil-bicentenario-concierto-6",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "green",
+    "tags": [
+      "música"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/osn%20juvenil_6.jpg?itok=DTbNO93O"
+  },
+  {
+    "id": "gtn-raices-de-jauja-noche-de-gala-andina",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Raíces de Jauja: Noche de Gala Andina",
+    "titleEn": "Raíces de Jauja: Noche de Gala Andina",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-10-22"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/raices-de-jauja-noche-de-gala-andina",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "green",
+    "tags": [
+      "música"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/raices2.jpg?itok=QweiMJcd"
+  },
+  {
+    "id": "gtn-orquesta-sinfonica-nacional-concierto",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Orquesta Sinfónica Nacional: Concierto",
+    "titleEn": "Orquesta Sinfónica Nacional: Concierto",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-10-23"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/orquesta-sinfonica-nacional-concierto",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "green",
+    "tags": [
+      "música"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/osn_20.jpg?itok=Z7dGBm2v"
+  },
+  {
+    "id": "gtn-visita-gtn-accesible-2",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Visita GTN accesible",
+    "titleEn": "Visita GTN accesible",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-10-23"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/visita-gtn-accesible-2",
+    "reviewedAt": "2026-09-25",
+    "icon": "art",
+    "tone": "green",
+    "tags": [
+      "accesible"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/visitaGTN26marzo_1_2.jpg?itok=2lVNy_jV"
+  },
+  {
+    "id": "gtn-tania-libertad",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Tania Libertad",
+    "titleEn": "Tania Libertad",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-10-24"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/tania-libertad",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "green",
+    "tags": [
+      "música"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/Tania-Libertad.jpg?itok=euRNlzYM"
+  },
+  {
+    "id": "gtn-el-peru-en-un-solo-canto",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "El Perú en un solo canto",
+    "titleEn": "El Perú en un solo canto",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-10-25"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/el-peru-en-un-solo-canto",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "green",
+    "tags": [
+      "danza"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/un-solo-canto.jpg?itok=Hm0EwPP5"
+  },
+  {
+    "id": "gtn-el-desmontaje-escenico-5",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "El desmontaje escénico",
+    "titleEn": "El desmontaje escénico",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-11-05"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/el-desmontaje-escenico-5",
+    "reviewedAt": "2026-09-25",
+    "icon": "art",
+    "tone": "green",
+    "tags": [
+      "montaje"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/WEB-MONTAJE_0_3_0_239_19.jpg?itok=iOnlII88"
+  },
+  {
+    "id": "gtn-orquesta-sinfonica-nacional-concierto-0",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Orquesta Sinfónica Nacional: Concierto",
+    "titleEn": "Orquesta Sinfónica Nacional: Concierto",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-11-06"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/orquesta-sinfonica-nacional-concierto-0",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "green",
+    "tags": [
+      "música"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/osn_21.jpg?itok=OFVlXleh"
+  },
+  {
+    "id": "gtn-amy-gutierrez-mi-primer-gran-teatro",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Amy Gutierrez: Mi primer Gran Teatro",
+    "titleEn": "Amy Gutierrez: Mi primer Gran Teatro",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-11-07"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/amy-gutierrez-mi-primer-gran-teatro",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "green",
+    "tags": [
+      "música"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/amy.jpg?itok=Xtrs74Ij"
+  },
+  {
+    "id": "gtn-cecilia-bracamonte-gracias-por-tanto",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Cecilia Bracamonte: \"Gracias por tanto\"",
+    "titleEn": "Cecilia Bracamonte: \"Gracias por tanto\"",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-11-08"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/cecilia-bracamonte-gracias-por-tanto",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "green",
+    "tags": [
+      "música"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/cecilia-bracamonte_0.jpg?itok=46nIsuze"
+  },
+  {
+    "id": "gtn-coro-nacional-de-ninos-0",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Coro Nacional de Niños",
+    "titleEn": "Coro Nacional de Niños",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-11-08"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/coro-nacional-de-ninos-0",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "green",
+    "tags": [
+      "música"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/coro%20ni%C3%B1os_1.jpg?itok=9Dm5go2W"
+  },
+  {
+    "id": "gtn-grandes-solistas-de-la-opera-del-teatro-colon",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Grandes Solistas de la Ópera del Teatro Colón",
+    "titleEn": "Grandes Solistas de la Ópera del Teatro Colón",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-11-10"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/grandes-solistas-de-la-opera-del-teatro-colon",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "green",
+    "tags": [
+      "música"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/solistas.jpg?itok=RL8zAdYV"
+  },
+  {
+    "id": "gtn-coro-nacional-gala-lirica",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Coro Nacional: Gala Lírica",
+    "titleEn": "Coro Nacional: Gala Lírica",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-11-11"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/coro-nacional-gala-lirica",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "green",
+    "tags": [
+      "música"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/coro_3.jpg?itok=km6AzUgs"
+  },
+  {
+    "id": "gtn-coro-nacional-de-ninos-1",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Coro Nacional de Niños",
+    "titleEn": "Coro Nacional de Niños",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-11-15"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/coro-nacional-de-ninos-1",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "green",
+    "tags": [
+      "música"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/coro%20ni%C3%B1os_1_0.jpg?itok=niFkm1u9"
+  },
+  {
+    "id": "gtn-soniem",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "SONIEM",
+    "titleEn": "SONIEM",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-11-17"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/soniem",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "green",
+    "tags": [
+      "música"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/privados_47.jpg?itok=ol8lz98P"
+  },
+  {
+    "id": "gtn-sinfonia-por-el-peru-0",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Sinfonía por el Perú",
+    "titleEn": "Sinfonía por el Perú",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-11-18"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/sinfonia-por-el-peru-0",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "green",
+    "tags": [
+      "música"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/WEB-MONTAJE_0_3_0_239.jpg?itok=ueE24aIK"
+  },
+  {
+    "id": "gtn-orquesta-sinfonica-nacional-concierto-1",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Orquesta Sinfónica Nacional: Concierto",
+    "titleEn": "Orquesta Sinfónica Nacional: Concierto",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-11-20"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/orquesta-sinfonica-nacional-concierto-1",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "green",
+    "tags": [
+      "música"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/osn_22.jpg?itok=ildYSxqb"
+  },
+  {
+    "id": "gtn-visita-gtn-accesible-3",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Visita GTN accesible",
+    "titleEn": "Visita GTN accesible",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-11-20"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/visita-gtn-accesible-3",
+    "reviewedAt": "2026-09-25",
+    "icon": "art",
+    "tone": "green",
+    "tags": [
+      "accesible"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/visitaGTN26marzo_1_3.jpg?itok=9qxWw5BE"
+  },
+  {
+    "id": "gtn-el-desmontaje-escenico-4",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "El desmontaje escénico",
+    "titleEn": "El desmontaje escénico",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-12-07"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/el-desmontaje-escenico-4",
+    "reviewedAt": "2026-09-25",
+    "icon": "art",
+    "tone": "green",
+    "tags": [
+      "montaje"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/WEB-MONTAJE_0_3_0_239.jpg?itok=ueE24aIK"
+  }
+]
