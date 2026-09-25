@@ -1,5 +1,6 @@
 // Reviewed editorial entries. A source page is not proof of availability or organizer identity.
 // Add only dates confirmed on the linked page; recheck before changing reviewedAt.
+// imageUrl links directly to artwork on the original publisher's site. Do not copy images from aggregators.
 export const activities = [
   {
     id: 'laura-brenda-lima-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Miguel',
@@ -7,7 +8,8 @@ export const activities = [
     description: 'Concierto reprogramado para el 25 de septiembre en Costa 21. Confirma ingreso y entradas en Teleticket.',
     descriptionEn: 'Rescheduled show on September 25 at Costa 21. Confirm admission and tickets with Teleticket.',
     venue: 'Costa 21', dates: ['2026-09-25'], source: 'Teleticket', url: 'https://teleticket.com.pe/laura-y-brenda-lima-2026',
-    reviewedAt: '2026-09-25', icon: 'music', tone: 'coral', tags: ['concierto', 'pop']
+    reviewedAt: '2026-09-25', icon: 'music', tone: 'coral', tags: ['concierto', 'pop'],
+    imageUrl: 'https://cdn.teleticket.com.pe/images/eventos/csi021_rs.jpg',
   },
   {
     id: 'dolores-barranco-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Barranco',
@@ -16,7 +18,8 @@ export const activities = [
     descriptionEn: 'Comedy at 8 p.m. at La Estación de Barranco. The venue lists a minimum purchase; check terms.',
     venue: 'La Estación de Barranco', sessions: ['2026-09-25T20:00:00-05:00'], source: 'Teleticket',
     url: 'https://teleticket.com.pe/evento/la-loca-historia-con-dolores-la-estacion-de-barranco',
-    reviewedAt: '2026-09-25', icon: 'art', tone: 'peach', tags: ['humor', 'teatro']
+    reviewedAt: '2026-09-25', icon: 'art', tone: 'peach', tags: ['humor', 'teatro'],
+    imageUrl: 'https://cdn.teleticket.com.pe/images/eventos/pie023_md.jpg',
   },
   {
     id: 'no-soy-una-senora-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Santiago de Surco',
@@ -25,7 +28,8 @@ export const activities = [
     descriptionEn: 'Music show at La Cúpula de las Artes. Select the performance and confirm availability at the ticket office.',
     venue: 'La Cúpula de las Artes', dates: ['2026-09-25'], source: 'Teleticket',
     url: 'https://teleticket.com.pe/no-soy-una-seniora-rebeca-escribens',
-    reviewedAt: '2026-09-25', icon: 'music', tone: 'lilac', tags: ['musical', 'teatro']
+    reviewedAt: '2026-09-25', icon: 'music', tone: 'lilac', tags: ['musical', 'teatro'],
+    imageUrl: 'https://cdn.teleticket.com.pe/images/eventos/ton008_rs.jpg',
   },
   {
     id: 'lago-cisnes-municipal-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'Cercado de Lima',
@@ -34,7 +38,8 @@ export const activities = [
     descriptionEn: 'Classical ballet at the Municipal Theater of Lima. Select the September 25 performance and confirm its time.',
     venue: 'Teatro Municipal de Lima', dates: ['2026-09-25'], source: 'Teleticket',
     url: 'https://teleticket.com.pe/el-lago-de-los-cisnes',
-    reviewedAt: '2026-09-25', icon: 'ballet', tone: 'blue', tags: ['ballet', 'teatro']
+    reviewedAt: '2026-09-25', icon: 'ballet', tone: 'blue', tags: ['ballet', 'teatro'],
+    imageUrl: 'https://cdn.teleticket.com.pe/images/eventos/abm026_rs.jpg',
   },
   {
     id: 'dinosaurios-ica-2026', kind: 'event', category: 'family', city: 'Ica', district: 'Ica',
@@ -43,7 +48,8 @@ export const activities = [
     descriptionEn: 'Family circus show at Campo Ferial. Select each performance time on Teleticket.',
     venue: 'Campo Ferial de Ica', dates: ['2026-09-25', '2026-09-26', '2026-09-27'], source: 'Teleticket',
     url: 'https://teleticket.com.pe/evento/mundo-de-dinosaurios-en-ica-carpa-mundo-de-dinosaurios-ica',
-    reviewedAt: '2026-09-25', icon: 'art', tone: 'gold', tags: ['circo', 'niños']
+    reviewedAt: '2026-09-25', icon: 'art', tone: 'gold', tags: ['circo', 'niños'],
+    imageUrl: 'https://cdn.teleticket.com.pe/images/eventos/evc005_md.jpg',
   },
   {
     id: 'queca-cusco-2026', kind: 'event', category: 'shows', city: 'Cusco', district: 'Cusco',
@@ -52,7 +58,8 @@ export const activities = [
     descriptionEn: 'Comedy with Johanna San Miguel at the Cusco Municipal Theater.',
     venue: 'Teatro Municipal del Cusco', sessions: ['2026-10-07T20:30:00-05:00'], source: 'Teleticket',
     url: 'https://teleticket.com.pe/evento/queca-en-ya-sientese-seniora-cusco-teatro-municipal-del-cusco-',
-    reviewedAt: '2026-09-25', icon: 'art', tone: 'peach', tags: ['humor', 'teatro']
+    reviewedAt: '2026-09-25', icon: 'art', tone: 'peach', tags: ['humor', 'teatro'],
+    imageUrl: 'https://cdn.teleticket.com.pe/images/eventos/dea080_md.jpg',
   },
   {
     id: 'beatles-cusco-2026', kind: 'event', category: 'shows', city: 'Cusco', district: 'Cusco',
@@ -61,7 +68,8 @@ export const activities = [
     descriptionEn: 'Tribute concert at the Cusco Municipal Theater.',
     venue: 'Teatro Municipal del Cusco', sessions: ['2026-10-09T20:00:00-05:00'], source: 'Teleticket',
     url: 'https://teleticket.com.pe/evento/tributo-the-beatles-con-carlos-guerrero-en-cusco-teatro-municipal-de-cusco',
-    reviewedAt: '2026-09-25', icon: 'music', tone: 'lilac', tags: ['rock', 'tributo']
+    reviewedAt: '2026-09-25', icon: 'music', tone: 'lilac', tags: ['rock', 'tributo'],
+    imageUrl: 'https://cdn.teleticket.com.pe/images/eventos/fem092_md.jpg',
   },
   {
     id: 'rock-latino-ica-2026', kind: 'event', category: 'shows', city: 'Ica', district: 'Ica',
@@ -69,7 +77,8 @@ export const activities = [
     description: 'Concierto en Álamo Disco Peña, Ica.', descriptionEn: 'Concert at Álamo Disco Peña, Ica.',
     venue: 'Álamo Disco Peña', sessions: ['2026-10-17T22:00:00-05:00'], source: 'Teleticket',
     url: 'https://teleticket.com.pe/evento/voces-del-rock-latino-ica-vol-2-alamo-disco-penia-ica',
-    reviewedAt: '2026-09-25', icon: 'music', tone: 'blue', tags: ['rock', 'concierto']
+    reviewedAt: '2026-09-25', icon: 'music', tone: 'blue', tags: ['rock', 'concierto'],
+    imageUrl: 'https://cdn.teleticket.com.pe/images/eventos/spe072_md.jpg',
   },
   {
     id: 'maria-grazia-plaza-norte-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Independencia',
@@ -77,7 +86,8 @@ export const activities = [
     description: 'Show musical gratuito en la Explanada Panamericana, de 7 a 8 p. m.',
     descriptionEn: 'Free live music on the Panamericana esplanade, from 7 to 8 p.m.',
     venue: 'Plaza Norte', sessions: ['2026-09-26T19:00:00-05:00'], source: 'Plaza Norte',
-    url: 'https://plazanorte.pe/eventos/show-musical-maria-grazia-polanco/', reviewedAt: '2026-09-25', icon: 'music', tone: 'gold', tags: ['música', 'gratuito']
+    url: 'https://plazanorte.pe/eventos/show-musical-maria-grazia-polanco/', reviewedAt: '2026-09-25', icon: 'music', tone: 'gold', tags: ['música', 'gratuito'],
+    imageUrl: 'https://plazanorte.pe/wp-content/uploads/2025/02/EVENTO-WEB-MARIA-GRAZIA-POLANCO.jpg',
   },
   {
     id: 'zumba-plaza-norte-2026', kind: 'event', category: 'family', city: 'Lima', district: 'Independencia',
@@ -85,7 +95,8 @@ export const activities = [
     description: 'Show familiar gratuito de 5 a 6 p. m. en la Explanada Panamericana.',
     descriptionEn: 'Free family show from 5 to 6 p.m. on the Panamericana esplanade.',
     venue: 'Plaza Norte', sessions: ['2026-09-27T17:00:00-05:00'], source: 'Plaza Norte',
-    url: 'https://plazanorte.pe/eventos/show-infantil-de-zumba/', reviewedAt: '2026-09-25', icon: 'art', tone: 'peach', tags: ['niños', 'gratuito']
+    url: 'https://plazanorte.pe/eventos/show-infantil-de-zumba/', reviewedAt: '2026-09-25', icon: 'art', tone: 'peach', tags: ['niños', 'gratuito'],
+    imageUrl: 'https://plazanorte.pe/wp-content/uploads/2024/07/EVENTO-WEB-ZUMBA-2.jpg',
   },
   {
     id: 'tony-cam-plaza-norte-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Independencia',
@@ -93,7 +104,8 @@ export const activities = [
     description: 'Concierto tributo gratuito de 7 a 8 p. m. en la Explanada Panamericana.',
     descriptionEn: 'Free tribute show from 7 to 8 p.m. on the Panamericana esplanade.',
     venue: 'Plaza Norte', sessions: ['2026-09-27T19:00:00-05:00'], source: 'Plaza Norte',
-    url: 'https://plazanorte.pe/eventos/yo-soy-sandro-con-tony-cam/', reviewedAt: '2026-09-25', icon: 'music', tone: 'blue', tags: ['música', 'gratuito']
+    url: 'https://plazanorte.pe/eventos/yo-soy-sandro-con-tony-cam/', reviewedAt: '2026-09-25', icon: 'music', tone: 'blue', tags: ['música', 'gratuito'],
+    imageUrl: 'https://plazanorte.pe/wp-content/uploads/2024/03/EVENTO-WEB-TONY-CM.jpg',
   },
   {
     id: 'nancy-manchego-gtn-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Borja',
@@ -101,7 +113,8 @@ export const activities = [
     description: 'Música andina en el Gran Teatro Nacional; consulta entradas en la fuente oficial.',
     descriptionEn: 'Andean music at the National Grand Theater; check tickets at the official source.',
     venue: 'Gran Teatro Nacional', sessions: ['2026-10-03T20:00:00-05:00'], source: 'Gran Teatro Nacional',
-    url: 'https://granteatronacional.pe/evento/nancy-manchego-caminos-del-ande', reviewedAt: '2026-09-25', icon: 'music', tone: 'green', tags: ['música andina', 'cultura']
+    url: 'https://granteatronacional.pe/evento/nancy-manchego-caminos-del-ande', reviewedAt: '2026-09-25', icon: 'music', tone: 'green', tags: ['música andina', 'cultura'],
+    imageUrl: 'https://granteatronacional.pe/sites/default/files/ImagenesEvento/nancy-machengo_0.jpg',
   },
   {
     id: 'perujazz-gtn-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Borja',
@@ -109,7 +122,8 @@ export const activities = [
     description: 'Concierto de jazz peruano en el Gran Teatro Nacional.',
     descriptionEn: 'Peruvian jazz concert at the National Grand Theater.',
     venue: 'Gran Teatro Nacional', sessions: ['2026-10-15T20:00:00-05:00'], source: 'Gran Teatro Nacional',
-    url: 'https://granteatronacional.pe/evento/perujazz-0', reviewedAt: '2026-09-25', icon: 'music', tone: 'lilac', tags: ['jazz', 'cultura']
+    url: 'https://granteatronacional.pe/evento/perujazz-0', reviewedAt: '2026-09-25', icon: 'music', tone: 'lilac', tags: ['jazz', 'cultura'],
+    imageUrl: 'https://granteatronacional.pe/sites/default/files/ImagenesEvento/perujazz.jpg',
   },
   {
     id: 'yuyachkani-gtn-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'San Borja',
@@ -117,7 +131,8 @@ export const activities = [
     description: 'Teatro del grupo Yuyachkani por sus 55 años, con dos funciones confirmadas.',
     descriptionEn: 'Theater by Yuyachkani celebrating 55 years, with two confirmed performances.',
     venue: 'Gran Teatro Nacional', sessions: ['2026-10-17T20:00:00-05:00', '2026-10-18T17:30:00-05:00'], source: 'Gran Teatro Nacional',
-    url: 'https://granteatronacional.pe/evento/yuyachkani-antes-de-irnos-para-siempre', reviewedAt: '2026-09-25', icon: 'art', tone: 'coral', tags: ['teatro', 'cultura']
+    url: 'https://granteatronacional.pe/evento/yuyachkani-antes-de-irnos-para-siempre', reviewedAt: '2026-09-25', icon: 'art', tone: 'coral', tags: ['teatro', 'cultura'],
+    imageUrl: 'https://granteatronacional.pe/sites/default/files/ImagenesEvento/yuyas-antes-de-irnos.jpg',
   },
   {
     id: 'annie-surco-2026', kind: 'event', category: 'family', city: 'Lima', district: 'Santiago de Surco',
@@ -126,7 +141,8 @@ export const activities = [
     descriptionEn: 'Family performances from Thursday to Sunday. Select the exact showtime at the ticket office.',
     venue: 'Teatro Municipal de Surco',
     dates: ['2026-09-25', '2026-09-26', '2026-09-27', '2026-10-01', '2026-10-02', '2026-10-03', '2026-10-04', '2026-10-08', '2026-10-09', '2026-10-10', '2026-10-11', '2026-10-15', '2026-10-16', '2026-10-17', '2026-10-18', '2026-10-22', '2026-10-23', '2026-10-24', '2026-10-25', '2026-10-29', '2026-10-30', '2026-10-31', '2026-11-01', '2026-11-05', '2026-11-06', '2026-11-07', '2026-11-08'],
-    source: 'Teleticket', url: 'https://teleticket.com.pe/annie-2026', reviewedAt: '2026-09-25', icon: 'art', tone: 'gold', tags: ['teatro', 'musical', 'familia']
+    source: 'Teleticket', url: 'https://teleticket.com.pe/annie-2026', reviewedAt: '2026-09-25', icon: 'art', tone: 'gold', tags: ['teatro', 'musical', 'familia'],
+    imageUrl: 'https://cdn.teleticket.com.pe/images/eventos/pre033_rs.jpg',
   },
   {
     id: '5sos-costa21-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Miguel',
@@ -134,7 +150,8 @@ export const activities = [
     description: 'Concierto de pop rock en Costa 21. Verifica horarios y entradas en Teleticket.',
     descriptionEn: 'Pop rock show at Costa 21. Check showtime and tickets on Teleticket.',
     venue: 'Costa 21', dates: ['2026-09-27'], source: 'Teleticket', url: 'https://teleticket.com.pe/5sos',
-    reviewedAt: '2026-09-25', icon: 'music', tone: 'lilac', tags: ['concierto', 'pop rock']
+    reviewedAt: '2026-09-25', icon: 'music', tone: 'lilac', tags: ['concierto', 'pop rock'],
+    imageUrl: 'https://cdn.teleticket.com.pe/images/eventos/liv029_rs.jpg',
   },
   {
     id: 'de-la-rose-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Miguel',
@@ -142,7 +159,8 @@ export const activities = [
     description: 'Concierto de música urbana en Costa 21. Consulta entradas y condiciones en la fuente.',
     descriptionEn: 'Urban music concert at Costa 21. Check tickets and conditions at the source.',
     venue: 'Costa 21', dates: ['2026-10-02'], source: 'Teleticket', url: 'https://teleticket.com.pe/de-la-rose-latam-tour',
-    reviewedAt: '2026-09-25', icon: 'music', tone: 'coral', tags: ['concierto', 'urbano']
+    reviewedAt: '2026-09-25', icon: 'music', tone: 'coral', tags: ['concierto', 'urbano'],
+    imageUrl: 'https://cdn.teleticket.com.pe/images/eventos/ees033_rs.jpg',
   },
   {
     id: 'rio-roma-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Miguel',
@@ -150,7 +168,8 @@ export const activities = [
     description: 'El dúo mexicano se presenta en Costa 21. Confirma horarios y disponibilidad en la boletería.',
     descriptionEn: 'The Mexican duo performs at Costa 21. Confirm showtime and availability at the ticket office.',
     venue: 'Costa 21', dates: ['2026-10-24'], source: 'Teleticket', url: 'https://teleticket.com.pe/rio-roma-2026',
-    reviewedAt: '2026-09-25', icon: 'music', tone: 'peach', tags: ['concierto', 'pop']
+    reviewedAt: '2026-09-25', icon: 'music', tone: 'peach', tags: ['concierto', 'pop'],
+    imageUrl: 'https://cdn.teleticket.com.pe/images/eventos/csi040_rs.jpg',
   },
   {
     id: 'hombres-g-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Cercado de Lima',
@@ -158,7 +177,8 @@ export const activities = [
     description: 'Dos conciertos en el Estadio Nacional. Confirma la función y las entradas en Teleticket.',
     descriptionEn: 'Two shows at the National Stadium. Confirm the performance and tickets on Teleticket.',
     venue: 'Estadio Nacional', dates: ['2026-10-29', '2026-10-30'], source: 'Teleticket',
-    url: 'https://teleticket.com.pe/hombres-g-lima-2026', reviewedAt: '2026-09-25', icon: 'music', tone: 'blue', tags: ['concierto', 'rock']
+    url: 'https://teleticket.com.pe/hombres-g-lima-2026', reviewedAt: '2026-09-25', icon: 'music', tone: 'blue', tags: ['concierto', 'rock'],
+    imageUrl: 'https://cdn.teleticket.com.pe/images/eventos/csi019_rs.jpg',
   },
   {
     id: 'jesse-joy-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Miguel',
@@ -166,7 +186,8 @@ export const activities = [
     description: 'Concierto del dúo mexicano en Costa 21. Consulta entradas en la boletería.',
     descriptionEn: 'Concert by the Mexican duo at Costa 21. Check tickets at the ticket office.',
     venue: 'Costa 21', dates: ['2026-10-31'], source: 'Teleticket', url: 'https://teleticket.com.pe/jesse-joy-lima-2026',
-    reviewedAt: '2026-09-25', icon: 'music', tone: 'lilac', tags: ['concierto', 'pop']
+    reviewedAt: '2026-09-25', icon: 'music', tone: 'lilac', tags: ['concierto', 'pop'],
+    imageUrl: 'https://cdn.teleticket.com.pe/images/eventos/csi028_rs.jpg',
   },
   {
     id: 'maria-becerra-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Miguel',
@@ -174,7 +195,8 @@ export const activities = [
     description: 'Concierto en Costa 21. Revisa horarios y disponibilidad en la boletería.',
     descriptionEn: 'Concert at Costa 21. Check showtime and availability at the ticket office.',
     venue: 'Costa 21', dates: ['2026-11-04'], source: 'Teleticket', url: 'https://teleticket.com.pe/maria-becerra-2026',
-    reviewedAt: '2026-09-25', icon: 'music', tone: 'coral', tags: ['concierto', 'urbano', 'pop']
+    reviewedAt: '2026-09-25', icon: 'music', tone: 'coral', tags: ['concierto', 'urbano', 'pop'],
+    imageUrl: 'https://cdn.teleticket.com.pe/images/eventos/csi042_rs.jpg',
   },
   {
     id: 'jueves-patitas-anillos', kind: 'experience', category: 'family', city: 'Lima', district: 'Ate',
@@ -191,7 +213,8 @@ export const activities = [
     descriptionEn: 'Weekend workshops to make art from everyday materials. Check the program for each date.',
     venue: 'Museo de Arte de Lima', sessions: ['2026-09-26T11:00:00-05:00', '2026-09-27T15:00:00-05:00'],
     source: 'MALI', url: 'https://mali.pe/es/activity/mali-en-familia-edicion-septiembre/',
-    reviewedAt: '2026-09-25', icon: 'art', tone: 'peach', tags: ['familia', 'talleres']
+    reviewedAt: '2026-09-25', icon: 'art', tone: 'peach', tags: ['familia', 'talleres'],
+    imageUrl: 'https://mali.pe/es/wp-content/uploads/2026/09/HeaderMalienfamilia_generico.jpg',
   },
   {
     id: 'ballet-vivaldi-gtn-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Borja',
@@ -201,7 +224,8 @@ export const activities = [
     venue: 'Gran Teatro Nacional',
     sessions: ['2026-09-25T20:00:00-05:00', '2026-09-26T20:00:00-05:00', '2026-09-27T17:30:00-05:00', '2026-09-29T20:00:00-05:00'],
     source: 'Gran Teatro Nacional', url: 'https://granteatronacional.pe/evento/ballet-nacional-del-peru-las-cuatro-estaciones-de-antonio-vivaldi',
-    reviewedAt: '2026-09-25', icon: 'ballet', tone: 'lilac', tags: ['cultura', 'danza']
+    reviewedAt: '2026-09-25', icon: 'ballet', tone: 'lilac', tags: ['cultura', 'danza'],
+    imageUrl: 'https://granteatronacional.pe/sites/default/files/ImagenesEvento/cuatro-estaciones_0.jpg',
   },
   {
     id: 'noche-mali-septiembre-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'Cercado de Lima',
@@ -210,7 +234,8 @@ export const activities = [
     descriptionEn: 'Guided visits, creative workshops and live performances at the museum.',
     venue: 'Museo de Arte de Lima', sessions: ['2026-09-25T18:00:00-05:00'],
     source: 'MALI', url: 'https://mali.pe/es/activity/noche-mali-edicion-septiembre/',
-    reviewedAt: '2026-09-25', icon: 'art', tone: 'coral', tags: ['museo', 'talleres']
+    reviewedAt: '2026-09-25', icon: 'art', tone: 'coral', tags: ['museo', 'talleres'],
+    imageUrl: 'https://mali.pe/es/wp-content/uploads/2026/09/Packgeneral_Noche-MALI-Setiembre_Actividades-2.jpg',
   },
   {
     id: 'suncine-mali-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'Cercado de Lima',
@@ -218,7 +243,8 @@ export const activities = [
     description: 'Festival de cine y actividades culturales. Revisa los horarios de cada sesión en la fuente.',
     descriptionEn: 'Film festival and cultural activities. Check individual screening times at the source.',
     venue: 'Museo de Arte de Lima', dates: ['2026-09-26', '2026-09-27'],
-    source: 'MALI', url: 'https://mali.pe/es/activity/31-festival-suncine-innovacion-accesibilidad-y-cooperacion-internacional-en-el-mali/', reviewedAt: '2026-09-25', icon: 'film', tone: 'blue', tags: ['cine', 'familia']
+    source: 'MALI', url: 'https://mali.pe/es/activity/31-festival-suncine-innovacion-accesibilidad-y-cooperacion-internacional-en-el-mali/', reviewedAt: '2026-09-25', icon: 'film', tone: 'blue', tags: ['cine', 'familia'],
+    imageUrl: 'https://mali.pe/es/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-26-at-10.55.12-AM-e1787760023635.jpeg',
   },
   {
     id: 'mali-colecciones', kind: 'experience', category: 'culture', city: 'Lima', district: 'Cercado de Lima',

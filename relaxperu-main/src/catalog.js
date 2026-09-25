@@ -56,3 +56,12 @@ export function safeSourceUrl(url) {
     return parsed.protocol === 'https:' && ['mali.pe', 'granteatronacional.pe', 'peru.travel', 'serpar.gob.pe', 'teleticket.com.pe', 'plazanorte.pe'].some(domain => parsed.hostname === domain || parsed.hostname.endsWith(`.${domain}`));
   } catch { return false; }
 }
+
+export function safePosterUrl(url) {
+  try {
+    const parsed = new URL(url);
+    return parsed.protocol === 'https:' && [
+      'cdn.teleticket.com.pe', 'granteatronacional.pe', 'mali.pe', 'plazanorte.pe'
+    ].some(domain => parsed.hostname === domain || parsed.hostname.endsWith(`.${domain}`));
+  } catch { return false; }
+}

@@ -29,3 +29,6 @@
 .date-field input{border:0;outline:0;background:transparent;color:#27394a;min-width:0;width:100%;font:inherit;font-size:12px;cursor:pointer}
 .date-field button{border:0;background:none;color:#596d73;font-size:20px;cursor:pointer}
 @media(max-width:900px){.filter-panel{grid-template-columns:1fr 1fr}.search-field{grid-column:1/-1}.date-field{grid-column:1/-1}}
+.card-art.poster-real,.modal-art.poster-real{background:#f3f2ee}
+.card-art.poster-real img,.modal-art.poster-real img{object-fit:contain}
+.card-art.poster-real:after{background:none}
