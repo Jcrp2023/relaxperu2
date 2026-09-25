@@ -1,6 +1,6 @@
-"""Import confirmed single-day activities from VAOPE's public homepage and event pages.
+"""Import confirmed single-day activities from VAOPE's public listings and event pages.
 
-The detail page's Event JSON-LD supplies the date and place. A homepage card alone
+The detail page's Event JSON-LD supplies the date and place. A listing card alone
 never establishes an activity's date. Existing data is preserved on source failure.
 """
 
@@ -45,19 +45,46 @@ def discover(markup):
             and urllib.parse.urlparse(url).path.split("/")[2] in CATEGORIES][:70]
 
 
+def discover_dated(markup, today):
+    """Use listing dates only to choose detail pages; details must confirm them."""
+    found = []
+    for card in re.findall(r'<article\b[^>]*>.*?</article>', markup, re.S | re.I):
+        urls = discover(card)
+        date_match = re.search(r'(\d{2})/(\d{2})/(20\d{2})\s*\u2022', html.unescape(card))
+        if not urls or not date_match:
+            continue
+        try:
+            date = dt.date(int(date_match.group(3)), int(date_match.group(2)), int(date_match.group(1)))
+        except ValueError:
+            continue
+        if today <= date <= today + dt.timedelta(days=120):
+            found.extend(urls)
+    return list(dict.fromkeys(found))
+
+
+def listing_pages(markup):
+    pages = {1}
+    for number in re.findall(r'/eventos/highlights\?page=(\d+)', html.unescape(markup)):
+        if 1 <= int(number) <= 12:
+            pages.add(int(number))
+    # The official pager may show only neighbors and the final page.
+    return [f"{BASE}/eventos/highlights?page={n}" for n in range(1, min(max(pages), 12) + 1)]
+
+
 def city_from_address(address):
     upper = address.upper()
-    if "IQUITOS" in upper:
+    tail = upper.split(" - ")[-1].strip()
+    if tail == "LORETO" and "IQUITOS" in upper:
         return "Iquitos"
-    if "PISCO" in upper or re.search(r"\bICA\b", upper):
+    if tail == "ICA" or tail == "PISCO":
         return "Ica"
-    if "CUSCO" in upper:
+    if tail == "CUSCO":
         return "Cusco"
-    if "PIURA" in upper:
+    if tail == "PIURA":
         return "Piura"
-    if "CALLAO" in upper or "LA PERLA" in upper:
+    if tail == "CALLAO" or "LA PERLA" in upper:
         return "Lima"
-    if "LIMA" in upper or any(d in upper for d in ("MIRAFLORES", "BARRANCO", "SAN BORJA", "SAN MIGUEL", "SURCO", "COMAS", "CHORRILLOS", "LA MOLINA", "LOS OLIVOS")):
+    if tail == "LIMA" or any(d in upper for d in ("MIRAFLORES", "BARRANCO", "SAN BORJA", "SAN MIGUEL", "SURCO", "COMAS", "CHORRILLOS", "LA MOLINA", "LOS OLIVOS")):
         return "Lima"
     return None
 
@@ -136,10 +163,23 @@ def main():
     parser.add_argument("--date", help="YYYY-MM-DD in Peru")
     args = parser.parse_args()
     today = dt.date.fromisoformat(args.date) if args.date else dt.datetime.now(dt.timezone(dt.timedelta(hours=-5))).date()
-    urls = discover(fetch(BASE + "/"))
+    homepage = fetch(BASE + "/")
+    pages = listing_pages(fetch(BASE + "/eventos/highlights?page=1"))
+    urls = list(dict.fromkeys(discover_dated(homepage, today) + discover_dated(fetch(pages[0]), today)))
+    listing_errors = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+        futures = {pool.submit(fetch, url): url for url in pages[1:]}
+        for future in concurrent.futures.as_completed(futures):
+            try:
+                urls.extend(discover_dated(future.result(), today))
+            except Exception as exc:
+                listing_errors.append((futures[future], f"Listing failed: {type(exc).__name__}"))
+    if len(listing_errors) > max(1, len(pages) // 3):
+        raise RuntimeError("Too many listing pages failed; preserving previous agenda")
+    urls = list(dict.fromkeys(urls))[:180]
     if len(urls) < 5:
-        raise RuntimeError("Unexpectedly small homepage; preserving previous agenda")
-    candidates, errors = [], []
+        raise RuntimeError("Unexpectedly small public listings; preserving previous agenda")
+    candidates, errors = [], listing_errors
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
         futures = {pool.submit(fetch, url): url for url in urls}
         for future in concurrent.futures.as_completed(futures):
@@ -157,6 +197,8 @@ def main():
     previous = json.loads(OUTPUTS[0].read_text(encoding="utf-8")) if OUTPUTS[0].exists() else []
     if previous and not candidates:
         raise RuntimeError("No events parsed; preserving previous agenda")
+    if previous and len(candidates) < len(previous) // 3:
+        raise RuntimeError("Unexpected catalog reduction; preserving previous agenda")
     candidates.sort(key=lambda item: (item["dates"][0], item["id"]))
     serialized = json.dumps(candidates, ensure_ascii=False, indent=2) + "\n"
     for path in OUTPUTS:

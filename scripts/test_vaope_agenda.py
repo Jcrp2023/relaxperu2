@@ -2,7 +2,7 @@ import datetime as dt
 import json
 import unittest
 
-from update_vaope_agenda import city_from_address, discover, parse_event
+from update_vaope_agenda import city_from_address, discover, discover_dated, listing_pages, parse_event
 
 
 class VaopeAgendaTests(unittest.TestCase):
@@ -29,12 +29,22 @@ class VaopeAgendaTests(unittest.TestCase):
 
     def test_unknown_city_and_category_are_excluded(self):
         self.assertIsNone(city_from_address("AREQUIPA"))
+        self.assertIsNone(city_from_address("Av. Lima 100 - TRUJILLO - LA LIBERTAD"))
         self.assertIsNone(parse_event(self.markup(), "https://vaope.com/eventos/unknown/test", self.today)[0])
 
     def test_only_event_details_are_discovered(self):
         markup = '<a href="https://vaope.com/eventos/conciertos">A</a>'
         markup += f'<a href="{self.url}">B</a>' * 2
         self.assertEqual(discover(markup), [self.url])
+
+    def test_listing_date_is_a_prefilter_not_a_performance_range(self):
+        card = ('<article class="event-order-42"><a href="' + self.url + '">Comprar</a>'
+                '<span>25/09/2026 • 8:00 PM</span></article>')
+        range_card = ('<article class="event-order-43"><a href="https://vaope.com/eventos/teatro/rango">Comprar</a>'
+                      '<span>25/09/2026 - 28/09/2026</span></article>')
+        self.assertEqual(discover_dated(card + range_card, self.today), [self.url])
+        self.assertEqual(listing_pages('<a href="/eventos/highlights?page=3">3</a>'),
+                         [f"https://vaope.com/eventos/highlights?page={n}" for n in range(1, 4)])
 
 
 if __name__ == "__main__":
