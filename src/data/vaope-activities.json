@@ -24,52 +24,292 @@
     "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5492/4387-GRILLA-CFC-LOR.jpeg"
   },
   {
-    "id": "vaope-0e2697e79c54",
-    "kind": "event",
-    "category": "shows",
-    "city": "Piura",
-    "district": "Piura",
-    "title": "A10 De Walther Lozada en Piura por el 59º Aniversario del Colegio San Gabriel en el Casino Militar",
-    "titleEn": "A10 De Walther Lozada en Piura por el 59º Aniversario del Colegio San Gabriel en el Casino Militar",
-    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
-    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
-    "venue": "Casino Militar de Piura",
-    "dates": [
-      "2026-09-26"
-    ],
-    "source": "VAOPE",
-    "url": "https://vaope.com/eventos/cumbia/a10-de-walther-lozada-en-piura-por-el-59o-aniversario-del-colegio-san-gabriel-en-el-casino-militar",
-    "reviewedAt": "2026-09-25",
-    "icon": "music",
-    "tone": "blue",
-    "tags": [
-      "cumbia"
-    ],
-    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/4990/9502-GRILLA-FELIZ-59-.jpeg"
-  },
-  {
-    "id": "vaope-9a07b92f0783",
+    "id": "vaope-8419c6899ee0",
     "kind": "event",
     "category": "shows",
     "city": "Lima",
-    "district": "Chorrillos",
-    "title": "Primavera Fest con Brunella Torpoco, You Salsa, Farik Grippa y más en Chorrillos",
-    "titleEn": "Primavera Fest con Brunella Torpoco, You Salsa, Farik Grippa y más en Chorrillos",
+    "district": "Barranco",
+    "title": "Perú vs Cuba : Masiel Málaga, La Caro Band y más en Barranco",
+    "titleEn": "Perú vs Cuba : Masiel Málaga, La Caro Band y más en Barranco",
     "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
     "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
-    "venue": "Círculo Militar",
+    "venue": "Bailadero Prime",
     "dates": [
-      "2026-09-26"
+      "2026-09-25"
     ],
     "source": "VAOPE",
-    "url": "https://vaope.com/eventos/salsa/primavera-fest-con-brunella-torpoco-you-salsa-farik-grippa-y-mas-en-chorrillos",
+    "url": "https://vaope.com/eventos/salsa/peru-vs-cuba-la-masiel-malaga-caro-band-y-mas-en-barranco",
     "reviewedAt": "2026-09-25",
     "icon": "music",
     "tone": "blue",
     "tags": [
       "salsa"
     ],
-    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5229/5991-GRILLA-PRIMAVERA.jpeg"
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5524/9391-GRILLA-PERÚ-VS-C.jpeg"
+  },
+  {
+    "id": "vaope-dcb2a37be1ff",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Festival de la Cumbia con Los Shapis, Grupo Guinda, La Primerísima del Perú y más en Cardano en SMP",
+    "titleEn": "Festival de la Cumbia con Los Shapis, Grupo Guinda, La Primerísima del Perú y más en Cardano en SMP",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Cardano Discoteca",
+    "dates": [
+      "2026-09-25"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/cumbia/festival-de-la-cumbia-con-los-shapis-grupo-guinda-la-primerisima-del-peru-y-mas-en-cardano-en-smp",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "cumbia"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5535/8417-GRILLA-FESTIVA.jpeg"
+  },
+  {
+    "id": "vaope-08b395dc4ace",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Tributo a Oasis: Ricardo Martin campeón de Yo Soy en el Cercado de Lima",
+    "titleEn": "Tributo a Oasis: Ricardo Martin campeón de Yo Soy en el Cercado de Lima",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Mi Tercer Lugar",
+    "dates": [
+      "2026-09-26"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/rock/tributo-a-oasis-ricardo-martin-campeon-de-yo-soy-en-el-cercado-de-lima",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "rock"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5275/7541-GRILLA-OASIS-LIVE-25.jpeg"
+  },
+  {
+    "id": "vaope-195ad2ef3694",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Feliz 12.º Aniversario Eventos Rojas con Zafiro Sensual, Oscar Manuel, String Karma y más en el Crucero del Amor en SJL",
+    "titleEn": "Feliz 12.º Aniversario Eventos Rojas con Zafiro Sensual, Oscar Manuel, String Karma y más en el Crucero del Amor en SJL",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Crucero del Amor",
+    "dates": [
+      "2026-09-26"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/cumbia/feliz-12o-aniversario-eventos-rojas-con-zafiro-sensual-oscar-manuel-string-karma-y-mas-en-el-crucero-del-amor-en-sjl",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "cumbia"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5353/5164-GRILLA-FELIZ-ANI.jpeg"
+  },
+  {
+    "id": "vaope-1cee22ab8fd0",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Felices Fiestas Patronales Huambo con La Única y mucho más en Carabayllo",
+    "titleEn": "Felices Fiestas Patronales Huambo con La Única y mucho más en Carabayllo",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "La Huambina",
+    "dates": [
+      "2026-09-26"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/cumbia/felices-fiestas-patronales-huambo-con-la-unica-y-mucho-mas-en-carabayllo",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "cumbia"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5435/569-GRILLA-FIESTA-PAT.jpeg"
+  },
+  {
+    "id": "vaope-43bf1bf80613",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Barranco",
+    "title": "Una Gran Batalla: Marcelo Castillo vs. José Rosillo en Sipán Gastrobar",
+    "titleEn": "Una Gran Batalla: Marcelo Castillo vs. José Rosillo en Sipán Gastrobar",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Sipán Gastrobar",
+    "dates": [
+      "2026-09-26"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/rock/una-gran-batalla-marcelo-castillo-vs-jose-rosillo-en-sipan-gastrobar",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "rock"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5413/5714-GRILLA-UNA-GRAN-BATALLA-.jpeg"
+  },
+  {
+    "id": "vaope-5e0bbcc1b3e5",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "La Molina",
+    "title": "Nataly Ramírez y Orquesta en Vivo – Noche de Cumbia en La Molina",
+    "titleEn": "Nataly Ramírez y Orquesta en Vivo – Noche de Cumbia en La Molina",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Discoteca Gustavo",
+    "dates": [
+      "2026-09-26"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/cumbia/nataly-ramirez-y-orquesta-en-vivo-noche-de-cumbia-en-la-molina",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "cumbia"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5511/8535-GRILLA-NATALY-RAMIR.jpeg"
+  },
+  {
+    "id": "vaope-7c7d6d261cb3",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Los Olivos",
+    "title": "39.º Aniversario de José Luis Arroyo “El Lobo” con La Bella Luz, Son del Duke y Pintura Roja en El Huaralino",
+    "titleEn": "39.º Aniversario de José Luis Arroyo “El Lobo” con La Bella Luz, Son del Duke y Pintura Roja en El Huaralino",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "El Huaralino Internacional",
+    "dates": [
+      "2026-09-26"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/cumbia/39o-aniversario-de-jose-luis-arroyo-el-lobo-con-la-bella-luz-son-del-duke-en-el-huaralino",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "cumbia"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5405/9227-GRILLA-39-ANIVER.jpeg"
+  },
+  {
+    "id": "vaope-95caefc9f3d8",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Comas",
+    "title": "15.º Aniversario de Grupo Corazón Sensual con Zafiro Sensual, Beto Rios y más en Comas",
+    "titleEn": "15.º Aniversario de Grupo Corazón Sensual con Zafiro Sensual, Beto Rios y más en Comas",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Campus de Unicachi",
+    "dates": [
+      "2026-09-26"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/cumbia/15-aniversario-de-grupo-corazon-sensual-con-zafiro-sensual-beto-rios-y-mas-en-comas",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "cumbia"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5454/7266-GRILLA-FELIZ-15-AN.jpeg"
+  },
+  {
+    "id": "vaope-9f6430d8ecd6",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Santa Anita",
+    "title": "Sotil Fest Edición Cumbia Sanjuanera con Zafiro Sensual, Son de Ríos, Oscar Manuel y muchos más en Complejo Santa Rosa",
+    "titleEn": "Sotil Fest Edición Cumbia Sanjuanera con Zafiro Sensual, Son de Ríos, Oscar Manuel y muchos más en Complejo Santa Rosa",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Complejo Santa Rosa",
+    "dates": [
+      "2026-09-26"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/cumbia/sotil-fest-edicion-cumbia-sanjuanera-con-zafiro-sensual-son-de-rios-oscar-manuel-y-muchos-mas-en-complejo-santa-rosa",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "cumbia"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5331/8270-GRILLA-SOTIL-FES.jpeg"
+  },
+  {
+    "id": "vaope-ef18e1ff63f2",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "La Molina",
+    "title": "Noche Tunantera Edición Lima con Mao Cuyubamba, Nayda Gutiérrez y Raíces D' Jauja en Scencia de La Molina",
+    "titleEn": "Noche Tunantera Edición Lima con Mao Cuyubamba, Nayda Gutiérrez y Raíces D' Jauja en Scencia de La Molina",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Centro de Convenciones Scencia",
+    "dates": [
+      "2026-09-26"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/noche-tunantera-con-nayda-gutierrez-mao-cuyubamba-y-raices-d-jauja-en-scencia-de-la-molina",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/4814/977-GRILLA-LA-A-MOLINA.jpg.jpeg"
+  },
+  {
+    "id": "vaope-f925700673eb",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Independencia",
+    "title": "El Flow de Lima – Llega desde Chile Standly, Masiel Málaga, El Casty y más en 11:11 Club Independencia",
+    "titleEn": "El Flow de Lima – Llega desde Chile Standly, Masiel Málaga, El Casty y más en 11:11 Club Independencia",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "11:11 CLUB",
+    "dates": [
+      "2026-09-26"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/el-flow-de-lima-llega-desde-chile-standly-masiel-malaga-el-casty-y-mas-en-1111-club-independencia",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5516/9753-GRILLA-EL-F.jpeg"
   },
   {
     "id": "vaope-08fc598939a1",
@@ -96,6 +336,174 @@
     "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5177/4315-GRILLA-TEATRO-MUNICIPAL-CUSCO.jpg.jpeg"
   },
   {
+    "id": "vaope-259530ef24da",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Santa Anita",
+    "title": "El Cholo Aquiles, Surandino, Anita Santivañez y mucho más en el Complejo Santa Rosa",
+    "titleEn": "El Cholo Aquiles, Surandino, Anita Santivañez y mucho más en el Complejo Santa Rosa",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Complejo Santa Rosa",
+    "dates": [
+      "2026-09-27"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/el-cholo-aquiles-surandino-anita-santivanez-y-mucho-mas-en-el-complejo-santa-rosa",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/4996/9406-GRILLA-EL-CHOLO-AQA.jpg.jpeg"
+  },
+  {
+    "id": "vaope-3c70586ae653",
+    "kind": "event",
+    "category": "sports",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Bella Esperanza vs Arsenal F.B.C Por la Copa Perú Vaope 2026",
+    "titleEn": "Bella Esperanza vs Arsenal F.B.C Por la Copa Perú Vaope 2026",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Estadio Municipal de Quilmaná",
+    "dates": [
+      "2026-09-27"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/futbol/bella-esperanza-vs-arsenal-fbc-por-la-copa-peru-vaope-2026",
+    "reviewedAt": "2026-09-25",
+    "icon": "art",
+    "tone": "blue",
+    "tags": [
+      "futbol"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5537/3237-GRILLA-BELLA-ESPERANZA-VS-A.jpeg"
+  },
+  {
+    "id": "vaope-4cec0c1775bb",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Los Olivos",
+    "title": "Aniversario Choza Domingos con Masiel Málaga, Brunella Torpoco, Grupo Guinda y más en Los Olivos",
+    "titleEn": "Aniversario Choza Domingos con Masiel Málaga, Brunella Torpoco, Grupo Guinda y más en Los Olivos",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "La Choza Náutica",
+    "dates": [
+      "2026-09-27"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/salsa/aniversario-choza-domingos-con-masiel-malaga-brunella-torpoco-grupo-guinda-y-mas-en-los-olivos",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "salsa"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5461/3174-GRILLA-ANIVOS-OLIVOS.jpg.jpeg"
+  },
+  {
+    "id": "vaope-67393dbc14ad",
+    "kind": "event",
+    "category": "sports",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Pacífico F.C vs Amazon Callao por la Liga 3",
+    "titleEn": "Pacífico F.C vs Amazon Callao por la Liga 3",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Complejo Deportivo Héctor Chumpitaz..",
+    "dates": [
+      "2026-09-27"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/futbol/pacifico-fc-vs-amazon-callao-por-la-liga-3",
+    "reviewedAt": "2026-09-25",
+    "icon": "art",
+    "tone": "blue",
+    "tags": [
+      "futbol"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5539/2921-GRILLA-PACIFICO-FC-VS-AMAZ.jpeg"
+  },
+  {
+    "id": "vaope-754f047f4ab8",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "El Lobo, Claveles de La Cumbia, Los Engreídos Olímpicos de Huancayo y más en ATE",
+    "titleEn": "El Lobo, Claveles de La Cumbia, Los Engreídos Olímpicos de Huancayo y más en ATE",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Colegio Leonardo Da Vinci",
+    "dates": [
+      "2026-09-27"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/cumbia/el-lobo-claveles-de-la-cumbia-los-engreidos-olimpicos-de-huancayo-y-mas-en-ate",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "cumbia"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5406/9344-GRILLA-CLAVES-DE.jpeg"
+  },
+  {
+    "id": "vaope-7ff9821ba0ae",
+    "kind": "event",
+    "category": "sports",
+    "city": "Ica",
+    "district": "Ica",
+    "title": "Domingo Dianderas vs Bad Boys por la Copa Perú VAOPE 2026",
+    "titleEn": "Domingo Dianderas vs Bad Boys por la Copa Perú VAOPE 2026",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "ESTADIO FELIX CASTILLO TARDIO",
+    "dates": [
+      "2026-09-27"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/futbol/domingo-dianderas-vs-bad-boys-por-la-copa-peru-vaope-2026",
+    "reviewedAt": "2026-09-25",
+    "icon": "art",
+    "tone": "blue",
+    "tags": [
+      "futbol"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5543/496-GRILLA-DOMINGO-DIA.jpeg"
+  },
+  {
+    "id": "vaope-995059dfb250",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Pulsar Track Experience Day 2026",
+    "titleEn": "Pulsar Track Experience Day 2026",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Green Arena",
+    "dates": [
+      "2026-09-27"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/entretenimiento/pulsar-track-experience-day-2026",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "entretenimiento"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5281/6613-GRILLA-PULSAR-TRACK-LURIN.jpg.jpeg"
+  },
+  {
     "id": "vaope-a9e53745e0af",
     "kind": "event",
     "category": "sports",
@@ -118,6 +526,102 @@
       "futbol"
     ],
     "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5565/5131-GRILLA-ANI-VS-UNAP.jpg-(1).jpeg"
+  },
+  {
+    "id": "vaope-fbd019a51528",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Comas",
+    "title": "Reapertura Temporada 2026-2027 con Deyvis Orosco, Grupo Amor Rebelde y La Única Tropical",
+    "titleEn": "Reapertura Temporada 2026-2027 con Deyvis Orosco, Grupo Amor Rebelde y La Única Tropical",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "El Remanso",
+    "dates": [
+      "2026-09-27"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/reapertura-temporada-2026-2027-con-deyvis-orosco-grupo-amor-rebelde-y-la-unica-tropical",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5483/1893-GRILLA-REAPERTURMAS-(1).jpg.jpeg"
+  },
+  {
+    "id": "vaope-5b45a862a1d2",
+    "kind": "event",
+    "category": "shows",
+    "city": "Piura",
+    "district": "Piura",
+    "title": "El Gran Saico y su Nueva Generación en Flamingoh Club Sullana",
+    "titleEn": "El Gran Saico y su Nueva Generación en Flamingoh Club Sullana",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Flamingoh Club",
+    "dates": [
+      "2026-09-28"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/cumbia/el-gran-saico-y-su-nueva-generacion-en-flamingoh-club-sullana",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "cumbia"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5443/8461-GRILLA-EL-GRAN-(2).jpeg"
+  },
+  {
+    "id": "vaope-4bad82b81b79",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "La Perla",
+    "title": "Por Primera Vez Son del Duke llega a La Isla del Paraíso en el Callao",
+    "titleEn": "Por Primera Vez Son del Duke llega a La Isla del Paraíso en el Callao",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "La Isla del Paraíso",
+    "dates": [
+      "2026-10-02"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/cumbia/por-primera-vez-son-del-duke-llega-a-la-isla-del-paraiso-en-el-callao",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "cumbia"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5472/7742-GRILLA-SON-DEL-D.jpeg"
+  },
+  {
+    "id": "vaope-793e21f15152",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Choque Electoral con Son del Duke y Grupo Guinda en Arena Puente Piedra",
+    "titleEn": "Choque Electoral con Son del Duke y Grupo Guinda en Arena Puente Piedra",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Arena Puente Piedra",
+    "dates": [
+      "2026-10-02"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/cumbia/choque-electoral-con-son-del-duke-y-grupo-guinda-en-arena-puente-piedra",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "cumbia"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5540/950-GRILLA-CHOQUE.jpeg"
   },
   {
     "id": "vaope-7fcae44d5472",
@@ -144,6 +648,102 @@
     "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5457/2759-GRILLA-EL-JUNTE-MÁ.jpeg"
   },
   {
+    "id": "vaope-9d3833bb61e4",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Miraflores",
+    "title": "The Country Music: Tributo a Billy Ray Cyrus, Hank Williams y más en Miraflores",
+    "titleEn": "The Country Music: Tributo a Billy Ray Cyrus, Hank Williams y más en Miraflores",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Jazz Zone",
+    "dates": [
+      "2026-10-02"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/rock/the-country-music-tributo-a-billy-ray-cyrus-hank-williams-y-mas-en-miraflores",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "rock"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5320/3750-GRILLA-THE-COUNTRY-MUSIC.jpeg"
+  },
+  {
+    "id": "vaope-a645f286abf9",
+    "kind": "event",
+    "category": "shows",
+    "city": "Piura",
+    "district": "Piura",
+    "title": "Las Estrellas de Niche llegan a Sullana en Flamingo Club",
+    "titleEn": "Las Estrellas de Niche llegan a Sullana en Flamingo Club",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Flamingoh Club",
+    "dates": [
+      "2026-10-02"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/salsa/las-estrellas-de-niche-llegan-a-sullana-en-flamingo-club",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "salsa"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5518/8312-GRILLA-LAS-ESTRELLAS-DE-.jpeg"
+  },
+  {
+    "id": "vaope-f65dd00a11bf",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Tributo a Taylor Swift: The Eras Tour Show en Iwanna Rock Lince",
+    "titleEn": "Tributo a Taylor Swift: The Eras Tour Show en Iwanna Rock Lince",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Iwanna Rock",
+    "dates": [
+      "2026-10-02"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/tributo-a-taylor-swift-the-eras-tour-show-en-iwanna-rock-lince",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5429/6150-GRILLA-TRIBUTO-OFICIAL-.jpeg"
+  },
+  {
+    "id": "vaope-fe6256db02ec",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "A10 de Walter Lozada en el Centro Turístico Yacumama",
+    "titleEn": "A10 de Walter Lozada en el Centro Turístico Yacumama",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Yacumama",
+    "dates": [
+      "2026-10-02"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/cumbia/a10-de-walter-lozada-en-el-centro-turistico-yacumama",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "cumbia"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5422/140-GRILLA-WALTHER-LO.jpeg"
+  },
+  {
     "id": "vaope-a8d968d199bf",
     "kind": "event",
     "category": "shows",
@@ -166,6 +766,78 @@
       "folklore"
     ],
     "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5499/5341-GRILLA-DIA-DE-LA-CAN.jpeg"
+  },
+  {
+    "id": "vaope-12cd6c98eb36",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Salsa con Clase: Las Estrellas de Niche en Arius Disco en Ventanilla",
+    "titleEn": "Salsa con Clase: Las Estrellas de Niche en Arius Disco en Ventanilla",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Arius Discoteca",
+    "dates": [
+      "2026-10-07"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/salsa/salsa-con-clase-las-estrellas-de-niche-en-arius-disco-en-ventanilla",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "salsa"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5552/5519-GRILLA-SALSA-CON-CLASE-LAS-EST.jpeg"
+  },
+  {
+    "id": "vaope-b72e02f26567",
+    "kind": "event",
+    "category": "shows",
+    "city": "Piura",
+    "district": "Piura",
+    "title": "Josimar y su Yambú en Flamingoh Club Sullana",
+    "titleEn": "Josimar y su Yambú en Flamingoh Club Sullana",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Flamingoh Club",
+    "dates": [
+      "2026-10-08"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/salsa/josimar-y-su-yambu-en-flamingoh-club-sullana",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "salsa"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5447/2390-GRILLA-TRUJILLO.jpeg"
+  },
+  {
+    "id": "vaope-35a9aed1e756",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Surco",
+    "title": "Happy Fest en el Jockey Plaza",
+    "titleEn": "Happy Fest en el Jockey Plaza",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "C.C. Jockey Plaza",
+    "dates": [
+      "2026-10-09"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/entretenimiento/happy-fest-en-el-jockey-plaza",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "entretenimiento"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5318/6816-GRILLA-HAPPY-FEZA.jpg.jpeg"
   },
   {
     "id": "vaope-4fbc2a4d24b5",
@@ -192,6 +864,222 @@
     "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5467/8573-GRILLA-NOCHE-DE-SALSA-.jpeg"
   },
   {
+    "id": "vaope-65b4d202ef08",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Ricardo Martin – The Oasis Experience | Tributo a Oasis en Cercado de Lima",
+    "titleEn": "Ricardo Martin – The Oasis Experience | Tributo a Oasis en Cercado de Lima",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Yield Rock",
+    "dates": [
+      "2026-10-09"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/rock/ricardo-martin-the-oasis-experience-tributo-a-oasis-en-cercado-de-lima",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "rock"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5522/9505-GRILLA-THE-OAS.jpeg"
+  },
+  {
+    "id": "vaope-18080886e9a8",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Technoton El Festival: Tributo a 2 Unlimited, DJ BoBo & Registro Nelking en Ate",
+    "titleEn": "Technoton El Festival: Tributo a 2 Unlimited, DJ BoBo & Registro Nelking en Ate",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Discoteca Paraíso",
+    "dates": [
+      "2026-10-10"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/technoton-el-festival-tributo-a-2-unlimited-dj-bobo-registro-nelking-en-ate",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5515/6300-GRILLA-TECHNOTON-PRIMERA.jpeg"
+  },
+  {
+    "id": "vaope-6d376adb4f08",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Miraflores",
+    "title": "Feliz 24.º Aniversario Jesús Obrero con La Bella Luz, Azucena Calvay, Los 4 de la Cumbia y más en SJM",
+    "titleEn": "Feliz 24.º Aniversario Jesús Obrero con La Bella Luz, Azucena Calvay, Los 4 de la Cumbia y más en SJM",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Estadio Leoncio Prado",
+    "dates": [
+      "2026-10-10"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/cumbia/feliz-24o-aniversario-jesus-obrero-con-la-bella-luz-azucena-calvay-los-4-de-la-cumbia-y-mas-en-sjm",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "cumbia"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5412/9981-GRILLA-FELIZ-24-ANIVERSAR.jpeg"
+  },
+  {
+    "id": "vaope-7aa9586ea371",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Santa Anita",
+    "title": "Feliz Aniversario Los Hermanos Curi con Surandino, Los Apus, Dúo Ayacucho y más en el Complejo Santa Rosa",
+    "titleEn": "Feliz Aniversario Los Hermanos Curi con Surandino, Los Apus, Dúo Ayacucho y más en el Complejo Santa Rosa",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Complejo Santa Rosa",
+    "dates": [
+      "2026-10-10"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/feliz-aniversario-los-hermanos-curi-con-surandino-los-apus-duo-ayacucho-y-mas-en-el-complejo-santa-rosa",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5369/3867-GRILLA-FELIZ-ANIVER.jpeg"
+  },
+  {
+    "id": "vaope-92a4af1d07f3",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Comas",
+    "title": "Gran Aniversario de Ferretería Carabayllo con Los Fénix y más en Comas",
+    "titleEn": "Gran Aniversario de Ferretería Carabayllo con Los Fénix y más en Comas",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Complejo Deportivo Walon",
+    "dates": [
+      "2026-10-11"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/gran-aniversario-de-ferreteria-carabayllo-con-los-fenix-y-mas-en-comas",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/4793/8722-GRILLA-FELIZ-ANIVERS-(1).jpeg"
+  },
+  {
+    "id": "vaope-efc53e4aa6f4",
+    "kind": "event",
+    "category": "culture",
+    "city": "Cusco",
+    "district": "Cusco",
+    "title": "Cuentos Sinfónicos de Disney en vivo en el Teatro Municipal del Cusco",
+    "titleEn": "Cuentos Sinfónicos de Disney en vivo en el Teatro Municipal del Cusco",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Teatro Municipal",
+    "dates": [
+      "2026-10-11"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/teatro/cuentos-sinfonicos-de-disney-en-vivo-en-el-teatro-municipal-del-cusco",
+    "reviewedAt": "2026-09-25",
+    "icon": "art",
+    "tone": "blue",
+    "tags": [
+      "teatro"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5521/9177-GRILLA-CUENTOS-SINFONI.jpeg"
+  },
+  {
+    "id": "vaope-1ec3dcca8b25",
+    "kind": "event",
+    "category": "shows",
+    "city": "Piura",
+    "district": "Piura",
+    "title": "Gonzalo Genek llega a Piura",
+    "titleEn": "Gonzalo Genek llega a Piura",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Fundo Stewart",
+    "dates": [
+      "2026-10-16"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/gonzalo-genek-llega-a-piura",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5437/3366-GRILLA-GONZAL-(2).jpeg"
+  },
+  {
+    "id": "vaope-af5701b2a1be",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Llega Cantaritos de Oro al Centro Turístico Yacumama",
+    "titleEn": "Llega Cantaritos de Oro al Centro Turístico Yacumama",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Yacumama",
+    "dates": [
+      "2026-10-16"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/cumbia/llega-cantaritos-de-oro-al-centro-turistico-yacumama",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "cumbia"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5319/811-GRILLA-CAN.jpeg"
+  },
+  {
+    "id": "vaope-d4d3e2a57f1c",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Miraflores",
+    "title": "Indie Rock Festival 2026 en Miraflores",
+    "titleEn": "Indie Rock Festival 2026 en Miraflores",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Jazz Zone",
+    "dates": [
+      "2026-10-16"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/indie-rock-festival-2026-en-miraflores",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5502/2582-GRILLA-INDIE-ROCK-FESTI.jpeg"
+  },
+  {
     "id": "vaope-d4dd0b12708b",
     "kind": "event",
     "category": "shows",
@@ -214,6 +1102,54 @@
       "cumbia"
     ],
     "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5475/8005-GRILLA-LA-BELLA-.jpeg"
+  },
+  {
+    "id": "vaope-04ab89cb6b6a",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Tributo a PXNDX  en Lima",
+    "titleEn": "Tributo a PXNDX  en Lima",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Mi Tercer Lugar",
+    "dates": [
+      "2026-10-17"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/rock/tributo-a-pxndx-en-lima",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "rock"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5529/9100-GRILLA-ANTIAMOR-TRIBUTO.jpeg"
+  },
+  {
+    "id": "vaope-17eb15a3d0e4",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Barranco",
+    "title": "Marcelo Castillo \"Steven Tyler\" - El Rockstar del Perú en Barranco",
+    "titleEn": "Marcelo Castillo \"Steven Tyler\" - El Rockstar del Perú en Barranco",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Sipán Gastrobar",
+    "dates": [
+      "2026-10-17"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/rock/marcelo-castillo-steven-tyler-el-rockstar-del-peru-en-barranco",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "rock"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5367/4205-GRILLA-MARCELO-CASTILLO-SIP.jpeg"
   },
   {
     "id": "vaope-2e05f32d2b18",
@@ -240,6 +1176,30 @@
     "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5308/264-WEB-FELIZ-55-.jpeg"
   },
   {
+    "id": "vaope-55d19579fe2c",
+    "kind": "event",
+    "category": "shows",
+    "city": "Cusco",
+    "district": "Cusco",
+    "title": "Planetshakers llega por primera vez a Cusco",
+    "titleEn": "Planetshakers llega por primera vez a Cusco",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Coliseo Cerrado",
+    "dates": [
+      "2026-10-17"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/planetshakers-llega-por-primera-vez-a-cusco",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5480/5223-GRILLA-PLANETS.jpeg"
+  },
+  {
     "id": "vaope-8ba193fae079",
     "kind": "event",
     "category": "shows",
@@ -262,6 +1222,270 @@
       "conciertos"
     ],
     "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/4733/344-GRILLA-ANTOLOGIA.jpeg"
+  },
+  {
+    "id": "vaope-a2486fdc693c",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Salsa & Reparto - JP El Chamaco, Caballito, Javiko & Lumbreras en Discoteca Arius – Ventanilla",
+    "titleEn": "Salsa & Reparto - JP El Chamaco, Caballito, Javiko & Lumbreras en Discoteca Arius – Ventanilla",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Arius Discoteca",
+    "dates": [
+      "2026-10-17"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/salsa/salsa-reparto-jp-el-chamaco-caballito-javiko-lumbreras-en-discoteca-arius-ventanilla",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "salsa"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5536/8102-GRILLA-REPART.jpeg"
+  },
+  {
+    "id": "vaope-a7a7a1e751a0",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Feliz 29 Aniversario Dúo Ayacucho con Los Apus, Mariflor Gomez, Los Engreídos Olímpicos y más en Huarocondo SJL",
+    "titleEn": "Feliz 29 Aniversario Dúo Ayacucho con Los Apus, Mariflor Gomez, Los Engreídos Olímpicos y más en Huarocondo SJL",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Huarocondo",
+    "dates": [
+      "2026-10-17"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/feliz-29-aniversario-duo-ayacucho-con-los-apus-mariflor-gomez-los-engreidos-olimpicos-y-mas-en-huarocondo-sjl",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5033/2438-GRILLA-FELIZ-29-A.jpeg"
+  },
+  {
+    "id": "vaope-e075fae513ae",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "La Molina",
+    "title": "90s La Fiesta con Chiki vuelve a Scencia de La Molina",
+    "titleEn": "90s La Fiesta con Chiki vuelve a Scencia de La Molina",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Centro de Convenciones Scencia",
+    "dates": [
+      "2026-10-17"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/90s-la-fiesta-con-chiki-vuelve-a-scencia-de-la-molina",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5169/936-GRILLA-90S-LA-FIESTA-CON-.jpeg"
+  },
+  {
+    "id": "vaope-816c096b6f80",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Los Olivos",
+    "title": "GUARAPO FEST: Sonido 2000 - Tarapoto, Camilo Vargas, Illarek y más en El Huaralino",
+    "titleEn": "GUARAPO FEST: Sonido 2000 - Tarapoto, Camilo Vargas, Illarek y más en El Huaralino",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "El Huaralino Internacional",
+    "dates": [
+      "2026-10-18"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/guarapo-fest-sonido-2000-tarapoto-camilo-vargas-illarek-y-mas-en-el-huaralino",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5481/7852-GRILLA-GUARAPO-FEST-HUAR.jpeg"
+  },
+  {
+    "id": "vaope-cb3cd8da0eb8",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Feliz Aniversario Silvia Rivera con Susan del Perú, Nueva Estrella y mucho más en Ate",
+    "titleEn": "Feliz Aniversario Silvia Rivera con Susan del Perú, Nueva Estrella y mucho más en Ate",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Club Internacional Santa Clara",
+    "dates": [
+      "2026-10-18"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/feliz-aniversario-silvia-rivera-con-susan-del-peru-nueva-estrella-y-mucho-mas-en-ate",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5173/1579-GRILLA-FNTA-CLARA.jpg.jpeg"
+  },
+  {
+    "id": "vaope-de3861991263",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Santa Anita",
+    "title": "1er Festival Wanka en Lima llega en el Complejo Santa Rosa",
+    "titleEn": "1er Festival Wanka en Lima llega en el Complejo Santa Rosa",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Complejo Santa Rosa",
+    "dates": [
+      "2026-10-18"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/el-1er-festival-wanka-en-lima-llega-en-el-complejo-santa-rosa",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5185/5656-GRILLA-1ER-NTA-ROSA.jpg.jpeg"
+  },
+  {
+    "id": "vaope-ddf2e8c840ee",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Barranco",
+    "title": "Paco Arnao en La Estación de Barranco",
+    "titleEn": "Paco Arnao en La Estación de Barranco",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "La Estación de Barranco",
+    "dates": [
+      "2026-10-22"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/paco-arnao-en-la-estacion-de-barranco",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5520/2622-GRILLA-PACO-ARNAO-E.jpeg"
+  },
+  {
+    "id": "vaope-04473b7baf5d",
+    "kind": "event",
+    "category": "shows",
+    "city": "Ica",
+    "district": "Ica",
+    "title": "Johnny Rollano y su Grupo Enlace de Bolivia & Maite y su Realeza en Nazca-Ica",
+    "titleEn": "Johnny Rollano y su Grupo Enlace de Bolivia & Maite y su Realeza en Nazca-Ica",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Los Apurimeños",
+    "dates": [
+      "2026-10-23"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/cumbia/johnny-rollano-y-su-grupo-enlace-de-bolivia-maite-y-su-realeza-en-nazca-ica",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "cumbia"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5568/5953-GRILLA-LOS-APULANCE-ICA.jpg.jpeg"
+  },
+  {
+    "id": "vaope-050beee6f945",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Feliz 3er Aniversario Antay Producciones con Flor Pileña, Russkaya, Surandino y más en Tintay de VMT",
+    "titleEn": "Feliz 3er Aniversario Antay Producciones con Flor Pileña, Russkaya, Surandino y más en Tintay de VMT",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Tintay Internacional",
+    "dates": [
+      "2026-10-24"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/feliz-3er-aniversario-antay-producciones-con-flor-pilena-russkaya-surandino-y-mas-en-tintay-de-vmt",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5370/5527-GRILLA-FELIZ-3.jpeg"
+  },
+  {
+    "id": "vaope-0a97c52f5eb5",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Festival Generación 90’s: Tributo a Foo Fighters, Nirvana, Green Day y más en Cercado de Lima",
+    "titleEn": "Festival Generación 90’s: Tributo a Foo Fighters, Nirvana, Green Day y más en Cercado de Lima",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Mi Tercer Lugar",
+    "dates": [
+      "2026-10-24"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/rock/festival-generacion-90s-tributo-a-foo-fighters-nirvana-green-day-y-mas-en-cercado-de-lima",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "rock"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5549/4997-GRILLA-FESTIVAL-GENERACIÓN-90.jpeg"
+  },
+  {
+    "id": "vaope-10c154f8d694",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "DESDE DRAG RACE MÉXICO LATINA ROYALE EVA BLUNT EN LIMA",
+    "titleEn": "DESDE DRAG RACE MÉXICO LATINA ROYALE EVA BLUNT EN LIMA",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Céntrica",
+    "dates": [
+      "2026-10-24"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/entretenimiento/desde-drag-race-mexico-latina-royale-eva-blunt-en-lima",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "entretenimiento"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5317/5291-GRILLA-PRE-HALLOWEE.jpeg"
   },
   {
     "id": "vaope-35ffd3205b24",
@@ -288,6 +1512,78 @@
     "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5389/7715-GRILLA-FESTITROME-ANFITEAT.jpeg"
   },
   {
+    "id": "vaope-697503efb9a5",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Barranco",
+    "title": "Taylor Swift & Billie Eilish en Barranco",
+    "titleEn": "Taylor Swift & Billie Eilish en Barranco",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Centro de Convenciones Bianca",
+    "dates": [
+      "2026-10-24"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/taylor-swift-billie-eilish-en-barranco",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5512/3589-GRILLA-POP-QU.jpeg"
+  },
+  {
+    "id": "vaope-716e8c3b5cb2",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Los Olivos",
+    "title": "Feliz Aniversario Iván Aventura con Surandino, Janeth Salinas y más en El Huaralino",
+    "titleEn": "Feliz Aniversario Iván Aventura con Surandino, Janeth Salinas y más en El Huaralino",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "El Huaralino Internacional",
+    "dates": [
+      "2026-10-24"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/feliz-aniversario-ivan-aventura-con-surandino-janeth-salinas-y-mas-en-el-huaralino",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5514/270-GRILLA-FELIZ-ANIV-IVA.jpeg"
+  },
+  {
+    "id": "vaope-8989e114f114",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Santa Anita",
+    "title": "30° Aniversario de la Diva del Sur Rosita de Espinar en el Complejo Santa Rosa",
+    "titleEn": "30° Aniversario de la Diva del Sur Rosita de Espinar en el Complejo Santa Rosa",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Complejo Santa Rosa",
+    "dates": [
+      "2026-10-24"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/30-aniversario-de-la-diva-del-sur-rosita-de-espinar-en-el-complejo-santa-rosa",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5156/7013-GRILLA-30-A.jpeg"
+  },
+  {
     "id": "vaope-94622d02895d",
     "kind": "event",
     "category": "shows",
@@ -310,6 +1606,198 @@
       "folklore"
     ],
     "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5491/8719-GRILLA-LOS-ERRAN.jpeg"
+  },
+  {
+    "id": "vaope-2060e222f9da",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "38° Aniversario del Rinconcito Ayacuchano con Surandino, Duo Ayacucho, Los Runas y más en Carapongo",
+    "titleEn": "38° Aniversario del Rinconcito Ayacuchano con Surandino, Duo Ayacucho, Los Runas y más en Carapongo",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Rinconcito Ayacuchano",
+    "dates": [
+      "2026-10-25"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/38-aniversario-del-rinconcito-ayacuchano-con-surandino-duo-ayacucho-los-runas-y-mas-en-carapongo",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5371/4483-GRILLA-38-AN.jpeg"
+  },
+  {
+    "id": "vaope-75533d1eab3a",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Miraflores",
+    "title": "Feliz Cumpleaños John Lennon en Miraflores",
+    "titleEn": "Feliz Cumpleaños John Lennon en Miraflores",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Jazz Zone",
+    "dates": [
+      "2026-10-30"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/rock/feliz-cumpleanos-john-lennon-en-miraflores",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "rock"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5547/7789-GRILLA-FELIZ-CUMPLEAÑOS.jpeg"
+  },
+  {
+    "id": "vaope-022621656723",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Halloween Emo: Tributo a PXNDX, My Chemical Romance, Green Day y más en Cercado de Lima",
+    "titleEn": "Halloween Emo: Tributo a PXNDX, My Chemical Romance, Green Day y más en Cercado de Lima",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Mi Tercer Lugar",
+    "dates": [
+      "2026-10-31"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/rock/halloween-emo-tributo-a-pxndx-my-chemical-romance-green-day-y-mas-en-cercado-de-lima",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "rock"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5561/2379-GRILLA-FESTIVAL-EMO-PXNDXW.jpeg"
+  },
+  {
+    "id": "vaope-0f2748436f60",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Halloween Explosivo 2026 con Explosión – El Orgullo Amazónico en el Círculo Militar - Jesús María",
+    "titleEn": "Halloween Explosivo 2026 con Explosión – El Orgullo Amazónico en el Círculo Militar - Jesús María",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Explanada Círculo Militar del Perú",
+    "dates": [
+      "2026-10-31"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/halloween-explosivo-2026-con-explosion-el-orgullo-amazonico-en-el-circulo-militar-jesus-maria",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5500/6885-GRILLA-HALLOW.jpeg"
+  },
+  {
+    "id": "vaope-20dc9a4a2fe3",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Noche de Halloween: Zafiro Sensual, Oscar Manuel, String Karma y Corazón Sensual en Tintay - VMT",
+    "titleEn": "Noche de Halloween: Zafiro Sensual, Oscar Manuel, String Karma y Corazón Sensual en Tintay - VMT",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Tintay Internacional",
+    "dates": [
+      "2026-10-31"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/cumbia/noche-de-halloween-zafiro-sensual-oscar-manuel-string-karma-y-corazon-sensual-en-tintay-vmt",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "cumbia"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5541/7632-GRILLA-NOCHE-DE-HALL.jpeg"
+  },
+  {
+    "id": "vaope-2c9b955d7191",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Comas",
+    "title": "HALLOWEEN 2026: Makano, Carlos Miguel, Somos Norte y muchos más en Comas",
+    "titleEn": "HALLOWEEN 2026: Makano, Carlos Miguel, Somos Norte y muchos más en Comas",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Explanada del Colegio Jesús Obrero",
+    "dates": [
+      "2026-10-31"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/halloween-2026-makano-carlos-miguel-somos-norte-y-muchos-mas-en-comas",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5563/8506-GRILLA-FELIZ-1.jpeg"
+  },
+  {
+    "id": "vaope-505300d42dd9",
+    "kind": "event",
+    "category": "shows",
+    "city": "Piura",
+    "district": "Piura",
+    "title": "Desde Puerto Rico llega Darell a Piura",
+    "titleEn": "Desde Puerto Rico llega Darell a Piura",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Fundo Stewart",
+    "dates": [
+      "2026-10-31"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/desde-puerto-rico-llega-darell-a-piura",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5233/208-GRILLA-BOSQUE-.jpeg"
+  },
+  {
+    "id": "vaope-5677efaabc5f",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Santa Anita",
+    "title": "Fiesta de Disfraces: Kate Candela, Brayam Kamus y más en Arena Santa Anita",
+    "titleEn": "Fiesta de Disfraces: Kate Candela, Brayam Kamus y más en Arena Santa Anita",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Arena de Santa Anita",
+    "dates": [
+      "2026-10-31"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/salsa/fiesta-de-disfraces-kate-candela-brayam-kamus-y-mas-en-arena-santa-anita",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "salsa"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5394/4312-GRILLA-FIESTA-DE-DISFRACES.jpeg"
   },
   {
     "id": "vaope-7ab5d4767934",
@@ -336,6 +1824,174 @@
     "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5525/3712-GRILLA-GRAN-FIESTA-D.jpeg"
   },
   {
+    "id": "vaope-9ebb3b23eaa1",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Los Olivos",
+    "title": "Noche de Halloween Cajamarquino en Campus Unicachi",
+    "titleEn": "Noche de Halloween Cajamarquino en Campus Unicachi",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Campus Unicachi",
+    "dates": [
+      "2026-10-31"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/noche-de-halloween-cajamarquino-en-campus-unicachi",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5519/3281-GRILLA-NOCHE-DE-HALLOWEEN.jpeg"
+  },
+  {
+    "id": "vaope-a53d5dc1ca8b",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "La Gran Noche Andina 2026 en Ate Vitarte",
+    "titleEn": "La Gran Noche Andina 2026 en Ate Vitarte",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Complejo Turístico Diony's",
+    "dates": [
+      "2026-10-31"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/la-gran-noche-andina-2026-en-ate-vitarte",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5260/5812-GRILLA-LA-GRAN-NOCHE-ANDINA-ATE.jpg.jpeg"
+  },
+  {
+    "id": "vaope-a5dd6167d0f3",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "7mo. Aniversario de Agrupación Aurora en el Club Apurímac",
+    "titleEn": "7mo. Aniversario de Agrupación Aurora en el Club Apurímac",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Club Departamental Apurímac",
+    "dates": [
+      "2026-10-31"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/7mo-aniversario-de-agrupacion-aurora-en-el-club-apurimac",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5391/4227-GRILLA-7MO-ANIVERSARIO-AGRUPAC.jpeg"
+  },
+  {
+    "id": "vaope-aebedfa5263c",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Santa Anita",
+    "title": "Fiesta Exclusiva de Halloween con Haydee Raymundo, Nueva estrella y más en Centro Social Cochas Sta. Anita",
+    "titleEn": "Fiesta Exclusiva de Halloween con Haydee Raymundo, Nueva estrella y más en Centro Social Cochas Sta. Anita",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "CENTRO SOCIAL COCHAS",
+    "dates": [
+      "2026-10-31"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/fiesta-exclusiva-de-halloween-con-haydee-raymundo-nueva-estrella-en-centro-social-cochas-sta-anita",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5068/9367-GRILLA-FELIZ-VII-ANIVER.jpeg"
+  },
+  {
+    "id": "vaope-bb0b29aa2fe1",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Halloween 2026 con Carlos Miguel, Internacional Privados y Marisol en SJL",
+    "titleEn": "Halloween 2026 con Carlos Miguel, Internacional Privados y Marisol en SJL",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Los Ciruelos",
+    "dates": [
+      "2026-10-31"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/cumbia/halloween-2026-con-carlos-miguel-internacional-privados-y-marisol-en-sjl",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "cumbia"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5558/5261-GRILLA-FELIZ-.jpeg"
+  },
+  {
+    "id": "vaope-fb27b8973345",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Halloween Party Club: Las Voces de Niche, N'Klabe, John Eric y Ataque Rasta en Ventanilla",
+    "titleEn": "Halloween Party Club: Las Voces de Niche, N'Klabe, John Eric y Ataque Rasta en Ventanilla",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Explanada Mall Ventanilla",
+    "dates": [
+      "2026-10-31"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/salsa/halloween-party-club-las-voces-de-niche-nklabe-john-eric-y-ataque-rasta-en-ventanilla",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "salsa"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5507/5673-GRILLA-PARTTANILLA.jpg.jpeg"
+  },
+  {
+    "id": "vaope-fddc049ce63e",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Feliz 33 Aniversario Javier Dolores con  Rosita Corazón, Ever Cotrina y más en Villa el Salvador",
+    "titleEn": "Feliz 33 Aniversario Javier Dolores con  Rosita Corazón, Ever Cotrina y más en Villa el Salvador",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Las Gaviotas",
+    "dates": [
+      "2026-10-31"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/feliz-33-aniversario-javier-dolores-con-rosita-corazon-ever-cotrina-y-mas-en-villa-el-salvador",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5571/8185-GRILLA-FELIZ-33-A.jpeg"
+  },
+  {
     "id": "vaope-0f3b0ccd7e4c",
     "kind": "event",
     "category": "shows",
@@ -358,5 +2014,341 @@
       "conciertos"
     ],
     "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5455/470-GRILLA-PISCINAZO-AM.jpeg"
+  },
+  {
+    "id": "vaope-0ea26281fe04",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Miraflores",
+    "title": "Noche de Boleros: Tributo a Los Panchos (Trío Los Cox) y a Rafael en Jazz Zone Miraflores",
+    "titleEn": "Noche de Boleros: Tributo a Los Panchos (Trío Los Cox) y a Rafael en Jazz Zone Miraflores",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Jazz Zone",
+    "dates": [
+      "2026-11-06"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/noche-de-boleros-tributo-a-los-panchos-trio-los-cox-y-a-rafael-en-jazz-zone-miraflores",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5564/8013-GRILLA-YO-SOY-LOS-PANCHO.jpeg"
+  },
+  {
+    "id": "vaope-c03e7b1ab90f",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Los Olivos",
+    "title": "Feliz 13 Aniversario Son del Duke en EL Huaralino",
+    "titleEn": "Feliz 13 Aniversario Son del Duke en EL Huaralino",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "El Huaralino Internacional",
+    "dates": [
+      "2026-11-06"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/feliz-13-aniversario-son-del-duke-en-el-huaralino",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5538/420-GRILLA-FELIZ-13-ANIVE.jpeg"
+  },
+  {
+    "id": "vaope-4063734ba186",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "90 Terisimo: El Reencuentro con Chiki, Sisi León, Lucho Porras y Más en ATE",
+    "titleEn": "90 Terisimo: El Reencuentro con Chiki, Sisi León, Lucho Porras y Más en ATE",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Complejo Dionys",
+    "dates": [
+      "2026-11-07"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/90-terisimo-el-reencuentro-con-chiki-sisi-leon-lucho-porras-y-mas-en-ate",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5465/8243-GRILLA-90-TERISIMO-.jpeg"
+  },
+  {
+    "id": "vaope-df6c66a74f95",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Santa Anita",
+    "title": "1er Festival Ayacuchano en Lima 2026 en el Complejo Santa Rosa",
+    "titleEn": "1er Festival Ayacuchano en Lima 2026 en el Complejo Santa Rosa",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Complejo Santa Rosa",
+    "dates": [
+      "2026-11-08"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/1er-festival-ayacuchano-en-lima-2026-en-el-complejo-santa-rosa",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5497/5187-GRILLA-1NTA-ROSA.jpg.jpeg"
+  },
+  {
+    "id": "vaope-9cefdf12514e",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Gran II Aniversario Pasión Chanka Carnavaleros con Los Fénix, Sumacc Huayta y más en Villa el Salvador",
+    "titleEn": "Gran II Aniversario Pasión Chanka Carnavaleros con Los Fénix, Sumacc Huayta y más en Villa el Salvador",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Las Gaviotas",
+    "dates": [
+      "2026-11-14"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/gran-ii-aniversario-pasion-chanka-carnavaleros-con-los-fenix-sumacc-huayta-y-mas-en-villa-el-salvador",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5553/1968-GRILLA-GRANDI.jpeg"
+  },
+  {
+    "id": "vaope-04e491718ac1",
+    "kind": "event",
+    "category": "travel",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Ruta a Canadá: Paso a Paso con Expertos en la Cámara de Comercio de Lima",
+    "titleEn": "Ruta a Canadá: Paso a Paso con Expertos en la Cámara de Comercio de Lima",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Cámara de Comercio de Lima",
+    "dates": [
+      "2026-11-21"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/turismo-y-aventura/ruta-a-canada-paso-a-paso-con-expertos-en-la-camara-de-comercio-de-lima",
+    "reviewedAt": "2026-09-25",
+    "icon": "art",
+    "tone": "blue",
+    "tags": [
+      "turismo y aventura"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5372/9229-GRILLA-RUTA-A-CANADÁ-PASO-.jpeg"
+  },
+  {
+    "id": "vaope-1870062e1ddb",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Santa Anita",
+    "title": "Feliz Aniversario String Karma en el Complejo Santa Rosa",
+    "titleEn": "Feliz Aniversario String Karma en el Complejo Santa Rosa",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Complejo Santa Rosa",
+    "dates": [
+      "2026-11-21"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/feliz-aniversario-string-karma-en-el-complejo-santa-rosa",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5404/6916-GRILLA-FELIZ-ANIVERSARIO-S.jpeg"
+  },
+  {
+    "id": "vaope-44adbcf67298",
+    "kind": "event",
+    "category": "shows",
+    "city": "Iquitos",
+    "district": "Iquitos",
+    "title": "Ranchenato: Desde Colombia el legendario Dueto Buriticá en Iquitos",
+    "titleEn": "Ranchenato: Desde Colombia el legendario Dueto Buriticá en Iquitos",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Los Bungalows de Pampachica",
+    "dates": [
+      "2026-11-21"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/ranchenato-desde-colombia-el-legendario-dueto-buritica-en-iquitos",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5266/2586-GRILLA-RANCHENATOITOS.jpg.jpeg"
+  },
+  {
+    "id": "vaope-58dd0252dfb0",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Desbloqueando Recuerdos Fest: Desde México Neztor MVL, Ator Untela y más en VES",
+    "titleEn": "Desbloqueando Recuerdos Fest: Desde México Neztor MVL, Ator Untela y más en VES",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Sala Vallejo",
+    "dates": [
+      "2026-11-21"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/desbloqueando-recuerdos-fest-desde-mexico-neztor-mvl-ator-untela-y-mas-en-ves",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5506/5904-GRILLA-FELIZ-ANIV-DESBL.jpeg"
+  },
+  {
+    "id": "vaope-f552339865f3",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Cumbia de Ayer, Hoy y Siempre: Esaud Suárez, Darwin Torres, Amor Rebelde y más en Tintay",
+    "titleEn": "Cumbia de Ayer, Hoy y Siempre: Esaud Suárez, Darwin Torres, Amor Rebelde y más en Tintay",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Tintay Internacional",
+    "dates": [
+      "2026-11-21"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/cumbia/cumbia-de-ayer-hoy-y-siempre-esaud-suarez-darwin-torres-amor-rebelde-y-mas-en-tintay",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "cumbia"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5510/7970-GRILLA-CUMBIA-DE-A.jpeg"
+  },
+  {
+    "id": "vaope-c6ffd6607bf6",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Raíces D'Jauja - 25 Años \"El Camino Continua\" en el Teatro Segura en Cercado de Lima",
+    "titleEn": "Raíces D'Jauja - 25 Años \"El Camino Continua\" en el Teatro Segura en Cercado de Lima",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Teatro Manuel A. Segura",
+    "dates": [
+      "2026-11-27"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/raices-djauja-25-anos-el-camino-continua-en-el-teatro-segura-en-cercado-de-lima",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5407/3474-GRILLA-2ES-DE-JAUJA-LIMA.jpg.jpeg"
+  },
+  {
+    "id": "vaope-d8570c625276",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lima",
+    "title": "Team Desmadre Carnavaleros con Sosimo Sacramento, Sumacc Huayta, Misterios de Ocabamba y más en Villa el Salvador",
+    "titleEn": "Team Desmadre Carnavaleros con Sosimo Sacramento, Sumacc Huayta, Misterios de Ocabamba y más en Villa el Salvador",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Las Gaviotas",
+    "dates": [
+      "2026-11-28"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/team-desmadre-carnavaleros-con-sosimo-sacramento-sumacc-huayta-misterios-de-ocabamba-y-mas-en-villa-el-salvador",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5560/7875-GRILLA-TEAM-.jpeg"
+  },
+  {
+    "id": "vaope-d1967ed25c74",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Santa Anita",
+    "title": "1er Festival Huanuqueño en Lima: Feriado en Complejo Santa Rosa",
+    "titleEn": "1er Festival Huanuqueño en Lima: Feriado en Complejo Santa Rosa",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Complejo Santa Rosa",
+    "dates": [
+      "2026-12-08"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/1er-festival-huanuqueno-en-lima-feriado-en-complejo-santa-rosa",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5517/3698-GRILLA-1ER-FESTIAROSA.jpg.jpeg"
+  },
+  {
+    "id": "vaope-e784b583ad80",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Santa Anita",
+    "title": "Por Primera Vez Segundo Rosero en el Complejo Santa Rosa",
+    "titleEn": "Por Primera Vez Segundo Rosero en el Complejo Santa Rosa",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Complejo Santa Rosa",
+    "dates": [
+      "2026-12-12"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/por-primera-vez-segundo-rosero-en-el-complejo-santa-rosa",
+    "reviewedAt": "2026-09-25",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "conciertos"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5466/5848-GRILLA-SNTA-ROSA.jpg.jpeg"
   }
 ]

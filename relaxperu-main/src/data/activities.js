@@ -3,6 +3,15 @@
 // imageUrl links directly to artwork on the original publisher's site. Do not copy images from aggregators.
 export const activities = [
   {
+    id: 'ficte-miraflores-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'Miraflores',
+    title: 'Feria Internacional de Cultura, Turismo y Educación', titleEn: 'International Culture, Tourism and Education Fair',
+    description: 'IV edición de FICTE en el parque Kennedy del 25 al 27 de septiembre. La municipalidad confirma el lugar y las fechas; consulta allí el programa y los horarios.',
+    descriptionEn: 'Fourth FICTE fair at Kennedy Park, September 25–27. The municipality confirms the dates and venue; check its program for times.',
+    venue: 'Parque Kennedy', dates: ['2026-09-25', '2026-09-26', '2026-09-27'],
+    source: 'Municipalidad de Miraflores', url: 'https://www.miraflores.gob.pe/miraflores-lanza-convocatoria-para-la-ficte-2026/',
+    reviewedAt: '2026-09-25', icon: 'art', tone: 'gold', tags: ['feria', 'turismo', 'cultura'],
+  },
+  {
     id: 'perseo-la-plaza-sep-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'Miraflores',
     title: 'Perseo · Dos reinas y un funeral', titleEn: 'Perseo · Two queens and a funeral',
     description: 'Comedia teatral para mayores de 18 años. Funciones viernes y sábado a las 10:30 p. m.; confirma entradas con el teatro.',

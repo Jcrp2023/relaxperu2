@@ -53,7 +53,7 @@ export function filterActivities(items, { search = '', city = 'all', category = 
 export function safeSourceUrl(url) {
   try {
     const parsed = new URL(url);
-    return parsed.protocol === 'https:' && ['mali.pe', 'granteatronacional.pe', 'peru.travel', 'serpar.gob.pe', 'teleticket.com.pe', 'plazanorte.pe', 'laplaza.com.pe', 'muniplibre.gob.pe', 'vaope.com'].some(domain => parsed.hostname === domain || parsed.hostname.endsWith(`.${domain}`));
+    return parsed.protocol === 'https:' && ['mali.pe', 'granteatronacional.pe', 'peru.travel', 'serpar.gob.pe', 'teleticket.com.pe', 'plazanorte.pe', 'laplaza.com.pe', 'muniplibre.gob.pe', 'miraflores.gob.pe', 'vaope.com'].some(domain => parsed.hostname === domain || parsed.hostname.endsWith(`.${domain}`));
   } catch { return false; }
 }
 

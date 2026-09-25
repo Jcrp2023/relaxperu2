@@ -32,3 +32,4 @@
 .card-art.poster-real,.modal-art.poster-real{background:#f3f2ee}
 .card-art.poster-real img,.modal-art.poster-real img{object-fit:contain}
 .card-art.poster-real:after{background:none}
+.footer-links{display:flex;gap:17px;flex-wrap:wrap;margin-top:16px!important}.footer-links a{color:#d9f4ea;text-decoration:underline;text-underline-offset:3px}.footer-links a:hover{color:#fff}
