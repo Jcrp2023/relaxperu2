@@ -10,6 +10,13 @@ test('Today shows only events with confirmed dates, not evergreen guides', () =>
   assert.deepEqual(list.map(item => item.id).sort(), ['ballet-vivaldi-gtn-2026', 'dinosaurios-ica-2026', 'noche-mali-septiembre-2026']);
 });
 
+test('Exact date includes only confirmed events on that day', () => {
+  const list = filterActivities(activities, { exactDate: '2026-09-27' }, today);
+  assert.ok(list.some(item => item.id === '5sos-costa21-2026'));
+  assert.ok(!list.some(item => item.kind !== 'event'));
+  assert.ok(!list.some(item => item.id === 'noche-mali-septiembre-2026'));
+});
+
 test('Date filters do not imply every day in a festival date range has a session', () => {
   const festival = activities.find(item => item.id === 'suncine-mali-2026');
   assert.deepEqual(datesFor(festival), ['2026-09-26', '2026-09-27']);
