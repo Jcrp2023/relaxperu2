@@ -2,6 +2,8 @@
 
 Cobertura inicial: Lima/Callao y departamento de Lima, Cusco, Ica/Pisco, Piura e Iquitos. Se amplía por ciudad cuando haya fichas individuales fiables. El radar encuentra candidatos; **la web solo publica actividades cuya fecha, ciudad y enlace coinciden con una página individual del organizador, recinto o canal oficial de venta**. El nombre de una boletería no verifica por sí solo la calidad de un operador turístico.
 
+La propuesta completa de Jahel para 22 áreas y la matriz de páginas originales verificadas están en [FUENTES_EXPANSION.md](FUENTES_EXPANSION.md). Usarla como agenda de investigación en la revisión semanal; los nombres aún no verificados se conservan en el anexo original y no se importan automáticamente.
+
 ## Rastrear cada día
 
 - **Boleterías:** [Teleticket](https://teleticket.com.pe/todos), [Joinnus](https://www.joinnus.com/search), [VAOPE](https://vaope.com/), [Ticketmaster Perú](https://www.ticketmaster.pe/), [Fever Lima](https://feverup.com/es/lima), [Eventbrite Perú](https://www.eventbrite.com.pe/). Joinnus es una fuente principal de teatro, cine y fiestas identificada en las fichas de Vamos; algunas páginas rechazan el acceso automatizado, por lo que cada integración requiere una prueba real antes de prometer cobertura. VAOPE expone metadatos `Event` con fecha y recinto en fichas propias y cubre ciudades fuera de Lima. Priorizar carteleras de recintos oficiales cuando enlazan allí para comprar.
