@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { activities } from '../src/data/activities.js';
-import { datesFor, filterActivities, safeSourceUrl } from '../src/catalog.js';
+import { datesFor, filterActivities, safeSourceUrl, safePosterUrl } from '../src/catalog.js';
 
 const today = '2026-09-25';
 
@@ -40,6 +40,8 @@ test('Combined filters and local favorites work without an account', () => {
 
 test('External links only point to reviewed official source domains', () => {
   assert.ok(activities.every(item => safeSourceUrl(item.url)));
+  assert.ok(activities.every(item => !item.imageUrl || safePosterUrl(item.imageUrl)));
+  assert.equal(safePosterUrl('https://www.vamoseventos.com/some-poster.jpg'), false);
   assert.equal(safeSourceUrl('https://mali.pe.fake.example/offer'), false);
   assert.equal(safeSourceUrl('javascript:alert(1)'), false);
 });
