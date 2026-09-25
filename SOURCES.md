@@ -1,0 +1,26 @@
+# Radar de fuentes de RelaxPerú
+
+Cobertura inicial: Lima/Callao y departamento de Lima, Cusco, Ica/Pisco, Piura e Iquitos. Se amplía por ciudad cuando haya fichas individuales fiables. El radar encuentra candidatos; **la web solo publica actividades cuya fecha, ciudad y enlace coinciden con una página individual del organizador, recinto o canal oficial de venta**. El nombre de una boletería no verifica por sí solo la calidad de un operador turístico.
+
+## Rastrear cada día
+
+- **Boleterías:** [Teleticket](https://teleticket.com.pe/todos), [Joinnus](https://www.joinnus.com/entretenimiento), [Eventbrite Perú](https://www.eventbrite.com.pe/). Añadir boleterías locales al hallar fichas individuales y revisar condiciones de acceso; no depender de una sola fuente. Revisar concierto, teatro, familia, ferias y destinos en provincia.
+- **Recintos y productoras:** [Gran Teatro Nacional](https://granteatronacional.pe/eventos), [MALI](https://mali.pe/), [Plaza Norte](https://plazanorte.pe/eventos/), teatros municipales, salas independientes, ICPNA, Británico, centros culturales universitarios, Veltrac Music, Selvámonos y demás productoras con cartelera pública. Confirmar funciones en página individual.
+- **Agendas públicas:** [Ministerio de Cultura](https://www.gob.pe/institucion/cultura/agenda), [Municipalidad de Lima](https://www.munlima.gob.pe/), municipalidades provinciales y distritales, direcciones desconcentradas de Cultura, bibliotecas, museos, [SERPAR](https://www.serpar.gob.pe/). Buscar programación gratuita y cambios de último minuto.
+- **Redes sociales públicas:** cuentas verificables de las fuentes anteriores; Instagram, Facebook y TikTok para descubrir anuncios, clubes de fans para pistas. Páginas propuestas por Jahel: Lima Gris, Qué Hacer en Lima, Lima Te Llena, Gastronomía Perú, Munilima, Muni Miraflores y Muni Barranco; comunidades Turismo Mochilero Perú, Full Days Lima y Eventos y Conciertos Perú. Verificar la identidad y actividad actual de cada cuenta antes de agregarla al radar. Un post, story o mensaje de grupo nunca es suficiente para publicar una compra o reserva.
+
+## Rastrear cada semana
+
+- **Turismo y naturaleza:** [Perú Travel](https://www.peru.travel/), [MINCETUR](https://www.gob.pe/mincetur), [SERNANP](https://www.gob.pe/sernanp), oficinas regionales de turismo, parques y museos de sitio; [Viator](https://www.viator.com/) y [GetYourGuide](https://www.getyourguide.com/) como descubrimiento, sujetos a comprobación del operador. Las rutas generales se etiquetan como guía; una salida concreta exige fecha y punto de encuentro.
+- **Gastronomía y bienestar:** organizadores de ferias (por ejemplo Filo), restaurantes, mercados, cervecerías artesanales, centros de bienestar, centros culturales y reservas oficiales. No anunciar promociones o cupos sin una ficha activa.
+- **Mascotas y astronomía:** parques con políticas públicas para mascotas, actividades de organizaciones locales, planetarios, observatorios y universidades con agenda pública. Confirmar accesibilidad, horario y requisitos.
+- **Regiones:** revisar las mismas capas de fuentes en Cusco, Ica/Pisco, Piura e Iquitos y abrir otras ciudades solo con actividad comprobada. Medir vacíos por ciudad y categoría.
+
+## Reglas editoriales y técnicas
+
+1. Registrar URL de la ficha individual, fuente, fecha de revisión, ciudad, local y fechas/horarios confirmados. Distinguir anuncio del artista, fecha de preventa, rango de temporada y función real; ante contradicción, dejar pendiente.
+2. Deduplicar por combinación de título normalizado, recinto y fecha. No presentar una guía de destino como evento “hoy”; ocultar funciones vencidas automáticamente y revisar reprogramaciones y cancelaciones cada mañana.
+3. Para tours o reservas, comprobar identidad y condiciones del proveedor, autorización cuando corresponda y canal de pago antes de considerar una ficha reservable. Consultar el [directorio oficial de prestadores turísticos de MINCETUR](https://consultagds.mincetur.gob.pe/) cuando aplique. Hasta entonces enlazar una guía u oferta con advertencia de comprobar el operador.
+4. No copiar carteles, fotos de artistas, textos completos o bases de datos de terceros sin permiso. Usar descripciones propias breves, ilustraciones referenciales y enlaces; respetar permisos, términos y límites de acceso de cada fuente.
+5. Evitar diseñar alrededor de una API pública inexistente: [Eventbrite retiró su búsqueda pública de eventos](https://www.eventbrite.com/platform/docs/changelog). El acceso a publicaciones de Instagram/Facebook depende de permisos y restricciones vigentes; usar la inspección pública y acuerdos con organizadores como alternativa viable.
+6. Publicación: la búsqueda diaria propone y señala cambios; la revisión semanal añade fichas comprobadas mediante cambio en GitHub. Aprobar y fusionar el cambio activa el despliegue; comprobar el dominio antes de decir que está publicado. El formulario para propuestas de organizadores se puede añadir después con cola de moderación, antifraude y equipo asignado.
