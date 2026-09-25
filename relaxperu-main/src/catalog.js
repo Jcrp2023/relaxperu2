@@ -1,4 +1,4 @@
-export const categories = ['all', 'shows', 'travel', 'food', 'culture', 'family', 'wellness'];
+export const categories = ['all', 'shows', 'travel', 'food', 'culture', 'family', 'wellness', 'sports'];
 export const cities = ['all', 'Lima', 'Cusco', 'Ica', 'Piura', 'Iquitos'];
 
 export function limaDate(date = new Date()) {
@@ -53,7 +53,7 @@ export function filterActivities(items, { search = '', city = 'all', category = 
 export function safeSourceUrl(url) {
   try {
     const parsed = new URL(url);
-    return parsed.protocol === 'https:' && ['mali.pe', 'granteatronacional.pe', 'peru.travel', 'serpar.gob.pe', 'teleticket.com.pe', 'plazanorte.pe', 'laplaza.com.pe', 'muniplibre.gob.pe'].some(domain => parsed.hostname === domain || parsed.hostname.endsWith(`.${domain}`));
+    return parsed.protocol === 'https:' && ['mali.pe', 'granteatronacional.pe', 'peru.travel', 'serpar.gob.pe', 'teleticket.com.pe', 'plazanorte.pe', 'laplaza.com.pe', 'muniplibre.gob.pe', 'vaope.com'].some(domain => parsed.hostname === domain || parsed.hostname.endsWith(`.${domain}`));
   } catch { return false; }
 }
 
@@ -61,7 +61,7 @@ export function safePosterUrl(url) {
   try {
     const parsed = new URL(url);
     return parsed.protocol === 'https:' && [
-      'cdn.teleticket.com.pe', 'granteatronacional.pe', 'mali.pe', 'plazanorte.pe', 'laplaza.com.pe'
+      'cdn.teleticket.com.pe', 'granteatronacional.pe', 'mali.pe', 'plazanorte.pe', 'laplaza.com.pe', 'cdn-r2.vaope.com', 'static.vaope.com'
     ].some(domain => parsed.hostname === domain || parsed.hostname.endsWith(`.${domain}`));
   } catch { return false; }
 }
