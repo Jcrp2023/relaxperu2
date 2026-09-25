@@ -3,6 +3,24 @@
 // imageUrl links directly to artwork on the original publisher's site. Do not copy images from aggregators.
 export const activities = [
   {
+    id: 'bnpsabado-bibliodiverso-sep-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'San Borja',
+    title: 'Sábado en la Biblioteca · recorrido bibliodiverso', titleEn: 'Saturday at the Library · guided visit',
+    description: 'Recorrido mediado, miniferia de editoriales y clase participativa de salsa y cumbia. Entrada libre, para mayores de 12 años; empieza a las 11 a. m.',
+    descriptionEn: 'Guided visit, small publishers fair and a participatory salsa and cumbia class. Free entry for ages 12 and over, starting at 11 a.m.',
+    venue: 'Biblioteca Nacional del Perú', sessions: ['2026-09-26T11:00:00-05:00'],
+    source: 'Biblioteca Nacional del Perú', url: 'https://eventos.bnp.gob.pe/agenda-cultural/visitas-mediadas/sabado-en-la-biblioteca-recorrido-bibliodiverso-6230',
+    reviewedAt: '2026-09-25', icon: 'art', tone: 'blue', tags: ['libros', 'visita guiada', 'salsa', 'cumbia', 'gratis'],
+  },
+  {
+    id: 'mamma-mia-teatro-peruano-japones-sep-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Jesús María',
+    title: 'Mamma Mia! · Teatro Peruano Japonés', titleEn: 'Mamma Mia! · Peruvian Japanese Theater',
+    description: 'Musical de Los Productores con funciones confirmadas el viernes a las 8 p. m., sábado a las 5 y 8:30 p. m. y domingo a las 6 p. m. Confirma entradas y disponibilidad en la cartelera oficial.',
+    descriptionEn: 'Musical by Los Productores with confirmed Friday 8 p.m., Saturday 5 and 8:30 p.m., and Sunday 6 p.m. performances. Check availability on the official listing.',
+    venue: 'Teatro Peruano Japonés', sessions: ['2026-09-25T20:00:00-05:00', '2026-09-26T17:00:00-05:00', '2026-09-26T20:30:00-05:00', '2026-09-27T18:00:00-05:00'],
+    source: 'Asociación Peruano Japonesa', url: 'https://www.apj.org.pe/teatro/agenda_detalle/mamma-mia',
+    reviewedAt: '2026-09-25', icon: 'music', tone: 'coral', tags: ['musical', 'teatro', 'ABBA'],
+  },
+  {
     id: 'ficte-miraflores-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'Miraflores',
     title: 'Feria Internacional de Cultura, Turismo y Educación', titleEn: 'International Culture, Tourism and Education Fair',
     description: 'IV edición de FICTE en el parque Kennedy del 25 al 27 de septiembre. La municipalidad confirma el lugar y las fechas; consulta allí el programa y los horarios.',
