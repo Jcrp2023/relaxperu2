@@ -3,6 +3,35 @@
 // imageUrl links directly to artwork on the original publisher's site. Do not copy images from aggregators.
 export const activities = [
   {
+    id: 'perseo-la-plaza-sep-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'Miraflores',
+    title: 'Perseo · Dos reinas y un funeral', titleEn: 'Perseo · Two queens and a funeral',
+    description: 'Comedia teatral para mayores de 18 años. Funciones viernes y sábado a las 10:30 p. m.; confirma entradas con el teatro.',
+    descriptionEn: 'Theater comedy for ages 18 and over. Friday and Saturday at 10:30 p.m.; confirm tickets with the theater.',
+    venue: 'Teatro La Plaza', sessions: ['2026-09-25T22:30:00-05:00', '2026-09-26T22:30:00-05:00'],
+    source: 'Teatro La Plaza', url: 'https://laplaza.com.pe/obras-archive/perseo-dos-reinas-y-un-funeral/',
+    reviewedAt: '2026-09-25', icon: 'art', tone: 'lilac', tags: ['teatro', 'comedia', '18+'],
+    imageUrl: 'https://laplaza.com.pe/wp-content/uploads/2026/08/WEB-PERSEO-800x1200-1.png',
+  },
+  {
+    id: 'prima-facie-la-plaza-sep-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'Miraflores',
+    title: 'Prima Facie · Teatro La Plaza', titleEn: 'Prima Facie · Teatro La Plaza',
+    description: 'Drama teatral para mayores de 16 años. Viernes y sábado 8 p. m.; domingo 7 p. m. Confirma disponibilidad.',
+    descriptionEn: 'Theater drama for ages 16 and over. Friday and Saturday at 8 p.m.; Sunday at 7 p.m. Confirm availability.',
+    venue: 'Teatro La Plaza', sessions: ['2026-09-25T20:00:00-05:00', '2026-09-26T20:00:00-05:00', '2026-09-27T19:00:00-05:00'],
+    source: 'Teatro La Plaza', url: 'https://laplaza.com.pe/obras-archive/prima-facie-2026/',
+    reviewedAt: '2026-09-25', icon: 'art', tone: 'blue', tags: ['teatro', 'drama', '16+'],
+    imageUrl: 'https://laplaza.com.pe/wp-content/uploads/2026/06/WEB-IMAGENQUEHAY-800x1200-PRIMA.jpg',
+  },
+  {
+    id: 'feria-emprende-libre-27-2026', kind: 'event', category: 'food', city: 'Lima', district: 'Pueblo Libre',
+    title: '27.ª Feria Emprende Libre', titleEn: '27th Emprende Libre fair',
+    description: 'Feria municipal en el Parque Candamo del 25 al 27 de septiembre. La convocatoria oficial confirma fechas y lugar; consulta el horario con la municipalidad.',
+    descriptionEn: 'Municipal fair at Parque Candamo, September 25–27. The official announcement confirms dates and place; check the schedule with the municipality.',
+    venue: 'Parque Candamo', dates: ['2026-09-25', '2026-09-26', '2026-09-27'],
+    source: 'Municipalidad de Pueblo Libre', url: 'https://portal.muniplibre.gob.pe/emprende-libre/m-add/',
+    reviewedAt: '2026-09-25', icon: 'art', tone: 'gold', tags: ['feria', 'gastronomía', 'artesanías'],
+  },
+  {
     id: 'laura-brenda-lima-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Miguel',
     title: 'Laura y Brenda · Amigas del Corazón', titleEn: 'Laura and Brenda · Amigas del Corazón',
     description: 'Concierto reprogramado para el 25 de septiembre en Costa 21. Confirma ingreso y entradas en Teleticket.',
