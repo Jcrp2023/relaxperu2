@@ -20,7 +20,8 @@ test('Old events expire while destination guides remain discoverable', () => {
   const later = filterActivities(activities, { city: 'Cusco' }, '2026-10-01');
   assert.equal(later.length, 1);
   assert.equal(later[0].id, 'cusco-rutas');
-  assert.ok(!filterActivities(activities, {}, '2026-10-01').some(item => item.kind === 'event'));
+  assert.ok(!filterActivities(activities, {}, '2026-10-01').some(item => item.id === '5sos-costa21-2026'));
+  assert.ok(filterActivities(activities, {}, '2026-10-01').some(item => item.id === 'hombres-g-2026'));
 });
 
 test('Combined filters and local favorites work without an account', () => {
