@@ -2,6 +2,41 @@
 // Add only dates confirmed on the linked page; recheck before changing reviewedAt.
 export const activities = [
   {
+    id: 'dinosaurios-ica-2026', kind: 'event', category: 'family', city: 'Ica', district: 'Ica',
+    title: 'Mundo de Dinosaurios en Ica', titleEn: 'World of Dinosaurs in Ica',
+    description: 'Espectáculo de circo familiar en el Campo Ferial. Selecciona el horario de cada función en Teleticket.',
+    descriptionEn: 'Family circus show at Campo Ferial. Select each performance time on Teleticket.',
+    venue: 'Campo Ferial de Ica', dates: ['2026-09-25', '2026-09-26', '2026-09-27'], source: 'Teleticket',
+    url: 'https://teleticket.com.pe/evento/mundo-de-dinosaurios-en-ica-carpa-mundo-de-dinosaurios-ica',
+    reviewedAt: '2026-09-25', icon: 'art', tone: 'gold', tags: ['circo', 'niños']
+  },
+  {
+    id: 'queca-cusco-2026', kind: 'event', category: 'shows', city: 'Cusco', district: 'Cusco',
+    title: 'Queca · Ya siéntese señora', titleEn: 'Queca · Ya siéntese señora',
+    description: 'Humor con Johanna San Miguel en el Teatro Municipal del Cusco.',
+    descriptionEn: 'Comedy with Johanna San Miguel at the Cusco Municipal Theater.',
+    venue: 'Teatro Municipal del Cusco', sessions: ['2026-10-07T20:30:00-05:00'], source: 'Teleticket',
+    url: 'https://teleticket.com.pe/evento/queca-en-ya-sientese-seniora-cusco-teatro-municipal-del-cusco-',
+    reviewedAt: '2026-09-25', icon: 'art', tone: 'peach', tags: ['humor', 'teatro']
+  },
+  {
+    id: 'beatles-cusco-2026', kind: 'event', category: 'shows', city: 'Cusco', district: 'Cusco',
+    title: 'Tributo a The Beatles · Carlos Guerrero', titleEn: 'The Beatles tribute · Carlos Guerrero',
+    description: 'Concierto tributo en el Teatro Municipal del Cusco.',
+    descriptionEn: 'Tribute concert at the Cusco Municipal Theater.',
+    venue: 'Teatro Municipal del Cusco', sessions: ['2026-10-09T20:00:00-05:00'], source: 'Teleticket',
+    url: 'https://teleticket.com.pe/evento/tributo-the-beatles-con-carlos-guerrero-en-cusco-teatro-municipal-de-cusco',
+    reviewedAt: '2026-09-25', icon: 'music', tone: 'lilac', tags: ['rock', 'tributo']
+  },
+  {
+    id: 'rock-latino-ica-2026', kind: 'event', category: 'shows', city: 'Ica', district: 'Ica',
+    title: 'Voces del Rock Latino · Vol. 2', titleEn: 'Latin Rock Voices · Vol. 2',
+    description: 'Concierto en Álamo Disco Peña, Ica.', descriptionEn: 'Concert at Álamo Disco Peña, Ica.',
+    venue: 'Álamo Disco Peña', sessions: ['2026-10-17T22:00:00-05:00'], source: 'Teleticket',
+    url: 'https://teleticket.com.pe/evento/voces-del-rock-latino-ica-vol-2-alamo-disco-penia-ica',
+    reviewedAt: '2026-09-25', icon: 'music', tone: 'blue', tags: ['rock', 'concierto']
+  },
+  {
     id: 'maria-grazia-plaza-norte-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Independencia',
     title: 'María Grazia Polanco en Plaza Norte', titleEn: 'María Grazia Polanco at Plaza Norte',
     description: 'Show musical gratuito en la Explanada Panamericana, de 7 a 8 p. m.',
