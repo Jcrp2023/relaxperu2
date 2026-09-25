@@ -25,7 +25,7 @@ export function upcomingDate(item, today) {
   return datesFor(item).find(date => date >= today) || '';
 }
 
-export function filterActivities(items, { search = '', city = 'all', category = 'all', when = 'all', favoritesOnly = false, favorites = [] }, today) {
+export function filterActivities(items, { search = '', city = 'all', category = 'all', when = 'all', exactDate = '', favoritesOnly = false, favorites = [] }, today) {
   const needle = search.trim().toLocaleLowerCase();
   const start = new Date(`${today}T12:00:00Z`);
   const weekEnd = new Date(start);
@@ -37,6 +37,7 @@ export function filterActivities(items, { search = '', city = 'all', category = 
     if (favoritesOnly && !favorites.includes(item.id)) return false;
     const dates = datesFor(item);
     if (dates.length && !dates.some(date => date >= today)) return false;
+    if (exactDate && !dates.includes(exactDate)) return false;
     if (when === 'today' && !dates.includes(today)) return false;
     if (when === 'week' && !dates.some(date => date >= today && date <= endOfWeek)) return false;
     if (when === 'explore' && item.kind === 'event') return false;

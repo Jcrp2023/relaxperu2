@@ -23,3 +23,9 @@
 .source-name{max-width:60%;background:#eff5f1;color:#236e62}
 .modal-art{position:relative;display:block;overflow:hidden;background:#e8eee9}
 @media(max-width:650px){.hero-visual{height:255px;margin:0 0 26px}.hero-visual img{object-position:65% center}.hero-illustration-caption,.image-caption{font-size:9px}.modal-art{height:150px}}
+.filter-panel{grid-template-columns:minmax(220px,1.6fr) minmax(145px,1fr) minmax(155px,1fr) minmax(165px,1fr)}
+.date-field{min-width:0;min-height:48px;display:flex;align-items:center;gap:7px;border-radius:10px;padding:0 10px;background:#f7f8f7;color:#566f6b}
+.date-field>span{font-size:11px;font-weight:700;white-space:nowrap}
+.date-field input{border:0;outline:0;background:transparent;color:#27394a;min-width:0;width:100%;font:inherit;font-size:12px;cursor:pointer}
+.date-field button{border:0;background:none;color:#596d73;font-size:20px;cursor:pointer}
+@media(max-width:900px){.filter-panel{grid-template-columns:1fr 1fr}.search-field{grid-column:1/-1}.date-field{grid-column:1/-1}}
