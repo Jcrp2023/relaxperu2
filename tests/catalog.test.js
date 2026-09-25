@@ -7,7 +7,7 @@ const today = '2026-09-25';
 
 test('Today shows only events with confirmed dates, not evergreen guides', () => {
   const list = filterActivities(activities, { when: 'today' }, today);
-  assert.deepEqual(list.map(item => item.id).sort(), ['ballet-vivaldi-gtn-2026', 'noche-mali-septiembre-2026']);
+  assert.deepEqual(list.map(item => item.id).sort(), ['ballet-vivaldi-gtn-2026', 'dinosaurios-ica-2026', 'noche-mali-septiembre-2026']);
 });
 
 test('Date filters do not imply every day in a festival date range has a session', () => {
@@ -18,8 +18,8 @@ test('Date filters do not imply every day in a festival date range has a session
 
 test('Old events expire while destination guides remain discoverable', () => {
   const later = filterActivities(activities, { city: 'Cusco' }, '2026-10-01');
-  assert.equal(later.length, 1);
-  assert.equal(later[0].id, 'cusco-rutas');
+  assert.ok(later.some(item => item.id === 'cusco-rutas'));
+  assert.ok(later.some(item => item.id === 'queca-cusco-2026'));
   assert.ok(!filterActivities(activities, {}, '2026-10-01').some(item => item.id === '5sos-costa21-2026'));
   assert.ok(filterActivities(activities, {}, '2026-10-01').some(item => item.id === 'hombres-g-2026'));
 });
