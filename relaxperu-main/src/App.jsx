@@ -1,6 +1,9 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { activities } from './data/activities';
+import autoActivities from './data/auto-activities.json';
 import { categories, cities, filterActivities, limaDate, safeSourceUrl, safePosterUrl, upcomingDate } from './catalog';
+
+const catalogActivities = [...activities, ...autoActivities];
 
 const copy = {
   es: {
@@ -62,8 +65,8 @@ export default function App() {
   const [selected, setSelected] = useState(() => new URLSearchParams(location.search).get('plan'));
   const [toast, setToast] = useState('');
   const t = copy[lang]; const today = limaDate();
-  const visible = useMemo(() => filterActivities(activities, { search, city, category, when, exactDate, favoritesOnly, favorites }, today), [search, city, category, when, exactDate, favoritesOnly, favorites, today]);
-  const detail = activities.find(item => item.id === selected);
+  const visible = useMemo(() => filterActivities(catalogActivities, { search, city, category, when, exactDate, favoritesOnly, favorites }, today), [search, city, category, when, exactDate, favoritesOnly, favorites, today]);
+  const detail = catalogActivities.find(item => item.id === selected);
   useEffect(() => { localStorage.setItem('relaxperu:lang', lang); document.documentElement.lang = lang; }, [lang]);
   useEffect(() => { localStorage.setItem('relaxperu:favorites', JSON.stringify(favorites)); }, [favorites]);
   useEffect(() => { const sync = () => setSelected(new URLSearchParams(location.search).get('plan')); window.addEventListener('popstate', sync); return () => window.removeEventListener('popstate', sync); }, []);

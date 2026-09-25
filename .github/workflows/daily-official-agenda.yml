@@ -1,0 +1,49 @@
+name: Actualizar agenda oficial
+
+on:
+  schedule:
+    # 08:17 de Lima (UTC-5); la ejecución puede retrasarse por GitHub.
+    - cron: '17 13 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-official-agenda
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Leer agenda pública del Gran Teatro Nacional
+        run: python scripts/update_official_agenda.py
+      - name: Verificar extracción y catálogo
+        run: |
+          python -m unittest discover -s scripts -p 'test_*.py'
+          npm ci
+          npm test
+          npm run build
+      - name: Publicar cambios comprobados
+        run: |
+          if git diff --quiet -- src/data/auto-activities.json relaxperu-main/src/data/auto-activities.json; then
+            echo 'La agenda no cambió.'
+            exit 0
+          fi
+          git config user.name 'relaxperu-agenda[bot]'
+          git config user.email 'relaxperu-agenda[bot]@users.noreply.github.com'
+          git add src/data/auto-activities.json relaxperu-main/src/data/auto-activities.json
+          git commit -m 'Actualizar eventos confirmados del Gran Teatro Nacional'
+          git push origin HEAD:main
