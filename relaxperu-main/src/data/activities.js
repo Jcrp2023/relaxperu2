@@ -2,6 +2,111 @@
 // Add only dates confirmed on the linked page; recheck before changing reviewedAt.
 export const activities = [
   {
+    id: 'maria-grazia-plaza-norte-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Independencia',
+    title: 'María Grazia Polanco en Plaza Norte', titleEn: 'María Grazia Polanco at Plaza Norte',
+    description: 'Show musical gratuito en la Explanada Panamericana, de 7 a 8 p. m.',
+    descriptionEn: 'Free live music on the Panamericana esplanade, from 7 to 8 p.m.',
+    venue: 'Plaza Norte', sessions: ['2026-09-26T19:00:00-05:00'], source: 'Plaza Norte',
+    url: 'https://plazanorte.pe/eventos/show-musical-maria-grazia-polanco/', reviewedAt: '2026-09-25', icon: 'music', tone: 'gold', tags: ['música', 'gratuito']
+  },
+  {
+    id: 'zumba-plaza-norte-2026', kind: 'event', category: 'family', city: 'Lima', district: 'Independencia',
+    title: 'Show infantil de Zumba en Plaza Norte', titleEn: 'Zumba family show at Plaza Norte',
+    description: 'Show familiar gratuito de 5 a 6 p. m. en la Explanada Panamericana.',
+    descriptionEn: 'Free family show from 5 to 6 p.m. on the Panamericana esplanade.',
+    venue: 'Plaza Norte', sessions: ['2026-09-27T17:00:00-05:00'], source: 'Plaza Norte',
+    url: 'https://plazanorte.pe/eventos/show-infantil-de-zumba/', reviewedAt: '2026-09-25', icon: 'art', tone: 'peach', tags: ['niños', 'gratuito']
+  },
+  {
+    id: 'tony-cam-plaza-norte-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Independencia',
+    title: 'Tony Cam · Yo soy Sandro', titleEn: 'Tony Cam · Sandro tribute',
+    description: 'Concierto tributo gratuito de 7 a 8 p. m. en la Explanada Panamericana.',
+    descriptionEn: 'Free tribute show from 7 to 8 p.m. on the Panamericana esplanade.',
+    venue: 'Plaza Norte', sessions: ['2026-09-27T19:00:00-05:00'], source: 'Plaza Norte',
+    url: 'https://plazanorte.pe/eventos/yo-soy-sandro-con-tony-cam/', reviewedAt: '2026-09-25', icon: 'music', tone: 'blue', tags: ['música', 'gratuito']
+  },
+  {
+    id: 'nancy-manchego-gtn-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Borja',
+    title: 'Nancy Manchego · Caminos del Ande', titleEn: 'Nancy Manchego · Andean Paths',
+    description: 'Música andina en el Gran Teatro Nacional; consulta entradas en la fuente oficial.',
+    descriptionEn: 'Andean music at the National Grand Theater; check tickets at the official source.',
+    venue: 'Gran Teatro Nacional', sessions: ['2026-10-03T20:00:00-05:00'], source: 'Gran Teatro Nacional',
+    url: 'https://granteatronacional.pe/evento/nancy-manchego-caminos-del-ande', reviewedAt: '2026-09-25', icon: 'music', tone: 'green', tags: ['música andina', 'cultura']
+  },
+  {
+    id: 'perujazz-gtn-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Borja',
+    title: 'PerúJazz · 40 años de fusión viva', titleEn: 'PerúJazz · 40 years of fusion',
+    description: 'Concierto de jazz peruano en el Gran Teatro Nacional.',
+    descriptionEn: 'Peruvian jazz concert at the National Grand Theater.',
+    venue: 'Gran Teatro Nacional', sessions: ['2026-10-15T20:00:00-05:00'], source: 'Gran Teatro Nacional',
+    url: 'https://granteatronacional.pe/evento/perujazz-0', reviewedAt: '2026-09-25', icon: 'music', tone: 'lilac', tags: ['jazz', 'cultura']
+  },
+  {
+    id: 'yuyachkani-gtn-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'San Borja',
+    title: 'Yuyachkani · Antes de irnos para siempre', titleEn: 'Yuyachkani · Before we leave forever',
+    description: 'Teatro del grupo Yuyachkani por sus 55 años, con dos funciones confirmadas.',
+    descriptionEn: 'Theater by Yuyachkani celebrating 55 years, with two confirmed performances.',
+    venue: 'Gran Teatro Nacional', sessions: ['2026-10-17T20:00:00-05:00', '2026-10-18T17:30:00-05:00'], source: 'Gran Teatro Nacional',
+    url: 'https://granteatronacional.pe/evento/yuyachkani-antes-de-irnos-para-siempre', reviewedAt: '2026-09-25', icon: 'art', tone: 'coral', tags: ['teatro', 'cultura']
+  },
+  {
+    id: 'annie-surco-2026', kind: 'event', category: 'family', city: 'Lima', district: 'Santiago de Surco',
+    title: 'Annie · el musical', titleEn: 'Annie · the musical',
+    description: 'Funciones familiares de jueves a domingo. Selecciona el horario exacto en la boletería.',
+    descriptionEn: 'Family performances from Thursday to Sunday. Select the exact showtime at the ticket office.',
+    venue: 'Teatro Municipal de Surco',
+    dates: ['2026-09-26', '2026-09-27', '2026-10-01', '2026-10-02', '2026-10-03', '2026-10-04', '2026-10-08', '2026-10-09', '2026-10-10', '2026-10-11', '2026-10-15', '2026-10-16', '2026-10-17', '2026-10-18', '2026-10-22', '2026-10-23', '2026-10-24', '2026-10-25', '2026-10-29', '2026-10-30', '2026-10-31', '2026-11-01', '2026-11-05', '2026-11-06', '2026-11-07', '2026-11-08'],
+    source: 'Teleticket', url: 'https://teleticket.com.pe/annie-2026', reviewedAt: '2026-09-25', icon: 'art', tone: 'gold', tags: ['teatro', 'musical', 'familia']
+  },
+  {
+    id: '5sos-costa21-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Miguel',
+    title: '5 Seconds of Summer · Everyone’s a Star', titleEn: '5 Seconds of Summer · Everyone’s a Star',
+    description: 'Concierto de pop rock en Costa 21. Verifica horarios y entradas en Teleticket.',
+    descriptionEn: 'Pop rock show at Costa 21. Check showtime and tickets on Teleticket.',
+    venue: 'Costa 21', dates: ['2026-09-27'], source: 'Teleticket', url: 'https://teleticket.com.pe/5sos',
+    reviewedAt: '2026-09-25', icon: 'music', tone: 'lilac', tags: ['concierto', 'pop rock']
+  },
+  {
+    id: 'de-la-rose-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Miguel',
+    title: 'De La Rose · LATAM Tour', titleEn: 'De La Rose · LATAM Tour',
+    description: 'Concierto de música urbana en Costa 21. Consulta entradas y condiciones en la fuente.',
+    descriptionEn: 'Urban music concert at Costa 21. Check tickets and conditions at the source.',
+    venue: 'Costa 21', dates: ['2026-10-02'], source: 'Teleticket', url: 'https://teleticket.com.pe/de-la-rose-latam-tour',
+    reviewedAt: '2026-09-25', icon: 'music', tone: 'coral', tags: ['concierto', 'urbano']
+  },
+  {
+    id: 'rio-roma-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Miguel',
+    title: 'Río Roma · 15 años', titleEn: 'Río Roma · 15 years',
+    description: 'El dúo mexicano se presenta en Costa 21. Confirma horarios y disponibilidad en la boletería.',
+    descriptionEn: 'The Mexican duo performs at Costa 21. Confirm showtime and availability at the ticket office.',
+    venue: 'Costa 21', dates: ['2026-10-24'], source: 'Teleticket', url: 'https://teleticket.com.pe/rio-roma-2026',
+    reviewedAt: '2026-09-25', icon: 'music', tone: 'peach', tags: ['concierto', 'pop']
+  },
+  {
+    id: 'hombres-g-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Cercado de Lima',
+    title: 'Hombres G · Los mejores años de nuestra vida', titleEn: 'Hombres G · The best years of our lives',
+    description: 'Dos conciertos en el Estadio Nacional. Confirma la función y las entradas en Teleticket.',
+    descriptionEn: 'Two shows at the National Stadium. Confirm the performance and tickets on Teleticket.',
+    venue: 'Estadio Nacional', dates: ['2026-10-29', '2026-10-30'], source: 'Teleticket',
+    url: 'https://teleticket.com.pe/hombres-g-lima-2026', reviewedAt: '2026-09-25', icon: 'music', tone: 'blue', tags: ['concierto', 'rock']
+  },
+  {
+    id: 'jesse-joy-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Miguel',
+    title: 'Jesse & Joy · Clichés', titleEn: 'Jesse & Joy · Clichés',
+    description: 'Concierto del dúo mexicano en Costa 21. Consulta entradas en la boletería.',
+    descriptionEn: 'Concert by the Mexican duo at Costa 21. Check tickets at the ticket office.',
+    venue: 'Costa 21', dates: ['2026-10-31'], source: 'Teleticket', url: 'https://teleticket.com.pe/jesse-joy-lima-2026',
+    reviewedAt: '2026-09-25', icon: 'music', tone: 'lilac', tags: ['concierto', 'pop']
+  },
+  {
+    id: 'maria-becerra-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Miguel',
+    title: 'María Becerra · Quimera Tour', titleEn: 'María Becerra · Quimera Tour',
+    description: 'Concierto en Costa 21. Revisa horarios y disponibilidad en la boletería.',
+    descriptionEn: 'Concert at Costa 21. Check showtime and availability at the ticket office.',
+    venue: 'Costa 21', dates: ['2026-11-04'], source: 'Teleticket', url: 'https://teleticket.com.pe/maria-becerra-2026',
+    reviewedAt: '2026-09-25', icon: 'music', tone: 'coral', tags: ['concierto', 'urbano', 'pop']
+  },
+  {
     id: 'jueves-patitas-anillos', kind: 'experience', category: 'family', city: 'Lima', district: 'Ate',
     title: 'Jueves de Patitas · Parque Los Anillos', titleEn: 'Pet Thursdays · Los Anillos Park',
     description: 'Un paseo con tu perro los jueves. Revisa las normas de correa, limpieza y bozal antes de ir.',
