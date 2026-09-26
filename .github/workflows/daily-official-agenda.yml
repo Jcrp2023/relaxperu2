@@ -45,12 +45,12 @@ jobs:
           npm run build
       - name: Publicar cambios comprobados
         run: |
-          if git diff --quiet -- src/data/auto-activities.json relaxperu-main/src/data/auto-activities.json src/data/vaope-activities.json relaxperu-main/src/data/vaope-activities.json; then
+          if git diff --quiet -- src/data/auto-activities.json relaxperu-main/src/data/auto-activities.json src/data/vaope-activities.json relaxperu-main/src/data/vaope-activities.json src/data/event-classifications.json relaxperu-main/src/data/event-classifications.json; then
             echo 'La agenda no cambió.'
             exit 0
           fi
           git config user.name 'relaxperu-agenda[bot]'
           git config user.email 'relaxperu-agenda[bot]@users.noreply.github.com'
-          git add src/data/auto-activities.json relaxperu-main/src/data/auto-activities.json src/data/vaope-activities.json relaxperu-main/src/data/vaope-activities.json
+          git add src/data/auto-activities.json relaxperu-main/src/data/auto-activities.json src/data/vaope-activities.json relaxperu-main/src/data/vaope-activities.json src/data/event-classifications.json relaxperu-main/src/data/event-classifications.json
           git commit -m 'Actualizar eventos confirmados de las agendas públicas'
           git push origin HEAD:main
