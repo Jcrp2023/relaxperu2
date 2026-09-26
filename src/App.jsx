@@ -2,9 +2,10 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { activities } from './data/activities';
 import autoActivities from './data/auto-activities.json';
 import vaopeActivities from './data/vaope-activities.json';
+import eventClassifications from './data/event-classifications.json';
 import { categories, cities, filterActivities, limaDate, safeSourceUrl, safePosterUrl, upcomingDate } from './catalog';
 
-const catalogActivities = [...activities, ...autoActivities, ...vaopeActivities];
+const catalogActivities = [...activities, ...autoActivities, ...vaopeActivities].map(item => ({ ...item, ...(eventClassifications[item.id] || {}) }));
 
 const copy = {
   es: {
@@ -37,6 +38,19 @@ const copy = {
   }
 };
 const glyphs = { shows: '♫', travel: '✳', food: '✦', culture: '◈', family: '♡', wellness: '☼', sports: '⚑', all: '✧' };
+const macroNodeLabelsEn = {
+  'Música, Conciertos & Salsódromos': 'Music, concerts & salsa clubs',
+  'Gastronomía, Huariques, Catas & Viñedos': 'Food, huariques, tastings & vineyards',
+  'Arte, Teatro, Cines & Cultura': 'Arts, theater, cinema & culture',
+  'Estilo de Vida, Solteros, K-Pop & Geek': 'Lifestyle, singles, K-pop & geek',
+  'Mascotas & Pet Friendly': 'Pets & pet-friendly',
+  'Deporte, Fitness & Running Clubs': 'Sports, fitness & running clubs',
+  'Turismo Regional, Naturaleza & Agendas Municipales': 'Regional travel, nature & municipal events',
+};
+function categoryLabel(item, lang, t) {
+  if (item.macroNode) return lang === 'en' ? (macroNodeLabelsEn[item.macroNode] || item.macroNode) : item.macroNode;
+  return t[item.category] || item.category;
+}
 function illustration(item) {
   if (item.category === 'family' && item.tags?.includes('mascotas')) return '/illustrations/wellness.webp';
   const category = item.category === 'family' || item.category === 'sports' ? 'culture' : item.category;
@@ -89,7 +103,7 @@ export default function App() {
   const kindLabel = item => item.kind === 'event' ? t.event : item.kind === 'guide' ? t.guide : t.experience;
   function Card({ item }) {
     const date = upcomingDate(item, today); const title = lang === 'en' ? item.titleEn : item.title;
-    return <article className="plan-card"><div className={`card-art ${item.imageUrl ? 'poster-real' : ''}`}><EventImage item={item} lang={lang}/><span className="kind-pill">{kindLabel(item)}</span><button className={`save-button ${favorites.includes(item.id) ? 'is-saved' : ''}`} onClick={() => toggleSaved(item.id)} aria-label={favorites.includes(item.id) ? t.remove : t.save} title={favorites.includes(item.id) ? t.remove : t.save}>♥</button></div><div className="card-content"><p className="card-kicker">{t[item.category]} <span>·</span> {item.city}</p><h3>{title}</h3><p className="card-description">{lang === 'en' ? item.descriptionEn : item.description}</p><div className="card-meta"><span>⌖ {item.district}</span><span>◷ {date ? formatDay(date, lang) : t.available}</span></div><div className="card-bottom"><span className="source-name">{t.source}: {item.source}</span><button className="card-link" onClick={() => openDetail(item.id)}>{t.details} <span aria-hidden="true">↗</span></button></div></div></article>;
+    return <article className="plan-card"><div className={`card-art ${item.imageUrl ? 'poster-real' : ''}`}><EventImage item={item} lang={lang}/><span className="kind-pill">{kindLabel(item)}</span><button className={`save-button ${favorites.includes(item.id) ? 'is-saved' : ''}`} onClick={() => toggleSaved(item.id)} aria-label={favorites.includes(item.id) ? t.remove : t.save} title={favorites.includes(item.id) ? t.remove : t.save}>♥</button></div><div className="card-content"><p className="card-kicker">{categoryLabel(item, lang, t)} <span>·</span> {item.city}</p><h3>{title}</h3><p className="card-description">{lang === 'en' ? item.descriptionEn : item.description}</p><div className="card-meta"><span>⌖ {item.district}</span><span>◷ {date ? formatDay(date, lang) : t.available}</span></div><div className="card-bottom"><span className="source-name">{t.source}: {item.source}</span><button className="card-link" onClick={() => openDetail(item.id)}>{t.details} <span aria-hidden="true">↗</span></button></div></div></article>;
   }
   return <>
     <header className="site-header"><div className="container header-inner"><a className="brand" href="/" onClick={event => { event.preventDefault(); reset(); openDetail(null); window.scrollTo({ top: 0, behavior: 'smooth' }); }} aria-label="RelaxPerú"><span className="brand-mark">✳</span><span>relax<span>perú</span><i>.</i></span></a><nav aria-label="Principal"><a href="#planes" onClick={() => setFavoritesOnly(false)}>{t.explore}</a><a href="#planes" onClick={() => setFavoritesOnly(true)}>{t.favorites}{favorites.length > 0 && <span className="nav-count">{favorites.length}</span>}</a><a className="nav-how" href="#como-funciona">{t.how}</a></nav><button className="lang-button" onClick={() => setLang(lang === 'es' ? 'en' : 'es')} aria-label={t.language}>{lang === 'es' ? 'EN' : 'ES'} ↗</button></div></header>
