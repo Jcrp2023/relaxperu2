@@ -34,7 +34,8 @@ test('Old events expire while destination guides remain discoverable', () => {
 });
 
 test('Combined filters and local favorites work without an account', () => {
-  const list = filterActivities(activities, { city: 'Lima', category: 'culture', search: 'museo', favoritesOnly: true, favorites: ['mali-colecciones'] }, today);
+  const mali = { ...activities.find(item => item.id === 'mali-colecciones'), macroNode: 'Arte, Teatro, Cines & Cultura' };
+  const list = filterActivities([mali], { city: 'Lima', category: 'culture', search: 'museo', favoritesOnly: true, favorites: ['mali-colecciones'] }, today);
   assert.deepEqual(list.map(item => item.id), ['mali-colecciones']);
 });
 
