@@ -1,5 +1,7 @@
 # Radar de fuentes de RelaxPerú
 
+Propuesta ampliada de siete macro-nódulos y fuentes candidatas aportadas por Jahel: [FUENTES_MACRONODULOS.md](FUENTES_MACRONODULOS.md). Las candidatas siguen pendientes de verificar y no se activan automáticamente.
+
 Cobertura inicial: Lima/Callao y departamento de Lima, Cusco, Ica/Pisco, Piura e Iquitos. Se amplía por ciudad cuando haya fichas individuales fiables. El radar encuentra candidatos; **la web solo publica actividades cuya fecha, ciudad y enlace coinciden con una página individual del organizador, recinto o canal oficial de venta**. El nombre de una boletería no verifica por sí solo la calidad de un operador turístico.
 
 La propuesta completa de Jahel para 22 áreas y la matriz de páginas originales verificadas están en [FUENTES_EXPANSION.md](FUENTES_EXPANSION.md). Usarla como agenda de investigación en la revisión semanal; los nombres aún no verificados se conservan en el anexo original y no se importan automáticamente.
