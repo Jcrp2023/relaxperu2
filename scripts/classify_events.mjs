@@ -1,6 +1,7 @@
 import { readFile, writeFile, copyFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { activities } from '../src/data/activities.js';
 
 export const MODEL = 'gpt-4o-mini';
 export const BATCH_SIZE = 25;
@@ -62,6 +63,15 @@ export function buildHashtags(event) {
   return [...values];
 }
 
+export function pendingEvents(events, saved = {}) {
+  const seen = new Set();
+  return events.filter(event => {
+    if (!event?.id || saved[event.id] || seen.has(event.id)) return false;
+    seen.add(event.id);
+    return true;
+  });
+}
+
 export async function classifyBatch(events, { apiKey, fetchImpl = fetch }) {
   if (!Array.isArray(events) || events.length < 1 || events.length > BATCH_SIZE) {
     throw new Error(`Batch size must be between 1 and ${BATCH_SIZE}`);
@@ -112,45 +122,20 @@ export async function classifyBatch(events, { apiKey, fetchImpl = fetch }) {
   return parsed.items;
 }
 
-export function applyClassification(events, classifications) {
-  const byId = new Map(classifications.map(item => [item.id, item]));
-  return events.map(event => {
-    const result = byId.get(event.id);
-    if (!result) return event;
-    return {
-      ...event,
-      macroNode: result.macroNode,
-      subcategory: result.subcategory.trim().slice(0, 80),
-      classificationConfidence: result.confidence,
-      classificationNeedsReview: result.confidence === 'low',
-      hashtags: buildHashtags(event),
-    };
-  });
+export function classificationRecord(event, result) {
+  return {
+    macroNode: result.macroNode,
+    subcategory: result.subcategory.trim().slice(0, 80),
+    classificationConfidence: result.confidence,
+    classificationNeedsReview: result.confidence === 'low',
+    hashtags: buildHashtags(event),
+  };
 }
 
-async function classifyFile(file, apiKey) {
-  const original = JSON.parse(await readFile(file, 'utf8'));
-  if (!Array.isArray(original)) throw new Error(`Expected an array in ${file}`);
-  let events = original;
-  const pending = events.filter(event => !event.macroNode);
-  if (!pending.length) return { file, classified: 0, failed: 0 };
-
-  let classified = 0;
-  let failed = 0;
-  for (let start = 0; start < pending.length; start += BATCH_SIZE) {
-    const batch = pending.slice(start, start + BATCH_SIZE);
-    try {
-      const result = await classifyBatch(batch, { apiKey });
-      const ids = new Set(result.map(item => item.id));
-      events = applyClassification(events, result);
-      classified += ids.size;
-      await writeFile(file, `${JSON.stringify(events, null, 2)}\n`);
-    } catch (error) {
-      failed += batch.length;
-      console.error(`Classification skipped for ${file} batch ${Math.floor(start / BATCH_SIZE) + 1}: ${error.message}`);
-    }
-  }
-  return { file, classified, failed };
+async function loadJsonArray(file) {
+  const value = JSON.parse(await readFile(file, 'utf8'));
+  if (!Array.isArray(value)) throw new Error(`Expected an array in ${file}`);
+  return value;
 }
 
 async function main() {
@@ -160,20 +145,34 @@ async function main() {
     return;
   }
 
-  const files = ['src/data/auto-activities.json', 'src/data/vaope-activities.json'];
-  let total = 0;
-  for (const file of files) {
-    const result = await classifyFile(file, apiKey);
-    total += result.classified;
-    console.log(`${result.file}: ${result.classified} classified, ${result.failed} left unchanged`);
+  const registryFile = 'src/data/event-classifications.json';
+  const registry = JSON.parse(await readFile(registryFile, 'utf8'));
+  const feeds = await Promise.all([
+    loadJsonArray('src/data/auto-activities.json'),
+    loadJsonArray('src/data/vaope-activities.json'),
+  ]);
+  const events = [...activities, ...feeds.flat()];
+  const pending = pendingEvents(events, registry);
+  let classified = 0;
+  let failed = 0;
+
+  for (let start = 0; start < pending.length; start += BATCH_SIZE) {
+    const batch = pending.slice(start, start + BATCH_SIZE);
+    try {
+      const results = await classifyBatch(batch, { apiKey });
+      const byId = new Map(batch.map(event => [event.id, event]));
+      for (const result of results) registry[result.id] = classificationRecord(byId.get(result.id), result);
+      classified += results.length;
+      await writeFile(registryFile, `${JSON.stringify(registry, null, 2)}\n`);
+    } catch (error) {
+      failed += batch.length;
+      console.error(`Classification skipped for batch ${Math.floor(start / BATCH_SIZE) + 1}: ${error.message}`);
+    }
   }
 
-  for (const source of files) {
-    const duplicate = path.join('relaxperu-main', source);
-    try { await copyFile(source, duplicate); }
-    catch (error) { if (error.code !== 'ENOENT') throw error; }
-  }
-  console.log(`New classifications added: ${total}`);
+  try { await copyFile(registryFile, 'relaxperu-main/src/data/event-classifications.json'); }
+  catch (error) { if (error.code !== 'ENOENT') throw error; }
+  console.log(`Classifications added: ${classified}; left for retry: ${failed}; already classified: ${events.length - pending.length}`);
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
