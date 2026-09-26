@@ -47,7 +47,7 @@ test('External links only point to reviewed official source domains', () => {
 });
 
 
-test('Macro-node filters use structured classification and retain legacy fallback', () => {
+test('Macro-node filters only include explicitly classified activities', () => {
   const classified = { ...activities[0], id: 'classified', category: 'shows', macroNode: 'Mascotas & Pet Friendly', dates: ['2026-09-25'] };
   const matches = filterActivities([classified], { category: 'family' }, today);
   assert.deepEqual(matches.map(item => item.id), ['classified']);
