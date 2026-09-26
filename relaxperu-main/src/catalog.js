@@ -42,7 +42,10 @@ export function filterActivities(items, { search = '', city = 'all', category = 
   const endOfWeek = weekEnd.toISOString().slice(0, 10);
   return items.filter(item => {
     if (city !== 'all' && item.city !== city) return false;
-    if (category !== 'all') {\n      const macroNode = MACRO_NODE_BY_CATEGORY[category];\n      if (item.macroNode ? item.macroNode !== macroNode : item.category !== category) return false;\n    }
+    if (category !== 'all') {
+      const macroNode = MACRO_NODE_BY_CATEGORY[category];
+      if (item.macroNode ? item.macroNode !== macroNode : item.category !== category) return false;
+    }
     if (favoritesOnly && !favorites.includes(item.id)) return false;
     const dates = datesFor(item);
     if (dates.length && !dates.some(date => date >= today)) return false;
