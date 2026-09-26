@@ -33,6 +33,10 @@ jobs:
       - name: Leer cartelera pública de VAOPE
         run: python scripts/update_vaope_agenda.py
         continue-on-error: true
+      - name: Clasificar fichas nuevas en macro-nódulos
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: node scripts/classify_events.mjs
       - name: Verificar extracción y catálogo
         run: |
           python -m unittest discover -s scripts -p 'test_*.py'
