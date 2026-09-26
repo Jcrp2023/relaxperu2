@@ -2,8 +2,8 @@ name: Actualizar agenda oficial
 
 on:
   schedule:
-    # 08:17 de Lima (UTC-5); la ejecución puede retrasarse por GitHub.
-    - cron: '17 13 * * *'
+    # 08:00 de Lima (UTC-5). GitHub Actions interpreta el cron en UTC.
+    - cron: '0 13 * * *'
   workflow_dispatch:
 
 permissions:
