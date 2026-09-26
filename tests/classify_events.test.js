@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { applyClassification, buildHashtags, classifyBatch, BATCH_SIZE, MACRO_NODES, MODEL } from '../scripts/classify_events.mjs';
+import { buildHashtags, classifyBatch, classificationRecord, pendingEvents, BATCH_SIZE, MACRO_NODES, MODEL } from '../scripts/classify_events.mjs';
 
 const event = {
   id: 'event-1',
@@ -26,17 +26,22 @@ test('hashtags are derived from source fields, not invented model output', () =>
   assert.ok(!tags.includes('#PetFriendly'));
 });
 
-test('classification preserves factual event fields and flags low confidence', () => {
-  const result = applyClassification([event], [{
-    id: 'event-1',
+test('classification records contain labels only, leaving event facts untouched', () => {
+  const record = classificationRecord(event, {
     macroNode: MACRO_NODES[0],
     subcategory: 'Concierto',
     confidence: 'low',
-  }])[0];
-  assert.equal(result.url, event.url);
-  assert.deepEqual(result.dates, event.dates);
-  assert.equal(result.macroNode, MACRO_NODES[0]);
-  assert.equal(result.classificationNeedsReview, true);
+  });
+  assert.equal(record.macroNode, MACRO_NODES[0]);
+  assert.equal(record.classificationNeedsReview, true);
+  assert.equal('url' in record, false);
+  assert.deepEqual(event.dates, ['2026-10-01']);
+  assert.equal(event.url, 'https://example.org/evento');
+});
+
+test('saved IDs are not sent again on later daily runs', () => {
+  assert.deepEqual(pendingEvents([event, { ...event, id: 'event-2' }], { 'event-1': { macroNode: MACRO_NODES[0] } }).map(x => x.id), ['event-2']);
+  assert.equal(pendingEvents([event, event], {}).length, 1);
 });
 
 test('batch requests use strict structured output and reject partial or invalid IDs', async () => {
