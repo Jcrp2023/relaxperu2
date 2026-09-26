@@ -44,7 +44,7 @@ export function filterActivities(items, { search = '', city = 'all', category = 
     if (city !== 'all' && item.city !== city) return false;
     if (category !== 'all') {
       const macroNode = MACRO_NODE_BY_CATEGORY[category];
-      if (item.macroNode ? item.macroNode !== macroNode : item.category !== category) return false;
+      if (!macroNode || item.macroNode !== macroNode) return false;
     }
     if (favoritesOnly && !favorites.includes(item.id)) return false;
     const dates = datesFor(item);
