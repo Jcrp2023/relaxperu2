@@ -53,5 +53,6 @@ test('Macro-node filters only include explicitly classified activities', () => {
   assert.deepEqual(matches.map(item => item.id), ['classified']);
   assert.deepEqual(filterActivities([classified], { category: 'shows' }, today), []);
   const legacy = { ...activities[0], id: 'legacy', category: 'culture', dates: ['2026-09-25'] };
-  assert.deepEqual(filterActivities([legacy], { category: 'culture' }, today), []);\n  assert.deepEqual(filterActivities([legacy], { category: 'all' }, today).map(item => item.id), ['legacy']);
+  assert.deepEqual(filterActivities([legacy], { category: 'culture' }, today), []);
+  assert.deepEqual(filterActivities([legacy], { category: 'all' }, today).map(item => item.id), ['legacy']);
 });
