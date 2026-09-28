@@ -357,8 +357,6 @@ export const activities = [
     descriptionEn: 'A starting point to explore the Amazon. Confirm tour details with the operator.',
     venue: 'Loreto', source: 'Perú Travel', url: 'https://www.peru.travel/es/destinos/loreto',
     reviewedAt: '2026-09-25', icon: 'leaf', tone: 'green', tags: ['naturaleza', 'selva']
-  }
-
   },
   {
     id: 'voces-de-oro-ica-2026', kind: 'event', category: 'shows', city: 'Ica', district: 'Ica',
