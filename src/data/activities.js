@@ -409,6 +409,6 @@ export const activities = [
     description: 'Feria para tutores de perros en Convexia, sábado 24 y domingo 25 de octubre, de 10 a. m. a 9 p. m. El organizador indica registro gratuito en línea hasta el 22 de octubre; no se permite ingresar con mascotas. Joinnus respondió 403, así que la disponibilidad pública de entradas queda pendiente.',
     descriptionEn: 'Dog-owner fair at Convexia on Saturday, October 24 and Sunday, October 25, 10 a.m.–9 p.m. The organizer lists free online registration through October 22; pets are not admitted. Joinnus returned 403, so public ticket availability remains unverified.',
     venue: 'Centro de Convenciones Convexia', dates: ['2026-10-24', '2026-10-25'], source: 'ExpoPerro / Club Felino Peruano',
-    url: 'https://www.clubfelinoperuano.com/expo-perro-visitantes', reviewedAt: '2026-09-28', icon: 'paw', tone: 'green', tags: ['mascotas', 'feria', 'bienestar animal'],
+    url: 'https://www.clubfelinoperuano.com/expo-perro-visitantes', reviewedAt: '2026-09-28', icon: 'art', tone: 'green', tags: ['mascotas', 'feria', 'bienestar animal'],
   },
 ];
