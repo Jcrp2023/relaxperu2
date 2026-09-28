@@ -359,6 +359,7 @@ export const activities = [
     reviewedAt: '2026-09-25', icon: 'leaf', tone: 'green', tags: ['naturaleza', 'selva']
   }
 
+  },
   {
     id: 'voces-de-oro-ica-2026', kind: 'event', category: 'shows', city: 'Ica', district: 'Ica',
     title: 'Voces de Oro en Ica', titleEn: 'Golden Voices in Ica',
