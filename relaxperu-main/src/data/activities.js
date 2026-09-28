@@ -358,4 +358,41 @@ export const activities = [
     venue: 'Loreto', source: 'Perú Travel', url: 'https://www.peru.travel/es/destinos/loreto',
     reviewedAt: '2026-09-25', icon: 'leaf', tone: 'green', tags: ['naturaleza', 'selva']
   }
+
+  {
+    id: 'voces-de-oro-ica-2026', kind: 'event', category: 'shows', city: 'Ica', district: 'Ica',
+    title: 'Voces de Oro en Ica', titleEn: 'Golden Voices in Ica',
+    description: 'Concierto con voces de Yo Soy en el Coliseo del Colegio San Vicente de Paul. La ficha de Teleticket confirma el sábado 31 de octubre a las 7 p. m.',
+    descriptionEn: 'Concert featuring performers from Yo Soy at the San Vicente de Paul School Coliseum. Teleticket confirms Saturday, October 31 at 7 p.m.',
+    venue: 'Coliseo del Colegio San Vicente de Paul', sessions: ['2026-10-31T19:00:00-05:00'], source: 'Teleticket',
+    url: 'https://teleticket.com.pe/evento/voces-de-oro-en-ica-coliseo-del-colegio-san-vicente-de-paul',
+    reviewedAt: '2026-09-28', icon: 'music', tone: 'gold', tags: ['concierto', 'música'],
+  },
+  {
+    id: 'ricardo-palma-bnp-el-agustino-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'El Agustino',
+    title: 'Ricardo Palma: vida, tradición y legado', titleEn: 'Ricardo Palma: life, tradition and legacy',
+    description: 'Charla gratuita de la Biblioteca Nacional del Perú, abierta al público, el viernes 2 de octubre a las 4 p. m. en la Estación de Biblioteca Pública de El Agustino.',
+    descriptionEn: 'Free public talk by Peru’s National Library on Friday, October 2 at 4 p.m. at the El Agustino Public Library Station.',
+    venue: 'Estación de Biblioteca Pública - El Agustino', sessions: ['2026-10-02T16:00:00-05:00'], source: 'Biblioteca Nacional del Perú',
+    url: 'https://eventos.bnp.gob.pe/agenda-cultural/charla-conversatorio-yo-conferencia/ricardo-palma-vida-tradicion-y-legado-6237',
+    reviewedAt: '2026-09-28', icon: 'art', tone: 'blue', tags: ['literatura', 'charla', 'gratuito'],
+  },
+  {
+    id: 'ellas-concierto-plaza-norte-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Independencia',
+    title: 'Ellas en concierto en Plaza Norte', titleEn: 'Ellas in concert at Plaza Norte',
+    description: 'Concierto de imitadoras de Alejandra Guzmán, Mon Laferte, Yuri y Olga Tañón, confirmado para el sábado 3 de octubre a las 7:30 p. m.',
+    descriptionEn: 'Concert featuring impersonators of Alejandra Guzmán, Mon Laferte, Yuri and Olga Tañón, confirmed for Saturday, October 3 at 7:30 p.m.',
+    venue: 'Teatro Plaza Norte', sessions: ['2026-10-03T19:30:00-05:00'], source: 'Teleticket',
+    url: 'https://teleticket.com.pe/evento/ellas-en-concierto-en-plaza-norte-teatro-plaza-norte',
+    reviewedAt: '2026-09-28', icon: 'music', tone: 'coral', tags: ['concierto', 'música'],
+  },
+  {
+    id: 'suegras-teatro-auditorio-miraflores-oct-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'Miraflores',
+    title: 'Suegras · Teatro Auditorio Miraflores', titleEn: 'Mothers-in-law · Miraflores Auditorium Theater',
+    description: 'Comedia de X Productora. Teleticket informa que las funciones del 19 y 25 de septiembre fueron canceladas y ofrece la función reprogramada del sábado 3 de octubre a las 8:30 p. m.; verifica con el organizador la gestión de entradas previas.',
+    descriptionEn: 'Comedy by X Productora. Teleticket says the September 19 and 25 performances were cancelled and lists a rescheduled show for Saturday, October 3 at 8:30 p.m.; check with the organizer about existing tickets.',
+    venue: 'Teatro Auditorio Miraflores', sessions: ['2026-10-03T20:30:00-05:00'], source: 'Teleticket',
+    url: 'https://teleticket.com.pe/evento/suegras-teatro-auditorio-miraflores',
+    reviewedAt: '2026-09-28', icon: 'art', tone: 'peach', tags: ['teatro', 'comedia', 'reprogramado'],
+  },
 ];
