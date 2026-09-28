@@ -393,5 +393,22 @@ export const activities = [
     venue: 'Teatro Auditorio Miraflores', sessions: ['2026-10-03T20:30:00-05:00'], source: 'Teleticket',
     url: 'https://teleticket.com.pe/evento/suegras-teatro-auditorio-miraflores',
     reviewedAt: '2026-09-28', icon: 'art', tone: 'peach', tags: ['teatro', 'comedia', 'reprogramado'],
+  },,
+
+  {
+    id: 'peru-mucho-gusto-lima-2026', kind: 'event', category: 'food', city: 'Lima', district: 'Magdalena del Mar',
+    title: 'Perú, Mucho Gusto Lima 2026', titleEn: 'Peru, Mucho Gusto Lima 2026',
+    description: 'Feria gastronómica de PROMPERÚ en la Explanada Costa Verde, del viernes 30 de octubre al domingo 1 de noviembre. El organizador indica horario de visita de 10:00 a. m. a 10:30 p. m. e ingreso gratuito.',
+    descriptionEn: 'PROMPERÚ food fair at the Costa Verde esplanade, Friday, October 30 through Sunday, November 1. The organizer lists visiting hours from 10 a.m. to 10:30 p.m. and free admission.',
+    venue: 'Explanada Costa Verde', dates: ['2026-10-30', '2026-10-31', '2026-11-01'], source: 'PROMPERÚ',
+    url: 'https://perumuchogusto.com/lima', reviewedAt: '2026-09-28', icon: 'food', tone: 'gold', tags: ['gastronomía', 'feria', 'gratis'],
+  },
+  {
+    id: 'expoperro-convexia-2026', kind: 'event', category: 'family', city: 'Lima', district: 'Santiago de Surco',
+    title: 'ExpoPerro 2026 · Far West', titleEn: 'ExpoPerro 2026 · Far West',
+    description: 'Feria para tutores de perros en Convexia, sábado 24 y domingo 25 de octubre, de 10 a. m. a 9 p. m. El organizador indica registro gratuito en línea hasta el 22 de octubre; no se permite ingresar con mascotas. Joinnus respondió 403, así que la disponibilidad pública de entradas queda pendiente.',
+    descriptionEn: 'Dog-owner fair at Convexia on Saturday, October 24 and Sunday, October 25, 10 a.m.–9 p.m. The organizer lists free online registration through October 22; pets are not admitted. Joinnus returned 403, so public ticket availability remains unverified.',
+    venue: 'Centro de Convenciones Convexia', dates: ['2026-10-24', '2026-10-25'], source: 'ExpoPerro / Club Felino Peruano',
+    url: 'https://www.clubfelinoperuano.com/expo-perro-visitantes', reviewedAt: '2026-09-28', icon: 'paw', tone: 'green', tags: ['mascotas', 'feria', 'bienestar animal'],
   },
 ];
