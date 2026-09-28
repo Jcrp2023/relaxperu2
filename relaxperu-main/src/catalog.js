@@ -1,4 +1,13 @@
 export const categories = ['all', 'shows', 'travel', 'food', 'culture', 'family', 'wellness', 'sports'];
+export const MACRO_NODE_BY_CATEGORY = {
+  "shows": "Música, Conciertos & Salsódromos",
+  "food": "Gastronomía, Huariques, Catas & Viñedos",
+  "culture": "Arte, Teatro, Cines & Cultura",
+  "wellness": "Estilo de Vida, Solteros, K-Pop & Geek",
+  "family": "Mascotas & Pet Friendly",
+  "sports": "Deporte, Fitness & Running Clubs",
+  "travel": "Turismo Regional, Naturaleza & Agendas Municipales"
+};
 export const cities = ['all', 'Lima', 'Cusco', 'Ica', 'Piura', 'Iquitos'];
 
 export function limaDate(date = new Date()) {
@@ -33,7 +42,10 @@ export function filterActivities(items, { search = '', city = 'all', category = 
   const endOfWeek = weekEnd.toISOString().slice(0, 10);
   return items.filter(item => {
     if (city !== 'all' && item.city !== city) return false;
-    if (category !== 'all' && item.category !== category) return false;
+    if (category !== 'all') {
+      const macroNode = MACRO_NODE_BY_CATEGORY[category];
+      if (!macroNode || item.macroNode !== macroNode) return false;
+    }
     if (favoritesOnly && !favorites.includes(item.id)) return false;
     const dates = datesFor(item);
     if (dates.length && !dates.some(date => date >= today)) return false;
