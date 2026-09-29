@@ -1,0 +1,30 @@
+name: Verificar catálogo
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Probar importadores
+        run: python -m unittest discover -s scripts -p 'test_*.py'
+      - name: Instalar dependencias
+        run: npm ci
+      - name: Probar catálogo
+        run: npm test
+      - name: Compilar
+        run: npm run build
