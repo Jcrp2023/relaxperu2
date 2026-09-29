@@ -1,5 +1,29 @@
 [
   {
+    "id": "gtn-orquesta-sinfonica-nacional-romeo-y-julieta-historias-de-amor-y-fuego",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Orquesta Sinfónica Nacional - Romeo y Julieta: Historias de amor y fuego",
+    "titleEn": "Orquesta Sinfónica Nacional - Romeo y Julieta: Historias de amor y fuego",
+    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
+    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "venue": "Gran Teatro Nacional",
+    "dates": [
+      "2026-10-09"
+    ],
+    "source": "Gran Teatro Nacional",
+    "url": "https://granteatronacional.pe/evento/orquesta-sinfonica-nacional-romeo-y-julieta-historias-de-amor-y-fuego",
+    "reviewedAt": "2026-09-29",
+    "icon": "music",
+    "tone": "green",
+    "tags": [
+      "música"
+    ],
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/romeo-y-julieta_0.jpg?itok=EdBbU-WI"
+  },
+  {
     "id": "gtn-sesiones-gtn-1",
     "kind": "event",
     "category": "culture",
@@ -15,7 +39,7 @@
     ],
     "source": "Gran Teatro Nacional",
     "url": "https://granteatronacional.pe/evento/sesiones-gtn-1",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "art",
     "tone": "green",
     "tags": [
@@ -39,7 +63,7 @@
     ],
     "source": "Gran Teatro Nacional",
     "url": "https://granteatronacional.pe/evento/raices-de-jauja-noche-de-gala-andina",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "green",
     "tags": [
@@ -63,7 +87,7 @@
     ],
     "source": "Gran Teatro Nacional",
     "url": "https://granteatronacional.pe/evento/visita-gtn-accesible-2",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "art",
     "tone": "green",
     "tags": [
@@ -87,7 +111,7 @@
     ],
     "source": "Gran Teatro Nacional",
     "url": "https://granteatronacional.pe/evento/tania-libertad",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "green",
     "tags": [
@@ -111,7 +135,7 @@
     ],
     "source": "Gran Teatro Nacional",
     "url": "https://granteatronacional.pe/evento/el-peru-en-un-solo-canto",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "green",
     "tags": [
@@ -135,7 +159,7 @@
     ],
     "source": "Gran Teatro Nacional",
     "url": "https://granteatronacional.pe/evento/amy-gutierrez-mi-primer-gran-teatro",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "green",
     "tags": [
@@ -159,7 +183,7 @@
     ],
     "source": "Gran Teatro Nacional",
     "url": "https://granteatronacional.pe/evento/cecilia-bracamonte-gracias-por-tanto",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "green",
     "tags": [
@@ -183,37 +207,13 @@
     ],
     "source": "Gran Teatro Nacional",
     "url": "https://granteatronacional.pe/evento/grandes-solistas-de-la-opera-del-teatro-colon",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "green",
     "tags": [
       "música"
     ],
     "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/solistas.jpg?itok=RL8zAdYV"
-  },
-  {
-    "id": "gtn-sinfonia-por-el-peru-0",
-    "kind": "event",
-    "category": "shows",
-    "city": "Lima",
-    "district": "San Borja",
-    "title": "Sinfonía por el Perú",
-    "titleEn": "Sinfonía por el Perú",
-    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
-    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
-    "venue": "Gran Teatro Nacional",
-    "dates": [
-      "2026-11-18"
-    ],
-    "source": "Gran Teatro Nacional",
-    "url": "https://granteatronacional.pe/evento/sinfonia-por-el-peru-0",
-    "reviewedAt": "2026-09-28",
-    "icon": "music",
-    "tone": "green",
-    "tags": [
-      "música"
-    ],
-    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/WEB-MONTAJE_0_3_0_239.jpg?itok=ueE24aIK"
   },
   {
     "id": "gtn-visita-gtn-accesible-3",
@@ -231,7 +231,7 @@
     ],
     "source": "Gran Teatro Nacional",
     "url": "https://granteatronacional.pe/evento/visita-gtn-accesible-3",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "art",
     "tone": "green",
     "tags": [

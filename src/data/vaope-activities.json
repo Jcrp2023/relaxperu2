@@ -1,27 +1,27 @@
 [
   {
-    "id": "vaope-5b45a862a1d2",
+    "id": "vaope-de77edf80559",
     "kind": "event",
-    "category": "shows",
-    "city": "Piura",
-    "district": "Piura",
-    "title": "El Gran Saico y su Nueva Generación en Flamingoh Club Sullana",
-    "titleEn": "El Gran Saico y su Nueva Generación en Flamingoh Club Sullana",
+    "category": "sports",
+    "city": "Lima",
+    "district": "Chorrillos",
+    "title": "Arsenal F.B.C vs. Bella Esperanza por la Copa Perú VAOPE 2026",
+    "titleEn": "Arsenal F.B.C vs. Bella Esperanza por la Copa Perú VAOPE 2026",
     "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
     "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
-    "venue": "Flamingoh Club",
+    "venue": "Estadio Municipal de Chorrillos",
     "dates": [
-      "2026-09-28"
+      "2026-09-30"
     ],
     "source": "VAOPE",
-    "url": "https://vaope.com/eventos/cumbia/el-gran-saico-y-su-nueva-generacion-en-flamingoh-club-sullana",
-    "reviewedAt": "2026-09-28",
-    "icon": "music",
+    "url": "https://vaope.com/eventos/futbol/arsenal-fbc-vs-bella-esperanza-por-la-copa-peru-vaope-2026",
+    "reviewedAt": "2026-09-29",
+    "icon": "art",
     "tone": "blue",
     "tags": [
-      "cumbia"
+      "futbol"
     ],
-    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5443/8461-GRILLA-EL-GRAN-(2).jpeg"
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5589/2212-GRILLA-ARSENAL-LAWN-Vg.jpeg"
   },
   {
     "id": "vaope-4bad82b81b79",
@@ -39,7 +39,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/cumbia/por-primera-vez-son-del-duke-llega-a-la-isla-del-paraiso-en-el-callao",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -63,7 +63,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/cumbia/choque-electoral-con-son-del-duke-y-grupo-guinda-en-arena-puente-piedra",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -87,7 +87,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/cumbia/el-junte-mas-esperado-de-la-cumbia-la-bella-luz-caribenos-de-guadalupe-y-mas-en-scencia-la-molina",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -111,7 +111,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/rock/the-country-music-tributo-a-billy-ray-cyrus-hank-williams-y-mas-en-miraflores",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -135,7 +135,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/salsa/las-estrellas-de-niche-llegan-a-sullana-en-flamingo-club",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -159,7 +159,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/conciertos/tributo-a-taylor-swift-the-eras-tour-show-en-iwanna-rock-lince",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -183,7 +183,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/cumbia/a10-de-walter-lozada-en-el-centro-turistico-yacumama",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -207,7 +207,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/folklore/dia-de-la-cancion-huanca-en-homenaje-a-flor-pucarina-en-teatro-segura",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -231,7 +231,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/salsa/salsa-con-clase-las-estrellas-de-niche-en-arius-disco-en-ventanilla",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -255,7 +255,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/salsa/josimar-y-su-yambu-en-flamingoh-club-sullana",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -279,7 +279,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/entretenimiento/happy-fest-en-el-jockey-plaza",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -303,7 +303,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/conciertos/explosion-de-iquitos-y-masiel-malaga-noche-de-salsa-en-mr-pardo",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -327,7 +327,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/rock/ricardo-martin-the-oasis-experience-tributo-a-oasis-en-cercado-de-lima",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -351,7 +351,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/conciertos/technoton-el-festival-tributo-a-2-unlimited-dj-bobo-registro-nelking-en-ate",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -375,7 +375,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/folklore/flor-pilena-amaranta-y-mas-en-arena-santa-anita",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -399,7 +399,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/cumbia/feliz-24o-aniversario-jesus-obrero-con-la-bella-luz-azucena-calvay-los-4-de-la-cumbia-y-mas-en-sjm",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -423,7 +423,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/folklore/feliz-aniversario-los-hermanos-curi-con-surandino-los-apus-duo-ayacucho-y-mas-en-el-complejo-santa-rosa",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -447,7 +447,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/conciertos/gran-aniversario-de-ferreteria-carabayllo-con-los-fenix-y-mas-en-comas",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -471,7 +471,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/teatro/cuentos-sinfonicos-de-disney-en-vivo-en-el-teatro-municipal-del-cusco",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "art",
     "tone": "blue",
     "tags": [
@@ -495,7 +495,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/conciertos/1er-piscinazo-temporada-2026-2027-con-el-lobo-las-estrellas-de-la-cumbia-y-grupo-guinda-en-el-remanso-de-comas",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -519,7 +519,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/conciertos/gonzalo-genek-llega-a-piura",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -543,7 +543,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/cumbia/llega-cantaritos-de-oro-al-centro-turistico-yacumama",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -567,7 +567,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/conciertos/indie-rock-festival-2026-en-miraflores",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -591,7 +591,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/cumbia/la-bella-luz-en-la-isla-del-paraiso-en-el-callao",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -615,7 +615,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/rock/tributo-a-pxndx-en-lima",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -639,7 +639,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/rock/marcelo-castillo-steven-tyler-el-rockstar-del-peru-en-barranco",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -663,7 +663,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/cumbia/feliz-55-aniversario-de-caribenos-de-guadalupe-en-el-huaralino",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -687,7 +687,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/conciertos/planetshakers-llega-por-primera-vez-a-cusco",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -711,7 +711,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/conciertos/antologia-sinfonico-2026-en-el-coliseo-dibos-san-borja",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -735,7 +735,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/salsa/salsa-reparto-jp-el-chamaco-caballito-javiko-lumbreras-en-discoteca-arius-ventanilla",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -759,13 +759,37 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/folklore/feliz-29-aniversario-duo-ayacucho-con-los-apus-mariflor-gomez-los-engreidos-olimpicos-y-mas-en-huarocondo-sjl",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
       "folklore"
     ],
     "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5033/2438-GRILLA-FELIZ-29-A.jpeg"
+  },
+  {
+    "id": "vaope-d2c603e46892",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Independencia",
+    "title": "Festival de la Chicha en Parque Zonal Wiracocha de SJL",
+    "titleEn": "Festival de la Chicha en Parque Zonal Wiracocha de SJL",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Parque Zonal Wiracocha",
+    "dates": [
+      "2026-10-17"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/folklore/festival-de-la-chicha-en-parque-zonal-wiracocha-de-sjl",
+    "reviewedAt": "2026-09-29",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "folklore"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5576/7042-GRILLA-FEST.jpeg"
   },
   {
     "id": "vaope-e075fae513ae",
@@ -783,7 +807,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/conciertos/90s-la-fiesta-con-chiki-vuelve-a-scencia-de-la-molina",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -807,7 +831,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/cumbia/festitrome-con-marisol-hnos-yaipen-y-mas-por-el-25o-aniversario-de-trome",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -831,7 +855,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/folklore/los-errantes-de-chuquibamba-y-flor-pucarina-en-cusco",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -855,7 +879,7 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/cumbia/gran-fiesta-de-halloween-con-armonia-10-de-piura-y-jose-luis-arroyo-el-lobo-en-el-complejo-santa-rosa",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
@@ -879,12 +903,36 @@
     ],
     "source": "VAOPE",
     "url": "https://vaope.com/eventos/conciertos/piscinazo-amazonico-con-explosion-de-iquitos-en-el-remanso-de-comas",
-    "reviewedAt": "2026-09-28",
+    "reviewedAt": "2026-09-29",
     "icon": "music",
     "tone": "blue",
     "tags": [
       "conciertos"
     ],
     "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5455/470-GRILLA-PISCINAZO-AM.jpeg"
+  },
+  {
+    "id": "vaope-7f3266273e7d",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Independencia",
+    "title": "Una Sola Armonía: La Historia Continua en Plaza Norte",
+    "titleEn": "Una Sola Armonía: La Historia Continua en Plaza Norte",
+    "description": "Actividad publicada por VAOPE. Confirma horario, entradas y condiciones en la ficha original.",
+    "descriptionEn": "Activity listed by VAOPE. Confirm time, tickets and terms on the original listing.",
+    "venue": "Explanada Plaza Norte",
+    "dates": [
+      "2026-11-28"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/cumbia/una-sola-armonia-la-historia-continua-en-plaza-norte",
+    "reviewedAt": "2026-09-29",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "cumbia"
+    ],
+    "imageUrl": "https://cdn-r2.vaope.com/vaope/public/products/5578/5226-GRILLA-UNA-SOLA-ARMON.jpeg"
   }
 ]
