@@ -3,6 +3,36 @@
 // imageUrl links directly to artwork on the original publisher's site. Do not copy images from aggregators.
 export const activities = [
   {
+    id: 'brick-fest-af-lima-2026', kind: 'event', category: 'family', city: 'Lima', district: 'Miraflores',
+    title: 'Brick Fest Perú', titleEn: 'Brick Fest Peru',
+    description: 'Feria familiar de construcción LEGO en la Alianza Francesa. Apertura a las 10 a. m. y cierre a las 9 p. m.; consulta precio y condiciones en la fuente.',
+    descriptionEn: 'Family LEGO building fair at the Alliance Française. Opens at 10 a.m. and closes at 9 p.m.; check price and conditions at the source.',
+    venue: 'Alianza Francesa de Lima · Av. Arequipa 4595',
+    sessions: ['2026-10-03T10:00:00-05:00'], source: 'Alianza Francesa de Lima',
+    url: 'https://aflima.org.pe/noticia/brick-fest-peru/', reviewedAt: '2026-09-29',
+    icon: 'art', tone: 'gold', tags: ['familia', 'LEGO', 'feria'],
+  },
+  {
+    id: 'carlos-ballarta-naco-ladino-lima-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Jesús María',
+    title: 'Carlos Ballarta · Naco Ladino', titleEn: 'Carlos Ballarta · Naco Ladino',
+    description: 'Stand-up en el Teatro Peruano Japonés. La cartelera APJ confirma la fecha y Passline la función a las 9 p. m.; consulta restricciones y disponibilidad en la venta oficial.',
+    descriptionEn: 'Stand-up at the Peruvian Japanese Theater. APJ confirms the date and Passline the 9 p.m. showtime; check restrictions and availability at the official ticket outlet.',
+    venue: 'Teatro Peruano Japonés · Av. Gregorio Escobedo 803',
+    sessions: ['2026-10-06T21:00:00-05:00'], source: 'Asociación Peruano Japonesa',
+    url: 'https://www.apj.org.pe/teatro/agenda_detalle/carlos-ballarta-presenta-naco-ladino',
+    reviewedAt: '2026-09-29', icon: 'art', tone: 'lilac', tags: ['humor', 'stand-up'],
+  },
+  {
+    id: 'bnp-leyendo-ricardo-palma-rimac-2026', kind: 'event', category: 'family', city: 'Lima', district: 'Rímac',
+    title: 'Leyendo a Don Ricardo Palma', titleEn: 'Reading Ricardo Palma',
+    description: 'Lectura de El alacrán de Fray Gómez y conversación sobre la tradición oral limeña. Actividad gratuita para niñas y niños de 6 a 12 años; empieza a las 11 a. m.',
+    descriptionEn: 'Reading and discussion of a Ricardo Palma story. Free activity for children ages 6–12, starting at 11 a.m.',
+    venue: 'Estación de Biblioteca Pública del Rímac · Av. Felipe Arancibia cuadra 2',
+    sessions: ['2026-10-02T11:00:00-05:00'], source: 'Biblioteca Nacional del Perú',
+    url: 'https://eventos.bnp.gob.pe/agenda-cultural/mediacion-de-lectura/leyendo-a-don-ricardo-palma-6235',
+    reviewedAt: '2026-09-29', icon: 'art', tone: 'blue', tags: ['lectura', 'niños', 'gratis'],
+  },
+  {
     id: 'bnpsabado-bibliodiverso-sep-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'San Borja',
     title: 'Sábado en la Biblioteca · recorrido bibliodiverso', titleEn: 'Saturday at the Library · guided visit',
     description: 'Recorrido mediado, miniferia de editoriales y clase participativa de salsa y cumbia. Entrada libre, para mayores de 12 años; empieza a las 11 a. m.',
