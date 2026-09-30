@@ -3,6 +3,16 @@
 // imageUrl links directly to artwork on the original publisher's site. Do not copy images from aggregators.
 export const activities = [
   {
+    id: 'bnp-leyendo-ricardo-palma-rimac-2026', kind: 'event', category: 'family', city: 'Lima', district: 'Rímac',
+    title: 'Leyendo a Don Ricardo Palma', titleEn: 'Reading Ricardo Palma',
+    description: 'Lectura de El alacrán de Fray Gómez y conversación sobre la tradición oral limeña. Actividad gratuita para niñas y niños de 6 a 12 años; empieza a las 11 a. m.',
+    descriptionEn: 'Reading and discussion of a Ricardo Palma story. Free activity for children ages 6–12, starting at 11 a.m.',
+    venue: 'Estación de Biblioteca Pública del Rímac · Av. Felipe Arancibia cuadra 2',
+    sessions: ['2026-10-02T11:00:00-05:00'], source: 'Biblioteca Nacional del Perú',
+    url: 'https://eventos.bnp.gob.pe/agenda-cultural/mediacion-de-lectura/leyendo-a-don-ricardo-palma-6235',
+    reviewedAt: '2026-09-29', icon: 'art', tone: 'blue', tags: ['lectura', 'niños', 'gratis'],
+  },
+  {
     id: 'bnpsabado-bibliodiverso-sep-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'San Borja',
     title: 'Sábado en la Biblioteca · recorrido bibliodiverso', titleEn: 'Saturday at the Library · guided visit',
     description: 'Recorrido mediado, miniferia de editoriales y clase participativa de salsa y cumbia. Entrada libre, para mayores de 12 años; empieza a las 11 a. m.',
