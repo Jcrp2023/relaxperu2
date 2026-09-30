@@ -206,3 +206,24 @@ Se buscaron publicaciones públicas para @armyperuoficial, @blinkperu, @kdramape
 | https://www.munichiclayo.gob.pe | Error de consulta | Pendiente: contenido no verificable en esta consulta. |
 | https://www.mpsm.gob.pe | Error de consulta | Pendiente: contenido no verificable en esta consulta. |
 | https://www.munipuno.gob.pe | Error de consulta | Pendiente: contenido no verificable en esta consulta. |
+
+## Segunda revisión: fichas y alternativas oficiales
+
+Se continuó la consulta de BNP, Casa de la Literatura, Británico, Alianza Francesa, ICPNA, LUM y las fuentes municipales de Cusco, Ica/Pisco, Piura y Maynas mediante búsquedas públicas. No se considera concluida la cobertura regional por falta de nuevas fichas institucionales verificables.
+
+| Hallazgo | Ciudad y fecha | Estado y evidencia |
+|---|---|---|
+| Brick Fest Perú | Lima, Miraflores; 3 octubre 2026, apertura 10:00 y cierre 21:00 | CONFIRMADO en [ficha individual del organizador](https://aflima.org.pe/noticia/brick-fest-peru/): Alianza Francesa, Av. Arequipa 4595. No se confirmó precio ni disponibilidad; no se declara gratuito. La apertura actual de la ficha muestra visitas bilingües a las 10:30, 15:00 y 16:00; un extracto indexado antiguo mostraba otros horarios. Usar la ficha vigente y reconsultar antes de publicar subactividades. |
+| La mujer de negro | Lima, Teatro Británico; temporada desde 19 septiembre 2026 | [Organizador](https://britanico.edu.pe/cultural/eventos/la-mujer-de-negro/) confirma jueves–sábado 20:00 y domingos 19:00. [Joinnus](https://www.joinnus.com/events/theater/lima-la-mujer-de-negro-75518) no permite extracción. PENDIENTE calendario de funciones individuales y disponibilidad; no expandir temporada a fechas nuevas. |
+| El espejo infinito · Cuco Morales | Lima, Miraflores, Av. Angamos Oeste 160; exposición 16 julio–4 octubre 2026 | [ICPNA individual](https://cultural.icpna.edu.pe/portfolio_page/cuco-morales/) confirma exposición y recinto. Registrar como exposición de temporada; no crear funciones diarias ni afirmar visita disponible mañana. |
+| El libro de arena · club de adolescentes | Lima; 2 octubre 2026, 17:00–18:30 según extracto oficial | [Casa de la Literatura](https://www.casadelaliteratura.gob.pe/participa-nuevo-ciclo-del-club-lectura-adolescentes/) devuelve 403. Pendiente corroborar lugar concreto, inscripción y vacantes; el ciclo ya comenzó, no suponer admisión de nuevos asistentes. |
+| Érase una vez un osito llamado Pooh · especial para alumnos | 3 octubre 2026 en agenda; local y hora no comprobados | [Ficha Británico](https://britanico.edu.pe/cultural/eventos/erase-una-vez-un-osito-llamado-pooh-especial-para-alumnos/) restringida. La agenda la marca especial para alumnos: no ofrecer como evento público confirmado. |
+| El niño cuentahistorias | Temporada 26 septiembre–11 octubre 2026 | [Ficha Británico](https://britanico.edu.pe/cultural/eventos/el-nino-cuentahistorias/) devolvió 502. Pendiente sesión, hora y recinto; error técnico no es cancelación. |
+
+LUM: la agenda de septiembre recuperada contiene actividades ya transcurridas; no se confirmó una actividad fechada para el 30 de septiembre. La falta de resultados de esa agenda no implica que el museo esté cerrado.
+
+GTN: las búsquedas recuperaron de nuevo Nancy Manchego (3 octubre, 20:00) y Romeo y Julieta (9 octubre, 20:00), ya presentes en catálogo. Las páginas “Sesiones GTN” con aviso de reserva siguen sin ser prueba de evento público y se excluyen.
+
+Las búsquedas municipales devolvieron normativa, actas o planificación urbanística, sin ficha de nueva actividad recreativa verificable. No se presentan esos documentos como eventos. No se detectó anuncio oficial de cancelación de Brick Fest en esta búsqueda; eso no certifica ausencia de cambios posteriores.
+
+Esta ampliación incorpora resultados al informe de revisión en PR17; no añade entradas al catálogo ni publica el dominio.
