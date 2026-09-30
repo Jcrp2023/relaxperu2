@@ -65,8 +65,10 @@ def parse_event(markup, url, today):
         return None, "invalid title"
     if re.search(r"\b(cancelad[oa]|suspendid[oa]|reprogramad[oa])\b", title, re.I):
         return None, "changed or cancelled event"
-    if re.search(r"^en proceso de montaje esc[eé]nico", title, re.I):
+    if re.search(r"^(?:en proceso de montaje esc[eé]nico|el ensayo en el montaje esc[eé]nico|el desmontaje esc[eé]nico)", title, re.I):
         return None, "theater operations, not a public event"
+    if re.search(r"esta fecha se encuentra ocupada por un evento programado", clean(markup), re.I):
+        return None, "venue reservation, public event details pending"
     category_match = re.search(r'<div\b[^>]*class=["\'][^"\']*\bcategoria\b[^"\']*["\'][^>]*>(.*?)</div>', markup, re.S | re.I)
     source_category = clean(category_match.group(1)).lower() if category_match else ""
     category = "shows" if source_category in ("música", "danza") else "culture"

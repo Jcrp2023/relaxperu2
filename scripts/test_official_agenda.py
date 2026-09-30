@@ -31,6 +31,23 @@ class OfficialAgendaTests(unittest.TestCase):
         self.assertIsNone(parse_event(self.markup(date="24 SET 2026"), self.url, self.today)[0])
         self.assertIsNone(parse_event(self.markup(title="En proceso de montaje escénico"), self.url, self.today)[0])
 
+    def test_reserved_date_is_not_a_public_event(self):
+        markup = self.markup(date="06 OCT 2026", title="Sesiones GTN") + (
+            "<p>Estimado amigo/a, le informamos que esta fecha se encuentra ocupada "
+            "por un evento programado.</p>"
+            "<p>En los próximos días se brindarán mayores detalles.</p>"
+        )
+        event, reason = parse_event(markup, self.url, self.today)
+        self.assertIsNone(event)
+        self.assertIn("reservation", reason)
+
+    def test_internal_rehearsal_and_teardown_are_not_public_events(self):
+        for title in ("El ensayo en el montaje escénico", "El desmontaje escénico"):
+            with self.subTest(title=title):
+                event, reason = parse_event(self.markup(title=title), self.url, self.today)
+                self.assertIsNone(event)
+                self.assertIn("operations", reason)
+
     def test_index_deduplicates(self):
         links = '<a href="/evento/concierto-ejemplo">A</a>' * 2
         self.assertEqual(discover(links), [self.url])

@@ -21,11 +21,19 @@ export function datesFor(item) {
   return days;
 }
 
-export function upcomingDate(item, today) {
-  return datesFor(item).find(date => date >= today) || '';
+export function upcomingSessions(item, now) {
+  return (item.sessions || []).filter(session => Date.parse(session) > now.getTime());
 }
 
-export function filterActivities(items, { search = '', city = 'all', category = 'all', when = 'all', exactDate = '', favoritesOnly = false, favorites = [] }, today) {
+function remainingDates(item, now) {
+  return item.sessions && now ? upcomingSessions(item, now).map(dateOfSession) : datesFor(item);
+}
+
+export function upcomingDate(item, today, now) {
+  return remainingDates(item, now).find(date => date >= today) || '';
+}
+
+export function filterActivities(items, { search = '', city = 'all', category = 'all', when = 'all', exactDate = '', favoritesOnly = false, favorites = [] }, today, now) {
   const needle = search.trim().toLocaleLowerCase();
   const start = new Date(`${today}T12:00:00Z`);
   const weekEnd = new Date(start);
@@ -35,7 +43,8 @@ export function filterActivities(items, { search = '', city = 'all', category = 
     if (city !== 'all' && item.city !== city) return false;
     if (category !== 'all' && item.category !== category) return false;
     if (favoritesOnly && !favorites.includes(item.id)) return false;
-    const dates = datesFor(item);
+    const dates = remainingDates(item, now);
+    if (item.sessions && now && !dates.length) return false;
     if (dates.length && !dates.some(date => date >= today)) return false;
     if (exactDate && !dates.includes(exactDate)) return false;
     if (when === 'today' && !dates.includes(today)) return false;
@@ -44,8 +53,8 @@ export function filterActivities(items, { search = '', city = 'all', category = 
     if (needle && ![item.title, item.titleEn, item.description, item.descriptionEn, item.city, item.district, item.venue, ...item.tags].join(' ').toLocaleLowerCase().includes(needle)) return false;
     return true;
   }).sort((a, b) => {
-    const ad = upcomingDate(a, today) || '9999';
-    const bd = upcomingDate(b, today) || '9999';
+    const ad = upcomingDate(a, today, now) || '9999';
+    const bd = upcomingDate(b, today, now) || '9999';
     return ad.localeCompare(bd) || a.title.localeCompare(b.title, 'es');
   });
 }
@@ -53,7 +62,7 @@ export function filterActivities(items, { search = '', city = 'all', category = 
 export function safeSourceUrl(url) {
   try {
     const parsed = new URL(url);
-    return parsed.protocol === 'https:' && ['mali.pe', 'granteatronacional.pe', 'peru.travel', 'serpar.gob.pe', 'teleticket.com.pe', 'plazanorte.pe', 'laplaza.com.pe', 'muniplibre.gob.pe', 'miraflores.gob.pe', 'apj.org.pe', 'eventos.bnp.gob.pe', 'vaope.com'].some(domain => parsed.hostname === domain || parsed.hostname.endsWith(`.${domain}`));
+    return parsed.protocol === 'https:' && ['mali.pe', 'granteatronacional.pe', 'peru.travel', 'serpar.gob.pe', 'teleticket.com.pe', 'plazanorte.pe', 'laplaza.com.pe', 'muniplibre.gob.pe', 'miraflores.gob.pe', 'apj.org.pe', 'eventos.bnp.gob.pe', 'vaope.com', 'aflima.org.pe', 'perumuchogusto.com', 'clubfelinoperuano.com', 'unadqtc.edu.pe'].some(domain => parsed.hostname === domain || parsed.hostname.endsWith(`.${domain}`));
   } catch { return false; }
 }
 

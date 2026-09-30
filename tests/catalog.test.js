@@ -1,9 +1,14 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { activities } from '../src/data/activities.js';
-import { datesFor, filterActivities, safeSourceUrl, safePosterUrl } from '../src/catalog.js';
+import { datesFor, filterActivities, safeSourceUrl, safePosterUrl, upcomingDate, upcomingSessions } from '../src/catalog.js';
 
 const today = '2026-09-25';
+
+test('Catalog contains no holes or duplicate IDs after editorial reconciliation', () => {
+  assert.equal(activities.filter(Boolean).length, activities.length);
+  assert.equal(new Set(activities.map(item => item.id)).size, activities.length);
+});
 
 test('Today shows only events with confirmed dates, not evergreen guides', () => {
   const list = filterActivities(activities, { when: 'today' }, today);
@@ -44,4 +49,23 @@ test('External links only point to reviewed official source domains', () => {
   assert.equal(safePosterUrl('https://www.vamoseventos.com/some-poster.jpg'), false);
   assert.equal(safeSourceUrl('https://mali.pe.fake.example/offer'), false);
   assert.equal(safeSourceUrl('javascript:alert(1)'), false);
+});
+
+test('Started sessions stop appearing as upcoming while later sessions remain', () => {
+  const now = new Date('2026-09-29T20:15:00-05:00');
+  const base = { id: 'dated-example', title: 'Example', kind: 'event', tags: [] };
+  const started = { ...base, sessions: ['2026-09-29T20:00:00-05:00'] };
+  assert.deepEqual(filterActivities([started], { when: 'today' }, '2026-09-29', now), []);
+  const later = { ...base, sessions: [...started.sessions, '2026-09-29T21:00:00-05:00', '2026-10-01T20:00:00-05:00'] };
+  assert.equal(filterActivities([later], { when: 'today' }, '2026-09-29', now).length, 1);
+  assert.equal(upcomingSessions(later, now).length, 2);
+  assert.equal(upcomingDate(later, '2026-09-29', new Date('2026-09-29T22:00:00-05:00')), '2026-10-01');
+  const unknownTime = { ...base, dates: ['2026-09-29'] };
+  assert.equal(filterActivities([unknownTime], { when: 'today' }, '2026-09-29', now).length, 1);
+});
+
+test('Lima day survives UTC midnight when filtering confirmed sessions', () => {
+  const now = new Date('2026-09-30T01:15:00Z');
+  const event = { id: 'evening', title: 'Evening', tags: [], kind: 'event', sessions: ['2026-09-29T21:00:00-05:00'] };
+  assert.equal(filterActivities([event], { when: 'today' }, '2026-09-29', now).length, 1);
 });

@@ -84,7 +84,7 @@ Referencias técnicas: [Vercel Cron Jobs](https://vercel.com/docs/cron-jobs) esp
 ## 4. Orden de incorporación de fuentes
 
 1. Mantener activas únicamente las extracciones que ya pasan pruebas y verifican fichas individuales.
-2. Revisar los candidatos por lotes pequeños, empezando por agendas oficiales con fecha y ubicación estructuradas.
+2. Consultar diariamente las páginas de origen de los siete macro-nódulos y las 22 áreas de la lista de Jahel. Registrar fuentes revisadas, restringidas y no revisadas; empezar por agendas con fecha y ubicación explícitas. La automatización de un extractor se evalúa por separado.
 3. Registrar URL canónica, titular, acceso permitido, ciudad cubierta, método de consulta y fecha de última comprobación.
 4. Automatizar una fuente solo tras verificar técnicamente su comportamiento y condiciones. Para redes sociales, preferir APIs y permisos oficiales; en su ausencia, revisión editorial manual.
 5. Deduplicar por título, organizador/recinto y fecha; retirar o marcar rápidamente cambios, cancelaciones y fichas vencidas.

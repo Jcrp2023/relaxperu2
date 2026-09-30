@@ -3,6 +3,36 @@
 // imageUrl links directly to artwork on the original publisher's site. Do not copy images from aggregators.
 export const activities = [
   {
+    id: 'brick-fest-af-lima-2026', kind: 'event', category: 'family', city: 'Lima', district: 'Miraflores',
+    title: 'Brick Fest Perú', titleEn: 'Brick Fest Peru',
+    description: 'Feria familiar de construcción LEGO en la Alianza Francesa. Apertura a las 10 a. m. y cierre a las 9 p. m.; consulta precio y condiciones en la fuente.',
+    descriptionEn: 'Family LEGO building fair at the Alliance Française. Opens at 10 a.m. and closes at 9 p.m.; check price and conditions at the source.',
+    venue: 'Alianza Francesa de Lima · Av. Arequipa 4595',
+    sessions: ['2026-10-03T10:00:00-05:00'], source: 'Alianza Francesa de Lima',
+    url: 'https://aflima.org.pe/noticia/brick-fest-peru/', reviewedAt: '2026-09-29',
+    icon: 'art', tone: 'gold', tags: ['familia', 'LEGO', 'feria'],
+  },
+  {
+    id: 'carlos-ballarta-naco-ladino-lima-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Jesús María',
+    title: 'Carlos Ballarta · Naco Ladino', titleEn: 'Carlos Ballarta · Naco Ladino',
+    description: 'Stand-up en el Teatro Peruano Japonés. La cartelera APJ confirma la fecha y Passline la función a las 9 p. m.; consulta restricciones y disponibilidad en la venta oficial.',
+    descriptionEn: 'Stand-up at the Peruvian Japanese Theater. APJ confirms the date and Passline the 9 p.m. showtime; check restrictions and availability at the official ticket outlet.',
+    venue: 'Teatro Peruano Japonés · Av. Gregorio Escobedo 803',
+    sessions: ['2026-10-06T21:00:00-05:00'], source: 'Asociación Peruano Japonesa',
+    url: 'https://www.apj.org.pe/teatro/agenda_detalle/carlos-ballarta-presenta-naco-ladino',
+    reviewedAt: '2026-09-29', icon: 'art', tone: 'lilac', tags: ['humor', 'stand-up'],
+  },
+  {
+    id: 'bnp-leyendo-ricardo-palma-rimac-2026', kind: 'event', category: 'family', city: 'Lima', district: 'Rímac',
+    title: 'Leyendo a Don Ricardo Palma', titleEn: 'Reading Ricardo Palma',
+    description: 'Lectura de El alacrán de Fray Gómez y conversación sobre la tradición oral limeña. Actividad gratuita para niñas y niños de 6 a 12 años; empieza a las 11 a. m.',
+    descriptionEn: 'Reading and discussion of a Ricardo Palma story. Free activity for children ages 6–12, starting at 11 a.m.',
+    venue: 'Estación de Biblioteca Pública del Rímac · Av. Felipe Arancibia cuadra 2',
+    sessions: ['2026-10-02T11:00:00-05:00'], source: 'Biblioteca Nacional del Perú',
+    url: 'https://eventos.bnp.gob.pe/agenda-cultural/mediacion-de-lectura/leyendo-a-don-ricardo-palma-6235',
+    reviewedAt: '2026-09-29', icon: 'art', tone: 'blue', tags: ['lectura', 'niños', 'gratis'],
+  },
+  {
     id: 'bnpsabado-bibliodiverso-sep-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'San Borja',
     title: 'Sábado en la Biblioteca · recorrido bibliodiverso', titleEn: 'Saturday at the Library · guided visit',
     description: 'Recorrido mediado, miniferia de editoriales y clase participativa de salsa y cumbia. Entrada libre, para mayores de 12 años; empieza a las 11 a. m.',
@@ -388,12 +418,12 @@ export const activities = [
   {
     id: 'suegras-teatro-auditorio-miraflores-oct-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'Miraflores',
     title: 'Suegras · Teatro Auditorio Miraflores', titleEn: 'Mothers-in-law · Miraflores Auditorium Theater',
-    description: 'Comedia de X Productora. Teleticket informa que las funciones del 19 y 25 de septiembre fueron canceladas y ofrece la función reprogramada del sábado 3 de octubre a las 8:30 p. m.; verifica con el organizador la gestión de entradas previas.',
-    descriptionEn: 'Comedy by X Productora. Teleticket says the September 19 and 25 performances were cancelled and lists a rescheduled show for Saturday, October 3 at 8:30 p.m.; check with the organizer about existing tickets.',
+    description: 'Comedia de la Compañía de Teatro Arturo Escalante. Teleticket informa que las funciones del 19 y 25 de septiembre fueron canceladas y ofrece la función reprogramada del sábado 3 de octubre a las 8:30 p. m.; verifica con el organizador la gestión de entradas previas.',
+    descriptionEn: 'Comedy by Compañía de Teatro Arturo Escalante. Teleticket says the September 19 and 25 performances were cancelled and lists a rescheduled show for Saturday, October 3 at 8:30 p.m.; check with the organizer about existing tickets.',
     venue: 'Teatro Auditorio Miraflores', sessions: ['2026-10-03T20:30:00-05:00'], source: 'Teleticket',
     url: 'https://teleticket.com.pe/evento/suegras-teatro-auditorio-miraflores',
     reviewedAt: '2026-09-28', icon: 'art', tone: 'peach', tags: ['teatro', 'comedia', 'reprogramado'],
-  },,
+  },
 
   {
     id: 'peru-mucho-gusto-lima-2026', kind: 'event', category: 'food', city: 'Lima', district: 'Magdalena del Mar',
@@ -406,9 +436,114 @@ export const activities = [
   {
     id: 'expoperro-convexia-2026', kind: 'event', category: 'family', city: 'Lima', district: 'Santiago de Surco',
     title: 'ExpoPerro 2026 · Far West', titleEn: 'ExpoPerro 2026 · Far West',
-    description: 'Feria para tutores de perros en Convexia, sábado 24 y domingo 25 de octubre, de 10 a. m. a 9 p. m. El organizador indica registro gratuito en línea hasta el 22 de octubre; no se permite ingresar con mascotas. Joinnus respondió 403, así que la disponibilidad pública de entradas queda pendiente.',
-    descriptionEn: 'Dog-owner fair at Convexia on Saturday, October 24 and Sunday, October 25, 10 a.m.–9 p.m. The organizer lists free online registration through October 22; pets are not admitted. Joinnus returned 403, so public ticket availability remains unverified.',
+    description: 'Feria para tutores de perros en Convexia, sábado 24 y domingo 25 de octubre, de 10 a. m. a 9 p. m. El organizador indica registro gratuito en línea hasta el 22 de octubre; no se permite ingresar con mascotas. Confirma tu registro y disponibilidad en el enlace del organizador.',
+    descriptionEn: 'Dog-owner fair at Convexia on Saturday, October 24 and Sunday, October 25, 10 a.m.–9 p.m. The organizer lists free online registration through October 22; pets are not admitted. Confirm registration and availability through the organizer’s link.',
     venue: 'Centro de Convenciones Convexia', dates: ['2026-10-24', '2026-10-25'], source: 'ExpoPerro / Club Felino Peruano',
     url: 'https://www.clubfelinoperuano.com/expo-perro-visitantes', reviewedAt: '2026-09-28', icon: 'art', tone: 'green', tags: ['mascotas', 'feria', 'bienestar animal'],
+  },
+
+  {
+    "id": "torneo-ajedrez-bnp-la-victoria-octubre-2026",
+    "kind": "event",
+    "category": "family",
+    "city": "Lima",
+    "district": "La Victoria",
+    "title": "Torneo de ajedrez · BNP La Victoria",
+    "titleEn": "Chess tournament · BNP La Victoria",
+    "description": "Torneo gratuito para niñas, niños y adolescentes de 6 a 15 años. Cuatro fechas expresamente anunciadas por la BNP; consulta inscripción y cupos.",
+    "descriptionEn": "Free chess tournament for ages 6–15. BNP explicitly lists four dates; check registration and capacity.",
+    "venue": "Estación de Biblioteca Pública - La Victoria",
+    "sessions": [
+      "2026-10-03T10:00:00-05:00",
+      "2026-10-10T10:00:00-05:00",
+      "2026-10-17T10:00:00-05:00",
+      "2026-10-24T10:00:00-05:00"
+    ],
+    "source": "Biblioteca Nacional del Perú",
+    "url": "https://eventos.bnp.gob.pe/agenda-cultural/otros/torneo-de-ajedrez-6236",
+    "reviewedAt": "2026-09-30",
+    "icon": "art",
+    "tone": "blue",
+    "tags": [
+      "ajedrez",
+      "familia",
+      "gratuito"
+    ]
+  },
+  {
+    "id": "mapa-tesoros-brena-bnp-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Breña",
+    "title": "El mapa de los tesoros escondidos de Breña",
+    "titleEn": "The map of Breña’s hidden treasures",
+    "description": "Presentación gratuita del libro de Andrés Ramírez Sánchez y mediación de lectura para público general en la EBP María Bonilla de Gaviria, Jr. Aija y Manoa 599.",
+    "descriptionEn": "Free book presentation and reading activity for the general public at the María Bonilla de Gaviria library, Jr. Aija y Manoa 599.",
+    "venue": "Estación de Biblioteca Pública - Breña",
+    "sessions": [
+      "2026-10-06T16:00:00-05:00"
+    ],
+    "source": "Biblioteca Nacional del Perú",
+    "url": "https://eventos.bnp.gob.pe/agenda-cultural/presentacion-de-publicacion/del-autor-al-lector-el-mapa-de-los-tesoros-escondidos-de-br-6247",
+    "reviewedAt": "2026-09-30",
+    "icon": "art",
+    "tone": "peach",
+    "tags": [
+      "literatura",
+      "lectura",
+      "gratuito"
+    ]
+  },
+  {
+    "id": "leer-jugar-imaginar-bnp-el-agustino-2026",
+    "kind": "event",
+    "category": "family",
+    "city": "Lima",
+    "district": "El Agustino",
+    "title": "Leer, jugar e imaginar",
+    "titleEn": "Read, play and imagine",
+    "description": "Mediación de lectura gratuita por la Semana del Niño, para niñas, niños y público general. Sala EBP El Agustino, Jr. José Quiñones s/n, Parque Triangular.",
+    "descriptionEn": "Free reading activity for Children’s Week, for children and the general public. El Agustino library, Jr. José Quiñones, Parque Triangular.",
+    "venue": "Estación de Biblioteca Pública - El Agustino",
+    "sessions": [
+      "2026-10-07T11:00:00-05:00"
+    ],
+    "source": "Biblioteca Nacional del Perú",
+    "url": "https://eventos.bnp.gob.pe/agenda-cultural/mediacion-de-lectura/leer-jugar-e-imaginar-6250",
+    "reviewedAt": "2026-09-30",
+    "icon": "art",
+    "tone": "gold",
+    "tags": [
+      "lectura",
+      "familia",
+      "gratuito"
+    ]
+  },
+  {
+    "id": "feria-investigacion-artes-kanchay-cusco-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Cusco",
+    "district": "Cusco",
+    "title": "Feria de Investigación en las Artes · K’anchay 2026",
+    "titleEn": "Arts Research Fair · K’anchay 2026",
+    "description": "Muestras, performances y creaciones en vivo organizadas por la Universidad Nacional de Arte Diego Quispe Tito. La fuente confirma el 14 y 15 de octubre en Calle Marqués s/n; hora y condiciones de acceso pendientes.",
+    "descriptionEn": "Live art, performances and creations organized by Universidad Nacional de Arte Diego Quispe Tito. The source confirms October 14 and 15 at Calle Marqués; time and access conditions remain pending.",
+    "venue": "Calle Marqués s/n",
+    "dates": [
+      "2026-10-14",
+      "2026-10-15"
+    ],
+    "source": "UNADQTC",
+    "url": "https://unadqtc.edu.pe/kanchay-2026/",
+    "reviewedAt": "2026-09-30",
+    "icon": "art",
+    "tone": "coral",
+    "tags": [
+      "arte",
+      "feria",
+      "cultura"
+    ]
   },
 ];
