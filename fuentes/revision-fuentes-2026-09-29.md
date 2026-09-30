@@ -227,3 +227,20 @@ GTN: las búsquedas recuperaron de nuevo Nancy Manchego (3 octubre, 20:00) y Rom
 Las búsquedas municipales devolvieron normativa, actas o planificación urbanística, sin ficha de nueva actividad recreativa verificable. No se presentan esos documentos como eventos. No se detectó anuncio oficial de cancelación de Brick Fest en esta búsqueda; eso no certifica ausencia de cambios posteriores.
 
 Esta ampliación incorpora resultados al informe de revisión en PR17; no añade entradas al catálogo ni publica el dominio.
+
+## Comprobación focalizada de hoy · 29 septiembre, después de las 20:54
+
+La cifra de aproximadamente 27 eventos en Vamos fue proporcionada por Jahel; no se verificó ni se extrajo su catálogo. No se afirma equivalencia entre su conteo diario y funciones que aún no han empezado.
+
+Se consultaron de nuevo Teleticket, BNP, Ticketmaster, Joinnus y Eventbrite mediante sus páginas y búsquedas públicas. Eventbrite volvió a fallar; no se eludió la restricción. Hallazgos adicionales para el día:
+- [Taller de Paleografía BNP](https://eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/taller-de-paleografia-siglos-xvi---xix-6186): 29 septiembre 2026, 19:00, SUM BNP, Av. De la Poesía 160, San Borja. Confirmado por organizador; ya iniciado, no se recomienda como próximo.
+- [Exploradores de la BNP](https://eventos.bnp.gob.pe/agenda-cultural/visitas-mediadas/visitas-educativas-exploradores-de-la-bnp-6183): 29 septiembre 2026, 10:00, BNP San Borja. Para escolares inscritos; pasado, no una visita libre disponible esta noche.
+- [Migajera Nunca Más](https://teleticket.com.pe/evento/migajera-nunca-mas-la-estacion-de-barranco): 29 septiembre, 20:30, La Estación de Barranco, Av. Pedro de Osma 112, según venta individual; consumo mínimo S/30. Ya iniciado; pendiente contraste con recinto/organizador.
+- [Nosotras que nos queremos tanto](https://teleticket.com.pe/evento/nosotras-que-nos-queremos-tanto-miraflores-teatro-auditorio-miraflores): venta individual enumera SOLO 29 septiembre y 28 octubre 2026, ambas 20:30, Teatro Auditorio Miraflores, Av. Larco 1150. No son funciones diarias entre esos extremos. Hoy ya inició; publicación individual del recinto/organizador pendiente.
+- [Mensajes del alma](https://teleticket.com.pe/evento/mensajes-del-alma-teatro-municipal-de-lima): 29 septiembre 19:00. Encabezado y recinto indican presencial, pero reseña habla de transmisión privada. Modalidad contradictoria; no alta.
+
+El catálogo tenía una cobertura incompleta del día, además del problema de mostrar funciones ya iniciadas. Esta revisión no logró verificar 27 eventos ni un plan nuevo que aún no hubiera empezado a esta hora.
+
+Altas propuestas en ambas copias del catálogo: Brick Fest Perú, 3 octubre 10:00, y Carlos Ballarta, 6 octubre 21:00. La primera usa la ficha individual de Alianza Francesa; la segunda cruza APJ con [Passline](https://www.passline.com/eventos-plano/carlos-ballarta-presenta-naco-ladino-en-lima). Disponibilidad y precio de Brick Fest no comprobados. No se añadió ninguna sesión a partir de una temporada. Se añadió aflima.org.pe a la lista de enlaces de fuente permitidos. Prueba local de catálogo aprobada; pruebas y build de GitHub deben comprobarse sobre el último commit antes de fusionar.
+
+Las notas anteriores que dicen “no añadido” describen el estado de las rondas anteriores; este apartado fija el estado final de las dos altas. PR17 sigue pendiente de fusión; no se afirma publicación.
