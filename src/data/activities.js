@@ -546,4 +546,54 @@ export const activities = [
       "cultura"
     ]
   },
+  {
+    "id": "cuentos-sinfonicos-disney-cusco-2026",
+    "kind": "event",
+    "category": "family",
+    "city": "Cusco",
+    "district": "Cusco",
+    "title": "Cuentos Sinfónicos de Disney",
+    "titleEn": "Disney Symphonic Tales",
+    "description": "Concierto familiar con orquesta sinfónica, coro y narración de Richard Peñalva. La función y la venta pública están confirmadas para el Teatro Municipal del Cusco.",
+    "descriptionEn": "Family concert with symphony orchestra, choir and narration by Richard Peñalva. The performance and public ticket sale are confirmed at Cusco Municipal Theatre.",
+    "venue": "Teatro Municipal del Cusco",
+    "sessions": [
+      "2026-10-11T19:00:00-05:00"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/teatro/cuentos-sinfonicos-de-disney-en-vivo-en-el-teatro-municipal-del-cusco",
+    "reviewedAt": "2026-10-01",
+    "icon": "music",
+    "tone": "gold",
+    "tags": [
+      "música sinfónica",
+      "familia",
+      "teatro"
+    ]
+  },
+  {
+    "id": "colombia-fex-festival-parce-iquitos-2026",
+    "kind": "event",
+    "category": "shows",
+    "city": "Iquitos",
+    "district": "San Juan",
+    "title": "Colombia Fex Festival Parce",
+    "titleEn": "Colombia Fex Festival Parce",
+    "description": "Festival con Fernando Aguilar, Sacumer y Los Bacanos del Vallenato. La ficha de venta confirma el recinto, la fecha y la hora.",
+    "descriptionEn": "Festival featuring Fernando Aguilar, Sacumer and Los Bacanos del Vallenato. The ticket listing confirms venue, date and time.",
+    "venue": "Recreo Santa María",
+    "sessions": [
+      "2026-10-17T21:00:00-05:00"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/colombia-fex-festival-parce-fernando-aguilar-en-iquitos",
+    "reviewedAt": "2026-10-01",
+    "icon": "music",
+    "tone": "coral",
+    "tags": [
+      "vallenato",
+      "música tropical",
+      "concierto"
+    ]
+  },
 ];
