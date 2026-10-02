@@ -194,6 +194,14 @@ export const activities = [
     imageUrl: 'https://plazanorte.pe/wp-content/uploads/2024/03/EVENTO-WEB-TONY-CM.jpg',
   },
   {
+    id: 'orquesta-borinquen-plaza-norte-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Independencia',
+    title: 'Orquesta Internacional Borinquen en Plaza Norte', titleEn: 'Borinquen International Orchestra at Plaza Norte',
+    description: 'Presentación musical gratuita en la Explanada Panamericana, de 7 a 8 p. m.',
+    descriptionEn: 'Free live music on the Panamericana esplanade, from 7 to 8 p.m.',
+    venue: 'Plaza Norte · Explanada Panamericana', sessions: ['2026-10-03T19:00:00-05:00'], source: 'Plaza Norte',
+    url: 'https://plazanorte.pe/eventos/presentacion-de-orquesta-internacional-borinquen/', reviewedAt: '2026-10-02', icon: 'music', tone: 'gold', tags: ['música', 'gratuito'],
+  },
+  {
     id: 'nancy-manchego-gtn-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Borja',
     title: 'Nancy Manchego · Caminos del Ande', titleEn: 'Nancy Manchego · Andean Paths',
     description: 'Música andina en el Gran Teatro Nacional; consulta entradas en la fuente oficial.',
@@ -244,8 +252,8 @@ export const activities = [
     title: 'De La Rose · LATAM Tour', titleEn: 'De La Rose · LATAM Tour',
     description: 'Concierto de música urbana en Costa 21. Consulta entradas y condiciones en la fuente.',
     descriptionEn: 'Urban music concert at Costa 21. Check tickets and conditions at the source.',
-    venue: 'Costa 21', dates: ['2026-10-02'], source: 'Teleticket', url: 'https://teleticket.com.pe/de-la-rose-latam-tour',
-    reviewedAt: '2026-09-25', icon: 'music', tone: 'coral', tags: ['concierto', 'urbano'],
+    venue: 'Costa 21', sessions: ['2026-10-02T20:00:00-05:00'], source: 'Teleticket', url: 'https://teleticket.com.pe/de-la-rose-latam-tour',
+    reviewedAt: '2026-10-02', icon: 'music', tone: 'coral', tags: ['concierto', 'urbano'],
     imageUrl: 'https://cdn.teleticket.com.pe/images/eventos/ees033_rs.jpg',
   },
   {
