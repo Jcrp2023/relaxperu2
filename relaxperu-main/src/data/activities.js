@@ -194,6 +194,14 @@ export const activities = [
     imageUrl: 'https://plazanorte.pe/wp-content/uploads/2024/03/EVENTO-WEB-TONY-CM.jpg',
   },
   {
+    id: 'orquesta-borinquen-plaza-norte-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Independencia',
+    title: 'Orquesta Internacional Borinquen en Plaza Norte', titleEn: 'Borinquen International Orchestra at Plaza Norte',
+    description: 'Presentación musical gratuita en la Explanada Panamericana, de 7 a 8 p. m.',
+    descriptionEn: 'Free live music on the Panamericana esplanade, from 7 to 8 p.m.',
+    venue: 'Plaza Norte · Explanada Panamericana', sessions: ['2026-10-03T19:00:00-05:00'], source: 'Plaza Norte',
+    url: 'https://plazanorte.pe/eventos/presentacion-de-orquesta-internacional-borinquen/', reviewedAt: '2026-10-02', icon: 'music', tone: 'gold', tags: ['música', 'gratuito'],
+  },
+  {
     id: 'nancy-manchego-gtn-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Borja',
     title: 'Nancy Manchego · Caminos del Ande', titleEn: 'Nancy Manchego · Andean Paths',
     description: 'Música andina en el Gran Teatro Nacional; consulta entradas en la fuente oficial.',
@@ -244,8 +252,8 @@ export const activities = [
     title: 'De La Rose · LATAM Tour', titleEn: 'De La Rose · LATAM Tour',
     description: 'Concierto de música urbana en Costa 21. Consulta entradas y condiciones en la fuente.',
     descriptionEn: 'Urban music concert at Costa 21. Check tickets and conditions at the source.',
-    venue: 'Costa 21', dates: ['2026-10-02'], source: 'Teleticket', url: 'https://teleticket.com.pe/de-la-rose-latam-tour',
-    reviewedAt: '2026-09-25', icon: 'music', tone: 'coral', tags: ['concierto', 'urbano'],
+    venue: 'Costa 21', sessions: ['2026-10-02T20:00:00-05:00'], source: 'Teleticket', url: 'https://teleticket.com.pe/de-la-rose-latam-tour',
+    reviewedAt: '2026-10-02', icon: 'music', tone: 'coral', tags: ['concierto', 'urbano'],
     imageUrl: 'https://cdn.teleticket.com.pe/images/eventos/ees033_rs.jpg',
   },
   {
@@ -387,5 +395,213 @@ export const activities = [
     descriptionEn: 'A starting point to explore the Amazon. Confirm tour details with the operator.',
     venue: 'Loreto', source: 'Perú Travel', url: 'https://www.peru.travel/es/destinos/loreto',
     reviewedAt: '2026-09-25', icon: 'leaf', tone: 'green', tags: ['naturaleza', 'selva']
-  }
+  },
+  {
+    id: 'voces-de-oro-ica-2026', kind: 'event', category: 'shows', city: 'Ica', district: 'Ica',
+    title: 'Voces de Oro en Ica', titleEn: 'Golden Voices in Ica',
+    description: 'Concierto con voces de Yo Soy en el Coliseo del Colegio San Vicente de Paul. La ficha de Teleticket confirma el sábado 31 de octubre a las 7 p. m.',
+    descriptionEn: 'Concert featuring performers from Yo Soy at the San Vicente de Paul School Coliseum. Teleticket confirms Saturday, October 31 at 7 p.m.',
+    venue: 'Coliseo del Colegio San Vicente de Paul', sessions: ['2026-10-31T19:00:00-05:00'], source: 'Teleticket',
+    url: 'https://teleticket.com.pe/evento/voces-de-oro-en-ica-coliseo-del-colegio-san-vicente-de-paul',
+    reviewedAt: '2026-09-28', icon: 'music', tone: 'gold', tags: ['concierto', 'música'],
+  },
+  {
+    id: 'ricardo-palma-bnp-el-agustino-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'El Agustino',
+    title: 'Ricardo Palma: vida, tradición y legado', titleEn: 'Ricardo Palma: life, tradition and legacy',
+    description: 'Charla gratuita de la Biblioteca Nacional del Perú, abierta al público, el viernes 2 de octubre a las 4 p. m. en la Estación de Biblioteca Pública de El Agustino.',
+    descriptionEn: 'Free public talk by Peru’s National Library on Friday, October 2 at 4 p.m. at the El Agustino Public Library Station.',
+    venue: 'Estación de Biblioteca Pública - El Agustino', sessions: ['2026-10-02T16:00:00-05:00'], source: 'Biblioteca Nacional del Perú',
+    url: 'https://eventos.bnp.gob.pe/agenda-cultural/charla-conversatorio-yo-conferencia/ricardo-palma-vida-tradicion-y-legado-6237',
+    reviewedAt: '2026-09-28', icon: 'art', tone: 'blue', tags: ['literatura', 'charla', 'gratuito'],
+  },
+  {
+    id: 'ellas-concierto-plaza-norte-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Independencia',
+    title: 'Ellas en concierto en Plaza Norte', titleEn: 'Ellas in concert at Plaza Norte',
+    description: 'Concierto de imitadoras de Alejandra Guzmán, Mon Laferte, Yuri y Olga Tañón, confirmado para el sábado 3 de octubre a las 7:30 p. m.',
+    descriptionEn: 'Concert featuring impersonators of Alejandra Guzmán, Mon Laferte, Yuri and Olga Tañón, confirmed for Saturday, October 3 at 7:30 p.m.',
+    venue: 'Teatro Plaza Norte', sessions: ['2026-10-03T19:30:00-05:00'], source: 'Teleticket',
+    url: 'https://teleticket.com.pe/evento/ellas-en-concierto-en-plaza-norte-teatro-plaza-norte',
+    reviewedAt: '2026-09-28', icon: 'music', tone: 'coral', tags: ['concierto', 'música'],
+  },
+  {
+    id: 'suegras-teatro-auditorio-miraflores-oct-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'Miraflores',
+    title: 'Suegras · Teatro Auditorio Miraflores', titleEn: 'Mothers-in-law · Miraflores Auditorium Theater',
+    description: 'Comedia de la Compañía de Teatro Arturo Escalante. Teleticket informa que las funciones del 19 y 25 de septiembre fueron canceladas y ofrece la función reprogramada del sábado 3 de octubre a las 8:30 p. m.; verifica con el organizador la gestión de entradas previas.',
+    descriptionEn: 'Comedy by Compañía de Teatro Arturo Escalante. Teleticket says the September 19 and 25 performances were cancelled and lists a rescheduled show for Saturday, October 3 at 8:30 p.m.; check with the organizer about existing tickets.',
+    venue: 'Teatro Auditorio Miraflores', sessions: ['2026-10-03T20:30:00-05:00'], source: 'Teleticket',
+    url: 'https://teleticket.com.pe/evento/suegras-teatro-auditorio-miraflores',
+    reviewedAt: '2026-09-28', icon: 'art', tone: 'peach', tags: ['teatro', 'comedia', 'reprogramado'],
+  },
+
+  {
+    id: 'peru-mucho-gusto-lima-2026', kind: 'event', category: 'food', city: 'Lima', district: 'Magdalena del Mar',
+    title: 'Perú, Mucho Gusto Lima 2026', titleEn: 'Peru, Mucho Gusto Lima 2026',
+    description: 'Feria gastronómica de PROMPERÚ en la Explanada Costa Verde, del viernes 30 de octubre al domingo 1 de noviembre. El organizador indica horario de visita de 10:00 a. m. a 10:30 p. m. e ingreso gratuito.',
+    descriptionEn: 'PROMPERÚ food fair at the Costa Verde esplanade, Friday, October 30 through Sunday, November 1. The organizer lists visiting hours from 10 a.m. to 10:30 p.m. and free admission.',
+    venue: 'Explanada Costa Verde', dates: ['2026-10-30', '2026-10-31', '2026-11-01'], source: 'PROMPERÚ',
+    url: 'https://perumuchogusto.com/lima', reviewedAt: '2026-09-28', icon: 'food', tone: 'gold', tags: ['gastronomía', 'feria', 'gratis'],
+  },
+  {
+    id: 'expoperro-convexia-2026', kind: 'event', category: 'family', city: 'Lima', district: 'Santiago de Surco',
+    title: 'ExpoPerro 2026 · Far West', titleEn: 'ExpoPerro 2026 · Far West',
+    description: 'Feria para tutores de perros en Convexia, sábado 24 y domingo 25 de octubre, de 10 a. m. a 9 p. m. El organizador indica registro gratuito en línea hasta el 22 de octubre; no se permite ingresar con mascotas. Confirma tu registro y disponibilidad en el enlace del organizador.',
+    descriptionEn: 'Dog-owner fair at Convexia on Saturday, October 24 and Sunday, October 25, 10 a.m.–9 p.m. The organizer lists free online registration through October 22; pets are not admitted. Confirm registration and availability through the organizer’s link.',
+    venue: 'Centro de Convenciones Convexia', dates: ['2026-10-24', '2026-10-25'], source: 'ExpoPerro / Club Felino Peruano',
+    url: 'https://www.clubfelinoperuano.com/expo-perro-visitantes', reviewedAt: '2026-09-28', icon: 'art', tone: 'green', tags: ['mascotas', 'feria', 'bienestar animal'],
+  },
+
+  {
+    "id": "torneo-ajedrez-bnp-la-victoria-octubre-2026",
+    "kind": "event",
+    "category": "family",
+    "city": "Lima",
+    "district": "La Victoria",
+    "title": "Torneo de ajedrez · BNP La Victoria",
+    "titleEn": "Chess tournament · BNP La Victoria",
+    "description": "Torneo gratuito para niñas, niños y adolescentes de 6 a 15 años. Cuatro fechas expresamente anunciadas por la BNP; consulta inscripción y cupos.",
+    "descriptionEn": "Free chess tournament for ages 6–15. BNP explicitly lists four dates; check registration and capacity.",
+    "venue": "Estación de Biblioteca Pública - La Victoria",
+    "sessions": [
+      "2026-10-03T10:00:00-05:00",
+      "2026-10-10T10:00:00-05:00",
+      "2026-10-17T10:00:00-05:00",
+      "2026-10-24T10:00:00-05:00"
+    ],
+    "source": "Biblioteca Nacional del Perú",
+    "url": "https://eventos.bnp.gob.pe/agenda-cultural/otros/torneo-de-ajedrez-6236",
+    "reviewedAt": "2026-09-30",
+    "icon": "art",
+    "tone": "blue",
+    "tags": [
+      "ajedrez",
+      "familia",
+      "gratuito"
+    ]
+  },
+  {
+    "id": "mapa-tesoros-brena-bnp-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Breña",
+    "title": "El mapa de los tesoros escondidos de Breña",
+    "titleEn": "The map of Breña’s hidden treasures",
+    "description": "Presentación gratuita del libro de Andrés Ramírez Sánchez y mediación de lectura para público general en la EBP María Bonilla de Gaviria, Jr. Aija y Manoa 599.",
+    "descriptionEn": "Free book presentation and reading activity for the general public at the María Bonilla de Gaviria library, Jr. Aija y Manoa 599.",
+    "venue": "Estación de Biblioteca Pública - Breña",
+    "sessions": [
+      "2026-10-06T16:00:00-05:00"
+    ],
+    "source": "Biblioteca Nacional del Perú",
+    "url": "https://eventos.bnp.gob.pe/agenda-cultural/presentacion-de-publicacion/del-autor-al-lector-el-mapa-de-los-tesoros-escondidos-de-br-6247",
+    "reviewedAt": "2026-09-30",
+    "icon": "art",
+    "tone": "peach",
+    "tags": [
+      "literatura",
+      "lectura",
+      "gratuito"
+    ]
+  },
+  {
+    "id": "leer-jugar-imaginar-bnp-el-agustino-2026",
+    "kind": "event",
+    "category": "family",
+    "city": "Lima",
+    "district": "El Agustino",
+    "title": "Leer, jugar e imaginar",
+    "titleEn": "Read, play and imagine",
+    "description": "Mediación de lectura gratuita por la Semana del Niño, para niñas, niños y público general. Sala EBP El Agustino, Jr. José Quiñones s/n, Parque Triangular.",
+    "descriptionEn": "Free reading activity for Children’s Week, for children and the general public. El Agustino library, Jr. José Quiñones, Parque Triangular.",
+    "venue": "Estación de Biblioteca Pública - El Agustino",
+    "sessions": [
+      "2026-10-07T11:00:00-05:00"
+    ],
+    "source": "Biblioteca Nacional del Perú",
+    "url": "https://eventos.bnp.gob.pe/agenda-cultural/mediacion-de-lectura/leer-jugar-e-imaginar-6250",
+    "reviewedAt": "2026-09-30",
+    "icon": "art",
+    "tone": "gold",
+    "tags": [
+      "lectura",
+      "familia",
+      "gratuito"
+    ]
+  },
+  {
+    "id": "feria-investigacion-artes-kanchay-cusco-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Cusco",
+    "district": "Cusco",
+    "title": "Feria de Investigación en las Artes · K’anchay 2026",
+    "titleEn": "Arts Research Fair · K’anchay 2026",
+    "description": "Muestras, performances y creaciones en vivo organizadas por la Universidad Nacional de Arte Diego Quispe Tito. La fuente confirma el 14 y 15 de octubre en Calle Marqués s/n; hora y condiciones de acceso pendientes.",
+    "descriptionEn": "Live art, performances and creations organized by Universidad Nacional de Arte Diego Quispe Tito. The source confirms October 14 and 15 at Calle Marqués; time and access conditions remain pending.",
+    "venue": "Calle Marqués s/n",
+    "dates": [
+      "2026-10-14",
+      "2026-10-15"
+    ],
+    "source": "UNADQTC",
+    "url": "https://unadqtc.edu.pe/kanchay-2026/",
+    "reviewedAt": "2026-09-30",
+    "icon": "art",
+    "tone": "coral",
+    "tags": [
+      "arte",
+      "feria",
+      "cultura"
+    ]
+  },
+  {
+    "id": "cuentos-sinfonicos-disney-cusco-2026",
+    "kind": "event",
+    "category": "family",
+    "city": "Cusco",
+    "district": "Cusco",
+    "title": "Cuentos Sinfónicos de Disney",
+    "titleEn": "Disney Symphonic Tales",
+    "description": "Concierto familiar con orquesta sinfónica, coro y narración de Richard Peñalva. La función y la venta pública están confirmadas para el Teatro Municipal del Cusco.",
+    "descriptionEn": "Family concert with symphony orchestra, choir and narration by Richard Peñalva. The performance and public ticket sale are confirmed at Cusco Municipal Theatre.",
+    "venue": "Teatro Municipal del Cusco",
+    "sessions": [
+      "2026-10-11T19:00:00-05:00"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/teatro/cuentos-sinfonicos-de-disney-en-vivo-en-el-teatro-municipal-del-cusco",
+    "reviewedAt": "2026-10-01",
+    "icon": "music",
+    "tone": "gold",
+    "tags": [
+      "música sinfónica",
+      "familia",
+      "teatro"
+    ]
+  },
+  {
+    "id": "colombia-fex-festival-parce-iquitos-2026",
+    "kind": "event",
+    "category": "shows",
+    "city": "Iquitos",
+    "district": "San Juan",
+    "title": "Colombia Fex Festival Parce",
+    "titleEn": "Colombia Fex Festival Parce",
+    "description": "Festival con Fernando Aguilar, Sacumer y Los Bacanos del Vallenato. La ficha de venta confirma el recinto, la fecha y la hora.",
+    "descriptionEn": "Festival featuring Fernando Aguilar, Sacumer and Los Bacanos del Vallenato. The ticket listing confirms venue, date and time.",
+    "venue": "Recreo Santa María",
+    "sessions": [
+      "2026-10-17T21:00:00-05:00"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/colombia-fex-festival-parce-fernando-aguilar-en-iquitos",
+    "reviewedAt": "2026-10-01",
+    "icon": "music",
+    "tone": "coral",
+    "tags": [
+      "vallenato",
+      "música tropical",
+      "concierto"
+    ]
+  },
 ];

@@ -5,6 +5,11 @@ import { datesFor, filterActivities, safeSourceUrl, safePosterUrl, upcomingDate,
 
 const today = '2026-09-25';
 
+test('Catalog contains no holes or duplicate IDs after editorial reconciliation', () => {
+  assert.equal(activities.filter(Boolean).length, activities.length);
+  assert.equal(new Set(activities.map(item => item.id)).size, activities.length);
+});
+
 test('Today shows only events with confirmed dates, not evergreen guides', () => {
   const list = filterActivities(activities, { when: 'today' }, today);
   assert.ok(list.every(item => item.kind === 'event' && datesFor(item).includes(today)));
