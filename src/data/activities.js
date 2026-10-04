@@ -709,4 +709,31 @@ export const activities = [
       "ajedrez"
     ]
   },
+  {
+    "id": "bts-world-tour-arirang-lima-2026",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "title": "BTS WORLD TOUR ‘ARIRANG’",
+    "titleEn": "BTS WORLD TOUR ‘ARIRANG’",
+    "description": "Conciertos del 7, 9 y 10 de octubre en el Estadio San Marcos, Av. Germán Amézaga s/n. Inicio estimado: 20:00 según Ticketmaster; horario definitivo pendiente. La venta general figura agotada al 4 de octubre. Organiza Bizarro Entertainment y Servicios Perú SAC.",
+    "descriptionEn": "Concerts on October 7, 9 and 10 at Estadio San Marcos, Av. Germán Amézaga. Estimated start: 20:00 according to Ticketmaster; final time pending. General sale listed as sold out on October 4. Organized by Bizarro Entertainment y Servicios Perú SAC.",
+    "venue": "Estadio San Marcos",
+    "dates": [
+      "2026-10-07",
+      "2026-10-09",
+      "2026-10-10"
+    ],
+    "source": "Ticketmaster Perú / BIGHIT MUSIC",
+    "url": "https://www.ticketmaster.pe/event/bts-world-tour-arirang",
+    "reviewedAt": "2026-10-04",
+    "icon": "music",
+    "tone": "lilac",
+    "tags": [
+      "BTS",
+      "K-pop",
+      "concierto",
+      "venta general agotada"
+    ]
+  },
 ];

@@ -48,6 +48,10 @@ test('External links only point to reviewed official source domains', () => {
   assert.ok(activities.every(item => !item.imageUrl || safePosterUrl(item.imageUrl)));
   assert.equal(safePosterUrl('https://www.vamoseventos.com/some-poster.jpg'), false);
   assert.equal(safeSourceUrl('https://mali.pe.fake.example/offer'), false);
+  assert.equal(safeSourceUrl('https://www.ticketmaster.pe/event/bts-world-tour-arirang'), true);
+  assert.equal(safeSourceUrl('https://www.joinnus.com/events/example'), true);
+  assert.equal(safeSourceUrl('https://ticketmaster.pe.fake.example/event'), false);
+  assert.equal(safeSourceUrl('https://joinnus.com.fake.example/event'), false);
   assert.equal(safeSourceUrl('javascript:alert(1)'), false);
 });
 
