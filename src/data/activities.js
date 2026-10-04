@@ -604,4 +604,109 @@ export const activities = [
       "concierto"
     ]
   },
+  {
+    "id": "pequena-jarana-criolla-bnp-rimac-oct-2026",
+    "kind": "event",
+    "category": "family",
+    "city": "Lima",
+    "district": "Rímac",
+    "title": "Pequeña jarana criolla para niños y niñas",
+    "titleEn": "Little Creole music workshop",
+    "description": "Taller gratuito de apreciación musical para niñas y niños de 5 a 12 años. Av. Felipe Arancibia cuadra 2 s/n. Fechas enumeradas en la agenda BNP; consulta cupos.",
+    "descriptionEn": "Free music appreciation workshop for ages 5–12. Av. Felipe Arancibia block 2. BNP lists each date; check capacity.",
+    "venue": "Estación de Biblioteca Pública - Rímac",
+    "sessions": [
+      "2026-10-09T11:00:00-05:00",
+      "2026-10-23T11:00:00-05:00"
+    ],
+    "source": "Biblioteca Nacional del Perú",
+    "url": "https://eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/apreciacion-musical-pequena-jara-criolla-para-ninos-y-ninas-6253",
+    "reviewedAt": "2026-10-04",
+    "icon": "art",
+    "tone": "green",
+    "tags": [
+      "gratuito",
+      "música"
+    ]
+  },
+  {
+    "id": "tejiendo-mis-suenos-bnp-comas-oct-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Comas",
+    "title": "Tejiendo mis sueños",
+    "titleEn": "Weaving my dreams",
+    "description": "Taller gratuito de tejido básico a crochet y con palitos para público general. Av. Las Palmeras s/n, Parque Ricardo Palma. Consulta cupos.",
+    "descriptionEn": "Free basic crochet and knitting workshop for the general public. Av. Las Palmeras, Parque Ricardo Palma. Check capacity.",
+    "venue": "Estación de Biblioteca Pública - Comas",
+    "sessions": [
+      "2026-10-09T15:30:00-05:00",
+      "2026-10-16T15:30:00-05:00",
+      "2026-10-23T15:30:00-05:00"
+    ],
+    "source": "Biblioteca Nacional del Perú",
+    "url": "https://eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/tejiendo-mis-suenos-6252",
+    "reviewedAt": "2026-10-04",
+    "icon": "art",
+    "tone": "green",
+    "tags": [
+      "gratuito",
+      "manualidades"
+    ]
+  },
+  {
+    "id": "historias-que-unen-bnp-el-agustino-oct-2026",
+    "kind": "event",
+    "category": "family",
+    "city": "Lima",
+    "district": "El Agustino",
+    "title": "Historias que unen",
+    "titleEn": "Stories that bring us together",
+    "description": "Club de lectura gratuito para público general y familias. Jr. José Quiñones s/n, Parque Triangular. Fechas enumeradas por la BNP; consulta cupos.",
+    "descriptionEn": "Free reading club for families and the general public. Jr. José Quiñones, Parque Triangular. BNP lists each date; check capacity.",
+    "venue": "Estación de Biblioteca Pública - El Agustino",
+    "sessions": [
+      "2026-10-09T16:00:00-05:00",
+      "2026-10-16T16:00:00-05:00",
+      "2026-10-23T16:00:00-05:00",
+      "2026-10-30T16:00:00-05:00"
+    ],
+    "source": "Biblioteca Nacional del Perú",
+    "url": "https://eventos.bnp.gob.pe/agenda-cultural/club-de-lectura/historias-que-unen-6249",
+    "reviewedAt": "2026-10-04",
+    "icon": "art",
+    "tone": "green",
+    "tags": [
+      "gratuito",
+      "lectura"
+    ]
+  },
+  {
+    "id": "jaque-rutina-bnp-el-agustino-oct-2026",
+    "kind": "event",
+    "category": "family",
+    "city": "Lima",
+    "district": "El Agustino",
+    "title": "Jaque a la rutina: aprende ajedrez",
+    "titleEn": "Learn chess",
+    "description": "Taller gratuito de ajedrez para público general desde los 7 años. Jr. José Quiñones s/n, Parque Triangular. Consulta inscripción y cupos.",
+    "descriptionEn": "Free chess workshop for ages 7 and up. Jr. José Quiñones, Parque Triangular. Check registration and capacity.",
+    "venue": "Estación de Biblioteca Pública - El Agustino",
+    "sessions": [
+      "2026-10-06T15:00:00-05:00",
+      "2026-10-13T15:00:00-05:00",
+      "2026-10-20T15:00:00-05:00",
+      "2026-10-27T15:00:00-05:00"
+    ],
+    "source": "Biblioteca Nacional del Perú",
+    "url": "https://eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/jaque-a-la-rutina-aprende-ajedrez-6251",
+    "reviewedAt": "2026-10-04",
+    "icon": "art",
+    "tone": "green",
+    "tags": [
+      "gratuito",
+      "ajedrez"
+    ]
+  },
 ];
