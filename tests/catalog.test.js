@@ -39,7 +39,8 @@ test('Old events expire while destination guides remain discoverable', () => {
 });
 
 test('Combined filters and local favorites work without an account', () => {
-  const list = filterActivities(activities, { city: 'Lima', category: 'culture', search: 'museo', favoritesOnly: true, favorites: ['mali-colecciones'] }, today);
+  const mali = { ...activities.find(item => item.id === 'mali-colecciones'), macroNode: 'Arte, Teatro, Cines & Cultura' };
+  const list = filterActivities([mali], { city: 'Lima', category: 'culture', search: 'museo', favoritesOnly: true, favorites: ['mali-colecciones'] }, today);
   assert.deepEqual(list.map(item => item.id), ['mali-colecciones']);
 });
 
@@ -72,4 +73,15 @@ test('Lima day survives UTC midnight when filtering confirmed sessions', () => {
   const now = new Date('2026-09-30T01:15:00Z');
   const event = { id: 'evening', title: 'Evening', tags: [], kind: 'event', sessions: ['2026-09-29T21:00:00-05:00'] };
   assert.equal(filterActivities([event], { when: 'today' }, '2026-09-29', now).length, 1);
+});
+
+
+test('Macro-node filters only include explicitly classified activities', () => {
+  const classified = { ...activities[0], id: 'classified', category: 'shows', macroNode: 'Mascotas & Pet Friendly', dates: ['2026-09-25'] };
+  const matches = filterActivities([classified], { category: 'family' }, today);
+  assert.deepEqual(matches.map(item => item.id), ['classified']);
+  assert.deepEqual(filterActivities([classified], { category: 'shows' }, today), []);
+  const legacy = { ...activities[0], id: 'legacy', category: 'culture', dates: ['2026-09-25'] };
+  assert.deepEqual(filterActivities([legacy], { category: 'culture' }, today), []);
+  assert.deepEqual(filterActivities([legacy], { category: 'all' }, today).map(item => item.id), ['legacy']);
 });
