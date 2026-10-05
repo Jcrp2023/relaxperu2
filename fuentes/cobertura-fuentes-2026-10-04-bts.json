@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-04",
+  "timezone": "America/Lima",
+  "sources": [
+    {
+      "url": "https://weverse.io/bts/notice/34732?hl=es",
+      "consultedAt": "2026-10-04",
+      "method": "lectura de aviso individual BIGHIT MUSIC",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "Función adicional del 7 de octubre en Lima, Estadio San Marcos; venta oficial Ticketmaster.",
+      "nextAction": "Comprobar cambios antes de las funciones."
+    },
+    {
+      "url": "https://www.ticketmaster.pe/event/bts-world-tour-arirang",
+      "consultedAt": "2026-10-04",
+      "method": "lectura de ficha individual de venta pública",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "7, 9 y 10 de octubre de 2026, Estadio San Marcos, Lima; inicio estimado 20:00; venta general agotada. Aviso de actividad sospechosa visible, detalles recuperados; sin comprobar flujo de compra.",
+      "nextAction": "Hora definitiva pendiente; comprobar cambios. Esta ficha no completa la revisión de toda la cartelera."
+    }
+  ]
+}

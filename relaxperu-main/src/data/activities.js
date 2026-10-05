@@ -736,4 +736,176 @@ export const activities = [
       "venta general agotada"
     ]
   },
+  {
+    "kind": "event",
+    "reviewedAt": "2026-10-05",
+    "icon": "music",
+    "tone": "lilac",
+    "id": "chapa-tu-money-canout-7oct-2026",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Miraflores",
+    "title": "Chapa tu Money",
+    "titleEn": "Chapa tu Money",
+    "description": "Función del 7 de octubre en el Teatro Canout, Av. Petit Thouars 4550. La ficha indica inicio posible a las 20:00; hora definitiva y disponibilidad pendientes.",
+    "descriptionEn": "October 7 performance at Teatro Canout, Av. Petit Thouars 4550. The page states a possible 20:00 start; final time and availability pending.",
+    "venue": "Teatro Canout",
+    "dates": [
+      "2026-10-07"
+    ],
+    "source": "Teleticket",
+    "url": "https://teleticket.com.pe/chapa-tu-money-7oct-2026",
+    "tags": [
+      "comedia",
+      "improvisación"
+    ]
+  },
+  {
+    "kind": "event",
+    "reviewedAt": "2026-10-05",
+    "icon": "music",
+    "tone": "lilac",
+    "id": "noche-ayacuchana-gala-maracana-2026",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Jesús María",
+    "title": "Noche Ayacuchana de Gala · 5.ª edición",
+    "titleEn": "Ayacucho gala night · fifth edition",
+    "description": "Función individual del 7 de octubre a las 20:00 en el Centro de Convenciones Maracaná, Jr. Huascar 1652. Consulta disponibilidad en la venta oficial.",
+    "descriptionEn": "Individual October 7 performance at 20:00, Centro de Convenciones Maracaná, Jr. Huascar 1652. Check availability with the official seller.",
+    "venue": "Centro de Convenciones Maracaná",
+    "sessions": [
+      "2026-10-07T20:00:00-05:00"
+    ],
+    "source": "Teleticket",
+    "url": "https://teleticket.com.pe/evento/noche-ayacuchana-de-gala-5ta-edicion-centro-de-convenciones-maracana",
+    "tags": [
+      "folclore",
+      "música"
+    ]
+  },
+  {
+    "kind": "event",
+    "reviewedAt": "2026-10-05",
+    "icon": "music",
+    "tone": "lilac",
+    "id": "salsa-gala-del-carajo-7oct-2026",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Barranco",
+    "title": "Llegó la Salsa a Barranco: Salsa de Gala",
+    "titleEn": "Salsa de Gala in Barranco",
+    "description": "Función del 7 de octubre a las 21:00 en Peña del Carajo, Jr. Catalino Miranda 158. La ficha enumera artistas y función individual; consulta cupos.",
+    "descriptionEn": "October 7 performance at 21:00 at Peña del Carajo, Jr. Catalino Miranda 158. The official page lists performers and the individual show; check capacity.",
+    "venue": "Peña del Carajo",
+    "sessions": [
+      "2026-10-07T21:00:00-05:00"
+    ],
+    "source": "Teleticket",
+    "url": "https://teleticket.com.pe/evento/llego-la-salsa-a-barranco-salsa-de-gala-penia-del-carajo",
+    "tags": [
+      "salsa",
+      "música"
+    ]
+  },
+  {
+    "kind": "event",
+    "reviewedAt": "2026-10-05",
+    "icon": "music",
+    "tone": "lilac",
+    "id": "secreto-sake-koji-apj-2026",
+    "category": "food",
+    "city": "Lima",
+    "district": "Jesús María",
+    "title": "El secreto del sake, descubriendo el koji",
+    "titleEn": "Discovering koji: the secret of sake",
+    "description": "Encuentro de Sake no matsuri el 7 de octubre a las 19:30, Auditorio Dai Hall, Av. Gregorio Escobedo 803. Ingreso libre con capacidad limitada; coorganiza Super Nikkei.",
+    "descriptionEn": "Sake no matsuri talk on October 7 at 19:30, Dai Hall, Av. Gregorio Escobedo 803. Free admission with limited capacity; co-organized by Super Nikkei.",
+    "venue": "Auditorio Dai Hall · Centro Cultural Peruano Japonés",
+    "sessions": [
+      "2026-10-07T19:30:00-05:00"
+    ],
+    "source": "Asociación Peruano Japonesa",
+    "url": "https://apj.org.pe/cultural/agenda_detalle/sake-no-matsuri",
+    "tags": [
+      "sake",
+      "gastronomía",
+      "gratuito"
+    ]
+  },
+  {
+    "kind": "event",
+    "reviewedAt": "2026-10-05",
+    "icon": "music",
+    "tone": "lilac",
+    "id": "poesia-infima-bnp-15oct-2026",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Cercado de Lima",
+    "title": "Poesía ínfima · Nivardo Córdova Salinas",
+    "titleEn": "Poesía ínfima · Nivardo Córdova Salinas",
+    "description": "Presentación de poemario el 15 de octubre a las 18:00 en el hall principal de la Gran Biblioteca Pública de Lima, Av. Abancay cuadra 4. Evento presencial gratuito y de ingreso libre.",
+    "descriptionEn": "Poetry book presentation on October 15 at 18:00 in the main hall of Gran Biblioteca Pública de Lima, Av. Abancay block 4. Free in-person event.",
+    "venue": "Gran Biblioteca Pública de Lima · Hall principal",
+    "sessions": [
+      "2026-10-15T18:00:00-05:00"
+    ],
+    "source": "Biblioteca Nacional del Perú",
+    "url": "https://eventos.bnp.gob.pe/agenda-cultural/presentacion-de-publicacion/poesia-infima-nivardo-cordova-salinas-presentacion-de-poem-6255",
+    "tags": [
+      "poesía",
+      "gratuito"
+    ]
+  },
+  {
+    "kind": "event",
+    "reviewedAt": "2026-10-05",
+    "icon": "music",
+    "tone": "lilac",
+    "id": "crespial-foro-patrimonio-cusco-2026",
+    "category": "culture",
+    "city": "Cusco",
+    "district": "Cusco",
+    "title": "CRESPIAL · Foro sobre patrimonio vivo",
+    "titleEn": "CRESPIAL · Living heritage forum",
+    "description": "Foro abierto al público con inscripción previa los días 21, 22 y 23 de octubre en Casa Garcilaso, Calle Heladeros s/n. Programa preliminar; horarios definitivos e inscripción disponibles deben comprobarse en la fuente.",
+    "descriptionEn": "Public forum with prior registration on October 21, 22 and 23 at Casa Garcilaso, Calle Heladeros. Preliminary program; check final times and registration availability.",
+    "venue": "Casa Garcilaso · Museo Histórico Regional",
+    "dates": [
+      "2026-10-21",
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "source": "CRESPIAL",
+    "url": "https://crespial.org/20aniversario/",
+    "tags": [
+      "patrimonio",
+      "foro",
+      "inscripción previa"
+    ]
+  },
+  {
+    "kind": "event",
+    "reviewedAt": "2026-10-05",
+    "icon": "music",
+    "tone": "lilac",
+    "id": "voces-rock-latino-ica-vol2-2026",
+    "category": "shows",
+    "city": "Ica",
+    "district": "Ica",
+    "title": "Voces del Rock Latino Ica · Vol. 2",
+    "titleEn": "Latin rock voices in Ica · Vol. 2",
+    "description": "Tributos de rock latino el 17 de octubre a las 22:00 en Álamo Disco Peña, Panamericana Sur km 300. Organiza Selacamto Producciones EIRL; consulta entradas en Teleticket.",
+    "descriptionEn": "Latin rock tribute show on October 17 at 22:00 at Álamo Disco Peña, Panamericana Sur km 300. Organized by Selacamto Producciones EIRL; check tickets on Teleticket.",
+    "venue": "Álamo Disco Peña",
+    "sessions": [
+      "2026-10-17T22:00:00-05:00"
+    ],
+    "source": "Teleticket",
+    "url": "https://teleticket.com.pe/evento/voces-del-rock-latino-ica-vol-2-alamo-disco-penia-ica",
+    "tags": [
+      "rock",
+      "tributos"
+    ]
+  },
 ];
