@@ -104,7 +104,8 @@ export function buildHealth({ documents, logs, items, baseline = null, today, re
   const counts = (catalog, date, city) => filterActivities(catalog, { exactDate: date, city }, today).filter(x => x.kind === 'event').length;
   const calendar = dates.map(date => ({ date, proposed: counts(items, date, 'all'), main: baseline ? counts(baseline, date, 'all') : null, cities: Object.fromEntries(REGIONS.map(city => [city, counts(items, date, city)])) }));
   const queue = sources.filter(s => s.pending).sort((a, b) => a.priority - b.priority || (b.ageDays ?? 99999) - (a.ageDays ?? 99999) || a.url.localeCompare(b.url));
-  const regionCategories = Object.fromEntries(REGIONS.map(city => [city, Object.fromEntries(CATEGORIES.map(category => [category, filterActivities(items, { city, category, when: 'week' }, today).filter(x => x.kind === 'event').length]))]));
+  // Coverage uses the catalog's factual categories, even before optional macro classification.
+  const regionCategories = Object.fromEntries(REGIONS.map(city => [city, Object.fromEntries(CATEGORIES.map(category => [category, filterActivities(items, { city, when: 'week' }, today).filter(x => x.kind === 'event' && x.category === category).length]))]));
   const warnings = [];
   if (queue.length) warnings.push(`${queue.length} rutas pendientes o desactualizadas; esto no prueba ausencia de eventos.`);
   if (inv.unresolvedSources.length) warnings.push(`${inv.unresolvedSources.length} fuentes nombradas por Jahel requieren identidad/URL.`);

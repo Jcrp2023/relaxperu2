@@ -68,3 +68,11 @@ test('Audit flags accidental loss of active events from main', () => {
   const report = buildHealth({ documents: {}, logs: [], items: [], baseline: [item], today: '2026-10-05' });
   assert.ok(report.warnings.some(w => w.includes('gtn-new') && w.includes('pérdida de actualización')));
 });
+
+test('Regional coverage counts factual categories before optional macro classification', () => {
+  const event = { id: 'unclassified', kind: 'event', city: 'Piura', category: 'shows', title: 'Concert', tags: [], venue: 'Venue', reviewedAt: '2026-10-06', dates: ['2026-10-08'], url: 'https://vaope.com/event/unclassified' };
+  const report = buildHealth({ documents: {}, logs: [], items: [event, { ...event, id: 'expired', dates: ['2026-10-05'] }, { ...event, id: 'guide', kind: 'guide' }], today: '2026-10-06' });
+  assert.equal(report.regionCategories.Piura.shows, 1);
+  assert.equal(report.regionCategories.Piura.culture, 0);
+  assert.equal(report.regionCategories.Lima.shows, 0);
+});

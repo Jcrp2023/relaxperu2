@@ -3,6 +3,83 @@
 // imageUrl links directly to artwork on the original publisher's site. Do not copy images from aggregators.
 export const activities = [
   {
+    "id": "venta-libros-af-miraflores-octubre-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Miraflores",
+    "title": "Venta de libros de segunda mano · Alianza Francesa",
+    "titleEn": "Second-hand book sale · Alliance Française",
+    "description": "Venta de libros en francés en el patio de la Alianza Francesa, de 9:30 a. m. a mediodía. Ingreso libre; libros desde S/ 2 y pago en efectivo. Consulta las condiciones en la fuente.",
+    "descriptionEn": "French-language second-hand book sale in the Alliance Française courtyard, from 9:30 a.m. to noon. Free admission; books from S/ 2, cash payments. Check conditions at the source.",
+    "venue": "Patio Alianza Francesa de Miraflores · Av. Arequipa 4595",
+    "sessions": [
+      "2026-10-07T09:30:00-05:00"
+    ],
+    "source": "Alianza Francesa de Lima",
+    "url": "https://aflima.org.pe/evento/venta-de-libros-de-segunda-mano-4/",
+    "reviewedAt": "2026-10-06",
+    "icon": "art",
+    "tone": "gold",
+    "tags": [
+      "libros",
+      "francés",
+      "feria",
+      "ingreso libre"
+    ]
+  },
+  {
+    "id": "german-tejada-los-inocentes-af-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Miraflores",
+    "title": "Germán Tejada: el camino hacia Los Inocentes",
+    "titleEn": "Germán Tejada: the path to Los Inocentes",
+    "description": "Proyección de cortometrajes y conversación con el director en el Cine Lumière de la Alianza Francesa. Ingreso libre por orden de llegada; el aforo disponible debe consultarse con el recinto.",
+    "descriptionEn": "Short-film screenings and a conversation with the director at Alliance Française's Lumière cinema. Free admission in arrival order; check remaining capacity with the venue.",
+    "venue": "Cine Lumière AF Miraflores · Av. Arequipa 4595",
+    "sessions": [
+      "2026-10-09T19:00:00-05:00"
+    ],
+    "source": "Alianza Francesa de Lima",
+    "url": "https://aflima.org.pe/evento/german-tejada-el-caminohacia-los-inocentes/",
+    "reviewedAt": "2026-10-06",
+    "icon": "art",
+    "tone": "gold",
+    "tags": [
+      "cine",
+      "conversatorio",
+      "ingreso libre"
+    ]
+  },
+  {
+    "id": "club-lectura-frances-af-octubre-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Miraflores",
+    "title": "Club de lectura en francés · Le fantastique",
+    "titleEn": "French reading club · Le fantastique",
+    "description": "Encuentro en la Mediateca de 6:30 a 8:00 p. m. para mayores de edad, miembros de la Mediateca y nivel B1 o superior. Ingreso libre con inscripción previa; disponibilidad pendiente de confirmación.",
+    "descriptionEn": "Reading meetup at the Media Library from 6:30 to 8 p.m., for adult Media Library members with French level B1 or higher. Free admission with prior registration; availability awaits confirmation.",
+    "venue": "Mediateca AF Miraflores · Av. Arequipa 4595",
+    "sessions": [
+      "2026-10-16T18:30:00-05:00"
+    ],
+    "source": "Alianza Francesa de Lima",
+    "url": "https://aflima.org.pe/evento/club-de-lectura-en-frances-2/",
+    "reviewedAt": "2026-10-06",
+    "icon": "art",
+    "tone": "gold",
+    "tags": [
+      "idiomas",
+      "francés",
+      "lectura",
+      "comunidad"
+    ]
+  },
+  {
     id: 'brick-fest-af-lima-2026', kind: 'event', category: 'family', city: 'Lima', district: 'Miraflores',
     title: 'Brick Fest Perú', titleEn: 'Brick Fest Peru',
     description: 'Feria familiar de construcción LEGO en la Alianza Francesa. Apertura a las 10 a. m. y cierre a las 9 p. m.; consulta precio y condiciones en la fuente.',
