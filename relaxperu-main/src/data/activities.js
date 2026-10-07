@@ -3,6 +3,35 @@
 // imageUrl links directly to artwork on the original publisher's site. Do not copy images from aggregators.
 export const activities = [
   {
+    "id": "kortas-octubre-teatro-barranco-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Barranco",
+    "title": "KORTAS · Temporada octubre",
+    "titleEn": "KORTAS · October season",
+    "description": "Cuatro obras breves de terror, comedia, clown y humor negro en una sola noche. Función para mayores de 16 años; consulta disponibilidad y cargos de servicio en la boletería.",
+    "descriptionEn": "Four short plays combining horror, comedy, clowning and dark humor in one night. For audiences aged 16 and over; check availability and service fees with the ticket outlet.",
+    "venue": "Teatro Barranco · Av. Grau 701",
+    "sessions": [
+      "2026-10-07T20:00:00-05:00",
+      "2026-10-14T20:00:00-05:00",
+      "2026-10-21T20:00:00-05:00",
+      "2026-10-28T20:00:00-05:00"
+    ],
+    "source": "Teatro Barranco S.A.C. / Passline",
+    "url": "https://www.passline.com/eventos/kortas-octubre-miercoles",
+    "reviewedAt": "2026-10-07",
+    "icon": "art",
+    "tone": "purple",
+    "tags": [
+      "teatro breve",
+      "comedia",
+      "terror",
+      "mayores de 16"
+    ]
+  },
+  {
     "id": "venta-libros-af-miraflores-octubre-2026",
     "kind": "event",
     "category": "culture",
