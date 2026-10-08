@@ -3,6 +3,93 @@
 // imageUrl links directly to artwork on the original publisher's site. Do not copy images from aggregators.
 export const activities = [
   {
+    "id": "rally-caminos-del-inca-super-prime-2026",
+    "kind": "event",
+    "category": "sports",
+    "city": "Lima",
+    "district": "Chilca",
+    "title": "Rally Caminos del Inca · Super Prime",
+    "titleEn": "Caminos del Inca Rally · Super Prime",
+    "description": "Super Prime de Caminos del Inca 2026, desde las 10:00 en el Kartódromo La Chutana. La ficha pública de Ticketmaster coincide con fecha, hora y recinto. Consulta acceso y disponibilidad en la venta oficial.",
+    "descriptionEn": "Caminos del Inca 2026 Super Prime, starting at 10:00 at Kartódromo La Chutana. Ticketmaster's public listing matches the date, time and venue. Check official ticket access and availability.",
+    "venue": "Kartódromo La Chutana · Chilca",
+    "sessions": [
+      "2026-10-08T10:00:00-05:00"
+    ],
+    "source": "Rally Caminos del Inca / Ticketmaster",
+    "url": "https://rallycaminosdelinca.com/noticias/los-super-prime-en-caminos-del-inca/",
+    "reviewedAt": "2026-10-08",
+    "icon": "art",
+    "tone": "blue",
+    "tags": ["rally", "automovilismo", "deporte"]
+  },
+  {
+    "id": "salon-arte-joven-nikkei-octubre-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Jesús María",
+    "title": "X Salón de Arte Joven Nikkei",
+    "titleEn": "10th Young Nikkei Art Salon",
+    "description": "Exposición de temporada en el Hall de exposiciones y la Galería Ryoichi Jinnai. Del martes al sábado abre de 10:00 a 13:00 y de 14:00 a 20:00; el domingo, de 10:00 a 13:00 y de 14:00 a 19:00. Ingreso libre con capacidad limitada.",
+    "descriptionEn": "Seasonal exhibition at the exhibition hall and Ryoichi Jinnai Gallery. Tuesday to Saturday: 10:00–13:00 and 14:00–20:00; Sunday: 10:00–13:00 and 14:00–19:00. Free admission with limited capacity.",
+    "venue": "Centro Cultural Peruano Japonés · Av. Gregorio Escobedo 803",
+    "sessions": [
+      "2026-10-08T10:00:00-05:00",
+      "2026-10-09T10:00:00-05:00",
+      "2026-10-10T10:00:00-05:00",
+      "2026-10-11T10:00:00-05:00"
+    ],
+    "source": "Asociación Peruano Japonesa",
+    "url": "https://apj.org.pe/cultural/agenda_detalle/x-salon-de-arte-joven-nikkei",
+    "reviewedAt": "2026-10-08",
+    "icon": "art",
+    "tone": "gold",
+    "tags": ["exposición", "arte", "nikkei", "gratuito"]
+  },
+  {
+    "id": "encuentro-cuentacuentos-apj-octubre-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Jesús María",
+    "title": "12.° Encuentro amateur de Cuentacuentos y Monólogos",
+    "titleEn": "12th Amateur Storytelling and Monologue Gathering",
+    "description": "Encuentro Tengo la palabra con más de 50 artistas. Funciones confirmadas: sábado 10 desde las 14:00 y domingo 11 desde las 15:00, en el Auditorio Jinnai. Ingreso libre con capacidad limitada.",
+    "descriptionEn": "Tengo la palabra gathering with more than 50 artists. Confirmed sessions: Saturday 10 from 14:00 and Sunday 11 from 15:00 at Auditorio Jinnai. Free admission with limited capacity.",
+    "venue": "Auditorio Jinnai · Centro Cultural Peruano Japonés",
+    "sessions": [
+      "2026-10-10T14:00:00-05:00",
+      "2026-10-11T15:00:00-05:00"
+    ],
+    "source": "Asociación Peruano Japonesa",
+    "url": "https://apj.org.pe/cultural/agenda_detalle/120-encuentro-amateur-de-cuentacuentos-y-monologos-tengo-la-palabra",
+    "reviewedAt": "2026-10-08",
+    "icon": "art",
+    "tone": "gold",
+    "tags": ["cuentacuentos", "monólogos", "gratuito", "comunidad"]
+  },
+  {
+    "id": "kanpai-yokocho-sake-matsuri-22oct-2026",
+    "kind": "event",
+    "category": "food",
+    "city": "Lima",
+    "district": "Jesús María",
+    "title": "Kanpai yokocho · Sake no matsuri",
+    "titleEn": "Kanpai yokocho · Sake no matsuri",
+    "description": "Cierre del festival inspirado en los yokocho e izakaya japoneses, con productos, snacks y platillos preparados por el chef Satoshi Yamamoto. Jueves 22 de octubre desde las 17:00. Ingreso libre con capacidad limitada.",
+    "descriptionEn": "Festival closing inspired by Japanese yokocho and izakaya, with products, snacks and dishes prepared by chef Satoshi Yamamoto. Thursday, October 22 from 17:00. Free admission with limited capacity.",
+    "venue": "Centro Cultural Peruano Japonés · Av. Gregorio Escobedo 803",
+    "sessions": ["2026-10-22T17:00:00-05:00"],
+    "source": "Asociación Peruano Japonesa",
+    "url": "https://apj.org.pe/cultural/agenda_detalle/sake-no-matsuri",
+    "reviewedAt": "2026-10-08",
+    "icon": "art",
+    "tone": "gold",
+    "tags": ["gastronomía", "sake", "cultura japonesa", "gratuito"]
+  },
+
+  {
     "id": "kortas-octubre-teatro-barranco-2026",
     "kind": "event",
     "category": "culture",
