@@ -1101,4 +1101,57 @@ export const activities = [
       "tributos"
     ]
   },
+  {
+    "kind": "event",
+    "reviewedAt": "2026-10-09",
+    "icon": "art",
+    "tone": "peach",
+    "id": "expo-maternidad-lima-octubre-2026",
+    "category": "family",
+    "city": "Lima",
+    "district": "Santiago de Surco",
+    "title": "Expo Maternidad Lima 2026",
+    "titleEn": "Expo Maternidad Lima 2026",
+    "description": "Feria para madres, bebés y familias en la playa norte del Jockey Plaza, frente a Tottus. Funciones confirmadas a las 11:00 los días 9, 10 y 11 de octubre; duración aproximada de 11 horas. Menores de 11 años ingresan gratis y las demás personas requieren entrada.",
+    "descriptionEn": "Fair for parents, babies and families at Jockey Plaza's north parking area, across from Tottus. Confirmed 11:00 start on October 9, 10 and 11; approximate duration is 11 hours. Children under 11 enter free; everyone else needs a ticket.",
+    "venue": "Jockey Plaza · Playa norte del estacionamiento",
+    "sessions": [
+      "2026-10-09T11:00:00-05:00",
+      "2026-10-10T11:00:00-05:00",
+      "2026-10-11T11:00:00-05:00"
+    ],
+    "source": "Expo Maternidad Perú / Teleticket",
+    "url": "https://teleticket.com.pe/evento/expo-maternidad-lima-2026-jockey",
+    "tags": [
+      "familia",
+      "feria",
+      "maternidad"
+    ]
+  },
+  {
+    "kind": "event",
+    "reviewedAt": "2026-10-09",
+    "icon": "art",
+    "tone": "blue",
+    "id": "percusionista-ciego-aflima-octubre-2026",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Miraflores",
+    "title": "El Percusionista Ciego",
+    "titleEn": "The Blind Percussionist",
+    "description": "Propuesta escénico-musical con percusión en vivo, actuación y paisaje sonoro. Próximas funciones verificadas el 12 y 13 de octubre a las 20:00 en la Sala Lumière; venta pública por Joinnus.",
+    "descriptionEn": "Stage and music production combining live percussion, acting and soundscape. Upcoming performances verified for October 12 and 13 at 20:00 in Sala Lumière; public sale through Joinnus.",
+    "venue": "Sala Lumière · Alianza Francesa de Lima",
+    "sessions": [
+      "2026-10-12T20:00:00-05:00",
+      "2026-10-13T20:00:00-05:00"
+    ],
+    "source": "Alianza Francesa de Lima",
+    "url": "https://aflima.org.pe/evento/el-percusionista-ciego/",
+    "tags": [
+      "teatro",
+      "música",
+      "percusión"
+    ]
+  },
 ];
