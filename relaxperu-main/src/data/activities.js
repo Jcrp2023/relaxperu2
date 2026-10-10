@@ -3,6 +3,199 @@
 // imageUrl links directly to artwork on the original publisher's site. Do not copy images from aggregators.
 export const activities = [
   {
+    "id": "rally-caminos-del-inca-super-prime-2026",
+    "kind": "event",
+    "category": "sports",
+    "city": "Lima",
+    "district": "Chilca",
+    "title": "Rally Caminos del Inca · Super Prime",
+    "titleEn": "Caminos del Inca Rally · Super Prime",
+    "description": "Super Prime de Caminos del Inca 2026, desde las 10:00 en el Kartódromo La Chutana. La ficha pública de Ticketmaster coincide con fecha, hora y recinto. Consulta acceso y disponibilidad en la venta oficial.",
+    "descriptionEn": "Caminos del Inca 2026 Super Prime, starting at 10:00 at Kartódromo La Chutana. Ticketmaster's public listing matches the date, time and venue. Check official ticket access and availability.",
+    "venue": "Kartódromo La Chutana · Chilca",
+    "sessions": [
+      "2026-10-08T10:00:00-05:00"
+    ],
+    "source": "Rally Caminos del Inca / Ticketmaster",
+    "url": "https://rallycaminosdelinca.com/noticias/los-super-prime-en-caminos-del-inca/",
+    "reviewedAt": "2026-10-08",
+    "icon": "art",
+    "tone": "blue",
+    "tags": ["rally", "automovilismo", "deporte"]
+  },
+  {
+    "id": "salon-arte-joven-nikkei-octubre-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Jesús María",
+    "title": "X Salón de Arte Joven Nikkei",
+    "titleEn": "10th Young Nikkei Art Salon",
+    "description": "Exposición de temporada en el Hall de exposiciones y la Galería Ryoichi Jinnai. Del martes al sábado abre de 10:00 a 13:00 y de 14:00 a 20:00; el domingo, de 10:00 a 13:00 y de 14:00 a 19:00. Ingreso libre con capacidad limitada.",
+    "descriptionEn": "Seasonal exhibition at the exhibition hall and Ryoichi Jinnai Gallery. Tuesday to Saturday: 10:00–13:00 and 14:00–20:00; Sunday: 10:00–13:00 and 14:00–19:00. Free admission with limited capacity.",
+    "venue": "Centro Cultural Peruano Japonés · Av. Gregorio Escobedo 803",
+    "sessions": [
+      "2026-10-08T10:00:00-05:00",
+      "2026-10-09T10:00:00-05:00",
+      "2026-10-10T10:00:00-05:00",
+      "2026-10-11T10:00:00-05:00"
+    ],
+    "source": "Asociación Peruano Japonesa",
+    "url": "https://apj.org.pe/cultural/agenda_detalle/x-salon-de-arte-joven-nikkei",
+    "reviewedAt": "2026-10-08",
+    "icon": "art",
+    "tone": "gold",
+    "tags": ["exposición", "arte", "nikkei", "gratuito"]
+  },
+  {
+    "id": "encuentro-cuentacuentos-apj-octubre-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Jesús María",
+    "title": "12.° Encuentro amateur de Cuentacuentos y Monólogos",
+    "titleEn": "12th Amateur Storytelling and Monologue Gathering",
+    "description": "Encuentro Tengo la palabra con más de 50 artistas. Funciones confirmadas: sábado 10 desde las 14:00 y domingo 11 desde las 15:00, en el Auditorio Jinnai. Ingreso libre con capacidad limitada.",
+    "descriptionEn": "Tengo la palabra gathering with more than 50 artists. Confirmed sessions: Saturday 10 from 14:00 and Sunday 11 from 15:00 at Auditorio Jinnai. Free admission with limited capacity.",
+    "venue": "Auditorio Jinnai · Centro Cultural Peruano Japonés",
+    "sessions": [
+      "2026-10-10T14:00:00-05:00",
+      "2026-10-11T15:00:00-05:00"
+    ],
+    "source": "Asociación Peruano Japonesa",
+    "url": "https://apj.org.pe/cultural/agenda_detalle/120-encuentro-amateur-de-cuentacuentos-y-monologos-tengo-la-palabra",
+    "reviewedAt": "2026-10-08",
+    "icon": "art",
+    "tone": "gold",
+    "tags": ["cuentacuentos", "monólogos", "gratuito", "comunidad"]
+  },
+  {
+    "id": "kanpai-yokocho-sake-matsuri-22oct-2026",
+    "kind": "event",
+    "category": "food",
+    "city": "Lima",
+    "district": "Jesús María",
+    "title": "Kanpai yokocho · Sake no matsuri",
+    "titleEn": "Kanpai yokocho · Sake no matsuri",
+    "description": "Cierre del festival inspirado en los yokocho e izakaya japoneses, con productos, snacks y platillos preparados por el chef Satoshi Yamamoto. Jueves 22 de octubre desde las 17:00. Ingreso libre con capacidad limitada.",
+    "descriptionEn": "Festival closing inspired by Japanese yokocho and izakaya, with products, snacks and dishes prepared by chef Satoshi Yamamoto. Thursday, October 22 from 17:00. Free admission with limited capacity.",
+    "venue": "Centro Cultural Peruano Japonés · Av. Gregorio Escobedo 803",
+    "sessions": ["2026-10-22T17:00:00-05:00"],
+    "source": "Asociación Peruano Japonesa",
+    "url": "https://apj.org.pe/cultural/agenda_detalle/sake-no-matsuri",
+    "reviewedAt": "2026-10-08",
+    "icon": "art",
+    "tone": "gold",
+    "tags": ["gastronomía", "sake", "cultura japonesa", "gratuito"]
+  },
+
+  {
+    "id": "kortas-octubre-teatro-barranco-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Barranco",
+    "title": "KORTAS · Temporada octubre",
+    "titleEn": "KORTAS · October season",
+    "description": "Cuatro obras breves de terror, comedia, clown y humor negro en una sola noche. Función para mayores de 16 años; consulta disponibilidad y cargos de servicio en la boletería.",
+    "descriptionEn": "Four short plays combining horror, comedy, clowning and dark humor in one night. For audiences aged 16 and over; check availability and service fees with the ticket outlet.",
+    "venue": "Teatro Barranco · Av. Grau 701",
+    "sessions": [
+      "2026-10-07T20:00:00-05:00",
+      "2026-10-14T20:00:00-05:00",
+      "2026-10-21T20:00:00-05:00",
+      "2026-10-28T20:00:00-05:00"
+    ],
+    "source": "Teatro Barranco S.A.C. / Passline",
+    "url": "https://www.passline.com/eventos/kortas-octubre-miercoles",
+    "reviewedAt": "2026-10-07",
+    "icon": "art",
+    "tone": "purple",
+    "tags": [
+      "teatro breve",
+      "comedia",
+      "terror",
+      "mayores de 16"
+    ]
+  },
+  {
+    "id": "venta-libros-af-miraflores-octubre-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Miraflores",
+    "title": "Venta de libros de segunda mano · Alianza Francesa",
+    "titleEn": "Second-hand book sale · Alliance Française",
+    "description": "Venta de libros en francés en el patio de la Alianza Francesa, de 9:30 a. m. a mediodía. Ingreso libre; libros desde S/ 2 y pago en efectivo. Consulta las condiciones en la fuente.",
+    "descriptionEn": "French-language second-hand book sale in the Alliance Française courtyard, from 9:30 a.m. to noon. Free admission; books from S/ 2, cash payments. Check conditions at the source.",
+    "venue": "Patio Alianza Francesa de Miraflores · Av. Arequipa 4595",
+    "sessions": [
+      "2026-10-07T09:30:00-05:00"
+    ],
+    "source": "Alianza Francesa de Lima",
+    "url": "https://aflima.org.pe/evento/venta-de-libros-de-segunda-mano-4/",
+    "reviewedAt": "2026-10-06",
+    "icon": "art",
+    "tone": "gold",
+    "tags": [
+      "libros",
+      "francés",
+      "feria",
+      "ingreso libre"
+    ]
+  },
+  {
+    "id": "german-tejada-los-inocentes-af-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Miraflores",
+    "title": "Germán Tejada: el camino hacia Los Inocentes",
+    "titleEn": "Germán Tejada: the path to Los Inocentes",
+    "description": "Proyección de cortometrajes y conversación con el director en el Cine Lumière de la Alianza Francesa. Ingreso libre por orden de llegada; el aforo disponible debe consultarse con el recinto.",
+    "descriptionEn": "Short-film screenings and a conversation with the director at Alliance Française's Lumière cinema. Free admission in arrival order; check remaining capacity with the venue.",
+    "venue": "Cine Lumière AF Miraflores · Av. Arequipa 4595",
+    "sessions": [
+      "2026-10-09T19:00:00-05:00"
+    ],
+    "source": "Alianza Francesa de Lima",
+    "url": "https://aflima.org.pe/evento/german-tejada-el-caminohacia-los-inocentes/",
+    "reviewedAt": "2026-10-06",
+    "icon": "art",
+    "tone": "gold",
+    "tags": [
+      "cine",
+      "conversatorio",
+      "ingreso libre"
+    ]
+  },
+  {
+    "id": "club-lectura-frances-af-octubre-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Miraflores",
+    "title": "Club de lectura en francés · Le fantastique",
+    "titleEn": "French reading club · Le fantastique",
+    "description": "Encuentro en la Mediateca de 6:30 a 8:00 p. m. para mayores de edad, miembros de la Mediateca y nivel B1 o superior. Ingreso libre con inscripción previa; disponibilidad pendiente de confirmación.",
+    "descriptionEn": "Reading meetup at the Media Library from 6:30 to 8 p.m., for adult Media Library members with French level B1 or higher. Free admission with prior registration; availability awaits confirmation.",
+    "venue": "Mediateca AF Miraflores · Av. Arequipa 4595",
+    "sessions": [
+      "2026-10-16T18:30:00-05:00"
+    ],
+    "source": "Alianza Francesa de Lima",
+    "url": "https://aflima.org.pe/evento/club-de-lectura-en-frances-2/",
+    "reviewedAt": "2026-10-06",
+    "icon": "art",
+    "tone": "gold",
+    "tags": [
+      "idiomas",
+      "francés",
+      "lectura",
+      "comunidad"
+    ]
+  },
+  {
     id: 'brick-fest-af-lima-2026', kind: 'event', category: 'family', city: 'Lima', district: 'Miraflores',
     title: 'Brick Fest Perú', titleEn: 'Brick Fest Peru',
     description: 'Feria familiar de construcción LEGO en la Alianza Francesa. Apertura a las 10 a. m. y cierre a las 9 p. m.; consulta precio y condiciones en la fuente.',
@@ -194,6 +387,14 @@ export const activities = [
     imageUrl: 'https://plazanorte.pe/wp-content/uploads/2024/03/EVENTO-WEB-TONY-CM.jpg',
   },
   {
+    id: 'orquesta-borinquen-plaza-norte-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Independencia',
+    title: 'Orquesta Internacional Borinquen en Plaza Norte', titleEn: 'Borinquen International Orchestra at Plaza Norte',
+    description: 'Presentación musical gratuita en la Explanada Panamericana, de 7 a 8 p. m.',
+    descriptionEn: 'Free live music on the Panamericana esplanade, from 7 to 8 p.m.',
+    venue: 'Plaza Norte · Explanada Panamericana', sessions: ['2026-10-03T19:00:00-05:00'], source: 'Plaza Norte',
+    url: 'https://plazanorte.pe/eventos/presentacion-de-orquesta-internacional-borinquen/', reviewedAt: '2026-10-02', icon: 'music', tone: 'gold', tags: ['música', 'gratuito'],
+  },
+  {
     id: 'nancy-manchego-gtn-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Borja',
     title: 'Nancy Manchego · Caminos del Ande', titleEn: 'Nancy Manchego · Andean Paths',
     description: 'Música andina en el Gran Teatro Nacional; consulta entradas en la fuente oficial.',
@@ -244,8 +445,8 @@ export const activities = [
     title: 'De La Rose · LATAM Tour', titleEn: 'De La Rose · LATAM Tour',
     description: 'Concierto de música urbana en Costa 21. Consulta entradas y condiciones en la fuente.',
     descriptionEn: 'Urban music concert at Costa 21. Check tickets and conditions at the source.',
-    venue: 'Costa 21', dates: ['2026-10-02'], source: 'Teleticket', url: 'https://teleticket.com.pe/de-la-rose-latam-tour',
-    reviewedAt: '2026-09-25', icon: 'music', tone: 'coral', tags: ['concierto', 'urbano'],
+    venue: 'Costa 21', sessions: ['2026-10-02T20:00:00-05:00'], source: 'Teleticket', url: 'https://teleticket.com.pe/de-la-rose-latam-tour',
+    reviewedAt: '2026-10-02', icon: 'music', tone: 'coral', tags: ['concierto', 'urbano'],
     imageUrl: 'https://cdn.teleticket.com.pe/images/eventos/ees033_rs.jpg',
   },
   {
@@ -387,5 +588,596 @@ export const activities = [
     descriptionEn: 'A starting point to explore the Amazon. Confirm tour details with the operator.',
     venue: 'Loreto', source: 'Perú Travel', url: 'https://www.peru.travel/es/destinos/loreto',
     reviewedAt: '2026-09-25', icon: 'leaf', tone: 'green', tags: ['naturaleza', 'selva']
-  }
+  },
+  {
+    id: 'voces-de-oro-ica-2026', kind: 'event', category: 'shows', city: 'Ica', district: 'Ica',
+    title: 'Voces de Oro en Ica', titleEn: 'Golden Voices in Ica',
+    description: 'Concierto con voces de Yo Soy en el Coliseo del Colegio San Vicente de Paul. La ficha de Teleticket confirma el sábado 31 de octubre a las 7 p. m.',
+    descriptionEn: 'Concert featuring performers from Yo Soy at the San Vicente de Paul School Coliseum. Teleticket confirms Saturday, October 31 at 7 p.m.',
+    venue: 'Coliseo del Colegio San Vicente de Paul', sessions: ['2026-10-31T19:00:00-05:00'], source: 'Teleticket',
+    url: 'https://teleticket.com.pe/evento/voces-de-oro-en-ica-coliseo-del-colegio-san-vicente-de-paul',
+    reviewedAt: '2026-09-28', icon: 'music', tone: 'gold', tags: ['concierto', 'música'],
+  },
+  {
+    id: 'ricardo-palma-bnp-el-agustino-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'El Agustino',
+    title: 'Ricardo Palma: vida, tradición y legado', titleEn: 'Ricardo Palma: life, tradition and legacy',
+    description: 'Charla gratuita de la Biblioteca Nacional del Perú, abierta al público, el viernes 2 de octubre a las 4 p. m. en la Estación de Biblioteca Pública de El Agustino.',
+    descriptionEn: 'Free public talk by Peru’s National Library on Friday, October 2 at 4 p.m. at the El Agustino Public Library Station.',
+    venue: 'Estación de Biblioteca Pública - El Agustino', sessions: ['2026-10-02T16:00:00-05:00'], source: 'Biblioteca Nacional del Perú',
+    url: 'https://eventos.bnp.gob.pe/agenda-cultural/charla-conversatorio-yo-conferencia/ricardo-palma-vida-tradicion-y-legado-6237',
+    reviewedAt: '2026-09-28', icon: 'art', tone: 'blue', tags: ['literatura', 'charla', 'gratuito'],
+  },
+  {
+    id: 'ellas-concierto-plaza-norte-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Independencia',
+    title: 'Ellas en concierto en Plaza Norte', titleEn: 'Ellas in concert at Plaza Norte',
+    description: 'Concierto de imitadoras de Alejandra Guzmán, Mon Laferte, Yuri y Olga Tañón, confirmado para el sábado 3 de octubre a las 7:30 p. m.',
+    descriptionEn: 'Concert featuring impersonators of Alejandra Guzmán, Mon Laferte, Yuri and Olga Tañón, confirmed for Saturday, October 3 at 7:30 p.m.',
+    venue: 'Teatro Plaza Norte', sessions: ['2026-10-03T19:30:00-05:00'], source: 'Teleticket',
+    url: 'https://teleticket.com.pe/evento/ellas-en-concierto-en-plaza-norte-teatro-plaza-norte',
+    reviewedAt: '2026-09-28', icon: 'music', tone: 'coral', tags: ['concierto', 'música'],
+  },
+  {
+    id: 'suegras-teatro-auditorio-miraflores-oct-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'Miraflores',
+    title: 'Suegras · Teatro Auditorio Miraflores', titleEn: 'Mothers-in-law · Miraflores Auditorium Theater',
+    description: 'Comedia de la Compañía de Teatro Arturo Escalante. Teleticket informa que las funciones del 19 y 25 de septiembre fueron canceladas y ofrece la función reprogramada del sábado 3 de octubre a las 8:30 p. m.; verifica con el organizador la gestión de entradas previas.',
+    descriptionEn: 'Comedy by Compañía de Teatro Arturo Escalante. Teleticket says the September 19 and 25 performances were cancelled and lists a rescheduled show for Saturday, October 3 at 8:30 p.m.; check with the organizer about existing tickets.',
+    venue: 'Teatro Auditorio Miraflores', sessions: ['2026-10-03T20:30:00-05:00'], source: 'Teleticket',
+    url: 'https://teleticket.com.pe/evento/suegras-teatro-auditorio-miraflores',
+    reviewedAt: '2026-09-28', icon: 'art', tone: 'peach', tags: ['teatro', 'comedia', 'reprogramado'],
+  },
+
+  {
+    id: 'peru-mucho-gusto-lima-2026', kind: 'event', category: 'food', city: 'Lima', district: 'Magdalena del Mar',
+    title: 'Perú, Mucho Gusto Lima 2026', titleEn: 'Peru, Mucho Gusto Lima 2026',
+    description: 'Feria gastronómica de PROMPERÚ en la Explanada Costa Verde, del viernes 30 de octubre al domingo 1 de noviembre. El organizador indica horario de visita de 10:00 a. m. a 10:30 p. m. e ingreso gratuito.',
+    descriptionEn: 'PROMPERÚ food fair at the Costa Verde esplanade, Friday, October 30 through Sunday, November 1. The organizer lists visiting hours from 10 a.m. to 10:30 p.m. and free admission.',
+    venue: 'Explanada Costa Verde', dates: ['2026-10-30', '2026-10-31', '2026-11-01'], source: 'PROMPERÚ',
+    url: 'https://perumuchogusto.com/lima', reviewedAt: '2026-09-28', icon: 'food', tone: 'gold', tags: ['gastronomía', 'feria', 'gratis'],
+  },
+  {
+    id: 'expoperro-convexia-2026', kind: 'event', category: 'family', city: 'Lima', district: 'Santiago de Surco',
+    title: 'ExpoPerro 2026 · Far West', titleEn: 'ExpoPerro 2026 · Far West',
+    description: 'Feria para tutores de perros en Convexia, sábado 24 y domingo 25 de octubre, de 10 a. m. a 9 p. m. El organizador indica registro gratuito en línea hasta el 22 de octubre; no se permite ingresar con mascotas. Confirma tu registro y disponibilidad en el enlace del organizador.',
+    descriptionEn: 'Dog-owner fair at Convexia on Saturday, October 24 and Sunday, October 25, 10 a.m.–9 p.m. The organizer lists free online registration through October 22; pets are not admitted. Confirm registration and availability through the organizer’s link.',
+    venue: 'Centro de Convenciones Convexia', dates: ['2026-10-24', '2026-10-25'], source: 'ExpoPerro / Club Felino Peruano',
+    url: 'https://www.clubfelinoperuano.com/expo-perro-visitantes', reviewedAt: '2026-09-28', icon: 'art', tone: 'green', tags: ['mascotas', 'feria', 'bienestar animal'],
+  },
+
+  {
+    "id": "torneo-ajedrez-bnp-la-victoria-octubre-2026",
+    "kind": "event",
+    "category": "family",
+    "city": "Lima",
+    "district": "La Victoria",
+    "title": "Torneo de ajedrez · BNP La Victoria",
+    "titleEn": "Chess tournament · BNP La Victoria",
+    "description": "Torneo gratuito para niñas, niños y adolescentes de 6 a 15 años. Cuatro fechas expresamente anunciadas por la BNP; consulta inscripción y cupos.",
+    "descriptionEn": "Free chess tournament for ages 6–15. BNP explicitly lists four dates; check registration and capacity.",
+    "venue": "Estación de Biblioteca Pública - La Victoria",
+    "sessions": [
+      "2026-10-03T10:00:00-05:00",
+      "2026-10-10T10:00:00-05:00",
+      "2026-10-17T10:00:00-05:00",
+      "2026-10-24T10:00:00-05:00"
+    ],
+    "source": "Biblioteca Nacional del Perú",
+    "url": "https://eventos.bnp.gob.pe/agenda-cultural/otros/torneo-de-ajedrez-6236",
+    "reviewedAt": "2026-09-30",
+    "icon": "art",
+    "tone": "blue",
+    "tags": [
+      "ajedrez",
+      "familia",
+      "gratuito"
+    ]
+  },
+  {
+    "id": "mapa-tesoros-brena-bnp-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Breña",
+    "title": "El mapa de los tesoros escondidos de Breña",
+    "titleEn": "The map of Breña’s hidden treasures",
+    "description": "Presentación gratuita del libro de Andrés Ramírez Sánchez y mediación de lectura para público general en la EBP María Bonilla de Gaviria, Jr. Aija y Manoa 599.",
+    "descriptionEn": "Free book presentation and reading activity for the general public at the María Bonilla de Gaviria library, Jr. Aija y Manoa 599.",
+    "venue": "Estación de Biblioteca Pública - Breña",
+    "sessions": [
+      "2026-10-06T16:00:00-05:00"
+    ],
+    "source": "Biblioteca Nacional del Perú",
+    "url": "https://eventos.bnp.gob.pe/agenda-cultural/presentacion-de-publicacion/del-autor-al-lector-el-mapa-de-los-tesoros-escondidos-de-br-6247",
+    "reviewedAt": "2026-09-30",
+    "icon": "art",
+    "tone": "peach",
+    "tags": [
+      "literatura",
+      "lectura",
+      "gratuito"
+    ]
+  },
+  {
+    "id": "leer-jugar-imaginar-bnp-el-agustino-2026",
+    "kind": "event",
+    "category": "family",
+    "city": "Lima",
+    "district": "El Agustino",
+    "title": "Leer, jugar e imaginar",
+    "titleEn": "Read, play and imagine",
+    "description": "Mediación de lectura gratuita por la Semana del Niño, para niñas, niños y público general. Sala EBP El Agustino, Jr. José Quiñones s/n, Parque Triangular.",
+    "descriptionEn": "Free reading activity for Children’s Week, for children and the general public. El Agustino library, Jr. José Quiñones, Parque Triangular.",
+    "venue": "Estación de Biblioteca Pública - El Agustino",
+    "sessions": [
+      "2026-10-07T11:00:00-05:00"
+    ],
+    "source": "Biblioteca Nacional del Perú",
+    "url": "https://eventos.bnp.gob.pe/agenda-cultural/mediacion-de-lectura/leer-jugar-e-imaginar-6250",
+    "reviewedAt": "2026-09-30",
+    "icon": "art",
+    "tone": "gold",
+    "tags": [
+      "lectura",
+      "familia",
+      "gratuito"
+    ]
+  },
+  {
+    "id": "feria-investigacion-artes-kanchay-cusco-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Cusco",
+    "district": "Cusco",
+    "title": "Feria de Investigación en las Artes · K’anchay 2026",
+    "titleEn": "Arts Research Fair · K’anchay 2026",
+    "description": "Muestras, performances y creaciones en vivo organizadas por la Universidad Nacional de Arte Diego Quispe Tito. La fuente confirma el 14 y 15 de octubre en Calle Marqués s/n; hora y condiciones de acceso pendientes.",
+    "descriptionEn": "Live art, performances and creations organized by Universidad Nacional de Arte Diego Quispe Tito. The source confirms October 14 and 15 at Calle Marqués; time and access conditions remain pending.",
+    "venue": "Calle Marqués s/n",
+    "dates": [
+      "2026-10-14",
+      "2026-10-15"
+    ],
+    "source": "UNADQTC",
+    "url": "https://unadqtc.edu.pe/kanchay-2026/",
+    "reviewedAt": "2026-09-30",
+    "icon": "art",
+    "tone": "coral",
+    "tags": [
+      "arte",
+      "feria",
+      "cultura"
+    ]
+  },
+  {
+    "id": "cuentos-sinfonicos-disney-cusco-2026",
+    "kind": "event",
+    "category": "family",
+    "city": "Cusco",
+    "district": "Cusco",
+    "title": "Cuentos Sinfónicos de Disney",
+    "titleEn": "Disney Symphonic Tales",
+    "description": "Concierto familiar con orquesta sinfónica, coro y narración de Richard Peñalva. La función y la venta pública están confirmadas para el Teatro Municipal del Cusco.",
+    "descriptionEn": "Family concert with symphony orchestra, choir and narration by Richard Peñalva. The performance and public ticket sale are confirmed at Cusco Municipal Theatre.",
+    "venue": "Teatro Municipal del Cusco",
+    "sessions": [
+      "2026-10-11T19:00:00-05:00"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/teatro/cuentos-sinfonicos-de-disney-en-vivo-en-el-teatro-municipal-del-cusco",
+    "reviewedAt": "2026-10-01",
+    "icon": "music",
+    "tone": "gold",
+    "tags": [
+      "música sinfónica",
+      "familia",
+      "teatro"
+    ]
+  },
+  {
+    "id": "colombia-fex-festival-parce-iquitos-2026",
+    "kind": "event",
+    "category": "shows",
+    "city": "Iquitos",
+    "district": "San Juan",
+    "title": "Colombia Fex Festival Parce",
+    "titleEn": "Colombia Fex Festival Parce",
+    "description": "Festival con Fernando Aguilar, Sacumer y Los Bacanos del Vallenato. La ficha de venta confirma el recinto, la fecha y la hora.",
+    "descriptionEn": "Festival featuring Fernando Aguilar, Sacumer and Los Bacanos del Vallenato. The ticket listing confirms venue, date and time.",
+    "venue": "Recreo Santa María",
+    "sessions": [
+      "2026-10-17T21:00:00-05:00"
+    ],
+    "source": "VAOPE",
+    "url": "https://vaope.com/eventos/conciertos/colombia-fex-festival-parce-fernando-aguilar-en-iquitos",
+    "reviewedAt": "2026-10-01",
+    "icon": "music",
+    "tone": "coral",
+    "tags": [
+      "vallenato",
+      "música tropical",
+      "concierto"
+    ]
+  },
+  {
+    "id": "pequena-jarana-criolla-bnp-rimac-oct-2026",
+    "kind": "event",
+    "category": "family",
+    "city": "Lima",
+    "district": "Rímac",
+    "title": "Pequeña jarana criolla para niños y niñas",
+    "titleEn": "Little Creole music workshop",
+    "description": "Taller gratuito de apreciación musical para niñas y niños de 5 a 12 años. Av. Felipe Arancibia cuadra 2 s/n. Fechas enumeradas en la agenda BNP; consulta cupos.",
+    "descriptionEn": "Free music appreciation workshop for ages 5–12. Av. Felipe Arancibia block 2. BNP lists each date; check capacity.",
+    "venue": "Estación de Biblioteca Pública - Rímac",
+    "sessions": [
+      "2026-10-09T11:00:00-05:00",
+      "2026-10-23T11:00:00-05:00"
+    ],
+    "source": "Biblioteca Nacional del Perú",
+    "url": "https://eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/apreciacion-musical-pequena-jara-criolla-para-ninos-y-ninas-6253",
+    "reviewedAt": "2026-10-04",
+    "icon": "art",
+    "tone": "green",
+    "tags": [
+      "gratuito",
+      "música"
+    ]
+  },
+  {
+    "id": "tejiendo-mis-suenos-bnp-comas-oct-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Comas",
+    "title": "Tejiendo mis sueños",
+    "titleEn": "Weaving my dreams",
+    "description": "Taller gratuito de tejido básico a crochet y con palitos para público general. Av. Las Palmeras s/n, Parque Ricardo Palma. Consulta cupos.",
+    "descriptionEn": "Free basic crochet and knitting workshop for the general public. Av. Las Palmeras, Parque Ricardo Palma. Check capacity.",
+    "venue": "Estación de Biblioteca Pública - Comas",
+    "sessions": [
+      "2026-10-09T15:30:00-05:00",
+      "2026-10-16T15:30:00-05:00",
+      "2026-10-23T15:30:00-05:00"
+    ],
+    "source": "Biblioteca Nacional del Perú",
+    "url": "https://eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/tejiendo-mis-suenos-6252",
+    "reviewedAt": "2026-10-04",
+    "icon": "art",
+    "tone": "green",
+    "tags": [
+      "gratuito",
+      "manualidades"
+    ]
+  },
+  {
+    "id": "historias-que-unen-bnp-el-agustino-oct-2026",
+    "kind": "event",
+    "category": "family",
+    "city": "Lima",
+    "district": "El Agustino",
+    "title": "Historias que unen",
+    "titleEn": "Stories that bring us together",
+    "description": "Club de lectura gratuito para público general y familias. Jr. José Quiñones s/n, Parque Triangular. Fechas enumeradas por la BNP; consulta cupos.",
+    "descriptionEn": "Free reading club for families and the general public. Jr. José Quiñones, Parque Triangular. BNP lists each date; check capacity.",
+    "venue": "Estación de Biblioteca Pública - El Agustino",
+    "sessions": [
+      "2026-10-09T16:00:00-05:00",
+      "2026-10-16T16:00:00-05:00",
+      "2026-10-23T16:00:00-05:00",
+      "2026-10-30T16:00:00-05:00"
+    ],
+    "source": "Biblioteca Nacional del Perú",
+    "url": "https://eventos.bnp.gob.pe/agenda-cultural/club-de-lectura/historias-que-unen-6249",
+    "reviewedAt": "2026-10-04",
+    "icon": "art",
+    "tone": "green",
+    "tags": [
+      "gratuito",
+      "lectura"
+    ]
+  },
+  {
+    "id": "jaque-rutina-bnp-el-agustino-oct-2026",
+    "kind": "event",
+    "category": "family",
+    "city": "Lima",
+    "district": "El Agustino",
+    "title": "Jaque a la rutina: aprende ajedrez",
+    "titleEn": "Learn chess",
+    "description": "Taller gratuito de ajedrez para público general desde los 7 años. Jr. José Quiñones s/n, Parque Triangular. Consulta inscripción y cupos.",
+    "descriptionEn": "Free chess workshop for ages 7 and up. Jr. José Quiñones, Parque Triangular. Check registration and capacity.",
+    "venue": "Estación de Biblioteca Pública - El Agustino",
+    "sessions": [
+      "2026-10-06T15:00:00-05:00",
+      "2026-10-13T15:00:00-05:00",
+      "2026-10-20T15:00:00-05:00",
+      "2026-10-27T15:00:00-05:00"
+    ],
+    "source": "Biblioteca Nacional del Perú",
+    "url": "https://eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/jaque-a-la-rutina-aprende-ajedrez-6251",
+    "reviewedAt": "2026-10-04",
+    "icon": "art",
+    "tone": "green",
+    "tags": [
+      "gratuito",
+      "ajedrez"
+    ]
+  },
+  {
+    "id": "bts-world-tour-arirang-lima-2026",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "title": "BTS WORLD TOUR ‘ARIRANG’",
+    "titleEn": "BTS WORLD TOUR ‘ARIRANG’",
+    "description": "Conciertos del 7, 9 y 10 de octubre en el Estadio San Marcos, Av. Germán Amézaga s/n. Inicio estimado: 20:00 según Ticketmaster; horario definitivo pendiente. La venta general figura agotada al 4 de octubre. Organiza Bizarro Entertainment y Servicios Perú SAC.",
+    "descriptionEn": "Concerts on October 7, 9 and 10 at Estadio San Marcos, Av. Germán Amézaga. Estimated start: 20:00 according to Ticketmaster; final time pending. General sale listed as sold out on October 4. Organized by Bizarro Entertainment y Servicios Perú SAC.",
+    "venue": "Estadio San Marcos",
+    "dates": [
+      "2026-10-07",
+      "2026-10-09",
+      "2026-10-10"
+    ],
+    "source": "Ticketmaster Perú / BIGHIT MUSIC",
+    "url": "https://www.ticketmaster.pe/event/bts-world-tour-arirang",
+    "reviewedAt": "2026-10-04",
+    "icon": "music",
+    "tone": "lilac",
+    "tags": [
+      "BTS",
+      "K-pop",
+      "concierto",
+      "venta general agotada"
+    ]
+  },
+  {
+    "id": "elrow-xxl-lima-2026",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lurín",
+    "title": "ELROW XXL",
+    "titleEn": "ELROW XXL",
+    "description": "Festival de música electrónica confirmado por Superclub para el 10 de octubre en Lurín Live. Ticketmaster fija el ingreso desde las 17:00, para mayores de 18 años. Consulta disponibilidad y condiciones en la venta oficial.",
+    "descriptionEn": "Electronic music festival confirmed by Superclub for October 10 at Lurín Live. Ticketmaster lists entry from 17:00 for adults aged 18 and over. Check availability and conditions through the official ticket page.",
+    "venue": "Lurín Live",
+    "sessions": [
+      "2026-10-10T17:00:00-05:00"
+    ],
+    "source": "Superclub / Ticketmaster Perú",
+    "url": "https://www.ticketmaster.pe/event/el-row-xxl-venta-general-5654",
+    "reviewedAt": "2026-10-10",
+    "icon": "music",
+    "tone": "lilac",
+    "tags": [
+      "música electrónica",
+      "festival",
+      "mayores de 18 años"
+    ]
+  },
+  {
+    "kind": "event",
+    "reviewedAt": "2026-10-05",
+    "icon": "music",
+    "tone": "lilac",
+    "id": "chapa-tu-money-canout-7oct-2026",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Miraflores",
+    "title": "Chapa tu Money",
+    "titleEn": "Chapa tu Money",
+    "description": "Función del 7 de octubre en el Teatro Canout, Av. Petit Thouars 4550. La ficha indica inicio posible a las 20:00; hora definitiva y disponibilidad pendientes.",
+    "descriptionEn": "October 7 performance at Teatro Canout, Av. Petit Thouars 4550. The page states a possible 20:00 start; final time and availability pending.",
+    "venue": "Teatro Canout",
+    "dates": [
+      "2026-10-07"
+    ],
+    "source": "Teleticket",
+    "url": "https://teleticket.com.pe/chapa-tu-money-7oct-2026",
+    "tags": [
+      "comedia",
+      "improvisación"
+    ]
+  },
+  {
+    "kind": "event",
+    "reviewedAt": "2026-10-05",
+    "icon": "music",
+    "tone": "lilac",
+    "id": "noche-ayacuchana-gala-maracana-2026",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Jesús María",
+    "title": "Noche Ayacuchana de Gala · 5.ª edición",
+    "titleEn": "Ayacucho gala night · fifth edition",
+    "description": "Función individual del 7 de octubre a las 20:00 en el Centro de Convenciones Maracaná, Jr. Huascar 1652. Consulta disponibilidad en la venta oficial.",
+    "descriptionEn": "Individual October 7 performance at 20:00, Centro de Convenciones Maracaná, Jr. Huascar 1652. Check availability with the official seller.",
+    "venue": "Centro de Convenciones Maracaná",
+    "sessions": [
+      "2026-10-07T20:00:00-05:00"
+    ],
+    "source": "Teleticket",
+    "url": "https://teleticket.com.pe/evento/noche-ayacuchana-de-gala-5ta-edicion-centro-de-convenciones-maracana",
+    "tags": [
+      "folclore",
+      "música"
+    ]
+  },
+  {
+    "kind": "event",
+    "reviewedAt": "2026-10-05",
+    "icon": "music",
+    "tone": "lilac",
+    "id": "salsa-gala-del-carajo-7oct-2026",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Barranco",
+    "title": "Llegó la Salsa a Barranco: Salsa de Gala",
+    "titleEn": "Salsa de Gala in Barranco",
+    "description": "Función del 7 de octubre a las 21:00 en Peña del Carajo, Jr. Catalino Miranda 158. La ficha enumera artistas y función individual; consulta cupos.",
+    "descriptionEn": "October 7 performance at 21:00 at Peña del Carajo, Jr. Catalino Miranda 158. The official page lists performers and the individual show; check capacity.",
+    "venue": "Peña del Carajo",
+    "sessions": [
+      "2026-10-07T21:00:00-05:00"
+    ],
+    "source": "Teleticket",
+    "url": "https://teleticket.com.pe/evento/llego-la-salsa-a-barranco-salsa-de-gala-penia-del-carajo",
+    "tags": [
+      "salsa",
+      "música"
+    ]
+  },
+  {
+    "kind": "event",
+    "reviewedAt": "2026-10-05",
+    "icon": "music",
+    "tone": "lilac",
+    "id": "secreto-sake-koji-apj-2026",
+    "category": "food",
+    "city": "Lima",
+    "district": "Jesús María",
+    "title": "El secreto del sake, descubriendo el koji",
+    "titleEn": "Discovering koji: the secret of sake",
+    "description": "Encuentro de Sake no matsuri el 7 de octubre a las 19:30, Auditorio Dai Hall, Av. Gregorio Escobedo 803. Ingreso libre con capacidad limitada; coorganiza Super Nikkei.",
+    "descriptionEn": "Sake no matsuri talk on October 7 at 19:30, Dai Hall, Av. Gregorio Escobedo 803. Free admission with limited capacity; co-organized by Super Nikkei.",
+    "venue": "Auditorio Dai Hall · Centro Cultural Peruano Japonés",
+    "sessions": [
+      "2026-10-07T19:30:00-05:00"
+    ],
+    "source": "Asociación Peruano Japonesa",
+    "url": "https://apj.org.pe/cultural/agenda_detalle/sake-no-matsuri",
+    "tags": [
+      "sake",
+      "gastronomía",
+      "gratuito"
+    ]
+  },
+  {
+    "kind": "event",
+    "reviewedAt": "2026-10-05",
+    "icon": "music",
+    "tone": "lilac",
+    "id": "poesia-infima-bnp-15oct-2026",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Cercado de Lima",
+    "title": "Poesía ínfima · Nivardo Córdova Salinas",
+    "titleEn": "Poesía ínfima · Nivardo Córdova Salinas",
+    "description": "Presentación de poemario el 15 de octubre a las 18:00 en el hall principal de la Gran Biblioteca Pública de Lima, Av. Abancay cuadra 4. Evento presencial gratuito y de ingreso libre.",
+    "descriptionEn": "Poetry book presentation on October 15 at 18:00 in the main hall of Gran Biblioteca Pública de Lima, Av. Abancay block 4. Free in-person event.",
+    "venue": "Gran Biblioteca Pública de Lima · Hall principal",
+    "sessions": [
+      "2026-10-15T18:00:00-05:00"
+    ],
+    "source": "Biblioteca Nacional del Perú",
+    "url": "https://eventos.bnp.gob.pe/agenda-cultural/presentacion-de-publicacion/poesia-infima-nivardo-cordova-salinas-presentacion-de-poem-6255",
+    "tags": [
+      "poesía",
+      "gratuito"
+    ]
+  },
+  {
+    "kind": "event",
+    "reviewedAt": "2026-10-05",
+    "icon": "music",
+    "tone": "lilac",
+    "id": "crespial-foro-patrimonio-cusco-2026",
+    "category": "culture",
+    "city": "Cusco",
+    "district": "Cusco",
+    "title": "CRESPIAL · Foro sobre patrimonio vivo",
+    "titleEn": "CRESPIAL · Living heritage forum",
+    "description": "Foro abierto al público con inscripción previa los días 21, 22 y 23 de octubre en Casa Garcilaso, Calle Heladeros s/n. Programa preliminar; horarios definitivos e inscripción disponibles deben comprobarse en la fuente.",
+    "descriptionEn": "Public forum with prior registration on October 21, 22 and 23 at Casa Garcilaso, Calle Heladeros. Preliminary program; check final times and registration availability.",
+    "venue": "Casa Garcilaso · Museo Histórico Regional",
+    "dates": [
+      "2026-10-21",
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "source": "CRESPIAL",
+    "url": "https://crespial.org/20aniversario/",
+    "tags": [
+      "patrimonio",
+      "foro",
+      "inscripción previa"
+    ]
+  },
+  {
+    "kind": "event",
+    "reviewedAt": "2026-10-05",
+    "icon": "music",
+    "tone": "lilac",
+    "id": "voces-rock-latino-ica-vol2-2026",
+    "category": "shows",
+    "city": "Ica",
+    "district": "Ica",
+    "title": "Voces del Rock Latino Ica · Vol. 2",
+    "titleEn": "Latin rock voices in Ica · Vol. 2",
+    "description": "Tributos de rock latino el 17 de octubre a las 22:00 en Álamo Disco Peña, Panamericana Sur km 300. Organiza Selacamto Producciones EIRL; consulta entradas en Teleticket.",
+    "descriptionEn": "Latin rock tribute show on October 17 at 22:00 at Álamo Disco Peña, Panamericana Sur km 300. Organized by Selacamto Producciones EIRL; check tickets on Teleticket.",
+    "venue": "Álamo Disco Peña",
+    "sessions": [
+      "2026-10-17T22:00:00-05:00"
+    ],
+    "source": "Teleticket",
+    "url": "https://teleticket.com.pe/evento/voces-del-rock-latino-ica-vol-2-alamo-disco-penia-ica",
+    "tags": [
+      "rock",
+      "tributos"
+    ]
+  },
+  {
+    "kind": "event",
+    "reviewedAt": "2026-10-09",
+    "icon": "art",
+    "tone": "peach",
+    "id": "expo-maternidad-lima-octubre-2026",
+    "category": "family",
+    "city": "Lima",
+    "district": "Santiago de Surco",
+    "title": "Expo Maternidad Lima 2026",
+    "titleEn": "Expo Maternidad Lima 2026",
+    "description": "Feria para madres, bebés y familias en la playa norte del Jockey Plaza, frente a Tottus. Funciones confirmadas a las 11:00 los días 9, 10 y 11 de octubre; duración aproximada de 11 horas. Menores de 11 años ingresan gratis y las demás personas requieren entrada.",
+    "descriptionEn": "Fair for parents, babies and families at Jockey Plaza's north parking area, across from Tottus. Confirmed 11:00 start on October 9, 10 and 11; approximate duration is 11 hours. Children under 11 enter free; everyone else needs a ticket.",
+    "venue": "Jockey Plaza · Playa norte del estacionamiento",
+    "sessions": [
+      "2026-10-09T11:00:00-05:00",
+      "2026-10-10T11:00:00-05:00",
+      "2026-10-11T11:00:00-05:00"
+    ],
+    "source": "Expo Maternidad Perú / Teleticket",
+    "url": "https://teleticket.com.pe/evento/expo-maternidad-lima-2026-jockey",
+    "tags": [
+      "familia",
+      "feria",
+      "maternidad"
+    ]
+  },
+  {
+    "kind": "event",
+    "reviewedAt": "2026-10-09",
+    "icon": "art",
+    "tone": "blue",
+    "id": "percusionista-ciego-aflima-octubre-2026",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Miraflores",
+    "title": "El Percusionista Ciego",
+    "titleEn": "The Blind Percussionist",
+    "description": "Propuesta escénico-musical con percusión en vivo, actuación y paisaje sonoro. Próximas funciones verificadas el 12 y 13 de octubre a las 20:00 en la Sala Lumière; venta pública por Joinnus.",
+    "descriptionEn": "Stage and music production combining live percussion, acting and soundscape. Upcoming performances verified for October 12 and 13 at 20:00 in Sala Lumière; public sale through Joinnus.",
+    "venue": "Sala Lumière · Alianza Francesa de Lima",
+    "sessions": [
+      "2026-10-12T20:00:00-05:00",
+      "2026-10-13T20:00:00-05:00"
+    ],
+    "source": "Alianza Francesa de Lima",
+    "url": "https://aflima.org.pe/evento/el-percusionista-ciego/",
+    "tags": [
+      "teatro",
+      "música",
+      "percusión"
+    ]
+  },
 ];
+
