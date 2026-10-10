@@ -930,6 +930,31 @@ export const activities = [
     ]
   },
   {
+    "id": "elrow-xxl-lima-2026",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Lurín",
+    "title": "ELROW XXL",
+    "titleEn": "ELROW XXL",
+    "description": "Festival de música electrónica confirmado por Superclub para el 10 de octubre en Lurín Live. Ticketmaster fija el ingreso desde las 17:00, para mayores de 18 años. Consulta disponibilidad y condiciones en la venta oficial.",
+    "descriptionEn": "Electronic music festival confirmed by Superclub for October 10 at Lurín Live. Ticketmaster lists entry from 17:00 for adults aged 18 and over. Check availability and conditions through the official ticket page.",
+    "venue": "Lurín Live",
+    "sessions": [
+      "2026-10-10T17:00:00-05:00"
+    ],
+    "source": "Superclub / Ticketmaster Perú",
+    "url": "https://www.ticketmaster.pe/event/el-row-xxl-venta-general-5654",
+    "reviewedAt": "2026-10-10",
+    "icon": "music",
+    "tone": "lilac",
+    "tags": [
+      "música electrónica",
+      "festival",
+      "mayores de 18 años"
+    ]
+  },
+  {
     "kind": "event",
     "reviewedAt": "2026-10-05",
     "icon": "music",
@@ -1155,3 +1180,4 @@ export const activities = [
     ]
   },
 ];
+
