@@ -3,9 +3,9 @@ import { activities } from './data/activities';
 import autoActivities from './data/auto-activities.json';
 import vaopeActivities from './data/vaope-activities.json';
 import eventClassifications from './data/event-classifications.json';
-import { categories, cities, filterActivities, limaDate, safeSourceUrl, safePosterUrl, upcomingDate, upcomingSessions } from './catalog';
+import { categories, cities, dedupeActivities, filterActivities, limaDate, safeSourceUrl, safePosterUrl, upcomingDate, upcomingSessions } from './catalog';
 
-const catalogActivities = [...activities, ...autoActivities, ...vaopeActivities].map(item => ({ ...item, ...(eventClassifications[item.id] || {}) }));
+const catalogActivities = dedupeActivities([...activities, ...autoActivities, ...vaopeActivities]).map(item => ({ ...item, ...(eventClassifications[item.id] || {}) }));
 
 const copy = {
   es: {

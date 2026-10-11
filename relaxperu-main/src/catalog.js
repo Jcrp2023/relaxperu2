@@ -14,6 +14,32 @@ export function limaDate(date = new Date()) {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Lima', year: 'numeric', month: '2-digit', day: '2-digit' }).format(date);
 }
 
+function canonicalSourceUrl(url) {
+  try {
+    const parsed = new URL(url);
+    parsed.hash = '';
+    for (const key of [...parsed.searchParams.keys()]) {
+      if (key.toLowerCase().startsWith('utm_')) parsed.searchParams.delete(key);
+    }
+    parsed.pathname = parsed.pathname.replace(/\/+$/, '') || '/';
+    return parsed.toString();
+  } catch { return ''; }
+}
+
+// Manual entries are loaded first, so their verified details win over importer copies.
+export function dedupeActivities(items) {
+  const ids = new Set();
+  const urls = new Set();
+  return items.filter(item => {
+    const id = item?.id || '';
+    const url = canonicalSourceUrl(item?.url || '');
+    if ((id && ids.has(id)) || (url && urls.has(url))) return false;
+    if (id) ids.add(id);
+    if (url) urls.add(url);
+    return true;
+  });
+}
+
 export function dateOfSession(session) { return session.slice(0, 10); }
 
 export function datesFor(item) {
@@ -74,7 +100,7 @@ export function filterActivities(items, { search = '', city = 'all', category = 
 export function safeSourceUrl(url) {
   try {
     const parsed = new URL(url);
-    return parsed.protocol === 'https:' && ['mali.pe', 'granteatronacional.pe', 'peru.travel', 'serpar.gob.pe', 'teleticket.com.pe', 'ticketmaster.pe', 'joinnus.com', 'plazanorte.pe', 'laplaza.com.pe', 'muniplibre.gob.pe', 'miraflores.gob.pe', 'apj.org.pe', 'eventos.bnp.gob.pe', 'vaope.com', 'aflima.org.pe', 'perumuchogusto.com', 'clubfelinoperuano.com', 'unadqtc.edu.pe', 'crespial.org', 'passline.com', 'rallycaminosdelinca.com'].some(domain => parsed.hostname === domain || parsed.hostname.endsWith(`.${domain}`));
+    return parsed.protocol === 'https:' && ['mali.pe', 'granteatronacional.pe', 'peru.travel', 'serpar.gob.pe', 'teleticket.com.pe', 'ticketmaster.pe', 'joinnus.com', 'plazanorte.pe', 'laplaza.com.pe', 'muniplibre.gob.pe', 'miraflores.gob.pe', 'apj.org.pe', 'eventos.bnp.gob.pe', 'gob.pe', 'vaope.com', 'aflima.org.pe', 'perumuchogusto.com', 'clubfelinoperuano.com', 'unadqtc.edu.pe', 'crespial.org', 'passline.com', 'rallycaminosdelinca.com'].some(domain => parsed.hostname === domain || parsed.hostname.endsWith(`.${domain}`));
   } catch { return false; }
 }
 

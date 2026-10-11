@@ -1,13 +1,19 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { activities } from '../src/data/activities.js';
-import { datesFor, filterActivities, safeSourceUrl, safePosterUrl, upcomingDate, upcomingSessions } from '../src/catalog.js';
+import { datesFor, dedupeActivities, filterActivities, safeSourceUrl, safePosterUrl, upcomingDate, upcomingSessions } from '../src/catalog.js';
 
 const today = '2026-09-25';
 
 test('Catalog contains no holes or duplicate IDs after editorial reconciliation', () => {
   assert.equal(activities.filter(Boolean).length, activities.length);
   assert.equal(new Set(activities.map(item => item.id)).size, activities.length);
+});
+
+test('Manual activity wins over an importer copy with the same source URL', () => {
+  const manual = { id: 'manual', url: 'https://vaope.com/evento/demo?utm_source=radar', sessions: ['2026-10-11T19:00:00-05:00'] };
+  const imported = { id: 'imported', url: 'https://vaope.com/evento/demo/', dates: ['2026-10-11'] };
+  assert.deepEqual(dedupeActivities([manual, imported]), [manual]);
 });
 
 test('Today shows only events with confirmed dates, not evergreen guides', () => {
@@ -51,6 +57,7 @@ test('External links only point to reviewed official source domains', () => {
   assert.equal(safeSourceUrl('https://mali.pe.fake.example/offer'), false);
   assert.equal(safeSourceUrl('https://www.ticketmaster.pe/event/bts-world-tour-arirang'), true);
   assert.equal(safeSourceUrl('https://www.joinnus.com/events/example'), true);
+  assert.equal(safeSourceUrl('https://www.gob.pe/institucion/igp/campañas/example'), true);
   assert.equal(safeSourceUrl('https://ticketmaster.pe.fake.example/event'), false);
   assert.equal(safeSourceUrl('https://joinnus.com.fake.example/event'), false);
   assert.equal(safeSourceUrl('javascript:alert(1)'), false);

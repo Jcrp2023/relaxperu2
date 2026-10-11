@@ -441,15 +441,6 @@ export const activities = [
     imageUrl: 'https://cdn.teleticket.com.pe/images/eventos/liv029_rs.jpg',
   },
   {
-    id: 'de-la-rose-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Miguel',
-    title: 'De La Rose · LATAM Tour', titleEn: 'De La Rose · LATAM Tour',
-    description: 'Concierto de música urbana en Costa 21. Consulta entradas y condiciones en la fuente.',
-    descriptionEn: 'Urban music concert at Costa 21. Check tickets and conditions at the source.',
-    venue: 'Costa 21', sessions: ['2026-10-02T20:00:00-05:00'], source: 'Teleticket', url: 'https://teleticket.com.pe/de-la-rose-latam-tour',
-    reviewedAt: '2026-10-02', icon: 'music', tone: 'coral', tags: ['concierto', 'urbano'],
-    imageUrl: 'https://cdn.teleticket.com.pe/images/eventos/ees033_rs.jpg',
-  },
-  {
     id: 'rio-roma-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'San Miguel',
     title: 'Río Roma · 15 años', titleEn: 'Río Roma · 15 years',
     description: 'El dúo mexicano se presenta en Costa 21. Confirma horarios y disponibilidad en la boletería.',
@@ -1179,5 +1170,33 @@ export const activities = [
       "percusión"
     ]
   },
+  {
+    "kind": "event",
+    "reviewedAt": "2026-10-11",
+    "icon": "art",
+    "tone": "blue",
+    "id": "planetario-nacional-igp-octubre-2026",
+    "category": "culture",
+    "macroNode": "Arte, Teatro, Cines & Cultura",
+    "city": "Lima",
+    "district": "Ate",
+    "title": "Funciones del Planetario Nacional · octubre",
+    "titleEn": "National Planetarium sessions · October",
+    "description": "El IGP confirma funciones el 11 y 25 de octubre en el Planetario Nacional Mutsumi Ishitsuka. La página oficial publica dos juegos de horarios incompatibles; por eso la hora y la disponibilidad quedan pendientes de confirmación antes de comprar.",
+    "descriptionEn": "IGP confirms sessions on October 11 and 25 at the Mutsumi Ishitsuka National Planetarium. The official page publishes two conflicting sets of times, so time and availability remain pending confirmation before purchase.",
+    "venue": "Planetario Nacional Mutsumi Ishitsuka",
+    "dates": [
+      "2026-10-11",
+      "2026-10-25"
+    ],
+    "source": "Instituto Geofísico del Perú",
+    "url": "https://www.gob.pe/institucion/igp/campañas/97299-visitar-el-planetario-nacional-del-igp",
+    "tags": [
+      "astronomía",
+      "ciencia",
+      "familia"
+    ]
+  },
 ];
+
 
