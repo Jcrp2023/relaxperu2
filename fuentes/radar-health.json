@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "timezone": "America/Lima",
   "revision": null,
   "coverageComplete": false,
-  "contentReviews": 81,
+  "contentReviews": 87,
   "sources": [
     {
       "url": "https://teleticket.com.pe/todos",
@@ -15,14 +15,18 @@
       "excluded": false,
       "referenceOnly": false,
       "priority": 0,
-      "lastAttempt": "2026-10-11",
+      "lastAttempt": "2026-10-12",
       "lastContentReview": "2026-10-11",
-      "ageDays": 0,
-      "latestStatus": "revisada con candidatos",
+      "ageDays": 1,
+      "latestStatus": "acceso restringido/error",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-11.json#https://teleticket.com.pe/todos",
-      "lastAccessIssue": null,
-      "nextAction": "Abrir candidatos con organizador o recinto y luego la venta individual; la cartelera sigue parcialmente revisada.",
+      "lastAccessIssue": {
+        "date": "2026-10-12",
+        "error": "La apertura directa devolvió ServerError de la herramienta: Failed to fetch; no expuso código HTTP del sitio.",
+        "record": "fuentes/cobertura-fuentes-2026-10-12.json"
+      },
+      "nextAction": "Mantener una sola alternativa oficial pertinente por ronda y no interpretar el fallo como cancelación.",
       "pending": true
     },
     {
@@ -38,18 +42,18 @@
       "excluded": false,
       "referenceOnly": false,
       "priority": 0,
-      "lastAttempt": "2026-10-11",
+      "lastAttempt": "2026-10-12",
       "lastContentReview": null,
       "ageDays": null,
       "latestStatus": "acceso restringido/error",
       "lastReviewScope": null,
       "evidenceRecord": null,
       "lastAccessIssue": {
-        "date": "2026-10-11",
-        "error": "Internal Error de la herramienta; no hubo contenido ni código HTTP expuesto.",
-        "record": "fuentes/cobertura-fuentes-2026-10-11.json"
+        "date": "2026-10-12",
+        "error": "La respuesta expuso HTTP 403 Forbidden del sitio.",
+        "record": "fuentes/cobertura-fuentes-2026-10-12.json"
       },
-      "nextAction": "Usar una sola alternativa oficial del organizador o recinto; no interpretar el fallo como cancelación.",
+      "nextAction": "Usar una sola fuente oficial alternativa del organizador o recinto; no eludir el 403 ni interpretarlo como cancelación.",
       "pending": true
     },
     {
@@ -65,18 +69,18 @@
       "excluded": false,
       "referenceOnly": false,
       "priority": 0,
-      "lastAttempt": "2026-10-11",
-      "lastContentReview": "2026-10-09",
-      "ageDays": 2,
-      "latestStatus": "acceso restringido/error",
+      "lastAttempt": "2026-10-12",
+      "lastContentReview": "2026-10-12",
+      "ageDays": 0,
+      "latestStatus": "revisada con candidatos",
       "lastReviewScope": "partial",
-      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-09.json#https://vaope.com/",
+      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-12.json#https://vaope.com/",
       "lastAccessIssue": {
         "date": "2026-10-11",
         "error": "Internal Error de la herramienta; no hubo contenido ni código HTTP expuesto.",
         "record": "fuentes/cobertura-fuentes-2026-10-11.json"
       },
-      "nextAction": "Conservar el importador y reintentar en otra ronda sin variantes masivas.",
+      "nextAction": "Deduplicar y confirmar candidatos con organizador o recinto antes de abrir la venta individual.",
       "pending": true
     },
     {
@@ -93,14 +97,14 @@
       "excluded": false,
       "referenceOnly": false,
       "priority": 0,
-      "lastAttempt": "2026-10-11",
-      "lastContentReview": "2026-10-11",
+      "lastAttempt": "2026-10-12",
+      "lastContentReview": "2026-10-12",
       "ageDays": 0,
       "latestStatus": "revisada con candidatos",
       "lastReviewScope": "partial",
-      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-11.json#https://ticketmaster.pe/",
+      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-12.json#https://ticketmaster.pe/",
       "lastAccessIssue": null,
-      "nextAction": "Confirmar ambas con organizador o recinto antes de incorporar; una portada o ficha contradictoria no completa la agenda.",
+      "nextAction": "Confirmar candidatos en organizador o recinto antes de incorporar; no usar páginas sin año.",
       "pending": true
     },
     {
@@ -115,18 +119,18 @@
       "excluded": false,
       "referenceOnly": false,
       "priority": 0,
-      "lastAttempt": "2026-10-11",
+      "lastAttempt": "2026-10-12",
       "lastContentReview": null,
       "ageDays": null,
       "latestStatus": "acceso restringido/error",
       "lastReviewScope": null,
       "evidenceRecord": null,
       "lastAccessIssue": {
-        "date": "2026-10-11",
-        "error": "Internal Error de la herramienta; no hubo contenido ni código HTTP expuesto.",
-        "record": "fuentes/cobertura-fuentes-2026-10-11.json"
+        "date": "2026-10-12",
+        "error": "La herramienta indicó que la URL no era accesible; no expuso código HTTP del sitio.",
+        "record": "fuentes/cobertura-fuentes-2026-10-12.json"
       },
-      "nextAction": "Buscar una sola fuente oficial alternativa por candidato.",
+      "nextAction": "Buscar una sola fuente oficial alternativa por candidato y reintentar en otra ronda.",
       "pending": true
     },
     {
@@ -165,18 +169,18 @@
       "excluded": false,
       "referenceOnly": false,
       "priority": 0,
-      "lastAttempt": "2026-10-11",
+      "lastAttempt": "2026-10-12",
       "lastContentReview": null,
       "ageDays": null,
       "latestStatus": "acceso restringido/error",
       "lastReviewScope": null,
       "evidenceRecord": null,
       "lastAccessIssue": {
-        "date": "2026-10-11",
-        "error": "Internal Error de la herramienta; no hubo contenido ni código HTTP expuesto.",
-        "record": "fuentes/cobertura-fuentes-2026-10-11.json"
+        "date": "2026-10-12",
+        "error": "La página pública respondió HTTP 405 Method Not Allowed.",
+        "record": "fuentes/cobertura-fuentes-2026-10-12.json"
       },
-      "nextAction": "Reintentar la página pública en otra ronda y verificar candidatos en origen.",
+      "nextAction": "Reintentar en una ronda posterior; no asumir ausencia de eventos.",
       "pending": true
     },
     {
@@ -191,14 +195,14 @@
       "excluded": false,
       "referenceOnly": false,
       "priority": 1,
-      "lastAttempt": "2026-10-11",
-      "lastContentReview": "2026-10-11",
+      "lastAttempt": "2026-10-12",
+      "lastContentReview": "2026-10-12",
       "ageDays": 0,
       "latestStatus": "revisada con candidatos",
       "lastReviewScope": "partial",
-      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-11.json#https://granteatronacional.pe/eventos",
+      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-12.json#https://granteatronacional.pe/eventos",
       "lastAccessIssue": null,
-      "nextAction": "Vigilar cambios y excluir reservas de sala sin información artística.",
+      "nextAction": "Vigilar disponibilidad y cambios; excluir reservas de sala sin información artística.",
       "pending": true
     },
     {
@@ -215,7 +219,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-10",
       "lastContentReview": "2026-10-10",
-      "ageDays": 1,
+      "ageDays": 2,
       "latestStatus": "revisada con candidatos",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-10.json#https://laplaza.com.pe/",
@@ -283,7 +287,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-07",
-      "ageDays": 4,
+      "ageDays": 5,
       "latestStatus": "no revisada",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-07.json#https://mali.pe/",
@@ -302,7 +306,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-02",
-      "ageDays": 9,
+      "ageDays": 10,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-02.json#https://plazanorte.pe/eventos",
@@ -406,7 +410,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-08",
-      "ageDays": 3,
+      "ageDays": 4,
       "latestStatus": "no revisada",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-08.json#https://agenda.pucp.edu.pe/home",
@@ -467,7 +471,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-10",
       "lastContentReview": "2026-10-10",
-      "ageDays": 1,
+      "ageDays": 2,
       "latestStatus": "revisada sin novedades demostrables",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-10.json#https://miraflores.gob.pe/eventos-municipales/mes",
@@ -733,7 +737,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-07",
-      "ageDays": 4,
+      "ageDays": 5,
       "latestStatus": "no revisada",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-07.json#https://freewalkingtoursperu.com/es/blog/que-hacer-lima-peru",
@@ -1090,14 +1094,14 @@
       "excluded": false,
       "referenceOnly": false,
       "priority": 1,
-      "lastAttempt": "2026-10-09",
-      "lastContentReview": "2026-10-07",
-      "ageDays": 4,
-      "latestStatus": "no revisada",
+      "lastAttempt": "2026-10-12",
+      "lastContentReview": "2026-10-12",
+      "ageDays": 0,
+      "latestStatus": "revisada con candidatos",
       "lastReviewScope": "partial",
-      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-07.json#https://aflima.org.pe/eventos",
+      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-12.json#https://aflima.org.pe/eventos",
       "lastAccessIssue": null,
-      "nextAction": "Continuar por fichas individuales y cambios de octubre.",
+      "nextAction": "Continuar por fichas individuales y verificar cambios de funciones cercanas.",
       "pending": true
     },
     {
@@ -1181,14 +1185,14 @@
       "excluded": false,
       "referenceOnly": false,
       "priority": 1,
-      "lastAttempt": "2026-10-09",
-      "lastContentReview": "2026-10-06",
-      "ageDays": 5,
-      "latestStatus": "no revisada",
+      "lastAttempt": "2026-10-12",
+      "lastContentReview": "2026-10-12",
+      "ageDays": 0,
+      "latestStatus": "revisada con candidatos",
       "lastReviewScope": "partial",
-      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-06.json#https://experiencias.mesa247.pe/experiencias",
+      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-12.json#https://experiencias.mesa247.pe/experiencias",
       "lastAccessIssue": null,
-      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local.",
+      "nextAction": "Abrir fichas individuales disponibles y confirmar operador, local y cupos.",
       "pending": true
     },
     {
@@ -1204,7 +1208,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-07",
-      "ageDays": 4,
+      "ageDays": 5,
       "latestStatus": "no revisada",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-07.json#https://brisasdeltiticaca.com.pe/eventos/culturales",
@@ -1247,7 +1251,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-09",
-      "ageDays": 2,
+      "ageDays": 3,
       "latestStatus": "revisada con candidatos",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-09.json#https://apj.org.pe/teatro/presentaciones",
@@ -1332,14 +1336,14 @@
       "excluded": false,
       "referenceOnly": false,
       "priority": 1,
-      "lastAttempt": "2026-10-09",
-      "lastContentReview": "2026-10-07",
-      "ageDays": 4,
-      "latestStatus": "no revisada",
+      "lastAttempt": "2026-10-12",
+      "lastContentReview": "2026-10-12",
+      "ageDays": 0,
+      "latestStatus": "revisada con candidatos",
       "lastReviewScope": "partial",
-      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-07.json#https://perurunners.com/eventos",
+      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-12.json#https://perurunners.com/eventos",
       "lastAccessIssue": null,
-      "nextAction": "Confirmar partida, punto exacto de salida y entrega de kits.",
+      "nextAction": "Abrir la ficha individual y confirmar fecha, salida y operador antes de incorporar.",
       "pending": true
     },
     {
@@ -1354,14 +1358,14 @@
       "excluded": false,
       "referenceOnly": false,
       "priority": 1,
-      "lastAttempt": "2026-10-09",
-      "lastContentReview": "2026-10-07",
-      "ageDays": 4,
-      "latestStatus": "no revisada",
+      "lastAttempt": "2026-10-12",
+      "lastContentReview": "2026-10-12",
+      "ageDays": 0,
+      "latestStatus": "revisada con candidatos",
       "lastReviewScope": "partial",
-      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-07.json#https://eventos.bnp.gob.pe/externo/inicio",
+      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-12.json#https://eventos.bnp.gob.pe/externo/inicio",
       "lastAccessIssue": null,
-      "nextAction": "Revisar cambios de las actividades de hoy y mañana y nuevas fichas individuales.",
+      "nextAction": "Continuar con fichas exactas de los próximos siete días.",
       "pending": true
     },
     {
@@ -1402,7 +1406,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-11",
       "lastContentReview": "2026-10-11",
-      "ageDays": 0,
+      "ageDays": 1,
       "latestStatus": "revisada con candidatos",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-11.json#https://gob.pe/institucion/igp/campa%C3%B1as/97299-visitar-el-planetario-nacional-del-igp",
@@ -1685,7 +1689,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-10",
       "lastContentReview": "2026-10-08",
-      "ageDays": 3,
+      "ageDays": 4,
       "latestStatus": "revisada con candidatos",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-08.json#https://apj.org.pe/",
@@ -2923,14 +2927,14 @@
       "excluded": false,
       "referenceOnly": false,
       "priority": 1,
-      "lastAttempt": "2026-10-09",
+      "lastAttempt": "2026-10-12",
       "lastContentReview": null,
       "ageDays": null,
       "latestStatus": "no revisada",
       "lastReviewScope": null,
       "evidenceRecord": null,
       "lastAccessIssue": null,
-      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local.",
+      "nextAction": "Revisar agenda o publicación individual oficial reciente en la próxima pasada.",
       "pending": true
     },
     {
@@ -2946,14 +2950,14 @@
       "excluded": false,
       "referenceOnly": false,
       "priority": 1,
-      "lastAttempt": "2026-10-11",
+      "lastAttempt": "2026-10-12",
       "lastContentReview": null,
       "ageDays": null,
       "latestStatus": "no revisada",
       "lastReviewScope": null,
       "evidenceRecord": null,
       "lastAccessIssue": null,
-      "nextAction": "Revisar una agenda o publicación individual municipal reciente con fecha, sede y ciudad.",
+      "nextAction": "Revisar agenda o publicación individual oficial reciente en la próxima pasada.",
       "pending": true
     },
     {
@@ -3667,7 +3671,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-10",
       "lastContentReview": "2026-10-10",
-      "ageDays": 1,
+      "ageDays": 2,
       "latestStatus": "revisada sin novedades demostrables",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-10.json#https://emufec.gob.pe/",
@@ -3707,14 +3711,14 @@
       "excluded": false,
       "referenceOnly": false,
       "priority": 1,
-      "lastAttempt": "2026-10-10",
+      "lastAttempt": "2026-10-12",
       "lastContentReview": null,
       "ageDays": null,
       "latestStatus": "no revisada",
       "lastReviewScope": null,
       "evidenceRecord": null,
       "lastAccessIssue": null,
-      "nextAction": "Buscar agenda cultural o publicación individual reciente de Ica/Pisco.",
+      "nextAction": "Revisar agenda o publicación individual oficial reciente en la próxima pasada.",
       "pending": true
     },
     {
@@ -3770,14 +3774,14 @@
       "excluded": false,
       "referenceOnly": false,
       "priority": 1,
-      "lastAttempt": "2026-10-10",
+      "lastAttempt": "2026-10-12",
       "lastContentReview": null,
       "ageDays": null,
       "latestStatus": "no revisada",
       "lastReviewScope": null,
       "evidenceRecord": null,
       "lastAccessIssue": null,
-      "nextAction": "Abrir convocatoria individual y confirmar sede/horario antes de publicar.",
+      "nextAction": "Revisar agenda o publicación individual oficial reciente en la próxima pasada.",
       "pending": true
     },
     {
@@ -3875,18 +3879,18 @@
       "excluded": false,
       "referenceOnly": false,
       "priority": 0,
-      "lastAttempt": "2026-10-11",
+      "lastAttempt": "2026-10-12",
       "lastContentReview": null,
       "ageDays": null,
-      "latestStatus": "no revisada",
+      "latestStatus": "acceso restringido/error",
       "lastReviewScope": null,
       "evidenceRecord": null,
       "lastAccessIssue": {
-        "date": "2026-10-09",
-        "error": "Internal Error de la herramienta; respuesta sin contenido y sin código HTTP expuesto.",
-        "record": "fuentes/cobertura-fuentes-2026-10-09.json"
+        "date": "2026-10-12",
+        "error": "La URL redirigió al portal corporativo home.passline.com y no expuso una agenda pública de Perú.",
+        "record": "fuentes/cobertura-fuentes-2026-10-12.json"
       },
-      "nextAction": "Abrir solo fichas individuales halladas por una consulta dirigida y confirmar organizador.",
+      "nextAction": "Abrir solo fichas individuales encontradas en fuentes oficiales pertinentes.",
       "pending": true
     },
     {
@@ -3901,7 +3905,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-06",
-      "ageDays": 5,
+      "ageDays": 6,
       "latestStatus": "no revisada",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-06.json#https://arteinquieto.com/fest",
@@ -3969,7 +3973,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-04",
-      "ageDays": 7,
+      "ageDays": 8,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-04.json#https://eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/jaque-a-la-rutina-aprende-ajedrez-6251",
@@ -4041,7 +4045,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-03",
-      "ageDays": 8,
+      "ageDays": 9,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-03.json#https://eventos.bnp.gob.pe/agenda-cultural/otros/torneo-de-ajedrez-6236",
@@ -4201,7 +4205,7 @@
       "priority": 0,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-01",
-      "ageDays": 10,
+      "ageDays": 11,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-01.json#https://vaope.com/eventos/teatro/cuentos-sinfonicos-de-disney-en-vivo-en-el-teatro-municipal-del-cusco",
@@ -4269,7 +4273,7 @@
       "priority": 0,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-01",
-      "ageDays": 10,
+      "ageDays": 11,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-01.json#https://vaope.com/eventos/conciertos/colombia-fex-festival-parce-fernando-aguilar-en-iquitos",
@@ -4313,7 +4317,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-03",
-      "ageDays": 8,
+      "ageDays": 9,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-03.json#https://plazanorte.pe/eventos/presentacion-de-orquesta-internacional-borinquen",
@@ -4333,7 +4337,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-02",
-      "ageDays": 9,
+      "ageDays": 10,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-02.json#https://plazanorte.pe/eventos/funcion-de-titeres",
@@ -4353,7 +4357,7 @@
       "priority": 0,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-03",
-      "ageDays": 8,
+      "ageDays": 9,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-03.json#https://ticketmaster.pe/event/apocalyptica-plays-metallica-vol2-venta-general",
@@ -4373,7 +4377,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-03",
-      "ageDays": 8,
+      "ageDays": 9,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-03.json#https://aflima.org.pe/noticia/brick-fest-peru",
@@ -4393,7 +4397,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-03",
-      "ageDays": 8,
+      "ageDays": 9,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-03.json#https://granteatronacional.pe/evento/nancy-manchego-caminos-del-ande",
@@ -4413,7 +4417,7 @@
       "priority": 0,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-04",
-      "ageDays": 7,
+      "ageDays": 8,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-04.json#https://teleticket.com.pe/annie-2026",
@@ -4433,7 +4437,7 @@
       "priority": 0,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-03",
-      "ageDays": 8,
+      "ageDays": 9,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-03.json#https://teleticket.com.pe/evento/ellas-en-concierto-en-plaza-norte-teatro-plaza-norte",
@@ -4453,7 +4457,7 @@
       "priority": 0,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-03",
-      "ageDays": 8,
+      "ageDays": 9,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-03.json#https://teleticket.com.pe/evento/suegras-teatro-auditorio-miraflores",
@@ -4473,7 +4477,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-04",
-      "ageDays": 7,
+      "ageDays": 8,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-04.json#https://museos.cultura.pe/node/1706",
@@ -4493,7 +4497,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-04",
-      "ageDays": 7,
+      "ageDays": 8,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-04-bts.json#https://weverse.io/bts/notice/34732?hl=es",
@@ -4513,7 +4517,7 @@
       "priority": 0,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-05",
-      "ageDays": 6,
+      "ageDays": 7,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-05.json#https://ticketmaster.pe/event/bts-world-tour-arirang",
@@ -4533,7 +4537,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-04",
-      "ageDays": 7,
+      "ageDays": 8,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-04.json#https://eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/apreciacion-musical-pequena-jara-criolla-para-ninos-y-ninas-6253",
@@ -4553,7 +4557,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-04",
-      "ageDays": 7,
+      "ageDays": 8,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-04.json#https://eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/tejiendo-mis-suenos-6252",
@@ -4573,7 +4577,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-04",
-      "ageDays": 7,
+      "ageDays": 8,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-04.json#https://eventos.bnp.gob.pe/agenda-cultural/club-de-lectura/historias-que-unen-6249",
@@ -4593,7 +4597,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-04",
-      "ageDays": 7,
+      "ageDays": 8,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-04.json#https://museos.cultura.pe/sites/default/files/publicaciones/pdf/Lista%20museos%204oct.pdf",
@@ -4613,7 +4617,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-05",
-      "ageDays": 6,
+      "ageDays": 7,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-05.json#https://ayuda.teleticket.com.pe/helpcenter/article/ivy-queen-pride-tour-2026",
@@ -4657,7 +4661,7 @@
       "priority": 0,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-05",
-      "ageDays": 6,
+      "ageDays": 7,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-05.json#https://teleticket.com.pe/chapa-tu-money-7oct-2026",
@@ -4677,7 +4681,7 @@
       "priority": 0,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-05",
-      "ageDays": 6,
+      "ageDays": 7,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-05.json#https://teleticket.com.pe/evento/noche-ayacuchana-de-gala-5ta-edicion-centro-de-convenciones-maracana",
@@ -4697,7 +4701,7 @@
       "priority": 0,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-05",
-      "ageDays": 6,
+      "ageDays": 7,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-05.json#https://teleticket.com.pe/evento/llego-la-salsa-a-barranco-salsa-de-gala-penia-del-carajo",
@@ -4717,7 +4721,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-08",
-      "ageDays": 3,
+      "ageDays": 4,
       "latestStatus": "no revisada",
       "lastReviewScope": "complete",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-08.json#https://apj.org.pe/cultural/agenda_detalle/sake-no-matsuri",
@@ -4737,7 +4741,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-05",
-      "ageDays": 6,
+      "ageDays": 7,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-05.json#https://eventos.bnp.gob.pe/agenda-cultural/presentacion-de-publicacion/poesia-infima-nivardo-cordova-salinas-presentacion-de-poem-6255",
@@ -4757,7 +4761,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-05",
-      "ageDays": 6,
+      "ageDays": 7,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-05.json#https://crespial.org/20aniversario",
@@ -4777,7 +4781,7 @@
       "priority": 0,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-05",
-      "ageDays": 6,
+      "ageDays": 7,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-05.json#https://teleticket.com.pe/evento/voces-del-rock-latino-ica-vol-2-alamo-disco-penia-ica",
@@ -4797,7 +4801,7 @@
       "priority": 0,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-05",
-      "ageDays": 6,
+      "ageDays": 7,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-05.json#https://teleticket.com.pe/bella-durmiente-2026",
@@ -4817,7 +4821,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-05",
-      "ageDays": 6,
+      "ageDays": 7,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-05.json#https://museopedrodeosma.org/programas/festival-de-la-hispanidad-2026",
@@ -4837,7 +4841,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-05",
-      "ageDays": 6,
+      "ageDays": 7,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-05.json#https://weverse.io/bts/notice/39439?hl=es",
@@ -4857,7 +4861,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-05",
-      "ageDays": 6,
+      "ageDays": 7,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-05.json#https://startupgrind.com/events/details/startup-grind-lima-presents-peru-startup-summit-startup-world-cup-amp-peru-startup-grind-conf",
@@ -4877,7 +4881,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-05",
-      "ageDays": 6,
+      "ageDays": 7,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-05.json#https://pagos.teleticket.com.pe/lacasadetimoteoeniquitos",
@@ -4897,7 +4901,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-05",
-      "ageDays": 6,
+      "ageDays": 7,
       "latestStatus": "no revisada",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-05.json#https://lum.cultura.pe/agenda/2026-10",
@@ -4917,7 +4921,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-05",
-      "ageDays": 6,
+      "ageDays": 7,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-05.json#https://granteatronacional.pe/evento/serenata-marinera",
@@ -4937,7 +4941,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-05",
-      "ageDays": 6,
+      "ageDays": 7,
       "latestStatus": "no revisada",
       "lastReviewScope": "content",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-05.json#https://granteatronacional.pe/evento/nicomedes-santa-cruz-gamarra-noventa-y-nueve-y-un-bitute-mas",
@@ -4957,7 +4961,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-11",
       "lastContentReview": "2026-10-11",
-      "ageDays": 0,
+      "ageDays": 1,
       "latestStatus": "revisada con candidatos",
       "lastReviewScope": "complete",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-11.json#https://granteatronacional.pe/evento/coro-nacional-del-peru-petite-messe-solennelle-de-rossini",
@@ -4977,7 +4981,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-06",
-      "ageDays": 5,
+      "ageDays": 6,
       "latestStatus": "no revisada",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-06.json#https://weverse.io/bts/notice/34732",
@@ -4997,7 +5001,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-06",
-      "ageDays": 5,
+      "ageDays": 6,
       "latestStatus": "no revisada",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-06.json#https://apj.org.pe/teatro/agenda_detalle/carlos-ballarta-presenta-naco-ladino",
@@ -5017,7 +5021,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-08",
-      "ageDays": 3,
+      "ageDays": 4,
       "latestStatus": "no revisada",
       "lastReviewScope": "complete",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-08.json#https://rallycaminosdelinca.com/noticias/los-super-prime-en-caminos-del-inca",
@@ -5061,7 +5065,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-06",
-      "ageDays": 5,
+      "ageDays": 6,
       "latestStatus": "no revisada",
       "lastReviewScope": "complete",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-06.json#https://aflima.org.pe/evento/venta-de-libros-de-segunda-mano-4",
@@ -5081,7 +5085,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-06",
-      "ageDays": 5,
+      "ageDays": 6,
       "latestStatus": "no revisada",
       "lastReviewScope": "complete",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-06.json#https://aflima.org.pe/evento/german-tejada-el-caminohacia-los-inocentes",
@@ -5101,7 +5105,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-06",
-      "ageDays": 5,
+      "ageDays": 6,
       "latestStatus": "no revisada",
       "lastReviewScope": "complete",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-06.json#https://aflima.org.pe/evento/club-de-lectura-en-frances-2",
@@ -5121,7 +5125,7 @@
       "priority": 0,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-07",
-      "ageDays": 4,
+      "ageDays": 5,
       "latestStatus": "no revisada",
       "lastReviewScope": "complete",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-07.json#https://passline.com/eventos/kortas-octubre-miercoles",
@@ -5165,7 +5169,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-07",
-      "ageDays": 4,
+      "ageDays": 5,
       "latestStatus": "no revisada",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-07.json#https://teatrolaplaza.pe/cartelera",
@@ -5185,7 +5189,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-07",
-      "ageDays": 4,
+      "ageDays": 5,
       "latestStatus": "no revisada",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-07.json#https://perurunners.com/eventos/media-maraton-del-callao-2026",
@@ -5205,7 +5209,7 @@
       "priority": 0,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-08",
-      "ageDays": 3,
+      "ageDays": 4,
       "latestStatus": "no revisada",
       "lastReviewScope": "complete",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-08.json#https://vaope.com/eventos/futbol/atletico-grau-vs-los-chankas-cyc-por-la-liga-1",
@@ -5225,7 +5229,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-08",
-      "ageDays": 3,
+      "ageDays": 4,
       "latestStatus": "no revisada",
       "lastReviewScope": "complete",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-08.json#https://apj.org.pe/cultural/agenda_detalle/x-salon-de-arte-joven-nikkei",
@@ -5245,7 +5249,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-08",
-      "ageDays": 3,
+      "ageDays": 4,
       "latestStatus": "no revisada",
       "lastReviewScope": "complete",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-08.json#https://apj.org.pe/cultural/agenda_detalle/120-encuentro-amateur-de-cuentacuentos-y-monologos-tengo-la-palabra",
@@ -5265,7 +5269,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-08",
-      "ageDays": 3,
+      "ageDays": 4,
       "latestStatus": "no revisada",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-08.json#https://facebook.com/kartslachutana?locale=es_LA",
@@ -5285,7 +5289,7 @@
       "priority": 0,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-08",
-      "ageDays": 3,
+      "ageDays": 4,
       "latestStatus": "no revisada",
       "lastReviewScope": "complete",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-08.json#https://teleticket.com.pe/cultura-profetica-lima-2026",
@@ -5325,7 +5329,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-09",
-      "ageDays": 2,
+      "ageDays": 3,
       "latestStatus": "revisada con candidatos",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-09.json#https://aflima.org.pe/evento/el-percusionista-ciego",
@@ -5345,7 +5349,7 @@
       "priority": 0,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-09",
-      "ageDays": 2,
+      "ageDays": 3,
       "latestStatus": "revisada con candidatos",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-09.json#https://teleticket.com.pe/evento/expo-maternidad-lima-2026-jockey",
@@ -5365,7 +5369,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-09",
-      "ageDays": 2,
+      "ageDays": 3,
       "latestStatus": "revisada con candidatos",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-09.json#https://expomaternidadperu.com/",
@@ -5385,7 +5389,7 @@
       "priority": 0,
       "lastAttempt": "2026-10-09",
       "lastContentReview": "2026-10-09",
-      "ageDays": 2,
+      "ageDays": 3,
       "latestStatus": "revisada con candidatos",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-09.json#https://ticketmaster.pe/event/this-is-michael-lima",
@@ -5412,7 +5416,7 @@
       "lastAccessIssue": {
         "date": "2026-10-09",
         "error": "HTTP 429 Too Many Requests al abrir la fuente oficial; no se reintentó la misma ruta.",
-        "record": "fuentes/cobertura-fuentes-2026-10-11.json"
+        "record": "fuentes/cobertura-fuentes-2026-10-12.json"
       },
       "nextAction": "Revisar en otra ronda; no usar el extracto de búsqueda como confirmación suficiente.",
       "pending": true
@@ -5427,14 +5431,14 @@
       "excluded": false,
       "referenceOnly": false,
       "priority": 1,
-      "lastAttempt": "2026-10-11",
-      "lastContentReview": "2026-10-11",
+      "lastAttempt": "2026-10-12",
+      "lastContentReview": "2026-10-12",
       "ageDays": 0,
       "latestStatus": "revisada con candidatos",
       "lastReviewScope": "partial",
-      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-11.json#https://ayuda.teleticket.com.pe/helpcenter/category/eventos-modificados-o-cancelados",
+      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-12.json#https://ayuda.teleticket.com.pe/helpcenter/category/eventos-modificados-o-cancelados",
       "lastAccessIssue": null,
-      "nextAction": "Mantener De La Rose fuera del catálogo fechado y revisar de nuevo cuando exista fecha oficial.",
+      "nextAction": "Vigilar avisos nuevos antes de cada función cercana.",
       "pending": true
     },
     {
@@ -5449,7 +5453,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-10",
       "lastContentReview": "2026-10-10",
-      "ageDays": 1,
+      "ageDays": 2,
       "latestStatus": "revisada con candidatos",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-10.json#https://superclub.pe/",
@@ -5469,7 +5473,7 @@
       "priority": 0,
       "lastAttempt": "2026-10-10",
       "lastContentReview": "2026-10-10",
-      "ageDays": 1,
+      "ageDays": 2,
       "latestStatus": "revisada con candidatos",
       "lastReviewScope": "complete",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-10.json#https://ticketmaster.pe/event/el-row-xxl-venta-general-5654",
@@ -5489,7 +5493,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-10",
       "lastContentReview": "2026-10-10",
-      "ageDays": 1,
+      "ageDays": 2,
       "latestStatus": "revisada con candidatos",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-10.json#https://meetup.com/es-es/gringo-tuesdays-language-exchange-international-party",
@@ -5509,7 +5513,7 @@
       "priority": 1,
       "lastAttempt": "2026-10-10",
       "lastContentReview": "2026-10-10",
-      "ageDays": 1,
+      "ageDays": 2,
       "latestStatus": "revisada con candidatos",
       "lastReviewScope": "partial",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-10.json#https://peru.travel/es/eventos",
@@ -5529,13 +5533,13 @@
       "priority": 0,
       "lastAttempt": "2026-10-11",
       "lastContentReview": "2026-10-11",
-      "ageDays": 0,
+      "ageDays": 1,
       "latestStatus": "revisada con candidatos",
       "lastReviewScope": "complete",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-11.json#https://ticketmaster.pe/event/bratty-lima-venta-general",
       "lastAccessIssue": null,
       "nextAction": "Confirmar la fecha real con Vichama o el recinto; no incorporar mientras exista contradicción.",
-      "pending": false
+      "pending": true
     },
     {
       "url": "https://ticketmaster.pe/event/enanitos-verdes-amen-y-la-ley",
@@ -5549,12 +5553,132 @@
       "priority": 0,
       "lastAttempt": "2026-10-11",
       "lastContentReview": "2026-10-11",
-      "ageDays": 0,
+      "ageDays": 1,
       "latestStatus": "revisada con candidatos",
       "lastReviewScope": "complete",
       "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-11.json#https://ticketmaster.pe/event/enanitos-verdes-amen-y-la-ley",
       "lastAccessIssue": null,
       "nextAction": "Confirmar el año y la identidad artística con organizador o recinto antes de incorporar.",
+      "pending": true
+    },
+    {
+      "url": "https://teleticket.com.pe/conciertos",
+      "areas": [],
+      "documents": [
+        "fuentes/cobertura-fuentes-2026-10-12.json"
+      ],
+      "observedOnly": true,
+      "excluded": false,
+      "referenceOnly": false,
+      "priority": 0,
+      "lastAttempt": "2026-10-12",
+      "lastContentReview": "2026-10-12",
+      "ageDays": 0,
+      "latestStatus": "revisada con candidatos",
+      "lastReviewScope": "partial",
+      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-12.json#https://teleticket.com.pe/conciertos",
+      "lastAccessIssue": null,
+      "nextAction": "Confirmar cada candidato primero con organizador o recinto y después con ficha individual.",
+      "pending": true
+    },
+    {
+      "url": "https://teleticket.com.pe/entretenimiento",
+      "areas": [],
+      "documents": [
+        "fuentes/cobertura-fuentes-2026-10-12.json"
+      ],
+      "observedOnly": true,
+      "excluded": false,
+      "referenceOnly": false,
+      "priority": 0,
+      "lastAttempt": "2026-10-12",
+      "lastContentReview": "2026-10-12",
+      "ageDays": 0,
+      "latestStatus": "revisada con candidatos",
+      "lastReviewScope": "partial",
+      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-12.json#https://teleticket.com.pe/entretenimiento",
+      "lastAccessIssue": null,
+      "nextAction": "Conservar los candidatos sin hora como pendientes hasta confirmación del organizador o recinto.",
+      "pending": true
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural/bibliocine/raiz-2024-6242",
+      "areas": [],
+      "documents": [
+        "fuentes/cobertura-fuentes-2026-10-12.json"
+      ],
+      "observedOnly": true,
+      "excluded": false,
+      "referenceOnly": false,
+      "priority": 1,
+      "lastAttempt": "2026-10-12",
+      "lastContentReview": "2026-10-12",
+      "ageDays": 0,
+      "latestStatus": "revisada con candidatos",
+      "lastReviewScope": "complete",
+      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-12.json#https://eventos.bnp.gob.pe/agenda-cultural/bibliocine/raiz-2024-6242",
+      "lastAccessIssue": null,
+      "nextAction": "Vigilar cambios antes de la función.",
+      "pending": false
+    },
+    {
+      "url": "https://aflima.org.pe/evento/cineart-lab-collage",
+      "areas": [],
+      "documents": [
+        "fuentes/cobertura-fuentes-2026-10-12.json"
+      ],
+      "observedOnly": true,
+      "excluded": false,
+      "referenceOnly": false,
+      "priority": 1,
+      "lastAttempt": "2026-10-12",
+      "lastContentReview": "2026-10-12",
+      "ageDays": 0,
+      "latestStatus": "revisada con candidatos",
+      "lastReviewScope": "complete",
+      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-12.json#https://aflima.org.pe/evento/cineart-lab-collage",
+      "lastAccessIssue": null,
+      "nextAction": "Vigilar cupos y cambios antes del taller.",
+      "pending": false
+    },
+    {
+      "url": "https://ticketmaster.pe/event/hermanos-castro-venta-general",
+      "areas": [],
+      "documents": [
+        "fuentes/cobertura-fuentes-2026-10-12.json"
+      ],
+      "observedOnly": true,
+      "excluded": false,
+      "referenceOnly": false,
+      "priority": 0,
+      "lastAttempt": "2026-10-12",
+      "lastContentReview": "2026-10-12",
+      "ageDays": 0,
+      "latestStatus": "revisada sin novedades demostrables",
+      "lastReviewScope": "complete",
+      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-12.json#https://ticketmaster.pe/event/hermanos-castro-venta-general",
+      "lastAccessIssue": null,
+      "nextAction": "No incorporar sin año confirmado por fuente original.",
+      "pending": false
+    },
+    {
+      "url": "https://ticketmaster.pe/event/los-pasteles-verdes-almuerzo-show-en-vivo-venta-general-220925",
+      "areas": [],
+      "documents": [
+        "fuentes/cobertura-fuentes-2026-10-12.json"
+      ],
+      "observedOnly": true,
+      "excluded": false,
+      "referenceOnly": false,
+      "priority": 0,
+      "lastAttempt": "2026-10-12",
+      "lastContentReview": "2026-10-12",
+      "ageDays": 0,
+      "latestStatus": "revisada sin novedades demostrables",
+      "lastReviewScope": "complete",
+      "evidenceRecord": "fuentes/cobertura-fuentes-2026-10-12.json#https://ticketmaster.pe/event/los-pasteles-verdes-almuerzo-show-en-vivo-venta-general-220925",
+      "lastAccessIssue": null,
+      "nextAction": "Descartar como publicación antigua.",
       "pending": false
     }
   ],
@@ -5574,7 +5698,7 @@
       "priority": 0,
       "areas": [],
       "lastContentReview": null,
-      "nextAction": "Reintentar la página pública en otra ronda y verificar candidatos en origen."
+      "nextAction": "Reintentar en una ronda posterior; no asumir ausencia de eventos."
     },
     {
       "url": "https://feverup.com/es/lima",
@@ -5583,7 +5707,7 @@
         10
       ],
       "lastContentReview": null,
-      "nextAction": "Buscar una sola fuente oficial alternativa por candidato."
+      "nextAction": "Buscar una sola fuente oficial alternativa por candidato y reintentar en otra ronda."
     },
     {
       "url": "https://joinnus.com/",
@@ -5624,7 +5748,7 @@
         10
       ],
       "lastContentReview": null,
-      "nextAction": "Usar una sola alternativa oficial del organizador o recinto; no interpretar el fallo como cancelación."
+      "nextAction": "Usar una sola fuente oficial alternativa del organizador o recinto; no eludir el 403 ni interpretarlo como cancelación."
     },
     {
       "url": "https://passline.com/",
@@ -5633,7 +5757,7 @@
         10
       ],
       "lastContentReview": null,
-      "nextAction": "Abrir solo fichas individuales halladas por una consulta dirigida y confirmar organizador."
+      "nextAction": "Abrir solo fichas individuales encontradas en fuentes oficiales pertinentes."
     },
     {
       "url": "https://passline.com/eventos/concierto-de-gala-sonido-del-peru",
@@ -5817,15 +5941,6 @@
       "nextAction": "Conservar pendiente hasta abrir una fuente individual del organizador o recinto."
     },
     {
-      "url": "https://vaope.com/",
-      "priority": 0,
-      "areas": [
-        10
-      ],
-      "lastContentReview": "2026-10-09",
-      "nextAction": "Conservar el importador y reintentar en otra ronda sin variantes masivas."
-    },
-    {
       "url": "https://ticketmaster.pe/event/el-row-xxl-venta-general-5654",
       "priority": 0,
       "areas": [],
@@ -5837,7 +5952,35 @@
       "priority": 0,
       "areas": [],
       "lastContentReview": "2026-10-11",
-      "nextAction": "Abrir candidatos con organizador o recinto y luego la venta individual; la cartelera sigue parcialmente revisada."
+      "nextAction": "Mantener una sola alternativa oficial pertinente por ronda y no interpretar el fallo como cancelación."
+    },
+    {
+      "url": "https://ticketmaster.pe/event/bratty-lima-venta-general",
+      "priority": 0,
+      "areas": [],
+      "lastContentReview": "2026-10-11",
+      "nextAction": "Confirmar la fecha real con Vichama o el recinto; no incorporar mientras exista contradicción."
+    },
+    {
+      "url": "https://ticketmaster.pe/event/enanitos-verdes-amen-y-la-ley",
+      "priority": 0,
+      "areas": [],
+      "lastContentReview": "2026-10-11",
+      "nextAction": "Confirmar el año y la identidad artística con organizador o recinto antes de incorporar."
+    },
+    {
+      "url": "https://teleticket.com.pe/conciertos",
+      "priority": 0,
+      "areas": [],
+      "lastContentReview": "2026-10-12",
+      "nextAction": "Confirmar cada candidato primero con organizador o recinto y después con ficha individual."
+    },
+    {
+      "url": "https://teleticket.com.pe/entretenimiento",
+      "priority": 0,
+      "areas": [],
+      "lastContentReview": "2026-10-12",
+      "nextAction": "Conservar los candidatos sin hora como pendientes hasta confirmación del organizador o recinto."
     },
     {
       "url": "https://ticketmaster.pe/",
@@ -5846,8 +5989,17 @@
         10,
         16
       ],
-      "lastContentReview": "2026-10-11",
-      "nextAction": "Confirmar ambas con organizador o recinto antes de incorporar; una portada o ficha contradictoria no completa la agenda."
+      "lastContentReview": "2026-10-12",
+      "nextAction": "Confirmar candidatos en organizador o recinto antes de incorporar; no usar páginas sin año."
+    },
+    {
+      "url": "https://vaope.com/",
+      "priority": 0,
+      "areas": [
+        10
+      ],
+      "lastContentReview": "2026-10-12",
+      "nextAction": "Deduplicar y confirmar candidatos con organizador o recinto antes de abrir la venta individual."
     },
     {
       "url": "https://aflima.org.pe/",
@@ -6846,7 +6998,7 @@
         22
       ],
       "lastContentReview": null,
-      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+      "nextAction": "Revisar agenda o publicación individual oficial reciente en la próxima pasada."
     },
     {
       "url": "https://munihuancayo.gob.pe/",
@@ -6873,7 +7025,7 @@
         22
       ],
       "lastContentReview": null,
-      "nextAction": "Buscar agenda cultural o publicación individual reciente de Ica/Pisco."
+      "nextAction": "Revisar agenda o publicación individual oficial reciente en la próxima pasada."
     },
     {
       "url": "https://munimancora.gob.pe/",
@@ -6891,7 +7043,7 @@
         22
       ],
       "lastContentReview": null,
-      "nextAction": "Abrir convocatoria individual y confirmar sede/horario antes de publicar."
+      "nextAction": "Revisar agenda o publicación individual oficial reciente en la próxima pasada."
     },
     {
       "url": "https://munipisco.gob.pe/",
@@ -6911,7 +7063,7 @@
         22
       ],
       "lastContentReview": null,
-      "nextAction": "Revisar una agenda o publicación individual municipal reciente con fecha, sede y ciudad."
+      "nextAction": "Revisar agenda o publicación individual oficial reciente en la próxima pasada."
     },
     {
       "url": "https://munipuno.gob.pe/",
@@ -7454,31 +7606,11 @@
       "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
     },
     {
-      "url": "https://experiencias.mesa247.pe/experiencias",
-      "priority": 1,
-      "areas": [
-        2,
-        11,
-        12
-      ],
-      "lastContentReview": "2026-10-06",
-      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
-    },
-    {
       "url": "https://weverse.io/bts/notice/34732",
       "priority": 1,
       "areas": [],
       "lastContentReview": "2026-10-06",
       "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
-    },
-    {
-      "url": "https://aflima.org.pe/eventos",
-      "priority": 1,
-      "areas": [
-        1
-      ],
-      "lastContentReview": "2026-10-07",
-      "nextAction": "Continuar por fichas individuales y cambios de octubre."
     },
     {
       "url": "https://brisasdeltiticaca.com.pe/eventos/culturales",
@@ -7488,16 +7620,6 @@
       ],
       "lastContentReview": "2026-10-07",
       "nextAction": "Revisar cartelera o ficha individual vigente."
-    },
-    {
-      "url": "https://eventos.bnp.gob.pe/externo/inicio",
-      "priority": 1,
-      "areas": [
-        7,
-        17
-      ],
-      "lastContentReview": "2026-10-07",
-      "nextAction": "Revisar cambios de las actividades de hoy y mañana y nuevas fichas individuales."
     },
     {
       "url": "https://freewalkingtoursperu.com/es/blog/que-hacer-lima-peru",
@@ -7514,15 +7636,6 @@
       ],
       "lastContentReview": "2026-10-07",
       "nextAction": "Revisar agenda o fichas individuales de actividades fechadas."
-    },
-    {
-      "url": "https://perurunners.com/eventos",
-      "priority": 1,
-      "areas": [
-        6
-      ],
-      "lastContentReview": "2026-10-07",
-      "nextAction": "Confirmar partida, punto exacto de salida y entrega de kits."
     },
     {
       "url": "https://perurunners.com/eventos/media-maraton-del-callao-2026",
@@ -7663,13 +7776,6 @@
       "nextAction": "Vigilar cambios o cancelación en el organizador y la venta oficial."
     },
     {
-      "url": "https://ayuda.teleticket.com.pe/helpcenter/category/eventos-modificados-o-cancelados",
-      "priority": 1,
-      "areas": [],
-      "lastContentReview": "2026-10-11",
-      "nextAction": "Mantener De La Rose fuera del catálogo fechado y revisar de nuevo cuando exista fecha oficial."
-    },
-    {
       "url": "https://gob.pe/institucion/igp/campa%C3%B1as/97299-visitar-el-planetario-nacional-del-igp",
       "priority": 1,
       "areas": [
@@ -7679,13 +7785,59 @@
       "nextAction": "Mantener fecha confirmada y hora/disponibilidad pendientes hasta una ficha vigente de venta o corrección oficial."
     },
     {
+      "url": "https://aflima.org.pe/eventos",
+      "priority": 1,
+      "areas": [
+        1
+      ],
+      "lastContentReview": "2026-10-12",
+      "nextAction": "Continuar por fichas individuales y verificar cambios de funciones cercanas."
+    },
+    {
+      "url": "https://ayuda.teleticket.com.pe/helpcenter/category/eventos-modificados-o-cancelados",
+      "priority": 1,
+      "areas": [],
+      "lastContentReview": "2026-10-12",
+      "nextAction": "Vigilar avisos nuevos antes de cada función cercana."
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/externo/inicio",
+      "priority": 1,
+      "areas": [
+        7,
+        17
+      ],
+      "lastContentReview": "2026-10-12",
+      "nextAction": "Continuar con fichas exactas de los próximos siete días."
+    },
+    {
+      "url": "https://experiencias.mesa247.pe/experiencias",
+      "priority": 1,
+      "areas": [
+        2,
+        11,
+        12
+      ],
+      "lastContentReview": "2026-10-12",
+      "nextAction": "Abrir fichas individuales disponibles y confirmar operador, local y cupos."
+    },
+    {
       "url": "https://granteatronacional.pe/eventos",
       "priority": 1,
       "areas": [
         14
       ],
-      "lastContentReview": "2026-10-11",
-      "nextAction": "Vigilar cambios y excluir reservas de sala sin información artística."
+      "lastContentReview": "2026-10-12",
+      "nextAction": "Vigilar disponibilidad y cambios; excluir reservas de sala sin información artística."
+    },
+    {
+      "url": "https://perurunners.com/eventos",
+      "priority": 1,
+      "areas": [
+        6
+      ],
+      "lastContentReview": "2026-10-12",
+      "nextAction": "Abrir la ficha individual y confirmar fecha, salida y operador antes de incorporar."
     }
   ],
   "areas": [
@@ -7867,18 +8019,6 @@
   ],
   "calendar": [
     {
-      "date": "2026-10-11",
-      "proposed": 14,
-      "main": 10,
-      "cities": {
-        "Lima": 11,
-        "Cusco": 1,
-        "Ica": 0,
-        "Piura": 0,
-        "Iquitos": 2
-      }
-    },
-    {
       "date": "2026-10-12",
       "proposed": 3,
       "main": 2,
@@ -7892,10 +8032,10 @@
     },
     {
       "date": "2026-10-13",
-      "proposed": 3,
+      "proposed": 4,
       "main": 1,
       "cities": {
-        "Lima": 3,
+        "Lima": 4,
         "Cusco": 0,
         "Ica": 0,
         "Piura": 0,
@@ -7940,10 +8080,10 @@
     },
     {
       "date": "2026-10-17",
-      "proposed": 18,
+      "proposed": 19,
       "main": 17,
       "cities": {
-        "Lima": 14,
+        "Lima": 15,
         "Cusco": 2,
         "Ica": 1,
         "Piura": 0,
@@ -7961,6 +8101,18 @@
         "Piura": 0,
         "Iquitos": 0
       }
+    },
+    {
+      "date": "2026-10-19",
+      "proposed": 0,
+      "main": 0,
+      "cities": {
+        "Lima": 0,
+        "Cusco": 0,
+        "Ica": 0,
+        "Piura": 0,
+        "Iquitos": 0
+      }
     }
   ],
   "regionCategories": {
@@ -7968,17 +8120,17 @@
       "shows": 22,
       "travel": 0,
       "food": 0,
-      "culture": 12,
+      "culture": 9,
       "family": 5,
       "wellness": 0,
-      "sports": 1
+      "sports": 0
     },
     "Cusco": {
       "shows": 2,
       "travel": 0,
       "food": 0,
       "culture": 1,
-      "family": 1,
+      "family": 0,
       "wellness": 0,
       "sports": 0
     },
@@ -8007,11 +8159,11 @@
       "culture": 0,
       "family": 0,
       "wellness": 0,
-      "sports": 2
+      "sports": 0
     }
   },
   "warnings": [
-    "252 rutas pendientes o desactualizadas; esto no prueba ausencia de eventos.",
+    "256 rutas pendientes o desactualizadas; esto no prueba ausencia de eventos.",
     "17 fuentes nombradas por Jahel requieren identidad/URL.",
     "Agenda pendiente: teleticket.com.pe. Una ficha aislada no completa su cartelera.",
     "Agenda pendiente: joinnus.com. Una ficha aislada no completa su cartelera.",
@@ -8046,8 +8198,8 @@
   ],
   "validationErrors": [],
   "sourceSnapshot": {
-    "editorialParent": "86b83d3b400770872237759706ab2d7da7aae2ba",
-    "main": "f027788009fa6c8ba91287340c7b88990eec1b0f",
+    "editorialParent": "5e67aa482c3c0e0e76fc052938267f41eec0d309",
+    "main": "da867e30a288767a955bf20ac828e7a1655590d0",
     "comparison": "connector snapshots; no git checkout"
   }
 }

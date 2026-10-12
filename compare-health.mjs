@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import { DOCUMENTS, buildHealth } from './scripts/radar_health.mjs';
+import { activities } from './src/data/activities.js';
+import { activities as mainManual } from './baseline/src/data/activities.js';
+import { dedupeActivities } from './src/catalog.js';
+const read = p => JSON.parse(fs.readFileSync(p, 'utf8'));
+const items = dedupeActivities([...activities,...read('src/data/auto-activities.json'),...read('src/data/vaope-activities.json')]);
+const baseline = dedupeActivities([...mainManual,...read('baseline/src/data/auto-activities.json'),...read('baseline/src/data/vaope-activities.json')]);
+const documents = Object.fromEntries(DOCUMENTS.map(p=>[p,fs.readFileSync(p,'utf8')]));
+const logs = fs.readdirSync('fuentes').filter(p=>p.startsWith('cobertura-fuentes-') && p.endsWith('.json')).map(p=>({...read('fuentes/'+p),name:'fuentes/'+p}));
+const report = buildHealth({documents,logs,items,baseline,today:'2026-10-12',revision:null});
+report.sourceSnapshot={editorialParent:'5e67aa482c3c0e0e76fc052938267f41eec0d309',main:'da867e30a288767a955bf20ac828e7a1655590d0',comparison:'connector snapshots; no git checkout'};
+fs.writeFileSync('fuentes/radar-health.json',JSON.stringify(report,null,2)+String.fromCharCode(10));
+console.log(JSON.stringify({calendar:report.calendar,regions:report.regionCategories,queue:report.queue.length,validationErrors:report.validationErrors,missingMain:report.warnings.filter(w=>w.includes('ausente')),unresolved:report.unresolvedSources.length}));

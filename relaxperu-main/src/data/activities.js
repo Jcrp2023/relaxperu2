@@ -1172,6 +1172,58 @@ export const activities = [
   },
   {
     "kind": "event",
+    "reviewedAt": "2026-10-12",
+    "icon": "art",
+    "tone": "gold",
+    "id": "bibliocine-raiz-bnp-octubre-2026",
+    "category": "culture",
+    "macroNode": "Arte, Teatro, Cines & Cultura",
+    "city": "Lima",
+    "district": "San Borja",
+    "title": "Bibliocine: Raíz (2024)",
+    "titleEn": "Bibliocinema: Raíz (2024)",
+    "description": "Proyección presencial de la película peruana «Raíz», dirigida al público general. Función gratuita el 13 de octubre a las 07:00, con tres horas de duración e ingreso hasta completar aforo.",
+    "descriptionEn": "In-person screening of the Peruvian film Raíz for the general public. Free session on October 13 at 07:00, lasting three hours, with admission while capacity lasts.",
+    "venue": "Auditorio Mario Vargas Llosa · Biblioteca Nacional del Perú",
+    "sessions": [
+      "2026-10-13T07:00:00-05:00"
+    ],
+    "source": "Biblioteca Nacional del Perú",
+    "url": "https://eventos.bnp.gob.pe/agenda-cultural/bibliocine/raiz-2024-6242",
+    "tags": [
+      "cine peruano",
+      "gratuito",
+      "aforo limitado"
+    ]
+  },
+  {
+    "kind": "event",
+    "reviewedAt": "2026-10-12",
+    "icon": "art",
+    "tone": "blue",
+    "id": "cineart-lab-collage-aflima-octubre-2026",
+    "category": "family",
+    "macroNode": "Arte, Teatro, Cines & Cultura",
+    "city": "Lima",
+    "district": "Miraflores",
+    "title": "CineArt Lab: Collage",
+    "titleEn": "CineArt Lab: Collage",
+    "description": "Taller práctico de collage para público desde los 8 años, con materiales incluidos. Sesión confirmada el 17 de octubre de 14:00 a 16:00; ingreso libre previa inscripción.",
+    "descriptionEn": "Hands-on collage workshop for ages 8 and up, with materials included. Confirmed session on October 17 from 14:00 to 16:00; free admission with advance registration.",
+    "venue": "Cine Lumière · Alianza Francesa de Lima",
+    "sessions": [
+      "2026-10-17T14:00:00-05:00"
+    ],
+    "source": "Alianza Francesa de Lima",
+    "url": "https://aflima.org.pe/evento/cineart-lab-collage/",
+    "tags": [
+      "taller",
+      "collage",
+      "familia"
+    ]
+  },
+  {
+    "kind": "event",
     "reviewedAt": "2026-10-11",
     "icon": "art",
     "tone": "blue",
