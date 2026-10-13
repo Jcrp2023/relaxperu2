@@ -1248,7 +1248,7 @@ export const activities = [
       "ciencia",
       "familia"
     ]
-  },,
+  },
 
   {
     id: 'cazadores-historias-lima-comedy-13oct-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Miraflores',
