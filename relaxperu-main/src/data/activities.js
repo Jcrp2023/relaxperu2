@@ -1248,7 +1248,46 @@ export const activities = [
       "ciencia",
       "familia"
     ]
+  },,
+
+  {
+    id: 'cazadores-historias-lima-comedy-13oct-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Miraflores',
+    title: 'Cazadores de Historias', titleEn: 'Story Hunters',
+    description: 'Show de humor y grabación en vivo para mayores de 18 años. La ficha individual confirma función a las 19:00, consumo mínimo de S/ 40 por persona y entradas vigentes.',
+    descriptionEn: 'Live comedy show and recording for adults. The individual listing confirms a 19:00 performance, a S/ 40 minimum spend per person and current ticket sales.',
+    venue: 'Lima Comedy Club · Av. Alfredo Benavides 347',
+    sessions: ['2026-10-13T19:00:00-05:00'], source: 'Lima Comedy S.A.C. / Teleticket',
+    url: 'https://teleticket.com.pe/evento/cazadores-de-historias-lima-comedy-club', reviewedAt: '2026-10-13',
+    icon: 'art', tone: 'peach', tags: ['humor', '18+', 'consumo mínimo'],
+  },
+  {
+    id: 'jammin-caribenos-olaya-lima-13oct-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Ate',
+    title: 'Jammin · Caribeños de Guadalupe y Olaya Sound System', titleEn: 'Jammin · Caribeños de Guadalupe and Olaya Sound System',
+    description: 'Concierto mensual de Movistar para clientes Black y Platinum, con canje gratuito sujeto a aforo. Función confirmada a las 20:30; acceso exclusivo para mayores de 18 años.',
+    descriptionEn: 'Movistar monthly concert for Black and Platinum customers, with free redemption subject to capacity. Confirmed at 20:30; adults only.',
+    venue: 'Arena Monumental · Explanada Sur del Estadio Monumental U',
+    sessions: ['2026-10-13T20:30:00-05:00'], source: 'Movistar / Teleticket',
+    url: 'https://teleticket.com.pe/jammin-deyvis-orosco-olaya-sound-system-2026', reviewedAt: '2026-10-13',
+    icon: 'music', tone: 'coral', tags: ['concierto', 'cumbia', '18+', 'clientes Movistar'],
+  },
+  {
+    id: 'migajera-nunca-mas-barranco-octubre-2026', kind: 'event', category: 'shows', city: 'Lima', district: 'Barranco',
+    title: 'Migajera Nunca Más', titleEn: 'No More Breadcrumbs',
+    description: 'Show de humor para mayores de 14 años. Funciones expresamente seleccionables el 13 y 20 de octubre a las 20:30; consumo mínimo de S/ 30 por persona.',
+    descriptionEn: 'Comedy show for ages 14 and over. Individually selectable performances on October 13 and 20 at 20:30; S/ 30 minimum spend per person.',
+    venue: 'La Estación de Barranco · Av. Pedro de Osma 112',
+    sessions: ['2026-10-13T20:30:00-05:00', '2026-10-20T20:30:00-05:00'], source: 'AMU Agencia de Mentes Únicas / Teleticket',
+    url: 'https://teleticket.com.pe/evento/migajera-nunca-mas-la-estacion-de-barranco', reviewedAt: '2026-10-13',
+    icon: 'art', tone: 'lilac', tags: ['humor', '14+', 'consumo mínimo'],
+  },
+  {
+    id: 'festival-cine-lima-alterna-af-2026', kind: 'event', category: 'culture', city: 'Lima', district: 'Miraflores',
+    title: '7.º Festival Internacional de Cine Lima Alterna', titleEn: '7th Lima Alterna International Film Festival',
+    description: 'Programación gratuita de cine alternativo. La ficha oficial enumera sesiones próximas el 14, 15 y 17 de octubre a las 17:00 y 19:00; varias funciones reúnen cortos y largometrajes.',
+    descriptionEn: 'Free alternative-film programme. The official listing gives upcoming screenings on October 14, 15 and 17 at 17:00 and 19:00; several slots combine shorts and features.',
+    venue: 'Cine Lumière · Alianza Francesa de Lima',
+    sessions: ['2026-10-14T17:00:00-05:00', '2026-10-14T19:00:00-05:00', '2026-10-15T17:00:00-05:00', '2026-10-15T19:00:00-05:00', '2026-10-17T17:00:00-05:00', '2026-10-17T19:00:00-05:00'],
+    source: 'Alianza Francesa de Lima', url: 'https://aflima.org.pe/evento/7-festival-de-cineinternacional-lima-alterna/',
+    reviewedAt: '2026-10-13', icon: 'film', tone: 'blue', tags: ['cine', 'festival', 'gratis', '16+'],
   },
 ];
-
-

@@ -79,21 +79,21 @@
     "district": "San Borja",
     "title": "Orquesta Sinfónica Nacional Juvenil Bicentenario: Modo Mozart",
     "titleEn": "Orquesta Sinfónica Nacional Juvenil Bicentenario: Modo Mozart",
-    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
-    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "description": "Concierto de la Orquesta Sinfónica Nacional Juvenil Bicentenario dirigido por Pablo Sabat. Función confirmada el 16 de octubre a las 20:00; entradas a la venta por Joinnus.",
+    "descriptionEn": "Concert by the National Bicentennial Youth Symphony Orchestra conducted by Pablo Sabat. Confirmed on October 16 at 20:00; tickets sold through Joinnus.",
     "venue": "Gran Teatro Nacional",
-    "dates": [
-      "2026-10-16"
-    ],
     "source": "Gran Teatro Nacional",
     "url": "https://granteatronacional.pe/evento/orquesta-sinfonica-nacional-juvenil-bicentenario-modo-mozart",
-    "reviewedAt": "2026-10-11",
+    "reviewedAt": "2026-10-13",
     "icon": "music",
     "tone": "green",
     "tags": [
       "música"
     ],
-    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/modo-mozart.jpg?itok=Pgz-Q3Xt"
+    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/modo-mozart.jpg?itok=Pgz-Q3Xt",
+    "sessions": [
+      "2026-10-16T20:00:00-05:00"
+    ]
   },
   {
     "id": "gtn-raices-de-jauja-noche-de-gala-andina",
@@ -312,5 +312,3 @@
     "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/visitaGTN26marzo_1_3.jpg?itok=9qxWw5BE"
   }
 ]
-
-

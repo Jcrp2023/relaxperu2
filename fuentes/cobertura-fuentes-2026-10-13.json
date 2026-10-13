@@ -1,0 +1,188 @@
+{
+  "date": "2026-10-13",
+  "timezone": "America/Lima",
+  "documentsRead": [
+    "SOURCES.md",
+    "FUENTES_MACRONODULOS.md",
+    "FUENTES_EXPANSION.md",
+    "fuentes/Propuesta_Jahel_22_areas_2026-09-25.txt",
+    "fuentes/OPERACION_RADAR.md"
+  ],
+  "previousCoverage": "fuentes/cobertura-fuentes-2026-10-12.json",
+  "mainCommit": "89bd2da217dbd0d6168d7d3c0ab62ba0ec043659",
+  "editorialParent": "884366084e9a295d06854d14381b44680cce1315",
+  "openPRs": [
+    14,
+    15
+  ],
+  "approach": "Primero se revisó contenido de Teleticket, Ticketmaster y Joinnus; después VAOPE, Fever, Eventbrite público y Passline. Se abrieron fichas individuales antes de incorporar y se verificaron agendas GTN y Alianza Francesa. Se hizo una pasada regional dirigida por Cusco, Ica/Pisco, Piura e Iquitos. Vamos se conservó excluida.",
+  "catalogChanges": [
+    {
+      "type": "alta",
+      "id": "cazadores-historias-lima-comedy-13oct-2026",
+      "evidence": [
+        "https://teleticket.com.pe/evento/cazadores-de-historias-lima-comedy-club"
+      ]
+    },
+    {
+      "type": "alta",
+      "id": "jammin-caribenos-olaya-lima-13oct-2026",
+      "evidence": [
+        "https://teleticket.com.pe/jammin-deyvis-orosco-olaya-sound-system-2026"
+      ]
+    },
+    {
+      "type": "alta",
+      "id": "migajera-nunca-mas-barranco-octubre-2026",
+      "evidence": [
+        "https://teleticket.com.pe/evento/migajera-nunca-mas-la-estacion-de-barranco"
+      ]
+    },
+    {
+      "type": "alta",
+      "id": "festival-cine-lima-alterna-af-2026",
+      "evidence": [
+        "https://aflima.org.pe/evento/7-festival-de-cineinternacional-lima-alterna/"
+      ]
+    },
+    {
+      "type": "corrección",
+      "id": "gtn-orquesta-sinfonica-nacional-juvenil-bicentenario-modo-mozart",
+      "evidence": [
+        "https://granteatronacional.pe/evento/orquesta-sinfonica-nacional-juvenil-bicentenario-modo-mozart"
+      ]
+    },
+    {
+      "type": "sincronización",
+      "id": "main-2026-10-13",
+      "evidence": [
+        "main:89bd2da217dbd0d6168d7d3c0ab62ba0ec043659"
+      ]
+    }
+  ],
+  "exclusions": [
+    "https://www.vamoseventos.com/"
+  ],
+  "sources": [
+    {
+      "url": "https://teleticket.com.pe/todos",
+      "consultedAt": "2026-10-13",
+      "method": "lectura de agenda y fichas individuales",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "reviewScope": "partial",
+      "lastEvidence": "Agenda de octubre legible; se confirmaron Cazadores de Historias, Jammin y Migajera Nunca Más en fichas individuales. Una agenda extensa no se considera revisión completa.",
+      "nextAction": "Continuar desde las fichas no deduplicadas; verificar primero organizador o recinto."
+    },
+    {
+      "url": "https://ticketmaster.pe/",
+      "consultedAt": "2026-10-13",
+      "method": "apertura directa",
+      "status": "revisada sin novedades demostrables",
+      "contentReviewedThisRound": true,
+      "reviewScope": "partial",
+      "lastEvidence": "Portada accesible; no se incorporó una ficha nueva porque una portada no completa la agenda.",
+      "nextAction": "Abrir candidatos individuales con año y contrastar organizador o recinto."
+    },
+    {
+      "url": "https://joinnus.com/search",
+      "consultedAt": "2026-10-13",
+      "method": "apertura directa",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Internal Error de la herramienta; no expuso contenido ni código HTTP del sitio.",
+      "nextAction": "Usar una sola fuente oficial alternativa por candidato y reintentar en otra ronda; no interpretar el fallo como cancelación."
+    },
+    {
+      "url": "https://vaope.com/",
+      "consultedAt": "2026-10-13",
+      "method": "apertura directa",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "reviewScope": "partial",
+      "lastEvidence": "Portada accesible; los candidatos próximos ya estaban en el catálogo o quedaron pendientes de organizador/recinto.",
+      "nextAction": "Confirmar hora y operador en fuentes individuales antes de corregir fichas importadas."
+    },
+    {
+      "url": "https://feverup.com/es/lima",
+      "consultedAt": "2026-10-13",
+      "method": "apertura directa",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Internal Error de la herramienta; no expuso contenido ni código HTTP del sitio.",
+      "nextAction": "Una alternativa oficial por candidato; no reintentar masivamente."
+    },
+    {
+      "url": "https://www.eventbrite.com.pe/d/peru/events",
+      "consultedAt": "2026-10-13",
+      "method": "apertura directa",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Internal Error de la herramienta; no expuso contenido ni código HTTP del sitio.",
+      "nextAction": "Reintentar en otra ronda y no asumir ausencia de eventos."
+    },
+    {
+      "url": "https://www.passline.com/",
+      "consultedAt": "2026-10-13",
+      "method": "apertura directa",
+      "status": "revisada sin novedades demostrables",
+      "contentReviewedThisRound": true,
+      "reviewScope": "partial",
+      "lastEvidence": "Redirigió a la portada corporativa sin agenda Perú visible; las fichas individuales previas siguen siendo evidencia aislada.",
+      "nextAction": "Abrir solo fichas candidatas con organizador o recinto verificado."
+    },
+    {
+      "url": "https://granteatronacional.pe/eventos",
+      "consultedAt": "2026-10-13",
+      "method": "agenda y fichas individuales",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "reviewScope": "content",
+      "lastEvidence": "Se reconfirmaron PERUJAZZ, Modo Mozart y Yuyachkani; Modo Mozart confirma 16 de octubre a las 20:00.",
+      "nextAction": "Vigilar disponibilidad y cambios; excluir montajes internos."
+    },
+    {
+      "url": "https://aflima.org.pe/eventos/",
+      "consultedAt": "2026-10-13",
+      "method": "agenda y ficha individual",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "reviewScope": "content",
+      "lastEvidence": "Lima Alterna publicó sesiones exactas el 14, 15 y 17 a las 17:00 y 19:00; se incorporaron como una ficha con sesiones enumeradas.",
+      "nextAction": "Vigilar cambios de programación y aforo."
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural",
+      "consultedAt": "2026-10-13",
+      "method": "apertura directa",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "La herramienta indicó que la URL no era accesible; no expuso código HTTP.",
+      "nextAction": "Usar una ficha individual ya identificada o reintentar en otra ronda."
+    },
+    {
+      "url": "https://www.munipisco.gob.pe/",
+      "consultedAt": "2026-10-13",
+      "method": "consulta regional dirigida",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Solo se obtuvo portada institucional; no equivale a agenda ni demuestra ausencia de eventos.",
+      "nextAction": "Revisar publicaciones culturales individuales recientes."
+    },
+    {
+      "url": "https://munimaynas.gob.pe/",
+      "consultedAt": "2026-10-13",
+      "method": "consulta regional dirigida",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Solo se obtuvo portada institucional; no equivale a agenda ni demuestra ausencia de eventos.",
+      "nextAction": "Revisar publicaciones culturales individuales recientes."
+    }
+  ]
+}
