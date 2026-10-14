@@ -1290,4 +1290,54 @@ export const activities = [
     source: 'Alianza Francesa de Lima', url: 'https://aflima.org.pe/evento/7-festival-de-cineinternacional-lima-alterna/',
     reviewedAt: '2026-10-13', icon: 'film', tone: 'blue', tags: ['cine', 'festival', 'gratis', '16+'],
   },
+  {
+    "id": "zayn-konnakol-lima-2026",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "San Miguel",
+    "title": "ZAYN · The Konnakol Tour",
+    "titleEn": "ZAYN · The Konnakol Tour",
+    "description": "Live Nation confirma el concierto del 14 de octubre de 2026 en Costa 21 y enlaza la venta de Teleticket. La boletería indica que podrá comenzar a las 20:30: es una hora estimada, no definitiva. Disponibilidad por comprobar en la venta oficial.",
+    "descriptionEn": "Live Nation confirms the October 14, 2026 concert at Costa 21 and links to Teleticket. The ticket page says the show may start at 20:30; this is an estimated, not definitive, time. Check ticket availability with the official seller.",
+    "venue": "Costa 21 · Costa Verde s/n",
+    "dates": [
+      "2026-10-14"
+    ],
+    "source": "Live Nation Perú / Teleticket",
+    "url": "https://teleticket.com.pe/zayn",
+    "reviewedAt": "2026-10-14",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "concierto",
+      "pop",
+      "hora estimada"
+    ]
+  },
+  {
+    "id": "noche-mali-octubre-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Cercado de Lima",
+    "title": "Noche MALI · Octubre",
+    "titleEn": "MALI Night · October",
+    "description": "Noche cultural del 30 de octubre, de 18:00 a 22:00, con visitas mediadas, talleres, baile y presentación de Bartola. Entrada publicada: S/12.90. La ficha del museo confirma programa, fecha y local; Joinnus respondió HTTP 403, por lo que la disponibilidad de entradas queda pendiente.",
+    "descriptionEn": "Cultural evening on October 30 from 18:00 to 22:00, with guided visits, workshops, dance and a performance by Bartola. Published ticket price: S/12.90. The museum confirms the programme, date and venue; Joinnus returned HTTP 403, so ticket availability remains unverified.",
+    "venue": "Museo de Arte de Lima · Av. 9 de Diciembre 125",
+    "sessions": [
+      "2026-10-30T18:00:00-05:00"
+    ],
+    "source": "Museo de Arte de Lima",
+    "url": "https://mali.pe/es/activity/noche-mali-edicion-octubre/",
+    "reviewedAt": "2026-10-14",
+    "icon": "art",
+    "tone": "gold",
+    "tags": [
+      "museo",
+      "música criolla",
+      "talleres"
+    ]
+  },
 ];
