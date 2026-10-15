@@ -1340,4 +1340,103 @@ export const activities = [
       "talleres"
     ]
   },
+  {
+    "id": "mali-codesido-curadores-15oct-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Cercado de Lima",
+    "title": "Codesido · Visita con sus curadores",
+    "titleEn": "Codesido · Visita con sus curadores",
+    "description": "Visita guiada junto a Luis Eduardo Wuffarden y Ricardo Kusunoki. Requiere entrada MALI e inscripción en el formulario enlazado por el museo. Cupos no comprobados.",
+    "descriptionEn": "Guided visit with curators Luis Eduardo Wuffarden and Ricardo Kusunoki. A MALI admission ticket and advance registration through the museum form are required. Capacity has not been verified.",
+    "venue": "Sala temporal 1 · Museo de Arte de Lima",
+    "sessions": [
+      "2026-10-15T17:00:00-05:00"
+    ],
+    "source": "Museo de Arte de Lima",
+    "url": "https://mali.pe/es/activity/visita-guiada-a-la-exposicion-codesido-junto-a-sus-curadores-luis-eduardo-wuffarden-y-ricardo-kusunoki-3/",
+    "reviewedAt": "2026-10-15",
+    "icon": "art",
+    "tone": "gold",
+    "tags": [
+      "museo",
+      "arte",
+      "visita guiada"
+    ]
+  },
+  {
+    "id": "mali-sembrando-esperanza-16oct-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Cercado de Lima",
+    "title": "Sembrando Esperanza · Documental y conversatorio",
+    "titleEn": "Sembrando Esperanza · Documental y conversatorio",
+    "description": "Proyección del documental y conversatorio por el Día Nacional de la Persona con Discapacidad, con apoyo de CMMB Perú. Ingreso gratuito con inscripción previa en el formulario institucional. Cupos no comprobados.",
+    "descriptionEn": "Documentary screening and discussion for the National Day of Persons with Disabilities, supported by CMMB Peru. Free admission with advance registration through the institutional form. Capacity has not been verified.",
+    "venue": "Auditorio MALI",
+    "sessions": [
+      "2026-10-16T16:00:00-05:00"
+    ],
+    "source": "Museo de Arte de Lima",
+    "url": "https://mali.pe/es/activity/proyeccion-del-documental-sembrando-esperanza-y-conversatorio/",
+    "reviewedAt": "2026-10-15",
+    "icon": "art",
+    "tone": "gold",
+    "tags": [
+      "cine",
+      "conversatorio",
+      "inclusión"
+    ]
+  },
+  {
+    "id": "mali-camino-nora-17oct-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Cercado de Lima",
+    "title": "El camino de Nora · Roberta Carreri",
+    "titleEn": "El camino de Nora · Roberta Carreri",
+    "description": "Demostración-espectáculo de Roberta Carreri, producida por Odin Teatret, en el intercambio organizado por Shaya Teatro. El museo confirma función y local. La venta de Joinnus respondió HTTP 403; disponibilidad pendiente.",
+    "descriptionEn": "Performance demonstration by Roberta Carreri, produced by Odin Teatret, during the exchange organized by Shaya Teatro. The museum confirms the performance and venue. Joinnus returned HTTP 403; availability remains unverified.",
+    "venue": "Auditorio MALI",
+    "sessions": [
+      "2026-10-17T20:00:00-05:00"
+    ],
+    "source": "Museo de Arte de Lima",
+    "url": "https://mali.pe/es/activity/el-camino-de-nora-demostracion-espectaculo-de-roberta-carreri/",
+    "reviewedAt": "2026-10-15",
+    "icon": "art",
+    "tone": "gold",
+    "tags": [
+      "teatro",
+      "actuación"
+    ]
+  },
+  {
+    "id": "mali-codesido-redes-21oct-2026",
+    "kind": "event",
+    "category": "culture",
+    "city": "Lima",
+    "district": "Cercado de Lima",
+    "title": "Julia Codesido · Redes artísticas, intelectuales y afectivas",
+    "titleEn": "Julia Codesido · Redes artísticas, intelectuales y afectivas",
+    "description": "Conversatorio con Andrea García Rodríguez y Yocelyn Valdebenito, con comentarios de Ricardo Kusunoki. Ingreso gratuito con inscripción en el formulario institucional. Cupos no comprobados.",
+    "descriptionEn": "Discussion with Andrea García Rodríguez and Yocelyn Valdebenito, with commentary by Ricardo Kusunoki. Free admission with registration through the institutional form. Capacity has not been verified.",
+    "venue": "Auditorio MALI",
+    "sessions": [
+      "2026-10-21T17:00:00-05:00"
+    ],
+    "source": "Museo de Arte de Lima",
+    "url": "https://mali.pe/es/activity/conversatorio-redes-artisticas-intelectuales-y-afectivas-en-torno-a-la-obra-de-julia-codesido/",
+    "reviewedAt": "2026-10-15",
+    "icon": "art",
+    "tone": "gold",
+    "tags": [
+      "arte",
+      "conversatorio",
+      "historia"
+    ]
+  },
 ];
