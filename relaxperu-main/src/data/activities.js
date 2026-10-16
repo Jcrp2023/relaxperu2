@@ -1439,4 +1439,53 @@ export const activities = [
       "historia"
     ]
   },
+  {
+    "id": "mar-de-copas-plaza-norte-16oct-2026",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Independencia",
+    "title": "Mar de Copas · Teatro Plaza Norte",
+    "titleEn": "Mar de Copas · Teatro Plaza Norte",
+    "description": "Concierto del 16 de octubre en Teatro Plaza Norte. La ficha del artista distingue apertura de puertas a las 19:00 e inicio del show a las 20:00; informa entradas agotadas y registro cerrado. Producción Digital Venue ATK Producciones S.A.C. No se ofrece disponibilidad.",
+    "descriptionEn": "October 16 concert at Teatro Plaza Norte. The artist's individual page distinguishes doors at 19:00 from the show at 20:00 and reports sold-out tickets and closed registration. Produced by Digital Venue ATK Producciones S.A.C. No availability is offered.",
+    "venue": "Teatro Plaza Norte · Av. Alfredo Mendiola 1400",
+    "sessions": [
+      "2026-10-16T20:00:00-05:00"
+    ],
+    "source": "Mar de Copas / Teatro Plaza Norte",
+    "url": "https://plazanorte.pe/teatro/mar-de-copas-en-el-teatro-plaza-norte/",
+    "reviewedAt": "2026-10-16",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "rock",
+      "concierto",
+      "agotado"
+    ]
+  },
+  {
+    "id": "batalla-consagrados-plaza-norte-24oct-2026",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Independencia",
+    "title": "Batalla de Consagrados · 04 voces",
+    "titleEn": "Batalla de Consagrados · Four voices",
+    "description": "Espectáculo tributo a Julio Iglesias, Nino Bravo, Pedro Infante y Raphael. El recinto y Teleticket confirman el 24 de octubre a las 19:00. Zonavip Eventos S.A.C. figura como organizador. La ficha publica venta regular; disponibilidad final sujeta a la boletería.",
+    "descriptionEn": "Tribute show to Julio Iglesias, Nino Bravo, Pedro Infante and Raphael. The venue and Teleticket confirm October 24 at 19:00. Zonavip Eventos S.A.C. is listed as organizer. The page shows regular ticket sales; final availability must be checked with the seller.",
+    "venue": "Teatro Plaza Norte",
+    "sessions": [
+      "2026-10-24T19:00:00-05:00"
+    ],
+    "source": "Teatro Plaza Norte / Teleticket",
+    "url": "https://plazanorte.pe/teatro/batalla-de-consagrados-en-teatro-plaza-norte-2/",
+    "reviewedAt": "2026-10-16",
+    "icon": "music",
+    "tone": "gold",
+    "tags": [
+      "tributo",
+      "música"
+    ]
+  },
 ];
