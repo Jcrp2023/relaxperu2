@@ -1488,4 +1488,54 @@ export const activities = [
       "música"
     ]
   },
+  {
+    "id": "grupo-frontera-costa21-17oct-2026",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "San Miguel",
+    "title": "Grupo Frontera · Triste pero bien c*brón Tour",
+    "titleEn": "Grupo Frontera · Triste pero bien c*brón Tour",
+    "description": "Live Nation confirma el 17 de octubre de 2026 a las 20:00 en Costa 21,para mayores de 18 años. La productora anunció entradas agotadas; Teleticket mantiene la ficha informativa. No se ofrece disponibilidad ni se interpreta una tabla de precios como cupos.",
+    "descriptionEn": "Live Nation confirms October17,2026 at20:00 at Costa 21,for adults18+. The promoter announced sold-out tickets; Teleticket retains its information page. No availability is offered and a price table is not evidence of capacity.",
+    "venue": "Multiespacio Costa21 · Costa Verde",
+    "sessions": [
+      "2026-10-17T20:00:00-05:00"
+    ],
+    "source": "Live Nation Perú / Teleticket",
+    "url": "https://teleticket.com.pe/grupo-frontera",
+    "reviewedAt": "2026-10-17",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "concierto",
+      "regional mexicano",
+      "agotado",
+      "18+"
+    ]
+  },
+  {
+    "id": "iron-maiden-lima-17oct-2026",
+    "kind": "event",
+    "category": "shows",
+    "city": "Lima",
+    "district": "Cercado de Lima",
+    "title": "Iron Maiden · Run For Your Lives",
+    "titleEn": "Iron Maiden · Run For Your Lives",
+    "description": "Concierto confirmado por la gira oficial del artista para el 17 de octubre de 2026 en el Estadio Nacional,Lima. Ticketmaster confirma inicio a las 20:30 y organizador E2 Live S.A.C. / Move Concerts. La ficha expone venta general,pero también avisos de actividad sospechosa y medios de pago; disponibilidad final pendiente.",
+    "descriptionEn": "The artist's official tour confirms October17,2026 at Estadio Nacional,Lima. Ticketmaster confirms20:30 and organizer E2LiveSAC/MoveConcerts. The listing shows general sale alongside suspicious-activity and payment notices; final ticket availability remains unverified.",
+    "venue": "Estadio Nacional · Av.José Díaz s/n",
+    "sessions": [
+      "2026-10-17T20:30:00-05:00"
+    ],
+    "source": "Iron Maiden / Ticketmaster",
+    "url": "https://www.ticketmaster.pe/event/iron-maiden-home",
+    "reviewedAt": "2026-10-17",
+    "icon": "music",
+    "tone": "blue",
+    "tags": [
+      "heavy metal",
+      "concierto"
+    ]
+  },
 ];
