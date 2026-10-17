@@ -1292,6 +1292,10 @@ export const activities = [
   },
   {
     "id": "zayn-konnakol-lima-2026",
+    confirmationLabel: "Por confirmar: horario y disponibilidad",
+    confirmationLabelEn: "To confirm: time and availability",
+    confirmationNote: "La hora publicada es estimada.",
+    confirmationNoteEn: "Published time is estimated.",
     "kind": "event",
     "category": "shows",
     "city": "Lima",
@@ -1317,6 +1321,10 @@ export const activities = [
   },
   {
     "id": "noche-mali-octubre-2026",
+    confirmationLabel: "Por confirmar: disponibilidad",
+    confirmationLabelEn: "To confirm: availability",
+    confirmationNote: "Programa confirmado por el museo; cupos pendientes.",
+    confirmationNoteEn: "Program confirmed by the museum; availability pending.",
     "kind": "event",
     "category": "culture",
     "city": "Lima",
@@ -1392,6 +1400,10 @@ export const activities = [
   },
   {
     "id": "mali-camino-nora-17oct-2026",
+    confirmationLabel: "Por confirmar: disponibilidad",
+    confirmationLabelEn: "To confirm: availability",
+    confirmationNote: "Función confirmada por el MALI; venta pendiente de comprobar.",
+    confirmationNoteEn: "Show confirmed by MALI; ticket availability not verified.",
     "kind": "event",
     "category": "culture",
     "city": "Lima",
@@ -1466,6 +1478,10 @@ export const activities = [
   },
   {
     "id": "batalla-consagrados-plaza-norte-24oct-2026",
+    confirmationLabel: "Por confirmar: disponibilidad",
+    confirmationLabelEn: "To confirm: availability",
+    confirmationNote: "Fecha, hora y recinto confirmados; consultar cupos.",
+    confirmationNoteEn: "Date, time and venue confirmed; check availability.",
     "kind": "event",
     "category": "shows",
     "city": "Lima",
@@ -1490,6 +1506,10 @@ export const activities = [
   },
   {
     "id": "grupo-frontera-costa21-17oct-2026",
+    confirmationLabel: "Agotado",
+    confirmationLabelEn: "Sold out",
+    confirmationNote: "Entradas agotadas según Live Nation.",
+    confirmationNoteEn: "Tickets sold out according to Live Nation.",
     "kind": "event",
     "category": "shows",
     "city": "Lima",
@@ -1516,6 +1536,10 @@ export const activities = [
   },
   {
     "id": "iron-maiden-lima-17oct-2026",
+    confirmationLabel: "Por confirmar: disponibilidad",
+    confirmationLabelEn: "To confirm: availability",
+    confirmationNote: "Fecha, hora y recinto confirmados.",
+    confirmationNoteEn: "Date, time and venue confirmed.",
     "kind": "event",
     "category": "shows",
     "city": "Lima",
@@ -1539,3 +1563,4 @@ export const activities = [
     ]
   },
 ];
+
