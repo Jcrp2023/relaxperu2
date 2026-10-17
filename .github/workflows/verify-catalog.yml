@@ -13,6 +13,8 @@ jobs:
     timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -26,5 +28,14 @@ jobs:
         run: npm ci
       - name: Probar catálogo
         run: npm test
+      - name: Auditar cobertura y diferencia con main
+        run: node scripts/radar_health.mjs --base-ref origin/main
+      - name: Adjuntar cola y cobertura editorial
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: radar-editorial-pr
+          path: fuentes/radar-health.json
+          if-no-files-found: warn
       - name: Compilar
         run: npm run build

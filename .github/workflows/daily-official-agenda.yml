@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 concurrency:
   group: daily-official-agenda
@@ -21,6 +22,23 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
+          fetch-depth: 0
+      - name: Seleccionar rama de revisión compatible
+        id: review
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          branch=$(gh pr list --state open --base main --json headRefName --jq '.[] | select(.headRefName == "codex/catalogo-confirmado-2026-09-28" or (.headRefName | startswith("codex/agenda-oficial-"))) | .headRefName' | head -n 1)
+          if [ -n "$branch" ]; then
+            git fetch origin "$branch"
+            git checkout -B "$branch" FETCH_HEAD
+          else
+            branch="codex/agenda-oficial-$(date -u +%Y-%m-%d)"
+            git checkout -b "$branch"
+          fi
+          case "$branch" in codex/*) ;; *) echo 'Rama de revisión inválida'; exit 1 ;; esac
+          echo "branch=$branch" >> "$GITHUB_OUTPUT"
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -33,20 +51,46 @@ jobs:
       - name: Leer cartelera pública de VAOPE
         run: python scripts/update_vaope_agenda.py
         continue-on-error: true
+      - name: Clasificar fichas nuevas en macro-nódulos
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: node scripts/classify_events.mjs
+      - name: Auditar cobertura editorial pendiente
+        run: node scripts/radar_health.mjs --base-ref origin/main
+      - name: Adjuntar cola y cobertura editorial
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: radar-editorial-diario
+          path: fuentes/radar-health.json
+          if-no-files-found: warn
       - name: Verificar extracción y catálogo
         run: |
           python -m unittest discover -s scripts -p 'test_*.py'
           npm ci
           npm test
           npm run build
-      - name: Publicar cambios comprobados
+      - name: Preparar cambios comprobados en un PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          REVIEW_BRANCH: ${{ steps.review.outputs.branch }}
         run: |
-          if git diff --quiet -- src/data/auto-activities.json relaxperu-main/src/data/auto-activities.json src/data/vaope-activities.json relaxperu-main/src/data/vaope-activities.json; then
+          if git diff --quiet -- src/data/auto-activities.json relaxperu-main/src/data/auto-activities.json src/data/vaope-activities.json relaxperu-main/src/data/vaope-activities.json src/data/event-classifications.json relaxperu-main/src/data/event-classifications.json; then
             echo 'La agenda no cambió.'
             exit 0
           fi
           git config user.name 'relaxperu-agenda[bot]'
           git config user.email 'relaxperu-agenda[bot]@users.noreply.github.com'
-          git add src/data/auto-activities.json relaxperu-main/src/data/auto-activities.json src/data/vaope-activities.json relaxperu-main/src/data/vaope-activities.json
+          git add src/data/auto-activities.json relaxperu-main/src/data/auto-activities.json src/data/vaope-activities.json relaxperu-main/src/data/vaope-activities.json src/data/event-classifications.json relaxperu-main/src/data/event-classifications.json
           git commit -m 'Actualizar eventos confirmados de las agendas públicas'
-          git push origin HEAD:main
+          case "$REVIEW_BRANCH" in codex/*) ;; *) echo 'Destino no permitido'; exit 1 ;; esac
+          git push origin "HEAD:$REVIEW_BRANCH"
+          if [ -z "$(gh pr list --state open --head "$REVIEW_BRANCH" --json number --jq '.[0].number // empty')" ]; then
+            cat > /tmp/relaxperu-agenda-pr.md <<'BODY'
+          Actualiza las dos copias de GTN y VAOPE con fichas individuales verificadas.
+          Pruebas y compilación ejecutadas antes de proponer el cambio. Consultar el artefacto radar-editorial-diario para cobertura y pendientes.
+          Propuesta sin fusión ni despliegue automático; revisar fuentes y diferencias con main.
+          BODY
+            gh pr create --base main --head "$REVIEW_BRANCH" --draft --title 'Actualizar agendas oficiales verificadas' --body-file /tmp/relaxperu-agenda-pr.md
+          fi

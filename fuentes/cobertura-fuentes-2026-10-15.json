@@ -1,0 +1,2940 @@
+{
+  "date": "2026-10-15",
+  "timezone": "America/Lima",
+  "coverageComplete": false,
+  "reviewScope": "partial",
+  "mainCommit": "5d42d50bfdfbb971d4fa69e1a623aab763ae785d",
+  "editorialParent": "1646660ecf2958e167a2a9a8f36f1ebe6942ae92",
+  "queries": 169,
+  "sources": [
+    {
+      "url": "https://teleticket.com.pe/todos",
+      "consultedAt": "2026-10-15",
+      "method": "lectura de contenido",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "reviewScope": "partial",
+      "lastEvidence": "Agenda de octubre leída parcialmente; funciones15–17oct y rangos turísticos diferenciados.",
+      "nextAction": "Continuar agenda desde fichas no revisadas."
+    },
+    {
+      "url": "https://joinnus.com/search",
+      "consultedAt": "2026-10-15",
+      "method": "apertura directa",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Internal Error de herramienta, sin código HTTP expuesto",
+      "nextAction": "Una alternativa oficial por candidato; continuar recintos.",
+      "error": "Internal Error de herramienta, sin código HTTP expuesto"
+    },
+    {
+      "url": "https://vaope.com/",
+      "consultedAt": "2026-10-15",
+      "method": "lectura de contenido",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "reviewScope": "partial",
+      "lastEvidence": "Destacados y módulos fútbol/otros leídos. Pisco CD Bad Boys vs Juventud Palmeiras18/10 18:00 es candidato por contrastar, no confirmado por una ficha aislada.",
+      "nextAction": "Continuar agenda desde fichas no revisadas."
+    },
+    {
+      "url": "https://ticketmaster.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "lectura de contenido",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "reviewScope": "partial",
+      "lastEvidence": "Contenido de portada y módulos leído parcialmente; no prueba revisión de catálogo completo.",
+      "nextAction": "Continuar agenda desde fichas no revisadas."
+    },
+    {
+      "url": "https://feverup.com/es/lima",
+      "consultedAt": "2026-10-15",
+      "method": "apertura directa",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "URL https://feverup.com/es/lima is not accessible via this tool.",
+      "nextAction": "Revisar en otra ronda; no eludir restricciones.",
+      "error": "URL https://feverup.com/es/lima is not accessible via this tool."
+    },
+    {
+      "url": "https://eventbrite.com.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "No asumir que no hay eventos; priorizar la ruta pública Perú en próxima ronda."
+    },
+    {
+      "url": "https://eventbrite.com.pe/d/peru/events",
+      "consultedAt": "2026-10-15",
+      "method": "apertura directa",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Failed to fetch https://www.eventbrite.com.pe/d/peru/events/: (405) Method Not Allowed",
+      "nextAction": "Revisar en otra ronda; no eludir restricciones.",
+      "error": "Failed to fetch https://www.eventbrite.com.pe/d/peru/events/: (405) Method Not Allowed"
+    },
+    {
+      "url": "https://granteatronacional.pe/eventos",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Continuar fichas próximas y avisos de cambios."
+    },
+    {
+      "url": "https://laplaza.com.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir fichas individuales con función exacta antes de incorporar."
+    },
+    {
+      "url": "https://centrocultural.pucp.edu.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://britanico.edu.pe/cultural/eventos",
+      "consultedAt": "2026-10-15",
+      "method": "lectura de contenido",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "reviewScope": "partial",
+      "lastEvidence": "Primera página de agenda leída; muestra principalmente noviembre y rangos de talleres/exposiciones. No se crearon sesiones.",
+      "nextAction": "Continuar listado y fichas exactas."
+    },
+    {
+      "url": "https://mali.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Revisar agenda o fichas individuales de actividades fechadas."
+    },
+    {
+      "url": "https://plazanorte.pe/eventos",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://sargentopimienta.com.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://lanoche.com.pe/home",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://lacandelariaperu.com/espectaculos",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://rustica.pe/shows",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://agenda.pucp.edu.pe/home",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir fichas individuales nuevas y confirmar fecha/local."
+    },
+    {
+      "url": "https://gob.pe/institucion/cultura/colecciones/44-agenda-cultural",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://gob.pe/munilima",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://miraflores.gob.pe/eventos-municipales/mes",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Contrastar noticias y fichas culturales individuales."
+    },
+    {
+      "url": "https://portal.muniplibre.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://gob.pe/institucion/munibarranco/campa%C3%B1as",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://gob.pe/institucion/munisantiagodesurco/noticias",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://gob.pe/institucion/munisanborja/campa%C3%B1as",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://gob.pe/institucion/munihuaral/campa%C3%B1as",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://gob.pe/institucion/municanete/noticias",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://lum.cultura.pe/actividades/agenda-septiembre-2026",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://serpar.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://grupo5.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://corazonserrano.com.pe/presentaciones",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://freewalkingtoursperu.com/es/blog/que-hacer-lima-peru",
+      "consultedAt": "2026-10-15",
+      "method": "lectura de contenido",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "reviewScope": "partial",
+      "lastEvidence": "Guía leída parcialmente. Declara free tours exclusivos para turismo receptivo y propinas; nacionales remitidos a city tour. No evento de hoy.",
+      "nextAction": "Verificar operador, salida, encuentro y condiciones en oferta individual; no convertir guía en agenda."
+    },
+    {
+      "url": "https://peru.travel/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://gob.pe/mincetur",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://gob.pe/sernanp",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://viator.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://getyourguide.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://consultagds.mincetur.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://joinnus.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Usar una sola fuente oficial alternativa del organizador o recinto; no interpretar como cancelación."
+    },
+    {
+      "url": "https://teleticket.com.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://laplaza.com.pe/obras-archive/perseo-dos-reinas-y-un-funeral",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://portal.muniplibre.gob.pe/emprende-libre/m-add",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://agenda.pucp.edu.pe/evento/cine-ccpucp-iv-ciclo-de-cine-japones-15092026194330",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://aflima.org.pe/eventos",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Continuar fichas no revisadas sin extender temporadas."
+    },
+    {
+      "url": "https://cultural.icpna.edu.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://apj.org.pe/cultural/agenda-cultural",
+      "consultedAt": "2026-10-15",
+      "method": "lectura de contenido",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "reviewScope": "partial",
+      "lastEvidence": "Agenda cultural leída parcialmente.",
+      "nextAction": "Continuar fichas no revisadas."
+    },
+    {
+      "url": "https://timeleft.com/es",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://experiencias.mesa247.pe/experiencias",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir fichas individuales disponibles y confirmar operador, local y cupos."
+    },
+    {
+      "url": "https://brisasdeltiticaca.com.pe/eventos/culturales",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Revisar cartelera o ficha individual vigente."
+    },
+    {
+      "url": "https://apj.org.pe/cultural",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://apj.org.pe/teatro/presentaciones",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Pedir o localizar una ficha 2026 consistente antes de publicar."
+    },
+    {
+      "url": "https://teleticket.com.pe/Landing/ListadoEventosTodos",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://kcp.com.pe/exposiciones/calendarioexposicioneskcp",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://gob.pe/institucion/ipd/campa%C3%B1as",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://perurunners.com/eventos",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir la ficha individual y confirmar fecha, salida y operador antes de incorporar."
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/externo/inicio",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Continuar con fichas exactas de los próximos siete días."
+    },
+    {
+      "url": "https://apa.com.pe/funciones.html",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Buscar una única ficha oficial alternativa de la Asociación Peruana de Astronomía."
+    },
+    {
+      "url": "https://gob.pe/institucion/igp/campa%C3%B1as/97299-visitar-el-planetario-nacional-del-igp",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Mantener fecha confirmada y hora/disponibilidad pendientes hasta una ficha vigente de venta o corrección oficial."
+    },
+    {
+      "url": "https://ticketera.brisasdeltiticaca.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://gob.pe/midagri",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir el calendario oficial y verificar evento, sede y fecha por separado."
+    },
+    {
+      "url": "https://filo.com.pe/eventos",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://apj.org.pe/teatro/agenda_detalle/mamma-mia",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://gob.pe/ipd",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://museos.cultura.pe/museos",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://kcp.com.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://leyendas.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://miraflores.gob.pe/miraflores-lanza-convocatoria-para-la-ficte-2026",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://emufec.gob.pe/category/fiestas-del-cusco-2026",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://gob.pe/institucion/muniarequipa/campa%C3%B1as",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://mundolingo.org/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://apj.org.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir cada ficha y registrar únicamente fechas reales."
+    },
+    {
+      "url": "https://aflima.org.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://mesa247.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://perurunners.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://ytuqueplanes.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://clublibertad.com.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://eoilima.gov.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://overseas.mofa.go.kr/pe-es/index.do",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://anccpp.org.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Verificar una sola página oficial alternativa."
+    },
+    {
+      "url": "https://gob.pe/inia",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://ipd.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://coperu.org/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://fpf.org.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://fpv.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://resultadosatletismope.org/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://fdpn.org.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://fenta.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://fdpt.org.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://clubregatas.org.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://limacricket.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://clublawntennis.org.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://realclubdelima.org.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://casadelaliteratura.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "apertura directa",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Failed to fetch https://www.casadelaliteratura.gob.pe/: (403) Forbidden",
+      "nextAction": "Revisar en otra ronda; no eludir restricciones.",
+      "error": "Failed to fetch https://www.casadelaliteratura.gob.pe/: (403) Forbidden"
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Avanzar desde actividades nuevas con ficha individual."
+    },
+    {
+      "url": "https://uni.edu.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://brisasdeltiticaca.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://frfcp.org.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://artearguedas.edu.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://lacandelariaperu.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://msb.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://miraflores.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://centralrestaurante.com.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://maido.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://kollke.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://astridygaston.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://maytalima.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://rafaelosterling.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://isolina.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://cantaranabarranco.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://elbolivariano.com.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://elchinito.com.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://elveridicodefidel.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://mibarunto.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://filofest.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://airbnb.com/s/Peru/experiences",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://civitatis.com/pe",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://getyourguide.es/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://elencos.cultura.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://sinfoniaporelperu.org/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://balletmunicipal.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://granteatronacional.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://visitalima.pe/teatro-municipal",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://visitalima.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://losproductores.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://muniarequipa.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://teatrofenix.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://munitrujillo.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://teatroupao.com.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://municusco.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Revisar agenda o publicación individual oficial reciente en la próxima pasada."
+    },
+    {
+      "url": "https://munipiura.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "apertura directa",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Failed to fetch https://www.munipiura.gob.pe/: (400) Timeout fetching",
+      "nextAction": "Alternativa única gob.pe/institucion/munipiura/noticias devolvió418.",
+      "error": "Failed to fetch https://www.munipiura.gob.pe/: (400) Timeout fetching"
+    },
+    {
+      "url": "https://arena1.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://eldomo.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://jockeyplaza.com.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://jockeyclub.org.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://unmsm.edu.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://circuitomagicodelagua.com.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://museos.cultura.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://tuboleto.cultura.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://museolarco.org/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://mucen.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "apertura directa",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "URL https://www.mucen.gob.pe/ is not accessible via this tool.",
+      "nextAction": "Revisar en otra ronda; no eludir restricciones.",
+      "error": "URL https://www.mucen.gob.pe/ is not accessible via this tool."
+    },
+    {
+      "url": "https://maclima.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://lum.cultura.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://museopedrodeosma.org/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://muna.cultura.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://pachacamac.cultura.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://huacapucllanahm.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://centroculturalpucp.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://entradalibre.me/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://mapcusco.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://museoinka.unsaac.edu.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://elbrujo.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://huacasdemoche.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://santacatalina.org.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://museoleymebamba.org/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://regionloreto.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://corazonserrano.tv/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://aguamarina.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Hacer una sola consulta alternativa oficial en próxima ronda."
+    },
+    {
+      "url": "https://hermanosyaipen.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://danieladarcourt.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://munibarranco.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://msi.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://munisurco.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://conciertosperu.com.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://emufec.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Revisar publicaciones recientes y fichas con fecha/local concretos."
+    },
+    {
+      "url": "https://munimancora.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://muniica.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Revisar agenda o publicación individual oficial reciente en la próxima pasada."
+    },
+    {
+      "url": "https://munipisco.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "apertura directa",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Respuesta de0 líneas; contenido no comprobado.",
+      "nextAction": "Buscar próxima ficha oficial individual; no concluir ausencia."
+    },
+    {
+      "url": "https://munihuaraz.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://munimaynas.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "apertura directa",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Failed to fetch https://www.munimaynas.gob.pe/: (502) Bad Gateway",
+      "nextAction": "Alternativa única gob.pe/institucion/munimaynas/noticias devolvió418.",
+      "error": "Failed to fetch https://www.munimaynas.gob.pe/: (502) Bad Gateway"
+    },
+    {
+      "url": "https://munihuancayo.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://munichiclayo.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://mpsm.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://munipuno.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://passline.com/",
+      "consultedAt": "2026-10-15",
+      "method": "apertura directa",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Redirige a https://home.passline.com/; selector comercial, no agenda Perú.",
+      "nextAction": "Usar fichas originales de recintos y productores."
+    },
+    {
+      "url": "https://arteinquieto.com/fest",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://joinnus.com/events/theater/lima-el-percusionista-ciego-78217",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://joinnus.com/events/entertainment/lima-expoperro-2026-far-west-78100",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/jaque-a-la-rutina-aprende-ajedrez-6251",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/ajedrez-para-principiantes-6238",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://teatrobarranco.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural/otros/torneo-de-ajedrez-6236",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural/presentacion-de-publicacion/del-autor-al-lector-el-mapa-de-los-tesoros-escondidos-de-br-6247",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural/mediacion-de-lectura/leer-jugar-e-imaginar-6250",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://unadqtc.edu.pe/kanchay-2026",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://passline.com/eventos/estrellados-premiere",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://passline.com/eventos/kortas-miercoles-setiembre-553063",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://passline.com/eventos/concierto-de-gala-sonido-del-peru",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://teleticket.com.pe/chapa-tu-money-30set-2026",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://vaope.com/eventos/teatro/cuentos-sinfonicos-de-disney-en-vivo-en-el-teatro-municipal-del-cusco",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://facebook.com/verticeprod/posts/-tus-cuentos-favoritos-est%C3%A1n-a-punto-de-cobrar-vida-este-11-de-octubre-cuentos-d/122126394015043813",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://facebook.com/TeatroMunicipalCusco/posts/1600753621849744",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://vaope.com/eventos/conciertos/colombia-fex-festival-parce-fernando-aguilar-en-iquitos",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://threads.com/@losbacanosdelvallenato/post/Dd1xHYPHdVy",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://plazanorte.pe/eventos/presentacion-de-orquesta-internacional-borinquen",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://plazanorte.pe/eventos/funcion-de-titeres",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://ticketmaster.pe/event/apocalyptica-plays-metallica-vol2-venta-general",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://aflima.org.pe/noticia/brick-fest-peru",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://granteatronacional.pe/evento/nancy-manchego-caminos-del-ande",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://teleticket.com.pe/annie-2026",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://teleticket.com.pe/evento/ellas-en-concierto-en-plaza-norte-teatro-plaza-norte",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://teleticket.com.pe/evento/suegras-teatro-auditorio-miraflores",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://museos.cultura.pe/node/1706",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://weverse.io/bts/notice/34732?hl=es",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://ticketmaster.pe/event/bts-world-tour-arirang",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/apreciacion-musical-pequena-jara-criolla-para-ninos-y-ninas-6253",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/tejiendo-mis-suenos-6252",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural/club-de-lectura/historias-que-unen-6249",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://museos.cultura.pe/sites/default/files/publicaciones/pdf/Lista%20museos%204oct.pdf",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://ayuda.teleticket.com.pe/helpcenter/article/ivy-queen-pride-tour-2026",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://joinnus.com/events/seminarios-conferencias/lima-peru-startup-summit-by-startup-world-cup-startup-grind-peru-79114",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://teleticket.com.pe/chapa-tu-money-7oct-2026",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://teleticket.com.pe/evento/noche-ayacuchana-de-gala-5ta-edicion-centro-de-convenciones-maracana",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://teleticket.com.pe/evento/llego-la-salsa-a-barranco-salsa-de-gala-penia-del-carajo",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://apj.org.pe/cultural/agenda_detalle/sake-no-matsuri",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Vigilar cambios y capacidad."
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural/presentacion-de-publicacion/poesia-infima-nivardo-cordova-salinas-presentacion-de-poem-6255",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://crespial.org/20aniversario",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://teleticket.com.pe/evento/voces-del-rock-latino-ica-vol-2-alamo-disco-penia-ica",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://teleticket.com.pe/bella-durmiente-2026",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://museopedrodeosma.org/programas/festival-de-la-hispanidad-2026",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://weverse.io/bts/notice/39439?hl=es",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://startupgrind.com/events/details/startup-grind-lima-presents-peru-startup-summit-startup-world-cup-amp-peru-startup-grind-conf",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://pagos.teleticket.com.pe/lacasadetimoteoeniquitos",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://lum.cultura.pe/agenda/2026-10",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://granteatronacional.pe/evento/serenata-marinera",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://granteatronacional.pe/evento/nicomedes-santa-cruz-gamarra-noventa-y-nueve-y-un-bitute-mas",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://granteatronacional.pe/evento/coro-nacional-del-peru-petite-messe-solennelle-de-rossini",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Volver a comprobar solo ante aviso de cambio o cancelación."
+    },
+    {
+      "url": "https://weverse.io/bts/notice/34732",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://apj.org.pe/teatro/agenda_detalle/carlos-ballarta-presenta-naco-ladino",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://rallycaminosdelinca.com/noticias/los-super-prime-en-caminos-del-inca",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://ticketmaster.pe/event/rally-caminos-del-inca-super-prime-venta-general",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Conservar la evidencia del organizador y el listado público; reintentar la ficha solo en otra ronda."
+    },
+    {
+      "url": "https://aflima.org.pe/evento/venta-de-libros-de-segunda-mano-4",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://aflima.org.pe/evento/german-tejada-el-caminohacia-los-inocentes",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://aflima.org.pe/evento/club-de-lectura-en-frances-2",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir agenda o ficha original reciente; confirmar fecha, ciudad y local."
+    },
+    {
+      "url": "https://passline.com/eventos/kortas-octubre-miercoles",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Vigilar cambios y disponibilidad de cada función."
+    },
+    {
+      "url": "https://passline.com/productora/teatro-barranco-sac",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Reintentar una vez en otra ronda; la ficha individual identifica al productor."
+    },
+    {
+      "url": "https://teatrolaplaza.pe/cartelera",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir fichas individuales cuando publiquen fechas y horas concretas."
+    },
+    {
+      "url": "https://perurunners.com/eventos/media-maraton-del-callao-2026",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "No incorporar hasta comprobar partida y punto de encuentro exactos."
+    },
+    {
+      "url": "https://vaope.com/eventos/futbol/atletico-grau-vs-los-chankas-cyc-por-la-liga-1",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Vigilar cambios; ya está incorporada en el importador actualizado de main."
+    },
+    {
+      "url": "https://apj.org.pe/cultural/agenda_detalle/x-salon-de-arte-joven-nikkei",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Vigilar cambios hasta el cierre."
+    },
+    {
+      "url": "https://apj.org.pe/cultural/agenda_detalle/120-encuentro-amateur-de-cuentacuentos-y-monologos-tengo-la-palabra",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Vigilar cambios y capacidad."
+    },
+    {
+      "url": "https://facebook.com/kartslachutana?locale=es_LA",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Verificar futuros eventos en fichas individuales."
+    },
+    {
+      "url": "https://teleticket.com.pe/cultura-profetica-lima-2026",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Pendiente una publicación textual individual del artista, promotor o recinto antes de incorporar."
+    },
+    {
+      "url": "https://culturaprofetica.com/tour",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Confirmar Lima 8 de octubre en una publicación individual del artista/promotor/recinto."
+    },
+    {
+      "url": "https://aflima.org.pe/evento/el-percusionista-ciego",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Revisar disponibilidad de Joinnus en una ronda posterior; el 403 no equivale a cancelación."
+    },
+    {
+      "url": "https://teleticket.com.pe/evento/expo-maternidad-lima-2026-jockey",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Comprobar cambios diarios hasta la última función."
+    },
+    {
+      "url": "https://expomaternidadperu.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Usar la ficha individual de venta para fecha y horario; revisar cambios."
+    },
+    {
+      "url": "https://ticketmaster.pe/event/this-is-michael-lima",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Conservar pendiente hasta abrir una fuente individual del organizador o recinto."
+    },
+    {
+      "url": "https://apdaycperu.blogspot.com/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Revisar en otra ronda; no usar el extracto de búsqueda como confirmación suficiente."
+    },
+    {
+      "url": "https://ayuda.teleticket.com.pe/helpcenter/category/eventos-modificados-o-cancelados",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Vigilar avisos nuevos antes de cada función cercana."
+    },
+    {
+      "url": "https://superclub.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Vigilar cambios o cancelación en el organizador y la venta oficial."
+    },
+    {
+      "url": "https://ticketmaster.pe/event/el-row-xxl-venta-general-5654",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Revisar disponibilidad y avisos del organizador antes de la función."
+    },
+    {
+      "url": "https://meetup.com/es-es/gringo-tuesdays-language-exchange-international-party",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir la ficha individual exacta; no publicar desde un listado de grupo."
+    },
+    {
+      "url": "https://peru.travel/es/eventos",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Abrir fichas con horario/local completos y verificar organizador."
+    },
+    {
+      "url": "https://ticketmaster.pe/event/bratty-lima-venta-general",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Confirmar la fecha real con Vichama o el recinto; no incorporar mientras exista contradicción."
+    },
+    {
+      "url": "https://ticketmaster.pe/event/enanitos-verdes-amen-y-la-ley",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Confirmar el año y la identidad artística con organizador o recinto antes de incorporar."
+    },
+    {
+      "url": "https://teleticket.com.pe/conciertos",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Confirmar cada candidato primero con organizador o recinto y después con ficha individual."
+    },
+    {
+      "url": "https://teleticket.com.pe/entretenimiento",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Conservar los candidatos sin hora como pendientes hasta confirmación del organizador o recinto."
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural/bibliocine/raiz-2024-6242",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Vigilar cambios antes de la función."
+    },
+    {
+      "url": "https://aflima.org.pe/evento/cineart-lab-collage",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Vigilar cupos y cambios antes del taller."
+    },
+    {
+      "url": "https://ticketmaster.pe/event/hermanos-castro-venta-general",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "No incorporar sin año confirmado por fuente original."
+    },
+    {
+      "url": "https://ticketmaster.pe/event/los-pasteles-verdes-almuerzo-show-en-vivo-venta-general-220925",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Descartar como publicación antigua."
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Usar una ficha individual ya identificada o reintentar en otra ronda."
+    },
+    {
+      "url": "https://granteatronacional.pe/evento/sesiones-gtn-sinfonia-por-el-peru",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Revisar eventuales cambios sin ofrecer cupos."
+    },
+    {
+      "url": "https://livenation.com.pe/en/event/zayn-the-konnakol-tour-lima-tickets-edp1650952",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Seguir posibles cambios y comprobar disponibilidad."
+    },
+    {
+      "url": "https://teleticket.com.pe/zayn",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Mantener hora estimada y disponibilidad pendiente."
+    },
+    {
+      "url": "https://mali.pe/es/activity/noche-mali-edicion-octubre",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Confirmar disponibilidad en otra ronda."
+    },
+    {
+      "url": "https://joinnus.com/events/art-culture/lima-noche-mali-octubre-79588",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Conservar disponibilidad pendiente; no eludir 403."
+    },
+    {
+      "url": "https://vaope.com/eventos/teatro/reinas-la-obra-musical-de-las-6-esposas-de-enrique-viii-en-iquitos",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Buscar productor/recinto y sesiones concretas; no incorporar rango."
+    },
+    {
+      "url": "https://teleticket.com.pe/evento/CVJ002",
+      "consultedAt": "2026-10-15",
+      "method": "consulta dirigida de actualidad por dominio o ruta institucional",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "lastEvidence": "Consulta de actualidad realizada; no acredita lectura de la agenda ni ausencia de eventos.",
+      "nextAction": "Contrastar recinto/productor antes de alta."
+    },
+    {
+      "url": "https://granteatronacional.pe/evento/perujazz-0",
+      "consultedAt": "2026-10-15",
+      "method": "lectura de contenido",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "reviewScope": "partial",
+      "lastEvidence": "Ficha individual vigente revisada para función de hoy; se mantiene sin cambio de fecha.",
+      "nextAction": "Seguir cambios y venta."
+    },
+    {
+      "url": "https://mali.pe/es/activity",
+      "consultedAt": "2026-10-15",
+      "method": "lectura de contenido",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "reviewScope": "partial",
+      "lastEvidence": "Primera página de agenda leída. Cuatro fichas de15,16,17y21oct validadas individualmente.",
+      "nextAction": "Continuar páginas siguientes sin atribuir revisión completa."
+    },
+    {
+      "url": "https://mali.pe/es/activity/visita-guiada-a-la-exposicion-codesido-junto-a-sus-curadores-luis-eduardo-wuffarden-y-ricardo-kusunoki-3",
+      "consultedAt": "2026-10-15",
+      "method": "lectura de contenido",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "reviewScope": "partial",
+      "lastEvidence": "Codesido · Visita con sus curadores: 2026-10-15T17:00:00-05:00; Sala temporal 1 · Museo de Arte de Lima, Lima. Fuente original individual; inscripción/venta enlazada contrastada.",
+      "nextAction": "Revisar cambios y cupos."
+    },
+    {
+      "url": "https://mali.pe/es/activity/proyeccion-del-documental-sembrando-esperanza-y-conversatorio",
+      "consultedAt": "2026-10-15",
+      "method": "lectura de contenido",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "reviewScope": "partial",
+      "lastEvidence": "Sembrando Esperanza · Documental y conversatorio: 2026-10-16T16:00:00-05:00; Auditorio MALI, Lima. Fuente original individual; inscripción/venta enlazada contrastada.",
+      "nextAction": "Revisar cambios y cupos."
+    },
+    {
+      "url": "https://mali.pe/es/activity/el-camino-de-nora-demostracion-espectaculo-de-roberta-carreri",
+      "consultedAt": "2026-10-15",
+      "method": "lectura de contenido",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "reviewScope": "partial",
+      "lastEvidence": "El camino de Nora · Roberta Carreri: 2026-10-17T20:00:00-05:00; Auditorio MALI, Lima. Fuente original individual; inscripción/venta enlazada contrastada.",
+      "nextAction": "Revisar cambios y cupos."
+    },
+    {
+      "url": "https://mali.pe/es/activity/conversatorio-redes-artisticas-intelectuales-y-afectivas-en-torno-a-la-obra-de-julia-codesido",
+      "consultedAt": "2026-10-15",
+      "method": "lectura de contenido",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "reviewScope": "partial",
+      "lastEvidence": "Julia Codesido · Redes artísticas, intelectuales y afectivas: 2026-10-21T17:00:00-05:00; Auditorio MALI, Lima. Fuente original individual; inscripción/venta enlazada contrastada.",
+      "nextAction": "Revisar cambios y cupos."
+    },
+    {
+      "url": "https://mundolingo.org/lima",
+      "consultedAt": "2026-10-15",
+      "method": "lectura de contenido",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "reviewScope": "partial",
+      "lastEvidence": "Página de comunidad y conversaciones; no aparece encuentro público con fecha/local confirmados.",
+      "nextAction": "No inventar encuentro semanal; buscar publicación original fechada."
+    },
+    {
+      "url": "https://culturacusco.gob.pe/",
+      "consultedAt": "2026-10-15",
+      "method": "apertura directa",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "error": "Failed to fetch https://www.culturacusco.gob.pe/: (400) Timeout fetching",
+      "lastEvidence": "Failed to fetch https://www.culturacusco.gob.pe/: (400) Timeout fetching",
+      "nextAction": "Alternativa única gob.pe/institucion/culturacusco/noticias devolvió418."
+    },
+    {
+      "url": "https://gob.pe/institucion/culturacusco/noticias",
+      "consultedAt": "2026-10-15",
+      "method": "apertura directa",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "error": "Failed to fetch https://www.gob.pe/institucion/culturacusco/noticias: (418) I'm a Teapot",
+      "lastEvidence": "Failed to fetch https://www.gob.pe/institucion/culturacusco/noticias: (418) I'm a Teapot",
+      "nextAction": "No más alternativas en esta ronda."
+    },
+    {
+      "url": "https://gob.pe/institucion/munipiura/noticias",
+      "consultedAt": "2026-10-15",
+      "method": "apertura directa",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "error": "Failed to fetch https://www.gob.pe/institucion/munipiura/noticias: (418) I'm a Teapot",
+      "lastEvidence": "Failed to fetch https://www.gob.pe/institucion/munipiura/noticias: (418) I'm a Teapot",
+      "nextAction": "No más alternativas en esta ronda."
+    },
+    {
+      "url": "https://gob.pe/institucion/munimaynas/noticias",
+      "consultedAt": "2026-10-15",
+      "method": "apertura directa",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "error": "Failed to fetch https://www.gob.pe/institucion/munimaynas/noticias: (418) I'm a Teapot",
+      "lastEvidence": "Failed to fetch https://www.gob.pe/institucion/munimaynas/noticias: (418) I'm a Teapot",
+      "nextAction": "No más alternativas en esta ronda."
+    },
+    {
+      "url": "https://joinnus.com/events/theater/lima-el-camino-de-nora-roberta-carreri-odin-teatret-dinamarca-78810",
+      "consultedAt": "2026-10-15",
+      "method": "apertura directa",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "reviewScope": "partial",
+      "error": "Failed to fetch https://www.joinnus.com/events/theater/lima-el-camino-de-nora-roberta-carreri-odin-teatret-dinamarca-78810: (403) Forbidden",
+      "lastEvidence": "Failed to fetch https://www.joinnus.com/events/theater/lima-el-camino-de-nora-roberta-carreri-odin-teatret-dinamarca-78810: (403) Forbidden",
+      "nextAction": "Ficha MALI confirma evento; disponibilidad pendiente."
+    }
+  ],
+  "areasPreserved": 22,
+  "unresolvedIdentitiesPreserved": 17,
+  "changes": {
+    "adds": [
+      {
+        "id": "mali-codesido-curadores-15oct-2026",
+        "kind": "event",
+        "category": "culture",
+        "city": "Lima",
+        "district": "Cercado de Lima",
+        "title": "Codesido · Visita con sus curadores",
+        "titleEn": "Codesido · Visita con sus curadores",
+        "description": "Visita guiada junto a Luis Eduardo Wuffarden y Ricardo Kusunoki. Requiere entrada MALI e inscripción en el formulario enlazado por el museo. Cupos no comprobados.",
+        "descriptionEn": "Guided visit with curators Luis Eduardo Wuffarden and Ricardo Kusunoki. A MALI admission ticket and advance registration through the museum form are required. Capacity has not been verified.",
+        "venue": "Sala temporal 1 · Museo de Arte de Lima",
+        "sessions": [
+          "2026-10-15T17:00:00-05:00"
+        ],
+        "source": "Museo de Arte de Lima",
+        "url": "https://mali.pe/es/activity/visita-guiada-a-la-exposicion-codesido-junto-a-sus-curadores-luis-eduardo-wuffarden-y-ricardo-kusunoki-3/",
+        "reviewedAt": "2026-10-15",
+        "icon": "art",
+        "tone": "gold",
+        "tags": [
+          "museo",
+          "arte",
+          "visita guiada"
+        ]
+      },
+      {
+        "id": "mali-sembrando-esperanza-16oct-2026",
+        "kind": "event",
+        "category": "culture",
+        "city": "Lima",
+        "district": "Cercado de Lima",
+        "title": "Sembrando Esperanza · Documental y conversatorio",
+        "titleEn": "Sembrando Esperanza · Documental y conversatorio",
+        "description": "Proyección del documental y conversatorio por el Día Nacional de la Persona con Discapacidad, con apoyo de CMMB Perú. Ingreso gratuito con inscripción previa en el formulario institucional. Cupos no comprobados.",
+        "descriptionEn": "Documentary screening and discussion for the National Day of Persons with Disabilities, supported by CMMB Peru. Free admission with advance registration through the institutional form. Capacity has not been verified.",
+        "venue": "Auditorio MALI",
+        "sessions": [
+          "2026-10-16T16:00:00-05:00"
+        ],
+        "source": "Museo de Arte de Lima",
+        "url": "https://mali.pe/es/activity/proyeccion-del-documental-sembrando-esperanza-y-conversatorio/",
+        "reviewedAt": "2026-10-15",
+        "icon": "art",
+        "tone": "gold",
+        "tags": [
+          "cine",
+          "conversatorio",
+          "inclusión"
+        ]
+      },
+      {
+        "id": "mali-camino-nora-17oct-2026",
+        "kind": "event",
+        "category": "culture",
+        "city": "Lima",
+        "district": "Cercado de Lima",
+        "title": "El camino de Nora · Roberta Carreri",
+        "titleEn": "El camino de Nora · Roberta Carreri",
+        "description": "Demostración-espectáculo de Roberta Carreri, producida por Odin Teatret, en el intercambio organizado por Shaya Teatro. El museo confirma función y local. La venta de Joinnus respondió HTTP 403; disponibilidad pendiente.",
+        "descriptionEn": "Performance demonstration by Roberta Carreri, produced by Odin Teatret, during the exchange organized by Shaya Teatro. The museum confirms the performance and venue. Joinnus returned HTTP 403; availability remains unverified.",
+        "venue": "Auditorio MALI",
+        "sessions": [
+          "2026-10-17T20:00:00-05:00"
+        ],
+        "source": "Museo de Arte de Lima",
+        "url": "https://mali.pe/es/activity/el-camino-de-nora-demostracion-espectaculo-de-roberta-carreri/",
+        "reviewedAt": "2026-10-15",
+        "icon": "art",
+        "tone": "gold",
+        "tags": [
+          "teatro",
+          "actuación"
+        ]
+      },
+      {
+        "id": "mali-codesido-redes-21oct-2026",
+        "kind": "event",
+        "category": "culture",
+        "city": "Lima",
+        "district": "Cercado de Lima",
+        "title": "Julia Codesido · Redes artísticas, intelectuales y afectivas",
+        "titleEn": "Julia Codesido · Redes artísticas, intelectuales y afectivas",
+        "description": "Conversatorio con Andrea García Rodríguez y Yocelyn Valdebenito, con comentarios de Ricardo Kusunoki. Ingreso gratuito con inscripción en el formulario institucional. Cupos no comprobados.",
+        "descriptionEn": "Discussion with Andrea García Rodríguez and Yocelyn Valdebenito, with commentary by Ricardo Kusunoki. Free admission with registration through the institutional form. Capacity has not been verified.",
+        "venue": "Auditorio MALI",
+        "sessions": [
+          "2026-10-21T17:00:00-05:00"
+        ],
+        "source": "Museo de Arte de Lima",
+        "url": "https://mali.pe/es/activity/conversatorio-redes-artisticas-intelectuales-y-afectivas-en-torno-a-la-obra-de-julia-codesido/",
+        "reviewedAt": "2026-10-15",
+        "icon": "art",
+        "tone": "gold",
+        "tags": [
+          "arte",
+          "conversatorio",
+          "historia"
+        ]
+      }
+    ],
+    "cancelations": [],
+    "note": "No cancelaciones nuevas comprobadas. No se consultó Vamos Eventos; resultados incidentales de búsqueda no utilizados."
+  }
+}

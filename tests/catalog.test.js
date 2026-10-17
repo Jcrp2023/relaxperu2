@@ -1,9 +1,20 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { activities } from '../src/data/activities.js';
-import { datesFor, filterActivities, safeSourceUrl, safePosterUrl, upcomingDate, upcomingSessions } from '../src/catalog.js';
+import { datesFor, dedupeActivities, filterActivities, safeSourceUrl, safePosterUrl, upcomingDate, upcomingSessions } from '../src/catalog.js';
 
 const today = '2026-09-25';
+
+test('Catalog contains no holes or duplicate IDs after editorial reconciliation', () => {
+  assert.equal(activities.filter(Boolean).length, activities.length);
+  assert.equal(new Set(activities.map(item => item.id)).size, activities.length);
+});
+
+test('Manual activity wins over an importer copy with the same source URL', () => {
+  const manual = { id: 'manual', url: 'https://vaope.com/evento/demo?utm_source=radar', sessions: ['2026-10-11T19:00:00-05:00'] };
+  const imported = { id: 'imported', url: 'https://vaope.com/evento/demo/', dates: ['2026-10-11'] };
+  assert.deepEqual(dedupeActivities([manual, imported]), [manual]);
+});
 
 test('Today shows only events with confirmed dates, not evergreen guides', () => {
   const list = filterActivities(activities, { when: 'today' }, today);
@@ -34,7 +45,8 @@ test('Old events expire while destination guides remain discoverable', () => {
 });
 
 test('Combined filters and local favorites work without an account', () => {
-  const list = filterActivities(activities, { city: 'Lima', category: 'culture', search: 'museo', favoritesOnly: true, favorites: ['mali-colecciones'] }, today);
+  const mali = { ...activities.find(item => item.id === 'mali-colecciones'), macroNode: 'Arte, Teatro, Cines & Cultura' };
+  const list = filterActivities([mali], { city: 'Lima', category: 'culture', search: 'museo', favoritesOnly: true, favorites: ['mali-colecciones'] }, today);
   assert.deepEqual(list.map(item => item.id), ['mali-colecciones']);
 });
 
@@ -43,6 +55,11 @@ test('External links only point to reviewed official source domains', () => {
   assert.ok(activities.every(item => !item.imageUrl || safePosterUrl(item.imageUrl)));
   assert.equal(safePosterUrl('https://www.vamoseventos.com/some-poster.jpg'), false);
   assert.equal(safeSourceUrl('https://mali.pe.fake.example/offer'), false);
+  assert.equal(safeSourceUrl('https://www.ticketmaster.pe/event/bts-world-tour-arirang'), true);
+  assert.equal(safeSourceUrl('https://www.joinnus.com/events/example'), true);
+  assert.equal(safeSourceUrl('https://www.gob.pe/institucion/igp/campañas/example'), true);
+  assert.equal(safeSourceUrl('https://ticketmaster.pe.fake.example/event'), false);
+  assert.equal(safeSourceUrl('https://joinnus.com.fake.example/event'), false);
   assert.equal(safeSourceUrl('javascript:alert(1)'), false);
 });
 
@@ -63,4 +80,15 @@ test('Lima day survives UTC midnight when filtering confirmed sessions', () => {
   const now = new Date('2026-09-30T01:15:00Z');
   const event = { id: 'evening', title: 'Evening', tags: [], kind: 'event', sessions: ['2026-09-29T21:00:00-05:00'] };
   assert.equal(filterActivities([event], { when: 'today' }, '2026-09-29', now).length, 1);
+});
+
+
+test('Macro-node filters only include explicitly classified activities', () => {
+  const classified = { ...activities[0], id: 'classified', category: 'shows', macroNode: 'Mascotas & Pet Friendly', dates: ['2026-09-25'] };
+  const matches = filterActivities([classified], { category: 'family' }, today);
+  assert.deepEqual(matches.map(item => item.id), ['classified']);
+  assert.deepEqual(filterActivities([classified], { category: 'shows' }, today), []);
+  const legacy = { ...activities[0], id: 'legacy', category: 'culture', dates: ['2026-09-25'] };
+  assert.deepEqual(filterActivities([legacy], { category: 'culture' }, today), []);
+  assert.deepEqual(filterActivities([legacy], { category: 'all' }, today).map(item => item.id), ['legacy']);
 });

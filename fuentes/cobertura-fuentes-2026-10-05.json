@@ -1,0 +1,3742 @@
+{
+  "date": "2026-10-05",
+  "timezone": "America/Lima",
+  "previousCoverage": "fuentes/cobertura-fuentes-2026-10-04.json",
+  "documentsRead": [
+    "SOURCES.md",
+    "FUENTES_MACRONODULOS.md",
+    "FUENTES_EXPANSION.md",
+    "fuentes/Propuesta_Jahel_22_areas_2026-09-25.txt"
+  ],
+  "openPRs": [
+    14,
+    15
+  ],
+  "catalogCopiesIdenticalBeforeRound": true,
+  "approach": "Consultas dirigidas por URL en lotes de hasta4; lecturas de las7boleterías, guíadeJahel, agendas/fichas útiles. Las búsquedas no se cuentan como lectura de agenda.",
+  "sources": [
+    {
+      "url": "https://eventbrite.com.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:eventbrite.com.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn274search0",
+        "turn274search1",
+        "turn274search2",
+        "turn274search3"
+      ]
+    },
+    {
+      "url": "https://granteatronacional.pe/eventos",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:granteatronacional.pe/eventos \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn274search0",
+        "turn274search1",
+        "turn274search2",
+        "turn274search3"
+      ]
+    },
+    {
+      "url": "https://laplaza.com.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:laplaza.com.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn274search0",
+        "turn274search1",
+        "turn274search2",
+        "turn274search3"
+      ]
+    },
+    {
+      "url": "https://centrocultural.pucp.edu.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:centrocultural.pucp.edu.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn274search0",
+        "turn274search1",
+        "turn274search2",
+        "turn274search3"
+      ]
+    },
+    {
+      "url": "https://britanico.edu.pe/cultural/eventos",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:britanico.edu.pe/cultural/eventos \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn272search0",
+        "turn272search1",
+        "turn272search2",
+        "turn272search3"
+      ]
+    },
+    {
+      "url": "https://mali.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:mali.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn272search0",
+        "turn272search1",
+        "turn272search2",
+        "turn272search3"
+      ]
+    },
+    {
+      "url": "https://plazanorte.pe/eventos",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:plazanorte.pe/eventos \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn272search0",
+        "turn272search1",
+        "turn272search2",
+        "turn272search3"
+      ]
+    },
+    {
+      "url": "https://sargentopimienta.com.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:sargentopimienta.com.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn272search0",
+        "turn272search1",
+        "turn272search2",
+        "turn272search3"
+      ]
+    },
+    {
+      "url": "https://lanoche.com.pe/home",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:lanoche.com.pe/home \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn273search0",
+        "turn273search1",
+        "turn273search2",
+        "turn273search3"
+      ]
+    },
+    {
+      "url": "https://lacandelariaperu.com/espectaculos",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:lacandelariaperu.com/espectaculos \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn273search0",
+        "turn273search1",
+        "turn273search2",
+        "turn273search3"
+      ]
+    },
+    {
+      "url": "https://rustica.pe/shows",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:rustica.pe/shows \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn273search0",
+        "turn273search1",
+        "turn273search2",
+        "turn273search3"
+      ]
+    },
+    {
+      "url": "https://agenda.pucp.edu.pe/home",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:agenda.pucp.edu.pe/home \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn273search0",
+        "turn273search1",
+        "turn273search2",
+        "turn273search3"
+      ]
+    },
+    {
+      "url": "https://gob.pe/institucion/cultura/colecciones/44-agenda-cultural",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:gob.pe/institucion/cultura/colecciones/44-agenda-cultural \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn275search0",
+        "turn275search1",
+        "turn275search2",
+        "turn275search3"
+      ]
+    },
+    {
+      "url": "https://gob.pe/munilima",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:gob.pe/munilima \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn275search0",
+        "turn275search1",
+        "turn275search2",
+        "turn275search3"
+      ]
+    },
+    {
+      "url": "https://miraflores.gob.pe/eventos-municipales/mes",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:miraflores.gob.pe/eventos-municipales/mes \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn275search0",
+        "turn275search1",
+        "turn275search2",
+        "turn275search3"
+      ]
+    },
+    {
+      "url": "https://portal.muniplibre.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:portal.muniplibre.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn275search0",
+        "turn275search1",
+        "turn275search2",
+        "turn275search3"
+      ]
+    },
+    {
+      "url": "https://gob.pe/institucion/munibarranco/campa%C3%B1as",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:gob.pe/institucion/munibarranco/campa%C3%B1as \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn277search0",
+        "turn277search1",
+        "turn277search2",
+        "turn277search3"
+      ]
+    },
+    {
+      "url": "https://gob.pe/institucion/munisantiagodesurco/noticias",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:gob.pe/institucion/munisantiagodesurco/noticias \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn277search0",
+        "turn277search1",
+        "turn277search2",
+        "turn277search3"
+      ]
+    },
+    {
+      "url": "https://gob.pe/institucion/munisanborja/campa%C3%B1as",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:gob.pe/institucion/munisanborja/campa%C3%B1as \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn277search0",
+        "turn277search1",
+        "turn277search2",
+        "turn277search3"
+      ]
+    },
+    {
+      "url": "https://gob.pe/institucion/munihuaral/campa%C3%B1as",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:gob.pe/institucion/munihuaral/campa%C3%B1as \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn277search0",
+        "turn277search1",
+        "turn277search2",
+        "turn277search3"
+      ]
+    },
+    {
+      "url": "https://gob.pe/institucion/municanete/noticias",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:gob.pe/institucion/municanete/noticias \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn276search0",
+        "turn276search1",
+        "turn276search2",
+        "turn276search3"
+      ]
+    },
+    {
+      "url": "https://lum.cultura.pe/actividades/agenda-septiembre-2026",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:lum.cultura.pe/actividades/agenda-septiembre-2026 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn276search0",
+        "turn276search1",
+        "turn276search2",
+        "turn276search3"
+      ]
+    },
+    {
+      "url": "https://serpar.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:serpar.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn276search0",
+        "turn276search1",
+        "turn276search2",
+        "turn276search3"
+      ]
+    },
+    {
+      "url": "https://grupo5.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:grupo5.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn276search0",
+        "turn276search1",
+        "turn276search2",
+        "turn276search3"
+      ]
+    },
+    {
+      "url": "https://corazonserrano.com.pe/presentaciones",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:corazonserrano.com.pe/presentaciones \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn278search0",
+        "turn278search1",
+        "turn278search2",
+        "turn278search3"
+      ]
+    },
+    {
+      "url": "https://peru.travel/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:peru.travel/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn278search0",
+        "turn278search1",
+        "turn278search2",
+        "turn278search3"
+      ]
+    },
+    {
+      "url": "https://gob.pe/mincetur",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:gob.pe/mincetur \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn278search0",
+        "turn278search1",
+        "turn278search2",
+        "turn278search3"
+      ]
+    },
+    {
+      "url": "https://gob.pe/sernanp",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:gob.pe/sernanp \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn278search0",
+        "turn278search1",
+        "turn278search2",
+        "turn278search3"
+      ]
+    },
+    {
+      "url": "https://viator.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:viator.com/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn280search0",
+        "turn280search1",
+        "turn280search2",
+        "turn280search3"
+      ]
+    },
+    {
+      "url": "https://getyourguide.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:getyourguide.com/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn280search0",
+        "turn280search1",
+        "turn280search2",
+        "turn280search3"
+      ]
+    },
+    {
+      "url": "https://consultagds.mincetur.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:consultagds.mincetur.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn280search0",
+        "turn280search1",
+        "turn280search2",
+        "turn280search3"
+      ]
+    },
+    {
+      "url": "https://joinnus.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:joinnus.com/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn280search0",
+        "turn280search1",
+        "turn280search2",
+        "turn280search3"
+      ]
+    },
+    {
+      "url": "https://teleticket.com.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:teleticket.com.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn279search0",
+        "turn279search1",
+        "turn279search2",
+        "turn279search3"
+      ]
+    },
+    {
+      "url": "https://laplaza.com.pe/obras-archive/perseo-dos-reinas-y-un-funeral",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:laplaza.com.pe/obras-archive/perseo-dos-reinas-y-un-funeral \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn279search0",
+        "turn279search1",
+        "turn279search2",
+        "turn279search3"
+      ]
+    },
+    {
+      "url": "https://portal.muniplibre.gob.pe/emprende-libre/m-add",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:portal.muniplibre.gob.pe/emprende-libre/m-add \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn279search0",
+        "turn279search1",
+        "turn279search2",
+        "turn279search3"
+      ]
+    },
+    {
+      "url": "https://agenda.pucp.edu.pe/evento/cine-ccpucp-iv-ciclo-de-cine-japones-15092026194330",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:agenda.pucp.edu.pe/evento/cine-ccpucp-iv-ciclo-de-cine-japones-15092026194330 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn279search0",
+        "turn279search1",
+        "turn279search2",
+        "turn279search3"
+      ]
+    },
+    {
+      "url": "https://aflima.org.pe/eventos",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:aflima.org.pe/eventos \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn282search0",
+        "turn282search1",
+        "turn282search2",
+        "turn282search3"
+      ]
+    },
+    {
+      "url": "https://cultural.icpna.edu.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "apertura pública de la ruta",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "400 Timeout fetching mostrado por la herramienta; no se acredita una denegación del sitio.",
+      "nextAction": "Conservar error y última evidencia; buscar una alternativa oficial pertinente en otra ronda, sin eludirlo ni inferir cancelación.",
+      "error": "400 Timeout fetching mostrado por la herramienta; no se acredita una denegación del sitio.",
+      "searchReferences": []
+    },
+    {
+      "url": "https://apj.org.pe/cultural/agenda-cultural",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:apj.org.pe/cultural/agenda-cultural \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn282search0",
+        "turn282search1",
+        "turn282search2",
+        "turn282search3"
+      ]
+    },
+    {
+      "url": "https://timeleft.com/es",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:timeleft.com/es \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn282search0",
+        "turn282search1",
+        "turn282search2",
+        "turn282search3"
+      ]
+    },
+    {
+      "url": "https://experiencias.mesa247.pe/experiencias",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:experiencias.mesa247.pe/experiencias \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn281search0",
+        "turn281search1",
+        "turn281search2",
+        "turn281search3"
+      ]
+    },
+    {
+      "url": "https://brisasdeltiticaca.com.pe/eventos/culturales",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:brisasdeltiticaca.com.pe/eventos/culturales \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn281search0",
+        "turn281search1",
+        "turn281search2",
+        "turn281search3"
+      ]
+    },
+    {
+      "url": "https://apj.org.pe/cultural",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:apj.org.pe/cultural \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn281search0",
+        "turn281search1",
+        "turn281search2",
+        "turn281search3"
+      ]
+    },
+    {
+      "url": "https://apj.org.pe/teatro/presentaciones",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:apj.org.pe/teatro/presentaciones \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn281search0",
+        "turn281search1",
+        "turn281search2",
+        "turn281search3"
+      ]
+    },
+    {
+      "url": "https://teleticket.com.pe/Landing/ListadoEventosTodos",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:teleticket.com.pe/Landing/ListadoEventosTodos \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn283search0",
+        "turn283search1",
+        "turn283search2",
+        "turn283search3"
+      ]
+    },
+    {
+      "url": "https://kcp.com.pe/exposiciones/calendarioexposicioneskcp",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:kcp.com.pe/exposiciones/calendarioexposicioneskcp \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn283search0",
+        "turn283search1",
+        "turn283search2",
+        "turn283search3"
+      ]
+    },
+    {
+      "url": "https://gob.pe/institucion/ipd/campa%C3%B1as",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:gob.pe/institucion/ipd/campa%C3%B1as \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn283search0",
+        "turn283search1",
+        "turn283search2",
+        "turn283search3"
+      ]
+    },
+    {
+      "url": "https://perurunners.com/eventos",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:perurunners.com/eventos \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn283search0",
+        "turn283search1",
+        "turn283search2",
+        "turn283search3"
+      ]
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/externo/inicio",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "Agenda pública recuperada, 21 resultados; fichas nuevas identificadas y Poesía Ínfima leída individualmente. No todos los resultados abiertos.",
+      "nextAction": "Abrir fichas aún no deduplicadas, sin expandir rangos.",
+      "reviewScope": "partial",
+      "searchReferences": []
+    },
+    {
+      "url": "https://apa.com.pe/funciones.html",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:apa.com.pe/funciones.html \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn285search0",
+        "turn285search1",
+        "turn285search2",
+        "turn285search3"
+      ]
+    },
+    {
+      "url": "https://gob.pe/institucion/igp/campa%C3%B1as/97299-visitar-el-planetario-nacional-del-igp",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:gob.pe/institucion/igp/campa%C3%B1as/97299-visitar-el-planetario-nacional-del-igp \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn285search0",
+        "turn285search1",
+        "turn285search2",
+        "turn285search3"
+      ]
+    },
+    {
+      "url": "https://ticketera.brisasdeltiticaca.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:ticketera.brisasdeltiticaca.com/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn285search0",
+        "turn285search1",
+        "turn285search2",
+        "turn285search3"
+      ]
+    },
+    {
+      "url": "https://gob.pe/midagri",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:gob.pe/midagri \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn286search0",
+        "turn286search1",
+        "turn286search2",
+        "turn286search3"
+      ]
+    },
+    {
+      "url": "https://filo.com.pe/eventos",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:filo.com.pe/eventos \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn286search0",
+        "turn286search1",
+        "turn286search2",
+        "turn286search3"
+      ]
+    },
+    {
+      "url": "https://apj.org.pe/teatro/agenda_detalle/mamma-mia",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:apj.org.pe/teatro/agenda_detalle/mamma-mia \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn286search0",
+        "turn286search1",
+        "turn286search2",
+        "turn286search3"
+      ]
+    },
+    {
+      "url": "https://gob.pe/ipd",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:gob.pe/ipd \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn286search0",
+        "turn286search1",
+        "turn286search2",
+        "turn286search3"
+      ]
+    },
+    {
+      "url": "https://museos.cultura.pe/museos",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:museos.cultura.pe/museos \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn284search0",
+        "turn284search1",
+        "turn284search2",
+        "turn284search3"
+      ]
+    },
+    {
+      "url": "https://kcp.com.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:kcp.com.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn284search0",
+        "turn284search1",
+        "turn284search2",
+        "turn284search3"
+      ]
+    },
+    {
+      "url": "https://leyendas.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:leyendas.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn284search0",
+        "turn284search1",
+        "turn284search2",
+        "turn284search3"
+      ]
+    },
+    {
+      "url": "https://miraflores.gob.pe/miraflores-lanza-convocatoria-para-la-ficte-2026",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:miraflores.gob.pe/miraflores-lanza-convocatoria-para-la-ficte-2026 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn284search0",
+        "turn284search1",
+        "turn284search2",
+        "turn284search3"
+      ]
+    },
+    {
+      "url": "https://emufec.gob.pe/category/fiestas-del-cusco-2026",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:emufec.gob.pe/category/fiestas-del-cusco-2026 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn289search0",
+        "turn289search1",
+        "turn289search2",
+        "turn289search3"
+      ]
+    },
+    {
+      "url": "https://gob.pe/institucion/muniarequipa/campa%C3%B1as",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:gob.pe/institucion/muniarequipa/campa%C3%B1as \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn289search0",
+        "turn289search1",
+        "turn289search2",
+        "turn289search3"
+      ]
+    },
+    {
+      "url": "https://mundolingo.org/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:mundolingo.org/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn289search0",
+        "turn289search1",
+        "turn289search2",
+        "turn289search3"
+      ]
+    },
+    {
+      "url": "https://apj.org.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:apj.org.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn289search0",
+        "turn289search1",
+        "turn289search2",
+        "turn289search3"
+      ]
+    },
+    {
+      "url": "https://aflima.org.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:aflima.org.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn288search0",
+        "turn288search1",
+        "turn288search2",
+        "turn288search3"
+      ]
+    },
+    {
+      "url": "https://mesa247.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:mesa247.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn288search0",
+        "turn288search1",
+        "turn288search2",
+        "turn288search3"
+      ]
+    },
+    {
+      "url": "https://perurunners.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:perurunners.com/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn288search0",
+        "turn288search1",
+        "turn288search2",
+        "turn288search3"
+      ]
+    },
+    {
+      "url": "https://ytuqueplanes.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:ytuqueplanes.com/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn288search0",
+        "turn288search1",
+        "turn288search2",
+        "turn288search3"
+      ]
+    },
+    {
+      "url": "https://clublibertad.com.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:clublibertad.com.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn287search0",
+        "turn287search1",
+        "turn287search2",
+        "turn287search3"
+      ]
+    },
+    {
+      "url": "https://eoilima.gov.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:eoilima.gov.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn287search0",
+        "turn287search1",
+        "turn287search2",
+        "turn287search3"
+      ]
+    },
+    {
+      "url": "https://overseas.mofa.go.kr/pe-es/index.do",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:overseas.mofa.go.kr/pe-es/index.do \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn287search0",
+        "turn287search1",
+        "turn287search2",
+        "turn287search3"
+      ]
+    },
+    {
+      "url": "https://anccpp.org.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:anccpp.org.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn287search0",
+        "turn287search1",
+        "turn287search2",
+        "turn287search3"
+      ]
+    },
+    {
+      "url": "https://gob.pe/inia",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:gob.pe/inia \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn292search0",
+        "turn292search1",
+        "turn292search2",
+        "turn292search3"
+      ]
+    },
+    {
+      "url": "https://ipd.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:ipd.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn292search0",
+        "turn292search1",
+        "turn292search2",
+        "turn292search3"
+      ]
+    },
+    {
+      "url": "https://coperu.org/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:coperu.org/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn292search0",
+        "turn292search1",
+        "turn292search2",
+        "turn292search3"
+      ]
+    },
+    {
+      "url": "https://fpf.org.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:fpf.org.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn292search0",
+        "turn292search1",
+        "turn292search2",
+        "turn292search3"
+      ]
+    },
+    {
+      "url": "https://fpv.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:fpv.pe/ \"octubre\" \"2026\"",
+      "searchReferences": []
+    },
+    {
+      "url": "https://resultadosatletismope.org/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:resultadosatletismope.org/ \"octubre\" \"2026\"",
+      "searchReferences": []
+    },
+    {
+      "url": "https://fdpn.org.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:fdpn.org.pe/ \"octubre\" \"2026\"",
+      "searchReferences": []
+    },
+    {
+      "url": "https://fenta.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:fenta.pe/ \"octubre\" \"2026\"",
+      "searchReferences": []
+    },
+    {
+      "url": "https://fdpt.org.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:fdpt.org.pe/ \"octubre\" \"2026\"",
+      "searchReferences": []
+    },
+    {
+      "url": "https://clubregatas.org.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:clubregatas.org.pe/ \"octubre\" \"2026\"",
+      "searchReferences": []
+    },
+    {
+      "url": "https://limacricket.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:limacricket.com/ \"octubre\" \"2026\"",
+      "searchReferences": []
+    },
+    {
+      "url": "https://clublawntennis.org.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:clublawntennis.org.pe/ \"octubre\" \"2026\"",
+      "searchReferences": []
+    },
+    {
+      "url": "https://realclubdelima.org.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:realclubdelima.org.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn293search0",
+        "turn293search1",
+        "turn293search2",
+        "turn293search3"
+      ]
+    },
+    {
+      "url": "https://casadelaliteratura.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:casadelaliteratura.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn293search0",
+        "turn293search1",
+        "turn293search2",
+        "turn293search3"
+      ]
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:eventos.bnp.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn293search0",
+        "turn293search1",
+        "turn293search2",
+        "turn293search3"
+      ]
+    },
+    {
+      "url": "https://uni.edu.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:uni.edu.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn293search0",
+        "turn293search1",
+        "turn293search2",
+        "turn293search3"
+      ]
+    },
+    {
+      "url": "https://brisasdeltiticaca.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:brisasdeltiticaca.com/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn295search0"
+      ]
+    },
+    {
+      "url": "https://frfcp.org.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:frfcp.org.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn295search0"
+      ]
+    },
+    {
+      "url": "https://artearguedas.edu.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:artearguedas.edu.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn295search0"
+      ]
+    },
+    {
+      "url": "https://lacandelariaperu.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:lacandelariaperu.com/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn295search0"
+      ]
+    },
+    {
+      "url": "https://msb.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:msb.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn294search0",
+        "turn294search1",
+        "turn294search12",
+        "turn294search13"
+      ]
+    },
+    {
+      "url": "https://miraflores.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:miraflores.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn294search0",
+        "turn294search1",
+        "turn294search12",
+        "turn294search13"
+      ]
+    },
+    {
+      "url": "https://centralrestaurante.com.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:centralrestaurante.com.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn294search0",
+        "turn294search1",
+        "turn294search12",
+        "turn294search13"
+      ]
+    },
+    {
+      "url": "https://maido.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:maido.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn294search0",
+        "turn294search1",
+        "turn294search12",
+        "turn294search13"
+      ]
+    },
+    {
+      "url": "https://kollke.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:kollke.com/ \"octubre\" \"2026\"",
+      "searchReferences": []
+    },
+    {
+      "url": "https://astridygaston.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:astridygaston.com/ \"octubre\" \"2026\"",
+      "searchReferences": []
+    },
+    {
+      "url": "https://maytalima.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:maytalima.com/ \"octubre\" \"2026\"",
+      "searchReferences": []
+    },
+    {
+      "url": "https://rafaelosterling.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:rafaelosterling.pe/ \"octubre\" \"2026\"",
+      "searchReferences": []
+    },
+    {
+      "url": "https://isolina.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:isolina.pe/ \"octubre\" \"2026\"",
+      "searchReferences": []
+    },
+    {
+      "url": "https://cantaranabarranco.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:cantaranabarranco.com/ \"octubre\" \"2026\"",
+      "searchReferences": []
+    },
+    {
+      "url": "https://elbolivariano.com.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:elbolivariano.com.pe/ \"octubre\" \"2026\"",
+      "searchReferences": []
+    },
+    {
+      "url": "https://elchinito.com.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:elchinito.com.pe/ \"octubre\" \"2026\"",
+      "searchReferences": []
+    },
+    {
+      "url": "https://elveridicodefidel.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:elveridicodefidel.com/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn297search0",
+        "turn297search1",
+        "turn297search2",
+        "turn297search3"
+      ]
+    },
+    {
+      "url": "https://mibarunto.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:mibarunto.com/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn297search0",
+        "turn297search1",
+        "turn297search2",
+        "turn297search3"
+      ]
+    },
+    {
+      "url": "https://filofest.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:filofest.com/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn297search0",
+        "turn297search1",
+        "turn297search2",
+        "turn297search3"
+      ]
+    },
+    {
+      "url": "https://airbnb.com/s/Peru/experiences",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:airbnb.com/s/Peru/experiences \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn297search0",
+        "turn297search1",
+        "turn297search2",
+        "turn297search3"
+      ]
+    },
+    {
+      "url": "https://civitatis.com/pe",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:civitatis.com/pe \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn301search0",
+        "turn301search1",
+        "turn301search2",
+        "turn301search3"
+      ]
+    },
+    {
+      "url": "https://getyourguide.es/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:getyourguide.es/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn301search0",
+        "turn301search1",
+        "turn301search2",
+        "turn301search3"
+      ]
+    },
+    {
+      "url": "https://elencos.cultura.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:elencos.cultura.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn301search0",
+        "turn301search1",
+        "turn301search2",
+        "turn301search3"
+      ]
+    },
+    {
+      "url": "https://sinfoniaporelperu.org/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:sinfoniaporelperu.org/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn301search0",
+        "turn301search1",
+        "turn301search2",
+        "turn301search3"
+      ]
+    },
+    {
+      "url": "https://balletmunicipal.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:balletmunicipal.com/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn302search0",
+        "turn302search1",
+        "turn302search2",
+        "turn302search3"
+      ]
+    },
+    {
+      "url": "https://granteatronacional.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:granteatronacional.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn302search0",
+        "turn302search1",
+        "turn302search2",
+        "turn302search3"
+      ]
+    },
+    {
+      "url": "https://visitalima.pe/teatro-municipal",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:visitalima.pe/teatro-municipal \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn302search0",
+        "turn302search1",
+        "turn302search2",
+        "turn302search3"
+      ]
+    },
+    {
+      "url": "https://visitalima.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:visitalima.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn302search0",
+        "turn302search1",
+        "turn302search2",
+        "turn302search3"
+      ]
+    },
+    {
+      "url": "https://losproductores.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:losproductores.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn300search0",
+        "turn300search21",
+        "turn300search1",
+        "turn300search2"
+      ]
+    },
+    {
+      "url": "https://muniarequipa.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:muniarequipa.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn300search0",
+        "turn300search21",
+        "turn300search1",
+        "turn300search2"
+      ]
+    },
+    {
+      "url": "https://teatrofenix.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:teatrofenix.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn300search0",
+        "turn300search21",
+        "turn300search1",
+        "turn300search2"
+      ]
+    },
+    {
+      "url": "https://munitrujillo.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:munitrujillo.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn300search0",
+        "turn300search21",
+        "turn300search1",
+        "turn300search2"
+      ]
+    },
+    {
+      "url": "https://teatroupao.com.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:teatroupao.com.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn304search0",
+        "turn304search1",
+        "turn304search2"
+      ]
+    },
+    {
+      "url": "https://municusco.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:municusco.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn304search0",
+        "turn304search1",
+        "turn304search2"
+      ]
+    },
+    {
+      "url": "https://munipiura.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:munipiura.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn304search0",
+        "turn304search1",
+        "turn304search2"
+      ]
+    },
+    {
+      "url": "https://arena1.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:arena1.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn304search0",
+        "turn304search1",
+        "turn304search2"
+      ]
+    },
+    {
+      "url": "https://eldomo.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:eldomo.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn305search0",
+        "turn305search1",
+        "turn305search2",
+        "turn305search3"
+      ]
+    },
+    {
+      "url": "https://jockeyplaza.com.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:jockeyplaza.com.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn305search0",
+        "turn305search1",
+        "turn305search2",
+        "turn305search3"
+      ]
+    },
+    {
+      "url": "https://jockeyclub.org.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:jockeyclub.org.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn305search0",
+        "turn305search1",
+        "turn305search2",
+        "turn305search3"
+      ]
+    },
+    {
+      "url": "https://unmsm.edu.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:unmsm.edu.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn305search0",
+        "turn305search1",
+        "turn305search2",
+        "turn305search3"
+      ]
+    },
+    {
+      "url": "https://circuitomagicodelagua.com.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:circuitomagicodelagua.com.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn303search0",
+        "turn303search1",
+        "turn303search2",
+        "turn303search3"
+      ]
+    },
+    {
+      "url": "https://museos.cultura.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:museos.cultura.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn303search0",
+        "turn303search1",
+        "turn303search2",
+        "turn303search3"
+      ]
+    },
+    {
+      "url": "https://tuboleto.cultura.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:tuboleto.cultura.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn303search0",
+        "turn303search1",
+        "turn303search2",
+        "turn303search3"
+      ]
+    },
+    {
+      "url": "https://museolarco.org/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:museolarco.org/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn303search0",
+        "turn303search1",
+        "turn303search2",
+        "turn303search3"
+      ]
+    },
+    {
+      "url": "https://mucen.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:mucen.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn306search0",
+        "turn306search1",
+        "turn306search2",
+        "turn306search3"
+      ]
+    },
+    {
+      "url": "https://maclima.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:maclima.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn306search0",
+        "turn306search1",
+        "turn306search2",
+        "turn306search3"
+      ]
+    },
+    {
+      "url": "https://lum.cultura.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:lum.cultura.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn306search0",
+        "turn306search1",
+        "turn306search2",
+        "turn306search3"
+      ]
+    },
+    {
+      "url": "https://museopedrodeosma.org/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:museopedrodeosma.org/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn306search0",
+        "turn306search1",
+        "turn306search2",
+        "turn306search3"
+      ]
+    },
+    {
+      "url": "https://muna.cultura.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:muna.cultura.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn308search0",
+        "turn308search1"
+      ]
+    },
+    {
+      "url": "https://pachacamac.cultura.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:pachacamac.cultura.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn308search0",
+        "turn308search1"
+      ]
+    },
+    {
+      "url": "https://huacapucllanahm.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:huacapucllanahm.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn308search0",
+        "turn308search1"
+      ]
+    },
+    {
+      "url": "https://centroculturalpucp.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:centroculturalpucp.com/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn308search0",
+        "turn308search1"
+      ]
+    },
+    {
+      "url": "https://entradalibre.me/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:entradalibre.me/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn307search0",
+        "turn307search1",
+        "turn307search2",
+        "turn307search3"
+      ]
+    },
+    {
+      "url": "https://mapcusco.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:mapcusco.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn307search0",
+        "turn307search1",
+        "turn307search2",
+        "turn307search3"
+      ]
+    },
+    {
+      "url": "https://museoinka.unsaac.edu.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:museoinka.unsaac.edu.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn307search0",
+        "turn307search1",
+        "turn307search2",
+        "turn307search3"
+      ]
+    },
+    {
+      "url": "https://elbrujo.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:elbrujo.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn307search0",
+        "turn307search1",
+        "turn307search2",
+        "turn307search3"
+      ]
+    },
+    {
+      "url": "https://huacasdemoche.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:huacasdemoche.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn310search13",
+        "turn310search0",
+        "turn310search1",
+        "turn310search14"
+      ]
+    },
+    {
+      "url": "https://santacatalina.org.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:santacatalina.org.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn310search13",
+        "turn310search0",
+        "turn310search1",
+        "turn310search14"
+      ]
+    },
+    {
+      "url": "https://museoleymebamba.org/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:museoleymebamba.org/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn310search13",
+        "turn310search0",
+        "turn310search1",
+        "turn310search14"
+      ]
+    },
+    {
+      "url": "https://regionloreto.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:regionloreto.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn310search13",
+        "turn310search0",
+        "turn310search1",
+        "turn310search14"
+      ]
+    },
+    {
+      "url": "https://corazonserrano.tv/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:corazonserrano.tv/ \"octubre\" \"2026\"",
+      "searchReferences": []
+    },
+    {
+      "url": "https://aguamarina.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:aguamarina.pe/ \"octubre\" \"2026\"",
+      "searchReferences": []
+    },
+    {
+      "url": "https://hermanosyaipen.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:hermanosyaipen.com/ \"octubre\" \"2026\"",
+      "searchReferences": []
+    },
+    {
+      "url": "https://danieladarcourt.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:danieladarcourt.com/ \"octubre\" \"2026\"",
+      "searchReferences": []
+    },
+    {
+      "url": "https://munibarranco.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:munibarranco.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn311search0",
+        "turn311search1",
+        "turn311search2",
+        "turn311search3"
+      ]
+    },
+    {
+      "url": "https://msi.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:msi.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn311search0",
+        "turn311search1",
+        "turn311search2",
+        "turn311search3"
+      ]
+    },
+    {
+      "url": "https://munisurco.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:munisurco.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn311search0",
+        "turn311search1",
+        "turn311search2",
+        "turn311search3"
+      ]
+    },
+    {
+      "url": "https://conciertosperu.com.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:conciertosperu.com.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn311search0",
+        "turn311search1",
+        "turn311search2",
+        "turn311search3"
+      ]
+    },
+    {
+      "url": "https://emufec.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:emufec.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn313search0",
+        "turn313search14",
+        "turn313search15",
+        "turn313search16"
+      ]
+    },
+    {
+      "url": "https://munimancora.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:munimancora.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn313search0",
+        "turn313search14",
+        "turn313search15",
+        "turn313search16"
+      ]
+    },
+    {
+      "url": "https://muniica.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:muniica.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn313search0",
+        "turn313search14",
+        "turn313search15",
+        "turn313search16"
+      ]
+    },
+    {
+      "url": "https://munipisco.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:munipisco.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn313search0",
+        "turn313search14",
+        "turn313search15",
+        "turn313search16"
+      ]
+    },
+    {
+      "url": "https://munihuaraz.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:munihuaraz.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn314search0",
+        "turn314search1",
+        "turn314search3",
+        "turn314search2"
+      ]
+    },
+    {
+      "url": "https://munimaynas.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:munimaynas.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn314search0",
+        "turn314search1",
+        "turn314search3",
+        "turn314search2"
+      ]
+    },
+    {
+      "url": "https://munihuancayo.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:munihuancayo.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn314search0",
+        "turn314search1",
+        "turn314search3",
+        "turn314search2"
+      ]
+    },
+    {
+      "url": "https://munichiclayo.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:munichiclayo.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn314search0",
+        "turn314search1",
+        "turn314search3",
+        "turn314search2"
+      ]
+    },
+    {
+      "url": "https://mpsm.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:mpsm.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn312search0",
+        "turn312search1",
+        "turn312search2",
+        "turn312search12"
+      ]
+    },
+    {
+      "url": "https://munipuno.gob.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:munipuno.gob.pe/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn312search0",
+        "turn312search1",
+        "turn312search2",
+        "turn312search12"
+      ]
+    },
+    {
+      "url": "https://arteinquieto.com/fest",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:arteinquieto.com/fest \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn325search0",
+        "turn325search1",
+        "turn325search2",
+        "turn325search3"
+      ]
+    },
+    {
+      "url": "https://joinnus.com/events/theater/lima-el-percusionista-ciego-78217",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:joinnus.com/events/theater/lima-el-percusionista-ciego-78217 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn325search0",
+        "turn325search1",
+        "turn325search2",
+        "turn325search3"
+      ]
+    },
+    {
+      "url": "https://joinnus.com/events/entertainment/lima-expoperro-2026-far-west-78100",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:joinnus.com/events/entertainment/lima-expoperro-2026-far-west-78100 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn325search0",
+        "turn325search1",
+        "turn325search2",
+        "turn325search3"
+      ]
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/jaque-a-la-rutina-aprende-ajedrez-6251",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/jaque-a-la-rutina-aprende-ajedrez-6251 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn325search0",
+        "turn325search1",
+        "turn325search2",
+        "turn325search3"
+      ]
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/ajedrez-para-principiantes-6238",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/ajedrez-para-principiantes-6238 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn326search0",
+        "turn326search1",
+        "turn326search2",
+        "turn326search3"
+      ]
+    },
+    {
+      "url": "https://teatrobarranco.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:teatrobarranco.com/ \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn326search0",
+        "turn326search1",
+        "turn326search2",
+        "turn326search3"
+      ]
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural/otros/torneo-de-ajedrez-6236",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:eventos.bnp.gob.pe/agenda-cultural/otros/torneo-de-ajedrez-6236 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn326search0",
+        "turn326search1",
+        "turn326search2",
+        "turn326search3"
+      ]
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural/presentacion-de-publicacion/del-autor-al-lector-el-mapa-de-los-tesoros-escondidos-de-br-6247",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:eventos.bnp.gob.pe/agenda-cultural/presentacion-de-publicacion/del-autor-al-lector-el-mapa-de-los-tesoros-escondidos-de-br-6247 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn326search0",
+        "turn326search1",
+        "turn326search2",
+        "turn326search3"
+      ]
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural/mediacion-de-lectura/leer-jugar-e-imaginar-6250",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:eventos.bnp.gob.pe/agenda-cultural/mediacion-de-lectura/leer-jugar-e-imaginar-6250 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn327search0",
+        "turn327search1",
+        "turn327search2",
+        "turn327search3"
+      ]
+    },
+    {
+      "url": "https://unadqtc.edu.pe/kanchay-2026",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:unadqtc.edu.pe/kanchay-2026 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn327search0",
+        "turn327search1",
+        "turn327search2",
+        "turn327search3"
+      ]
+    },
+    {
+      "url": "https://passline.com/eventos/estrellados-premiere",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:passline.com/eventos/estrellados-premiere \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn327search0",
+        "turn327search1",
+        "turn327search2",
+        "turn327search3"
+      ]
+    },
+    {
+      "url": "https://passline.com/eventos/kortas-miercoles-setiembre-553063",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:passline.com/eventos/kortas-miercoles-setiembre-553063 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn327search0",
+        "turn327search1",
+        "turn327search2",
+        "turn327search3"
+      ]
+    },
+    {
+      "url": "https://passline.com/eventos/concierto-de-gala-sonido-del-peru",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:passline.com/eventos/concierto-de-gala-sonido-del-peru \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn328search0",
+        "turn328search1",
+        "turn328search2",
+        "turn328search3"
+      ]
+    },
+    {
+      "url": "https://teleticket.com.pe/chapa-tu-money-30set-2026",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:teleticket.com.pe/chapa-tu-money-30set-2026 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn328search0",
+        "turn328search1",
+        "turn328search2",
+        "turn328search3"
+      ]
+    },
+    {
+      "url": "https://vaope.com/eventos/teatro/cuentos-sinfonicos-de-disney-en-vivo-en-el-teatro-municipal-del-cusco",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:vaope.com/eventos/teatro/cuentos-sinfonicos-de-disney-en-vivo-en-el-teatro-municipal-del-cusco \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn328search0",
+        "turn328search1",
+        "turn328search2",
+        "turn328search3"
+      ]
+    },
+    {
+      "url": "https://facebook.com/verticeprod/posts/-tus-cuentos-favoritos-est%C3%A1n-a-punto-de-cobrar-vida-este-11-de-octubre-cuentos-d/122126394015043813",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:facebook.com/verticeprod/posts/-tus-cuentos-favoritos-est%C3%A1n-a-punto-de-cobrar-vida-este-11-de-octubre-cuentos-d/122126394015043813 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn328search0",
+        "turn328search1",
+        "turn328search2",
+        "turn328search3"
+      ]
+    },
+    {
+      "url": "https://facebook.com/TeatroMunicipalCusco/posts/1600753621849744",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:facebook.com/TeatroMunicipalCusco/posts/1600753621849744 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn329search0",
+        "turn329search1",
+        "turn329search2",
+        "turn329search3"
+      ]
+    },
+    {
+      "url": "https://vaope.com/eventos/conciertos/colombia-fex-festival-parce-fernando-aguilar-en-iquitos",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:vaope.com/eventos/conciertos/colombia-fex-festival-parce-fernando-aguilar-en-iquitos \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn329search0",
+        "turn329search1",
+        "turn329search2",
+        "turn329search3"
+      ]
+    },
+    {
+      "url": "https://threads.com/@losbacanosdelvallenato/post/Dd1xHYPHdVy",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:threads.com/@losbacanosdelvallenato/post/Dd1xHYPHdVy \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn329search0",
+        "turn329search1",
+        "turn329search2",
+        "turn329search3"
+      ]
+    },
+    {
+      "url": "https://plazanorte.pe/eventos/presentacion-de-orquesta-internacional-borinquen",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:plazanorte.pe/eventos/presentacion-de-orquesta-internacional-borinquen \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn329search0",
+        "turn329search1",
+        "turn329search2",
+        "turn329search3"
+      ]
+    },
+    {
+      "url": "https://plazanorte.pe/eventos/funcion-de-titeres",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:plazanorte.pe/eventos/funcion-de-titeres \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn330search0",
+        "turn330search1",
+        "turn330search2",
+        "turn330search3"
+      ]
+    },
+    {
+      "url": "https://ticketmaster.pe/event/apocalyptica-plays-metallica-vol2-venta-general",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:ticketmaster.pe/event/apocalyptica-plays-metallica-vol2-venta-general \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn330search0",
+        "turn330search1",
+        "turn330search2",
+        "turn330search3"
+      ]
+    },
+    {
+      "url": "https://aflima.org.pe/noticia/brick-fest-peru",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:aflima.org.pe/noticia/brick-fest-peru \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn330search0",
+        "turn330search1",
+        "turn330search2",
+        "turn330search3"
+      ]
+    },
+    {
+      "url": "https://granteatronacional.pe/evento/nancy-manchego-caminos-del-ande",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:granteatronacional.pe/evento/nancy-manchego-caminos-del-ande \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn330search0",
+        "turn330search1",
+        "turn330search2",
+        "turn330search3"
+      ]
+    },
+    {
+      "url": "https://teleticket.com.pe/annie-2026",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:teleticket.com.pe/annie-2026 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn331search0",
+        "turn331search1"
+      ]
+    },
+    {
+      "url": "https://teleticket.com.pe/evento/ellas-en-concierto-en-plaza-norte-teatro-plaza-norte",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:teleticket.com.pe/evento/ellas-en-concierto-en-plaza-norte-teatro-plaza-norte \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn331search0",
+        "turn331search1"
+      ]
+    },
+    {
+      "url": "https://teleticket.com.pe/evento/suegras-teatro-auditorio-miraflores",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:teleticket.com.pe/evento/suegras-teatro-auditorio-miraflores \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn331search0",
+        "turn331search1"
+      ]
+    },
+    {
+      "url": "https://museos.cultura.pe/node/1706",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:museos.cultura.pe/node/1706 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn331search0",
+        "turn331search1"
+      ]
+    },
+    {
+      "url": "https://weverse.io/bts/notice/34732?hl=es",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:weverse.io/bts/notice/34732?hl=es \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn332search0",
+        "turn332search1",
+        "turn332search2",
+        "turn332search3"
+      ]
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/apreciacion-musical-pequena-jara-criolla-para-ninos-y-ninas-6253",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/apreciacion-musical-pequena-jara-criolla-para-ninos-y-ninas-6253 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn332search0",
+        "turn332search1",
+        "turn332search2",
+        "turn332search3"
+      ]
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/tejiendo-mis-suenos-6252",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:eventos.bnp.gob.pe/agenda-cultural/taller-yo-curso/tejiendo-mis-suenos-6252 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn332search0",
+        "turn332search1",
+        "turn332search2",
+        "turn332search3"
+      ]
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural/club-de-lectura/historias-que-unen-6249",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:eventos.bnp.gob.pe/agenda-cultural/club-de-lectura/historias-que-unen-6249 \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn332search0",
+        "turn332search1",
+        "turn332search2",
+        "turn332search3"
+      ]
+    },
+    {
+      "url": "https://museos.cultura.pe/sites/default/files/publicaciones/pdf/Lista%20museos%204oct.pdf",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "consulta dirigida por ruta oficial",
+      "status": "no revisada",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Consulta de actualidad; contenido individual no revisado. No acredita ausencia de eventos.",
+      "nextAction": "Leer ficha oficial fechada; conservar horas/cupos pendientes.",
+      "query": "site:museos.cultura.pe/sites/default/files/publicaciones/pdf/Lista%20museos%204oct.pdf \"octubre\" \"2026\"",
+      "searchReferences": [
+        "turn333search0",
+        "turn333search1",
+        "turn333search2",
+        "turn333search3"
+      ]
+    },
+    {
+      "url": "https://ayuda.teleticket.com.pe/helpcenter/article/ivy-queen-pride-tour-2026",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "Cancelación del concierto del 24/10 en Círculo Militar anunciada el18/9 y vigente. No figura en el catálogo.",
+      "nextAction": "Conservar cancelación; no reintroducir desde listado.",
+      "reviewScope": "content",
+      "searchReferences": []
+    },
+    {
+      "url": "https://ticketmaster.pe/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "Cartelera destacada recuperada con Iron Maiden 17/10, This Is Michael 10/10, Elrow 10/10 y más; se muestra aviso de actividad sospechosa. Lectura de destacados, no catálogo completo.",
+      "nextAction": "Abrir organizador y fichas de eventos faltantes; revisar restantes secciones.",
+      "reviewScope": "partial",
+      "searchReferences": []
+    },
+    {
+      "url": "https://teleticket.com.pe/todos",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "Listado de octubre recuperado: nuevas funciones 7/10 y tours con rangos. Se abrieron cuatro fichas próximas al 7/10 y una ficha Ica; no se verificó la totalidad del listado.",
+      "nextAction": "Continuar fichas de funciones próximas y separar tours/rangos.",
+      "reviewScope": "partial",
+      "searchReferences": []
+    },
+    {
+      "url": "https://vaope.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "Portada y agenda recuperadas; sin lectura exhaustiva de todos los candidatos detectables. Catálogo existente contrastado para deduplicar.",
+      "nextAction": "Revisar cambios de funciones próximas e itinerario del listado.",
+      "reviewScope": "partial",
+      "searchReferences": []
+    },
+    {
+      "url": "https://joinnus.com/search",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "apertura pública de la ruta",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "Internal Error de la herramienta; sin código HTTP expuesto.",
+      "nextAction": "Conservar error y última evidencia; buscar una alternativa oficial pertinente en otra ronda, sin eludirlo ni inferir cancelación.",
+      "error": "Internal Error de la herramienta; sin código HTTP expuesto.",
+      "searchReferences": []
+    },
+    {
+      "url": "https://feverup.com/es/lima",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "apertura pública de la ruta",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "URL no accesible por esta herramienta; sin código HTTP expuesto.",
+      "nextAction": "Conservar error y última evidencia; buscar una alternativa oficial pertinente en otra ronda, sin eludirlo ni inferir cancelación.",
+      "error": "URL no accesible por esta herramienta; sin código HTTP expuesto.",
+      "searchReferences": []
+    },
+    {
+      "url": "https://eventbrite.com.pe/d/peru/events",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "apertura pública de la ruta",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "405 Method Not Allowed devuelto al recuperar la página.",
+      "nextAction": "Conservar error y última evidencia; buscar una alternativa oficial pertinente en otra ronda, sin eludirlo ni inferir cancelación.",
+      "error": "405 Method Not Allowed devuelto al recuperar la página.",
+      "searchReferences": []
+    },
+    {
+      "url": "https://passline.com/",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "apertura pública de la ruta",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "403 Forbidden devuelto al recuperar la página.",
+      "nextAction": "Conservar error y última evidencia; buscar una alternativa oficial pertinente en otra ronda, sin eludirlo ni inferir cancelación.",
+      "error": "403 Forbidden devuelto al recuperar la página.",
+      "searchReferences": []
+    },
+    {
+      "url": "https://joinnus.com/events/seminarios-conferencias/lima-peru-startup-summit-by-startup-world-cup-startup-grind-peru-79114",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "apertura pública de la ruta",
+      "status": "acceso restringido/error",
+      "contentReviewedThisRound": false,
+      "lastEvidence": "403 Forbidden devuelto al recuperar la ficha pública; organizador sí recuperado.",
+      "nextAction": "Conservar error y última evidencia; buscar una alternativa oficial pertinente en otra ronda, sin eludirlo ni inferir cancelación.",
+      "error": "403 Forbidden devuelto al recuperar la ficha pública; organizador sí recuperado.",
+      "searchReferences": []
+    },
+    {
+      "url": "https://freewalkingtoursperu.com/es/blog/que-hacer-lima-peru",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "Guía de lugares y recorridos recuperada; no hay función individual verificada para hoy. No incorporada al catálogo de eventos.",
+      "nextAction": "Verificar operador, salida, encuentro, restricciones nacionales y propinas por oferta.",
+      "reviewScope": "content",
+      "searchReferences": []
+    },
+    {
+      "url": "https://teleticket.com.pe/chapa-tu-money-7oct-2026",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "Chapa tu Money: Lima, Teatro Canout, 2026-10-07. Hora solo posible, sin sesión exacta.",
+      "nextAction": "Revisar cambios antes de la función; disponibilidad no comprobada salvo condiciones de acceso descritas por el organizador.",
+      "reviewScope": "content",
+      "searchReferences": []
+    },
+    {
+      "url": "https://teleticket.com.pe/evento/noche-ayacuchana-de-gala-5ta-edicion-centro-de-convenciones-maracana",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "Noche Ayacuchana de Gala · 5.ª edición: Lima, Centro de Convenciones Maracaná, 2026-10-07T20:00:00-05:00. ",
+      "nextAction": "Revisar cambios antes de la función; disponibilidad no comprobada salvo condiciones de acceso descritas por el organizador.",
+      "reviewScope": "content",
+      "searchReferences": []
+    },
+    {
+      "url": "https://teleticket.com.pe/evento/llego-la-salsa-a-barranco-salsa-de-gala-penia-del-carajo",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "Llegó la Salsa a Barranco: Salsa de Gala: Lima, Peña del Carajo, 2026-10-07T21:00:00-05:00. ",
+      "nextAction": "Revisar cambios antes de la función; disponibilidad no comprobada salvo condiciones de acceso descritas por el organizador.",
+      "reviewScope": "content",
+      "searchReferences": []
+    },
+    {
+      "url": "https://apj.org.pe/cultural/agenda_detalle/sake-no-matsuri",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "El secreto del sake, descubriendo el koji: Lima, Auditorio Dai Hall · Centro Cultural Peruano Japonés, 2026-10-07T19:30:00-05:00. ",
+      "nextAction": "Revisar cambios antes de la función; disponibilidad no comprobada salvo condiciones de acceso descritas por el organizador.",
+      "reviewScope": "content",
+      "searchReferences": []
+    },
+    {
+      "url": "https://eventos.bnp.gob.pe/agenda-cultural/presentacion-de-publicacion/poesia-infima-nivardo-cordova-salinas-presentacion-de-poem-6255",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "Poesía ínfima · Nivardo Córdova Salinas: Lima, Gran Biblioteca Pública de Lima · Hall principal, 2026-10-15T18:00:00-05:00. ",
+      "nextAction": "Revisar cambios antes de la función; disponibilidad no comprobada salvo condiciones de acceso descritas por el organizador.",
+      "reviewScope": "content",
+      "searchReferences": []
+    },
+    {
+      "url": "https://crespial.org/20aniversario",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "CRESPIAL · Foro sobre patrimonio vivo: Cusco, Casa Garcilaso · Museo Histórico Regional, 2026-10-21, 2026-10-22, 2026-10-23. Programa preliminar; horas definitivas pendientes.",
+      "nextAction": "Revisar cambios antes de la función; disponibilidad no comprobada salvo condiciones de acceso descritas por el organizador.",
+      "reviewScope": "content",
+      "searchReferences": []
+    },
+    {
+      "url": "https://teleticket.com.pe/evento/voces-del-rock-latino-ica-vol-2-alamo-disco-penia-ica",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "Voces del Rock Latino Ica · Vol. 2: Ica, Álamo Disco Peña, 2026-10-17T22:00:00-05:00. ",
+      "nextAction": "Revisar cambios antes de la función; disponibilidad no comprobada salvo condiciones de acceso descritas por el organizador.",
+      "reviewScope": "content",
+      "searchReferences": []
+    },
+    {
+      "url": "https://teleticket.com.pe/bella-durmiente-2026",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "Ficha confirma funciones 7 y 8/10, pero listado general extiende hasta 10/10; no se asignaron sesiones nuevas ni horarios por ese rango.",
+      "nextAction": "Contrastar cartel y selector individual con recinto; resolver diferencia del listado.",
+      "reviewScope": "content",
+      "searchReferences": []
+    },
+    {
+      "url": "https://museopedrodeosma.org/programas/festival-de-la-hispanidad-2026",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "Fecha inicial 1/10/2026 y final 9/2/2027 frente a texto 'durante una semana' y 'Octubre2026', lugar 'Lugar 2' y enlaces de junio. Ficha contradictoria; no se publicó.",
+      "nextAction": "Obtener programa y ubicación reales del museo.",
+      "reviewScope": "content",
+      "searchReferences": []
+    },
+    {
+      "url": "https://weverse.io/bts/notice/39439?hl=es",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "Pop-up de temporada 25/9–25/10 en Casa Prado, Miraflores; atención 10–20 y acceso solo con reserva de fecha/hora. No se comprobaron sesiones reservables ni cupos.",
+      "nextAction": "Consultar reserva individual; no crear eventos diarios desde rango de tienda.",
+      "reviewScope": "content",
+      "searchReferences": []
+    },
+    {
+      "url": "https://startupgrind.com/events/details/startup-grind-lima-presents-peru-startup-summit-startup-world-cup-amp-peru-startup-grind-conf",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "El organizador confirma 5/10, 9:00 PET, CIP Lima, San Isidro. 5–6/10 en cabecera es rango UTC; en Lima finaliza 5/10. Ya iniciado a la hora de revisión; no ofrecer como próximo.",
+      "nextAction": "No crear evento para mañana desde el cruce de medianoche UTC; venta Joinnus no comprobada.",
+      "reviewScope": "content",
+      "searchReferences": []
+    },
+    {
+      "url": "https://pagos.teleticket.com.pe/lacasadetimoteoeniquitos",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "Ficha confirma Selva Arena, Iquitos, y tarifas/preventa; el cuerpo no expone fecha real ni hora. El listado anuncia 18/10, insuficiente para confirmar ficha nueva.",
+      "nextAction": "Recuperar fecha real del organizador o función individual; mantener pendiente.",
+      "reviewScope": "content",
+      "searchReferences": []
+    },
+    {
+      "url": "https://ticketmaster.pe/event/bts-world-tour-arirang",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "7,9,10/10 en EstadioSanMarcos,Lima; inicio estimado20:00; venta general agotada. Aviso sospecha no impide recuperar ficha, no se comprobó flujo de compra.",
+      "nextAction": "Hora definitiva pendiente; comprobar cambios.",
+      "reviewScope": "content",
+      "searchReferences": []
+    },
+    {
+      "url": "https://lum.cultura.pe/agenda/2026-10",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "Agenda mensual recuperada; sin completar lectura de fichas individuales de todo el mes.",
+      "nextAction": "Comprobar fechas, sedes y horas individuales.",
+      "reviewScope": "partial",
+      "searchReferences": []
+    },
+    {
+      "url": "https://granteatronacional.pe/evento/serenata-marinera",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "Serenata marinera 2026-10-06 GTN Lima. Serenata6/10 20:00 y reservaJoinnus agotada; Nicomedes10/10 20:00; Rossini11/10 11:30.",
+      "nextAction": "Conservar actualización de main; confirmar acceso/cupos antes de recomendar.",
+      "reviewScope": "content",
+      "searchReferences": []
+    },
+    {
+      "url": "https://granteatronacional.pe/evento/nicomedes-santa-cruz-gamarra-noventa-y-nueve-y-un-bitute-mas",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "Nicomedes Santa Cruz Gamarra: Noventa y nueve y un bitute más 2026-10-10 GTN Lima. Serenata6/10 20:00 y reservaJoinnus agotada; Nicomedes10/10 20:00; Rossini11/10 11:30.",
+      "nextAction": "Conservar actualización de main; confirmar acceso/cupos antes de recomendar.",
+      "reviewScope": "content",
+      "searchReferences": []
+    },
+    {
+      "url": "https://granteatronacional.pe/evento/coro-nacional-del-peru-petite-messe-solennelle-de-rossini",
+      "consultedAt": "2026-10-05",
+      "timezone": "America/Lima",
+      "method": "lectura de contenido público",
+      "status": "revisada con candidatos",
+      "contentReviewedThisRound": true,
+      "lastEvidence": "Coro Nacional del Perú: Petite Messe Solennelle de Rossini 2026-10-11 GTN Lima. Serenata6/10 20:00 y reservaJoinnus agotada; Nicomedes10/10 20:00; Rossini11/10 11:30.",
+      "nextAction": "Conservar actualización de main; confirmar acceso/cupos antes de recomendar.",
+      "reviewScope": "content",
+      "searchReferences": []
+    }
+  ],
+  "unresolvedSources": [
+    {
+      "label": "**Lima Language Exchange / Poliglotas Perú:** Facebook / Instagram `@limalanguageexchange`",
+      "area": 1,
+      "status": "identidad/URL pendiente",
+      "consultedAt": "2026-10-05",
+      "method": "búsqueda dirigida por nombre/perfil; identidad no acreditada",
+      "nextAction": "Verificar identidad y URL antes de seguir publicaciones."
+    },
+    {
+      "label": "**Instituto Goethe / Alianza Cultural Italiano-Peruana:** Agendas culturales con talleres de conversación e intercambios lingüísticos.",
+      "area": 1,
+      "status": "identidad/URL pendiente",
+      "consultedAt": "2026-10-05",
+      "method": "búsqueda dirigida por nombre/perfil; identidad no acreditada",
+      "nextAction": "Verificar identidad y URL antes de seguir publicaciones."
+    },
+    {
+      "label": "**Paint & Sip / Talleres de Arte y Vino:** Eventos en Barranco y Miraflores (redes sociales)",
+      "area": 2,
+      "status": "identidad/URL pendiente",
+      "consultedAt": "2026-10-05",
+      "method": "búsqueda dirigida por nombre/perfil; identidad no acreditada",
+      "nextAction": "Verificar identidad y URL antes de seguir publicaciones."
+    },
+    {
+      "label": "**Ludobares (Noches de Juegos de Mesa e Integración):** La Ludoteca / LudoBar (redes sociales)",
+      "area": 2,
+      "status": "identidad/URL pendiente",
+      "consultedAt": "2026-10-05",
+      "method": "búsqueda dirigida por nombre/perfil; identidad no acreditada",
+      "nextAction": "Verificar identidad y URL antes de seguir publicaciones."
+    },
+    {
+      "label": "**Asociación Central Folklórica Puno (Morenadas y Caporales):** Facebook Oficial Central Folklórica Puno",
+      "area": 3,
+      "status": "identidad/URL pendiente",
+      "consultedAt": "2026-10-05",
+      "method": "búsqueda dirigida por nombre/perfil; identidad no acreditada",
+      "nextAction": "Verificar identidad y URL antes de seguir publicaciones."
+    },
+    {
+      "label": "**Gungur Arts (Danzas Clásicas de la India y Bollywood):** Facebook Oficial Gungur Arts",
+      "area": 3,
+      "status": "identidad/URL pendiente",
+      "consultedAt": "2026-10-05",
+      "method": "búsqueda dirigida por nombre/perfil; identidad no acreditada",
+      "nextAction": "Verificar identidad y URL antes de seguir publicaciones."
+    },
+    {
+      "label": "**K-Drama Perú Alliance (Proyecciones y Eventos Temáticos):** Instagram `@kdramaperuoficial`",
+      "area": 3,
+      "status": "identidad/URL pendiente",
+      "consultedAt": "2026-10-05",
+      "method": "búsqueda dirigida por nombre/perfil; identidad no acreditada",
+      "nextAction": "Verificar identidad y URL antes de seguir publicaciones."
+    },
+    {
+      "label": "**ARMY Perú (Fanclub Oficial BTS Perú):** Instagram `@armyperuoficial`",
+      "area": 4,
+      "status": "identidad/URL pendiente",
+      "consultedAt": "2026-10-05",
+      "method": "búsqueda dirigida por nombre/perfil; identidad no acreditada",
+      "nextAction": "Verificar identidad y URL antes de seguir publicaciones."
+    },
+    {
+      "label": "**BLINK Perú (BLACKPINK):** Instagram `@blinkperu`",
+      "area": 4,
+      "status": "identidad/URL pendiente",
+      "consultedAt": "2026-10-05",
+      "method": "búsqueda dirigida por nombre/perfil; identidad no acreditada",
+      "nextAction": "Verificar identidad y URL antes de seguir publicaciones."
+    },
+    {
+      "label": "**K-Pop Perú Alliance (Eventos y Random Dance):** Facebook / Instagram K-Pop Perú",
+      "area": 4,
+      "status": "identidad/URL pendiente",
+      "consultedAt": "2026-10-05",
+      "method": "búsqueda dirigida por nombre/perfil; identidad no acreditada",
+      "nextAction": "Verificar identidad y URL antes de seguir publicaciones."
+    },
+    {
+      "label": "**Retriever Club del Perú (Golden y Labrador):** Facebook / Instagram Oficial",
+      "area": 5,
+      "status": "identidad/URL pendiente",
+      "consultedAt": "2026-10-05",
+      "method": "búsqueda dirigida por nombre/perfil; identidad no acreditada",
+      "nextAction": "Verificar identidad y URL antes de seguir publicaciones."
+    },
+    {
+      "label": "**The Cat Fanciers' Club Perú (Exposiciones Felinas):** Facebook / Instagram CFC Perú",
+      "area": 5,
+      "status": "identidad/URL pendiente",
+      "consultedAt": "2026-10-05",
+      "method": "búsqueda dirigida por nombre/perfil; identidad no acreditada",
+      "nextAction": "Verificar identidad y URL antes de seguir publicaciones."
+    },
+    {
+      "label": "**Federación Peruana de Ajedrez (Torneos y Ranking):** Facebook Oficial FDPA",
+      "area": 7,
+      "status": "identidad/URL pendiente",
+      "consultedAt": "2026-10-05",
+      "method": "búsqueda dirigida por nombre/perfil; identidad no acreditada",
+      "nextAction": "Verificar identidad y URL antes de seguir publicaciones."
+    },
+    {
+      "label": "**Asociación Peruana de Astronomía (APA / Planetario):** Facebook Oficial APA",
+      "area": 7,
+      "status": "identidad/URL pendiente",
+      "consultedAt": "2026-10-05",
+      "method": "búsqueda dirigida por nombre/perfil; identidad no acreditada",
+      "nextAction": "Verificar identidad y URL antes de seguir publicaciones."
+    },
+    {
+      "label": "**El Huaralino (Festivales y Concursos Folclóricos):** Facebook Oficial El Huaralino",
+      "area": 8,
+      "status": "identidad/URL pendiente",
+      "consultedAt": "2026-10-05",
+      "method": "búsqueda dirigida por nombre/perfil; identidad no acreditada",
+      "nextAction": "Verificar identidad y URL antes de seguir publicaciones."
+    },
+    {
+      "label": "**Yawar Plaza Mamacona (Tradiciones y Danzas):** Facebook Oficial Yawar Plaza",
+      "area": 8,
+      "status": "identidad/URL pendiente",
+      "consultedAt": "2026-10-05",
+      "method": "búsqueda dirigida por nombre/perfil; identidad no acreditada",
+      "nextAction": "Verificar identidad y URL antes de seguir publicaciones."
+    },
+    {
+      "label": "**Chez Wong:** Reservas vía guía de atención diurna/privada.",
+      "area": 12,
+      "status": "identidad/URL pendiente",
+      "consultedAt": "2026-10-05",
+      "method": "búsqueda dirigida por nombre/perfil; identidad no acreditada",
+      "nextAction": "Verificar identidad y URL antes de seguir publicaciones."
+    }
+  ],
+  "catalogChanges": [
+    "Alta: Chapa tu Money (Lima)",
+    "Alta: Noche Ayacuchana de Gala · 5.ª edición (Lima)",
+    "Alta: Llegó la Salsa a Barranco: Salsa de Gala (Lima)",
+    "Alta: El secreto del sake, descubriendo el koji (Lima)",
+    "Alta: Poesía ínfima · Nivardo Córdova Salinas (Lima)",
+    "Alta: CRESPIAL · Foro sobre patrimonio vivo (Cusco)",
+    "Alta: Voces del Rock Latino Ica · Vol. 2 (Ica)"
+  ],
+  "exclusions": [
+    "No se consultó Vamos Eventos.",
+    "Guías, rangos turísticos y fechas de preventa no se transformaron en eventos.",
+    "StartupSummit ya iniciado; no ofrecido como próximo.",
+    "FestivalHispanidad con datos contradictorios; no incorporado."
+  ],
+  "counts": {
+    "no revisada": 197,
+    "acceso restringido/error": 6,
+    "revisada con candidatos": 23
+  }
+}

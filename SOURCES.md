@@ -1,5 +1,7 @@
 # Radar de fuentes de RelaxPerú
 
+Control operativo: seguir [fuentes/OPERACION_RADAR.md](fuentes/OPERACION_RADAR.md) y generar `fuentes/radar-health.json` mediante `node scripts/radar_health.mjs`. La cola conserva las fuentes originales y el historial, distingue búsqueda/acceso de lectura de contenido y compara las altas propuestas con main. Una ficha aislada no completa la cartelera de una boletería.
+
 Propuesta ampliada de siete macro-nódulos y fuentes candidatas aportadas por Jahel: [FUENTES_MACRONODULOS.md](FUENTES_MACRONODULOS.md). Las candidatas siguen pendientes de verificar y no se activan automáticamente.
 
 Cobertura inicial: Lima/Callao y departamento de Lima, Cusco, Ica/Pisco, Piura e Iquitos. Se amplía por ciudad cuando haya fichas individuales fiables. El radar encuentra candidatos; **la web solo publica actividades cuya fecha, ciudad y enlace coinciden con una página individual del organizador, recinto o canal oficial de venta**. El nombre de una boletería no verifica por sí solo la calidad de un operador turístico.
