@@ -1562,5 +1562,160 @@ export const activities = [
       "concierto"
     ]
   },
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-18",
+  "icon": "ticket",
+  "tone": "green",
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora y recinto confirmados; cupos pendientes de comprobar.",
+  "confirmationNoteEn": "Date, time and venue confirmed; availability not verified.",
+  "id": "af-candy-candy-21oct-2026",
+  "category": "culture",
+  "city": "Lima",
+  "district": "Miraflores",
+  "title": "Candy Candy · presentación de libro y conferencia",
+  "titleEn": "Candy Candy · book presentation and talk",
+  "description": "Presentación de Proyecto Sugoi y conferencia «La revolución francesa de Candy Candy», con Iván Antezana y Natalia Jaira del Águila. Miércoles 21 de octubre, 18:30–20:00. Ingreso libre hasta completar aforo.",
+  "descriptionEn": "Book presentation and talk by Proyecto Sugoi on October 21, 18:30–20:00. Free admission subject to venue capacity.",
+  "venue": "Mediateca Alianza Francesa · Av. Arequipa 4595",
+  "sessions": [
+    "2026-10-21T18:30:00-05:00"
+  ],
+  "url": "https://aflima.org.pe/evento/presentacion-de-librocandy-candy/",
+  "source": "Alianza Francesa de Lima",
+  "tags": [
+    "lectura",
+    "manga",
+    "conferencia",
+    "ingreso libre"
+  ]
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-18",
+  "icon": "ticket",
+  "tone": "green",
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora y recinto confirmados; cupos pendientes de comprobar.",
+  "confirmationNoteEn": "Date, time and venue confirmed; availability not verified.",
+  "id": "af-jazz-nuevo-peru-28oct-2026",
+  "category": "shows",
+  "city": "Lima",
+  "district": "Miraflores",
+  "title": "Nuevo Perú · Ciclo de Jazz Europeo",
+  "titleEn": "Nuevo Perú · European Jazz Series",
+  "description": "Concierto de Jean Pierre Magnet, Chino Figueroa y César Ballumbrosio. Miércoles 28 de octubre a las 20:00. Ingreso libre hasta completar aforo.",
+  "descriptionEn": "Concert with Jean Pierre Magnet, Chino Figueroa and César Ballumbrosio on October 28 at 20:00. Free admission subject to capacity.",
+  "venue": "Teatro Alianza Francesa · Av. Arequipa 4595",
+  "sessions": [
+    "2026-10-28T20:00:00-05:00"
+  ],
+  "url": "https://aflima.org.pe/evento/ciclo-de-jazz-europeo/",
+  "source": "Alianza Francesa de Lima",
+  "tags": [
+    "jazz",
+    "concierto",
+    "ingreso libre"
+  ]
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-18",
+  "icon": "ticket",
+  "tone": "green",
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora y recinto confirmados; cupos pendientes de comprobar.",
+  "confirmationNoteEn": "Date, time and venue confirmed; availability not verified.",
+  "id": "af-festival-cine-europeo-oct-2026",
+  "category": "culture",
+  "city": "Lima",
+  "district": "Miraflores",
+  "title": "38.º Festival de Cine Europeo · Cine Lumière",
+  "titleEn": "38th European Film Festival · Cine Lumière",
+  "description": "Funciones específicas publicadas por la Alianza Francesa: 21, 22, 23 y 24 de octubre a las 17:00 y 19:00; 26 a las 17:00; 27 y 28 a las 17:00 y 19:00. Ingreso libre hasta completar aforo. Cada película tiene su clasificación de edad en la programación oficial.",
+  "descriptionEn": "Explicitly scheduled screenings: October 21–24 at 17:00 and 19:00; October 26 at 17:00; October 27–28 at 17:00 and 19:00. Free admission subject to capacity; age ratings vary by film.",
+  "venue": "Cine Lumière Alianza Francesa · Av. Arequipa 4595",
+  "sessions": [
+    "2026-10-21T17:00:00-05:00",
+    "2026-10-21T19:00:00-05:00",
+    "2026-10-22T17:00:00-05:00",
+    "2026-10-22T19:00:00-05:00",
+    "2026-10-23T17:00:00-05:00",
+    "2026-10-23T19:00:00-05:00",
+    "2026-10-24T17:00:00-05:00",
+    "2026-10-24T19:00:00-05:00",
+    "2026-10-26T17:00:00-05:00",
+    "2026-10-27T17:00:00-05:00",
+    "2026-10-27T19:00:00-05:00",
+    "2026-10-28T17:00:00-05:00",
+    "2026-10-28T19:00:00-05:00"
+  ],
+  "url": "https://aflima.org.pe/evento/38-festival-de-cine-europeo/",
+  "source": "Alianza Francesa de Lima",
+  "tags": [
+    "cine",
+    "festival",
+    "ingreso libre"
+  ]
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-18",
+  "icon": "ticket",
+  "tone": "green",
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora y recinto confirmados; cupos pendientes de comprobar.",
+  "confirmationNoteEn": "Date, time and venue confirmed; availability not verified.",
+  "id": "bad-boys-palmeiras-pisco-18oct-2026",
+  "category": "sports",
+  "city": "Ica",
+  "district": "Pisco",
+  "title": "Bad Boys vs. Juventud Palmeiras · Copa Perú",
+  "titleEn": "Bad Boys vs. Juventud Palmeiras · Copa Perú",
+  "description": "Partido de la Etapa Nacional de la Copa Perú VAOPE 2026. La ficha oficial de venta confirma el domingo 18 de octubre a las 18:00 en Pisco. Disponibilidad final por comprobar.",
+  "descriptionEn": "Copa Perú national-stage match. The official ticket listing confirms October 18 at 18:00 in Pisco. Final availability remains unverified.",
+  "venue": "Estadio Teobaldo Pinillos Olaechea · Pisco",
+  "sessions": [
+    "2026-10-18T18:00:00-05:00"
+  ],
+  "url": "https://vaope.com/eventos/futbol/cd-bad-boys-vs-juventud-palmeiras-por-la-copa-peru-vaope-2026",
+  "source": "Copa Perú VAOPE · venta oficial",
+  "tags": [
+    "fútbol",
+    "Copa Perú"
+  ]
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-18",
+  "icon": "ticket",
+  "tone": "green",
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora y recinto confirmados; cupos pendientes de comprobar.",
+  "confirmationNoteEn": "Date, time and venue confirmed; availability not verified.",
+  "id": "arsenal-arenal-chorrillos-18oct-2026",
+  "category": "sports",
+  "city": "Lima",
+  "district": "Chorrillos",
+  "title": "Arsenal FBC vs. Alianza Arenal Moro · Copa Perú",
+  "titleEn": "Arsenal FBC vs. Alianza Arenal Moro · Copa Perú",
+  "description": "Partido de Copa Perú VAOPE 2026. La ficha oficial de venta confirma el domingo 18 de octubre a las 17:30 en el Estadio Municipal de Chorrillos. Disponibilidad final por comprobar.",
+  "descriptionEn": "Copa Perú match. The official ticket listing confirms October 18 at 17:30 at Chorrillos Municipal Stadium. Final availability remains unverified.",
+  "venue": "Estadio Municipal de Chorrillos",
+  "sessions": [
+    "2026-10-18T17:30:00-05:00"
+  ],
+  "url": "https://vaope.com/eventos/futbol/arsenal-fbc-vs-alianza-arenal-moro-por-la-copa-peru-vaope-2026",
+  "source": "Copa Perú VAOPE · venta oficial",
+  "tags": [
+    "fútbol",
+    "Copa Perú"
+  ]
+}
 ];
-
