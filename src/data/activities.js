@@ -1717,5 +1717,149 @@ export const activities = [
     "fútbol",
     "Copa Perú"
   ]
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-19",
+  "icon": "ticket",
+  "tone": "green",
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora y recinto confirmados; aforo o cupos pendientes de comprobar.",
+  "confirmationNoteEn": "Date, time and venue confirmed; remaining capacity not verified.",
+  "id": "atletico-grau-adt-23oct-2026",
+  "category": "sports",
+  "city": "Piura",
+  "district": "La Matanza",
+  "title": "Atlético Grau vs. ADT · Liga 1",
+  "titleEn": "Atlético Grau vs. ADT · Liga 1",
+  "description": "La ficha oficial de VAOPE confirma el viernes 23 de octubre a las 15:15 en el Estadio Municipal Ambrosio Maco Arroyo, La Matanza. Entrada nominativa: solo puede nominarse una vez. Disponibilidad por comprobar.",
+  "descriptionEn": "The official VAOPE listing confirms October 23 at 15:15 at Ambrosio Maco Arroyo Municipal Stadium, La Matanza. Tickets must be assigned to a named attendee only once. Availability unverified.",
+  "venue": "Estadio Municipal Ambrosio Maco Arroyo · La Matanza",
+  "sessions": [
+    "2026-10-23T15:15:00-05:00"
+  ],
+  "url": "https://vaope.com/eventos/futbol/atletico-grau-vs-adt-por-la-liga-1",
+  "source": "VAOPE · venta oficial",
+  "tags": [
+    "fútbol",
+    "Liga 1"
+  ]
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-19",
+  "icon": "ticket",
+  "tone": "green",
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora y recinto confirmados; aforo o cupos pendientes de comprobar.",
+  "confirmationNoteEn": "Date, time and venue confirmed; remaining capacity not verified.",
+  "id": "bnp-biblioteca-noche-22oct-2026",
+  "category": "culture",
+  "city": "Lima",
+  "district": "San Borja",
+  "title": "La Biblioteca abre de noche",
+  "titleEn": "The Library Opens at Night",
+  "description": "Recorrido mediado por la BNP y narración oral «Ánimas del purgatorio». Jueves 22 de octubre a las 18:00, duración publicada de una hora. Para mayores de 12 años. Entrada libre hasta completar aforo.",
+  "descriptionEn": "Guided BNP visit and storytelling on October 22 at 18:00, lasting one hour. For attendees over 12. Free admission subject to capacity.",
+  "venue": "Biblioteca Nacional del Perú · Av. De la Poesía 160",
+  "sessions": [
+    "2026-10-22T18:00:00-05:00"
+  ],
+  "url": "https://eventos.bnp.gob.pe/agenda-cultural/visitas-mediadas/la-biblioteca-abre-de-noche-6291",
+  "source": "Biblioteca Nacional del Perú",
+  "tags": [
+    "lectura",
+    "visita mediada",
+    "ingreso libre"
+  ]
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-19",
+  "icon": "ticket",
+  "tone": "green",
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora y recinto confirmados; aforo o cupos pendientes de comprobar.",
+  "confirmationNoteEn": "Date, time and venue confirmed; remaining capacity not verified.",
+  "id": "bnp-discos-thriller-22oct-2026",
+  "category": "culture",
+  "city": "Lima",
+  "district": "San Borja",
+  "title": "Discos Thriller · Sonidos de la biblioteca",
+  "titleEn": "Discos Thriller · Sounds of the Library",
+  "description": "Sesión de música disco y cultura de baile con DJ Eterno de Discos Eternos. Jueves 22 de octubre a las 19:00 en el anfiteatro de la BNP; duración publicada de tres horas. Actividad presencial, gratuita y de ingreso libre.",
+  "descriptionEn": "Disco music and dance-culture session with DJ Eterno on October 22 at 19:00 in the BNP amphitheater; published duration three hours. Free in-person event.",
+  "venue": "Anfiteatro BNP · Av. De la Poesía 160",
+  "sessions": [
+    "2026-10-22T19:00:00-05:00"
+  ],
+  "url": "https://eventos.bnp.gob.pe/agenda-cultural/sonidos-de-la-biblioteca/discos-thriller-6287",
+  "source": "Biblioteca Nacional del Perú",
+  "tags": [
+    "música",
+    "baile",
+    "ingreso libre"
+  ]
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-19",
+  "icon": "ticket",
+  "tone": "green",
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora y recinto confirmados; aforo o cupos pendientes de comprobar.",
+  "confirmationNoteEn": "Date, time and venue confirmed; remaining capacity not verified.",
+  "id": "bnp-mavka-24oct-2026",
+  "category": "culture",
+  "city": "Lima",
+  "district": "San Borja",
+  "title": "Mavka: Guardiana del bosque · Bibliocine",
+  "titleEn": "Mavka: The Forest Song · Library Cinema",
+  "description": "Proyección para niños, niñas y familias el sábado 24 de octubre a las 18:30, en el hall principal de la BNP. Duración publicada: dos horas. Entrada libre hasta completar aforo.",
+  "descriptionEn": "Family film screening on October 24 at 18:30 in the BNP main hall. Published duration two hours. Free admission subject to capacity.",
+  "venue": "Hall principal BNP · Av. De la Poesía 160",
+  "sessions": [
+    "2026-10-24T18:30:00-05:00"
+  ],
+  "url": "https://eventos.bnp.gob.pe/agenda-cultural/bibliocine/mavka-guardiana-del-bosque-6288",
+  "source": "Biblioteca Nacional del Perú",
+  "tags": [
+    "cine",
+    "familias",
+    "ingreso libre"
+  ]
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-19",
+  "icon": "ticket",
+  "tone": "green",
+  "confirmationLabel": "Por confirmar: admisión",
+  "confirmationLabelEn": "To confirm: admission",
+  "confirmationNote": "Actividad sujeta a postulación y selección; convocatoria desde el 23 de octubre.",
+  "confirmationNoteEn": "Application and selection required; applications open October 23.",
+  "id": "mali-genealogias-14nov-2026",
+  "category": "culture",
+  "city": "Lima",
+  "district": "Cercado de Lima",
+  "title": "Genealogías hechas a mano: de Guadalajara a Lima",
+  "titleEn": "Handmade Genealogies: From Guadalajara to Lima",
+  "description": "Laboratorio con Luis F. Muñoz, coorganizado por MALI y AAJ!, el 14 de noviembre de 11:00 a 13:00. Requiere postulación: convocatoria desde el 23 de octubre hasta el 4 de noviembre y selección el 6 de noviembre. No se garantiza admisión.",
+  "descriptionEn": "Workshop with Luis F. Muñoz, organized by MALI and AAJ!, on November 14 from 11:00 to 13:00. Applications October 23–November 4; selected participants announced November 6. Admission is not guaranteed.",
+  "venue": "Auditorio MALI · Av. 9 de diciembre 125",
+  "sessions": [
+    "2026-11-14T11:00:00-05:00"
+  ],
+  "url": "https://mali.pe/es/activity/laboratorio-genealogias-hechas-a-mano-de-guadalajara-a-lima-a-cargo-de-luis-f-munoz-mexico/",
+  "source": "MALI · Programas Públicos",
+  "tags": [
+    "arte",
+    "laboratorio",
+    "postulación"
+  ]
 }
 ];
