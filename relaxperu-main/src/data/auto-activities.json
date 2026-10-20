@@ -1,21 +1,22 @@
 [
   {
     "id": "gtn-raices-de-jauja-noche-de-gala-andina",
+    "sessions": ["2026-10-22T20:00:00-05:00"],
     "kind": "event",
     "category": "shows",
     "city": "Lima",
     "district": "San Borja",
     "title": "Raíces de Jauja: Noche de Gala Andina",
     "titleEn": "Raíces de Jauja: Noche de Gala Andina",
-    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
-    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
+    "description": "Raíces de Jauja y Savia Andina: 22 de octubre a las 20:00 en el Gran Teatro Nacional, Lima. Horario confirmado por el recinto; cupos pendientes. La tabla de venta conserva fechas tarifarias de 2025 y no prueba disponibilidad.",
+    "descriptionEn": "Raíces de Jauja and Savia Andina: October 22 at 20:00, Gran Teatro Nacional, Lima. Venue confirms schedule; capacity pending. Sales price table retains 2025 dates and does not prove availability.",
     "venue": "Gran Teatro Nacional",
     "dates": [
       "2026-10-22"
     ],
     "source": "Gran Teatro Nacional",
     "url": "https://granteatronacional.pe/evento/raices-de-jauja-noche-de-gala-andina",
-    "reviewedAt": "2026-10-17",
+    "reviewedAt": "2026-10-20",
     "icon": "music",
     "tone": "green",
     "tags": [
@@ -384,3 +385,4 @@
     ]
   }
 ]
+

@@ -1862,4 +1862,66 @@ export const activities = [
     "postulación"
   ]
 }
+,
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-20",
+  "icon": "ticket",
+  "tone": "lilac",
+  "id": "senor-milagros-ccpucp-oct-2026",
+  "category": "shows",
+  "city": "Lima",
+  "district": "San Isidro",
+  "title": "Señor de los Milagros · Teatro CCPUCP",
+  "titleEn": "Señor de los Milagros · CCPUCP Theatre",
+  "description": "Seis funciones: 22, 23, 24 y 26 de octubre a las 20:00; 25 de octubre a las 16:00 y 19:00. Teatro CCPUCP, Av. Camino Real 1075. Duración: 105 minutos. Producción de la Facultad de Derecho PUCP y Comisión Arte & Derecho. No se agrega función el 27 por el rango automático de la agenda. Consulta disponibilidad.",
+  "descriptionEn": "Six performances: October 22, 23, 24 and 26 at 20:00; October 25 at 16:00 and 19:00. CCPUCP Theatre, Av. Camino Real 1075. Runtime: 105 minutes. Produced by PUCP Law Faculty and Arte & Derecho. No October 27 performance is inferred from the calendar header. Check availability.",
+  "venue": "Teatro Centro Cultural PUCP",
+  "sessions": [
+    "2026-10-22T20:00:00-05:00",
+    "2026-10-23T20:00:00-05:00",
+    "2026-10-24T20:00:00-05:00",
+    "2026-10-25T16:00:00-05:00",
+    "2026-10-25T19:00:00-05:00",
+    "2026-10-26T20:00:00-05:00"
+  ],
+  "url": "https://centrocultural.pucp.edu.pe/teatro/item/5383-se%C3%B1or-de-los-milagros.html",
+  "source": "Centro Cultural PUCP",
+  "tags": [
+    "teatro"
+  ],
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Funciones confirmadas por el organizador; venta Joinnus devolvió 405 al consultar. No acredita cancelación ni cupos.",
+  "confirmationNoteEn": "Organizer confirms performances; the Joinnus sales page returned 405. This does not establish cancellation or remaining capacity."
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-20",
+  "icon": "music",
+  "tone": "green",
+  "id": "indira-rustica-costa-verde-20oct-2026",
+  "category": "shows",
+  "city": "Lima",
+  "district": "Barranco",
+  "title": "Indira Orbegozo · Rústica Costa Verde",
+  "titleEn": "Indira Orbegozo · Rústica Costa Verde",
+  "description": "Cena show del 20 de octubre a las 21:00 en Rústica Costa Verde, Playa Barranquito, Circuito de Playas, Barranco. La ficha del organizador confirma artista, fecha y hora. Consulta precio, condiciones y disponibilidad antes de asistir.",
+  "descriptionEn": "Dinner show on October 20 at 21:00 at Rústica Costa Verde, Playa Barranquito, Circuito de Playas, Barranco. The organizer confirms performer, date and time. Check price, conditions and availability before attending.",
+  "venue": "Rústica Costa Verde · Playa Barranquito",
+  "sessions": [
+    "2026-10-20T21:00:00-05:00"
+  ],
+  "url": "https://rustica.pe/shows/indira-orbegozo-en-rustica-costa-verde/local/costa-verde/2026-10-20",
+  "source": "Rústica",
+  "tags": [
+    "música",
+    "cena show"
+  ],
+  "confirmationLabel": "Por confirmar: condiciones y disponibilidad",
+  "confirmationLabelEn": "To confirm: terms and availability",
+  "confirmationNote": "Fecha, hora y local comprobados; precio, admisión y cupos no comprobados.",
+  "confirmationNoteEn": "Date, time and venue checked; price, admission and remaining capacity not verified."
+}
 ];
+
