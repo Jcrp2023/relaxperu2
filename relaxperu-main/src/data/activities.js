@@ -1923,5 +1923,120 @@ export const activities = [
   "confirmationNote": "Fecha, hora y local comprobados; precio, admisión y cupos no comprobados.",
   "confirmationNoteEn": "Date, time and venue checked; price, admission and remaining capacity not verified."
 }
+,
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-21",
+  "icon": "museum",
+  "tone": "blue",
+  "id": "mali-redes-codesido-21oct-2026",
+  "category": "culture",
+  "city": "Lima",
+  "district": "Cercado de Lima",
+  "title": "Conversatorio: Redes en torno a Julia Codesido",
+  "titleEn": "Talk: Networks around Julia Codesido",
+  "description": "Conversatorio sobre las redes artísticas, intelectuales y afectivas de Julia Codesido, el 21 de octubre a las 17:00 en el Auditorio MALI. Participan Andrea García Rodríguez y Yocelyn Valdebenito, con comentarios de Ricardo Kusunoki. La ficha incluye formulario de inscripción; consulta admisión y cupos.",
+  "descriptionEn": "Talk on Julia Codesido's artistic, intellectual and affective networks, October 21 at 17:00 in the MALI Auditorium. The listing includes a registration form; check admission and capacity.",
+  "venue": "Auditorio MALI · Av. 9 de Diciembre 125",
+  "sessions": [
+    "2026-10-21T17:00:00-05:00"
+  ],
+  "url": "https://mali.pe/es/activity/conversatorio-redes-artisticas-intelectuales-y-afectivas-en-torno-a-la-obra-de-julia-codesido/",
+  "source": "MALI · Programas Públicos",
+  "tags": [
+    "arte",
+    "conversatorio"
+  ],
+  "confirmationLabel": "Por confirmar: admisión y cupos",
+  "confirmationLabelEn": "To confirm: admission and capacity",
+  "confirmationNote": "Fecha, hora, recinto y formulario comprobados; condiciones de admisión y cupos no comprobados.",
+  "confirmationNoteEn": "Date, time, venue and registration form checked; admission terms and capacity not verified."
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-21",
+  "icon": "museum",
+  "tone": "lilac",
+  "id": "noche-mali-octubre-30oct-2026",
+  "category": "culture",
+  "city": "Lima",
+  "district": "Cercado de Lima",
+  "title": "Noche MALI · Edición octubre",
+  "titleEn": "MALI Night · October edition",
+  "description": "Apertura nocturna del MALI el 30 de octubre de 18:00 a 22:00, con visitas mediadas, talleres, feria textil, danza, karaoke criollo y presentación de Bartola. Entrada reducida indicada por el museo: S/12.90. Consulta disponibilidad.",
+  "descriptionEn": "MALI night opening on October 30, 18:00–22:00, with guided visits, workshops, textile fair, dance, criollo karaoke and a performance by Bartola. Museum-listed reduced admission: S/12.90. Check availability.",
+  "venue": "Museo de Arte de Lima · Av. 9 de Diciembre 125",
+  "sessions": [
+    "2026-10-30T18:00:00-05:00"
+  ],
+  "url": "https://mali.pe/es/activity/noche-mali-edicion-octubre/",
+  "source": "MALI · Programas Públicos",
+  "tags": [
+    "museo",
+    "arte",
+    "música"
+  ],
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, horario, programación y precio comprobados; cupos o disponibilidad no comprobados.",
+  "confirmationNoteEn": "Date, schedule, program and price checked; remaining capacity or availability not verified."
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-21",
+  "icon": "music",
+  "tone": "green",
+  "id": "jarana-pucp-29oct-2026",
+  "category": "shows",
+  "city": "Lima",
+  "district": "San Miguel",
+  "title": "Jarana en la PUCP · Tradición y sentir criollo",
+  "titleEn": "Jarana at PUCP · Criollo tradition",
+  "description": "Concierto gratuito del conjunto criollo-costeño del CEMDUC, el 29 de octubre de 19:30 a 21:00 en el Auditorio de Derecho del campus PUCP. Abierto al público externo con inscripción hasta el 28 de octubre a las 23:59; cupos pendientes.",
+  "descriptionEn": "Free concert by CEMDUC's criollo-costeño ensemble on October 29, 19:30–21:00, at the PUCP Law Auditorium. External visitors must register by October 28 at 23:59; capacity pending.",
+  "venue": "Auditorio de Derecho PUCP · Av. Universitaria 1801",
+  "sessions": [
+    "2026-10-29T19:30:00-05:00"
+  ],
+  "url": "https://agenda.pucp.edu.pe/evento/el-cemduc-presenta-jarana-en-la-pucp-al-ritmo-de-tradicion-y-sentir-criollo-06102026101427/",
+  "source": "Agenda PUCP · CEMDUC",
+  "tags": [
+    "música criolla",
+    "gratuito",
+    "inscripción"
+  ],
+  "confirmationLabel": "Por confirmar: inscripción y cupos",
+  "confirmationLabelEn": "To confirm: registration and capacity",
+  "confirmationNote": "Actividad gratuita y abierta a público externo; requiere inscripción hasta el 28 de octubre. Cupos no comprobados.",
+  "confirmationNoteEn": "Free and open to external visitors; registration required by October 28. Capacity not verified."
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-21",
+  "icon": "music",
+  "tone": "lilac",
+  "id": "kate-candela-rustica-ica-30oct-2026",
+  "category": "shows",
+  "city": "Ica",
+  "district": "Ica",
+  "title": "Kate Candela Halloween · Rústica Ica",
+  "titleEn": "Kate Candela Halloween · Rústica Ica",
+  "description": "Show de salsa de Kate Candela el 30 de octubre a las 22:00 en Rústica Ica, Av. José Matías Manzanilla 190. La ficha indica entrada general de S/20; consulta condiciones y disponibilidad.",
+  "descriptionEn": "Kate Candela salsa show on October 30 at 22:00 at Rústica Ica, Av. José Matías Manzanilla 190. The listing states S/20 general admission; check terms and availability.",
+  "venue": "Rústica Ica · Av. José Matías Manzanilla 190",
+  "sessions": [
+    "2026-10-30T22:00:00-05:00"
+  ],
+  "url": "https://rustica.pe/shows/kate-candela-halloween/local/ica/2026-10-30",
+  "source": "Rústica",
+  "tags": [
+    "salsa",
+    "Halloween"
+  ],
+  "confirmationLabel": "Por confirmar: condiciones y disponibilidad",
+  "confirmationLabelEn": "To confirm: terms and availability",
+  "confirmationNote": "Fecha, hora, local y precio publicados por el organizador; condiciones de ingreso y cupos no comprobados.",
+  "confirmationNoteEn": "Organizer publishes date, time, venue and price; admission terms and capacity not verified."
+}
 ];
 

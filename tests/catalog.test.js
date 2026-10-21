@@ -71,6 +71,11 @@ test('CCPUCP October performances use explicit sessions, not calendar header ran
   assert.deepEqual([...new Set(datesFor(item))], ['2026-10-22', '2026-10-23', '2026-10-24', '2026-10-25', '2026-10-26']);
   assert.ok(!datesFor(item).includes('2026-10-27'));
 });
+test('October 21 radar additions preserve only explicit sessions', () => {
+  const ids = ['mali-redes-codesido-21oct-2026', 'noche-mali-octubre-30oct-2026', 'jarana-pucp-29oct-2026', 'kate-candela-rustica-ica-30oct-2026'];
+  assert.deepEqual(ids.map(id => activities.find(item => item.id === id)?.sessions?.length), [1, 1, 1, 1]);
+  assert.equal(activities.find(item => item.id === 'jarana-pucp-29oct-2026').sessions[0], '2026-10-29T19:30:00-05:00');
+});
 
 test('Started sessions stop appearing as upcoming while later sessions remain', () => {
   const now = new Date('2026-09-29T20:15:00-05:00');
