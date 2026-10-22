@@ -2037,6 +2037,83 @@ export const activities = [
   "confirmationLabelEn": "To confirm: terms and availability",
   "confirmationNote": "Fecha, hora, local y precio publicados por el organizador; condiciones de ingreso y cupos no comprobados.",
   "confirmationNoteEn": "Organizer publishes date, time, venue and price; admission terms and capacity not verified."
+},
+{
+  "kind": "event", "reviewedAt": "2026-10-22", "icon": "music", "tone": "blue",
+  "id": "zelda-symphonic-legends-lima-22oct-2026", "category": "shows", "city": "Lima", "district": "Cercado de Lima",
+  "title": "Zelda Symphonic Legends en Lima", "titleEn": "Zelda Symphonic Legends in Lima",
+  "description": "Concierto sinfónico inspirado en The Legend of Zelda, el 22 de octubre a las 20:00 en el Teatro Manuel Ascencio Segura. La ficha de venta confirma función, recinto y organizadora; consulta disponibilidad antes de asistir.",
+  "descriptionEn": "Symphonic concert inspired by The Legend of Zelda on October 22 at 20:00 at Teatro Manuel Ascencio Segura. The sales listing confirms performance, venue and organizer; check availability before attending.",
+  "venue": "Teatro Manuel Ascencio Segura · Jr. Huancavelica 265", "sessions": ["2026-10-22T20:00:00-05:00"],
+  "url": "https://teleticket.com.pe/evento/zelda-symphonic-legends-en-lima-teatro-manuel-ascencio-segura", "source": "Teleticket · OLE Eventos",
+  "tags": ["música sinfónica", "videojuegos", "Zelda"], "confirmationLabel": "Por confirmar: disponibilidad", "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora, recinto y organizadora comprobados; cupos no comprobados.", "confirmationNoteEn": "Date, time, venue and organizer checked; remaining capacity not verified."
+},
+{
+  "kind": "event", "reviewedAt": "2026-10-22", "icon": "music", "tone": "green",
+  "id": "grupo-fuego-noche-reencuentro-22oct-2026", "category": "shows", "city": "Lima", "district": "Cercado de Lima",
+  "title": "Grupo Fuego · Noche de reencuentro", "titleEn": "Grupo Fuego · Reunion Night",
+  "description": "Noche de reencuentro de Grupo Fuego, el 22 de octubre a las 20:00 en Brisas del Titicaca. La ficha individual indica entradas de S/80 a S/150; consulta disponibilidad.",
+  "descriptionEn": "Grupo Fuego reunion night on October 22 at 20:00 at Brisas del Titicaca. The individual listing states tickets from S/80 to S/150; check availability.",
+  "venue": "Brisas del Titicaca · Jr. Héroes de Tarapacá 168", "sessions": ["2026-10-22T20:00:00-05:00"],
+  "url": "https://teleticket.com.pe/evento/grupo-fuego-presenta-noche-de-reencuentro-brisas-del-titicaca-asociacion-cultural", "source": "Teleticket · Brisas del Titicaca",
+  "tags": ["música", "reencuentro"], "confirmationLabel": "Por confirmar: disponibilidad", "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora, recinto, organizador y precios publicados; cupos no comprobados.", "confirmationNoteEn": "Date, time, venue, organizer and listed prices checked; remaining capacity not verified."
+},
+{
+  "kind": "event", "reviewedAt": "2026-10-22", "icon": "music", "tone": "lilac",
+  "id": "tributo-sabina-rock-pez-22oct-2026", "category": "shows", "city": "Lima", "district": "Miraflores",
+  "title": "Tributo a Joaquín Sabina · Hola y adiós", "titleEn": "Joaquín Sabina Tribute · Hola y adiós",
+  "description": "Show íntimo de José Carrasco dedicado a Joaquín Sabina, el 22 de octubre. Ingreso desde las 20:00 e inicio artístico anunciado a las 22:00 en Rock and Pez; consumo mínimo S/40. Consulta disponibilidad.",
+  "descriptionEn": "José Carrasco's intimate Joaquín Sabina tribute on October 22. Entry from 20:00 and advertised show start at 22:00 at Rock and Pez; S/40 minimum purchase. Check availability.",
+  "venue": "Rock and Pez · Miraflores", "sessions": ["2026-10-22T22:00:00-05:00"],
+  "url": "https://teleticket.com.pe/evento/tributo-a-joaquin-sabina-hola-y-adios-rock-and-pez-", "source": "Teleticket · Rock and Pez",
+  "tags": ["tributo", "trova", "música"], "confirmationLabel": "Por confirmar: disponibilidad", "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "La ficha diferencia ingreso 20:00 e inicio del show 22:00; cupos no comprobados.", "confirmationNoteEn": "The listing distinguishes 20:00 entry from 22:00 show start; remaining capacity not verified."
+},
+{
+  "kind": "event", "reviewedAt": "2026-10-22", "icon": "music", "tone": "orange",
+  "id": "william-luna-estacion-barranco-22oct-2026", "category": "shows", "city": "Lima", "district": "Barranco",
+  "title": "William Luna en concierto íntimo", "titleEn": "William Luna Intimate Concert",
+  "description": "Concierto íntimo de William Luna, el 22 de octubre a las 21:00 en La Estación de Barranco. Entradas publicadas de S/100 a S/120 y consumo mínimo de S/50 por persona; consulta disponibilidad.",
+  "descriptionEn": "William Luna intimate concert on October 22 at 21:00 at La Estación de Barranco. Listed tickets from S/100 to S/120 and S/50 minimum purchase per person; check availability.",
+  "venue": "La Estación de Barranco · Av. Pedro de Osma 112", "sessions": ["2026-10-22T21:00:00-05:00"],
+  "url": "https://teleticket.com.pe/evento/william-luna-en-concierto-intimo-la-estacion", "source": "Teleticket · La Estación de Barranco",
+  "tags": ["música andina", "concierto íntimo"], "confirmationLabel": "Por confirmar: disponibilidad", "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora, recinto, organizador, precios y consumo mínimo publicados; cupos no comprobados.", "confirmationNoteEn": "Date, time, venue, organizer, listed prices and minimum purchase checked; remaining capacity not verified."
+},
+{
+  "kind": "event", "reviewedAt": "2026-10-22", "icon": "community", "tone": "lilac",
+  "id": "kpop-random-dance-iquitos-23oct-2026", "category": "culture", "city": "Iquitos", "district": "Iquitos",
+  "title": "Viernes de K-Pop Random Dance", "titleEn": "K-Pop Random Dance Friday",
+  "description": "Encuentro gratuito de K-Pop Random Dance con Army Iquitos, el 23 de octubre de 20:00 a 21:00 en la Rotonda del primer nivel de Mall Aventura Iquitos. Consulta aforo.",
+  "descriptionEn": "Free K-Pop Random Dance gathering with Army Iquitos on October 23, 20:00–21:00, at the first-floor Rotunda of Mall Aventura Iquitos. Check capacity.",
+  "venue": "Mall Aventura Iquitos · Rotonda, nivel 1 · Av. José Abelardo Quiñones 1010", "sessions": ["2026-10-23T20:00:00-05:00"],
+  "url": "https://mallaventura.pe/iquitos/eventos/viernes-de-kpop-random-dance-2/", "source": "Mall Aventura Iquitos",
+  "tags": ["K-Pop", "baile", "gratuito", "Army Iquitos"], "confirmationLabel": "Por confirmar: aforo", "confirmationLabelEn": "To confirm: capacity",
+  "confirmationNote": "Fecha, horario, recinto y gratuidad comprobados; aforo no comprobado.", "confirmationNoteEn": "Date, schedule, venue and free admission checked; capacity not verified."
+},
+{
+  "kind": "event", "reviewedAt": "2026-10-22", "icon": "family", "tone": "green",
+  "id": "taller-los-lirios-iquitos-23oct-2026", "category": "family", "city": "Iquitos", "district": "Iquitos",
+  "title": "Taller creativo con Los Lirios", "titleEn": "Creative Workshop with Los Lirios",
+  "description": "Taller familiar gratuito de creatividad y aprendizaje con Los Lirios, el 23 de octubre de 18:00 a 19:00 en la Rotonda del primer nivel de Mall Aventura Iquitos. Consulta aforo y requisitos de edad.",
+  "descriptionEn": "Free family creativity and learning workshop with Los Lirios on October 23, 18:00–19:00, at the first-floor Rotunda of Mall Aventura Iquitos. Check capacity and age requirements.",
+  "venue": "Mall Aventura Iquitos · Rotonda, nivel 1 · Av. José Abelardo Quiñones 1010", "sessions": ["2026-10-23T18:00:00-05:00"],
+  "url": "https://mallaventura.pe/iquitos/eventos/taller-con-los-lirios-3/", "source": "Mall Aventura Iquitos",
+  "tags": ["taller", "familia", "niños", "gratuito"], "confirmationLabel": "Por confirmar: aforo y requisitos", "confirmationLabelEn": "To confirm: capacity and requirements",
+  "confirmationNote": "Fecha, horario, recinto y gratuidad comprobados; aforo y edades no comprobados.", "confirmationNoteEn": "Date, schedule, venue and free admission checked; capacity and ages not verified."
+},
+{
+  "kind": "event", "reviewedAt": "2026-10-22", "icon": "family", "tone": "orange",
+  "id": "show-terror-cecy-iquitos-25oct-2026", "category": "family", "city": "Iquitos", "district": "Iquitos",
+  "title": "Show de terror con Cecy Producciones", "titleEn": "Horror Show with Cecy Producciones",
+  "description": "Espectáculo gratuito de Halloween con Cecy Producciones, el 25 de octubre de 18:00 a 19:00 en la Rotonda del primer nivel de Mall Aventura Iquitos. Consulta aforo y recomendación de edad.",
+  "descriptionEn": "Free Halloween show with Cecy Producciones on October 25, 18:00–19:00, at the first-floor Rotunda of Mall Aventura Iquitos. Check capacity and age guidance.",
+  "venue": "Mall Aventura Iquitos · Rotonda, nivel 1 · Av. José Abelardo Quiñones 1010", "sessions": ["2026-10-25T18:00:00-05:00"],
+  "url": "https://mallaventura.pe/iquitos/eventos/show-de-terror-con-cecy-producciones/", "source": "Mall Aventura Iquitos",
+  "tags": ["Halloween", "show", "gratuito", "familia"], "confirmationLabel": "Por confirmar: aforo y edad", "confirmationLabelEn": "To confirm: capacity and age guidance",
+  "confirmationNote": "Fecha, horario, recinto y gratuidad comprobados; aforo y recomendación de edad no comprobados.", "confirmationNoteEn": "Date, schedule, venue and free admission checked; capacity and age guidance not verified."
 }
 ];
 
