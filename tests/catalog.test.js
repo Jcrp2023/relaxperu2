@@ -61,6 +61,35 @@ test('External links only point to reviewed official source domains', () => {
   assert.equal(safeSourceUrl('https://ticketmaster.pe.fake.example/event'), false);
   assert.equal(safeSourceUrl('https://joinnus.com.fake.example/event'), false);
   assert.equal(safeSourceUrl('javascript:alert(1)'), false);
+  assert.equal(safeSourceUrl('https://centrocultural.pucp.edu.pe/teatro/item/5383'), true);
+  assert.equal(safeSourceUrl('https://rustica.pe/shows/example'), true);
+  assert.equal(safeSourceUrl('https://rustica.pe.fake.example/shows'), false);
+  assert.equal(safeSourceUrl('https://mallaventura.pe/iquitos/eventos/example/'), true);
+  assert.equal(safeSourceUrl('https://mallaventura.pe.fake.example/iquitos'), false);
+});
+test('CCPUCP October performances use explicit sessions, not calendar header ranges', () => {
+  const item = activities.find(x => x.id === 'senor-milagros-ccpucp-oct-2026');
+  assert.equal(item.sessions.length, 6);
+  assert.deepEqual([...new Set(datesFor(item))], ['2026-10-22', '2026-10-23', '2026-10-24', '2026-10-25', '2026-10-26']);
+  assert.ok(!datesFor(item).includes('2026-10-27'));
+});
+test('October 21 radar additions preserve only explicit sessions', () => {
+  const ids = ['mali-redes-codesido-21oct-2026', 'noche-mali-octubre-30oct-2026', 'jarana-pucp-29oct-2026', 'kate-candela-rustica-ica-30oct-2026'];
+  assert.deepEqual(ids.map(id => activities.find(item => item.id === id)?.sessions?.length), [1, 1, 1, 1]);
+  assert.equal(activities.find(item => item.id === 'jarana-pucp-29oct-2026').sessions[0], '2026-10-29T19:30:00-05:00');
+});
+test('October 22 radar additions preserve seven explicit future sessions', () => {
+  const ids = [
+    'zelda-symphonic-legends-lima-22oct-2026',
+    'grupo-fuego-noche-reencuentro-22oct-2026',
+    'tributo-sabina-rock-pez-22oct-2026',
+    'william-luna-estacion-barranco-22oct-2026',
+    'kpop-random-dance-iquitos-23oct-2026',
+    'taller-los-lirios-iquitos-23oct-2026',
+    'show-terror-cecy-iquitos-25oct-2026'
+  ];
+  assert.deepEqual(ids.map(id => activities.find(item => item.id === id)?.sessions?.length), [1, 1, 1, 1, 1, 1, 1]);
+  assert.equal(activities.find(item => item.id === 'tributo-sabina-rock-pez-22oct-2026').sessions[0], '2026-10-22T22:00:00-05:00');
 });
 
 test('Started sessions stop appearing as upcoming while later sessions remain', () => {
@@ -92,3 +121,4 @@ test('Macro-node filters only include explicitly classified activities', () => {
   assert.deepEqual(filterActivities([legacy], { category: 'culture' }, today), []);
   assert.deepEqual(filterActivities([legacy], { category: 'all' }, today).map(item => item.id), ['legacy']);
 });
+

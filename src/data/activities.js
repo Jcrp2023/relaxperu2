@@ -1562,5 +1562,569 @@ export const activities = [
       "concierto"
     ]
   },
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-18",
+  "icon": "ticket",
+  "tone": "green",
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora y recinto confirmados; cupos pendientes de comprobar.",
+  "confirmationNoteEn": "Date, time and venue confirmed; availability not verified.",
+  "id": "af-candy-candy-21oct-2026",
+  "category": "culture",
+  "city": "Lima",
+  "district": "Miraflores",
+  "title": "Candy Candy · presentación de libro y conferencia",
+  "titleEn": "Candy Candy · book presentation and talk",
+  "description": "Presentación de Proyecto Sugoi y conferencia «La revolución francesa de Candy Candy», con Iván Antezana y Natalia Jaira del Águila. Miércoles 21 de octubre, 18:30–20:00. Ingreso libre hasta completar aforo.",
+  "descriptionEn": "Book presentation and talk by Proyecto Sugoi on October 21, 18:30–20:00. Free admission subject to venue capacity.",
+  "venue": "Mediateca Alianza Francesa · Av. Arequipa 4595",
+  "sessions": [
+    "2026-10-21T18:30:00-05:00"
+  ],
+  "url": "https://aflima.org.pe/evento/presentacion-de-librocandy-candy/",
+  "source": "Alianza Francesa de Lima",
+  "tags": [
+    "lectura",
+    "manga",
+    "conferencia",
+    "ingreso libre"
+  ]
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-18",
+  "icon": "ticket",
+  "tone": "green",
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora y recinto confirmados; cupos pendientes de comprobar.",
+  "confirmationNoteEn": "Date, time and venue confirmed; availability not verified.",
+  "id": "af-jazz-nuevo-peru-28oct-2026",
+  "category": "shows",
+  "city": "Lima",
+  "district": "Miraflores",
+  "title": "Nuevo Perú · Ciclo de Jazz Europeo",
+  "titleEn": "Nuevo Perú · European Jazz Series",
+  "description": "Concierto de Jean Pierre Magnet, Chino Figueroa y César Ballumbrosio. Miércoles 28 de octubre a las 20:00. Ingreso libre hasta completar aforo.",
+  "descriptionEn": "Concert with Jean Pierre Magnet, Chino Figueroa and César Ballumbrosio on October 28 at 20:00. Free admission subject to capacity.",
+  "venue": "Teatro Alianza Francesa · Av. Arequipa 4595",
+  "sessions": [
+    "2026-10-28T20:00:00-05:00"
+  ],
+  "url": "https://aflima.org.pe/evento/ciclo-de-jazz-europeo/",
+  "source": "Alianza Francesa de Lima",
+  "tags": [
+    "jazz",
+    "concierto",
+    "ingreso libre"
+  ]
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-18",
+  "icon": "ticket",
+  "tone": "green",
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora y recinto confirmados; cupos pendientes de comprobar.",
+  "confirmationNoteEn": "Date, time and venue confirmed; availability not verified.",
+  "id": "af-festival-cine-europeo-oct-2026",
+  "category": "culture",
+  "city": "Lima",
+  "district": "Miraflores",
+  "title": "38.º Festival de Cine Europeo · Cine Lumière",
+  "titleEn": "38th European Film Festival · Cine Lumière",
+  "description": "Funciones específicas publicadas por la Alianza Francesa: 21, 22, 23 y 24 de octubre a las 17:00 y 19:00; 26 a las 17:00; 27 y 28 a las 17:00 y 19:00. Ingreso libre hasta completar aforo. Cada película tiene su clasificación de edad en la programación oficial.",
+  "descriptionEn": "Explicitly scheduled screenings: October 21–24 at 17:00 and 19:00; October 26 at 17:00; October 27–28 at 17:00 and 19:00. Free admission subject to capacity; age ratings vary by film.",
+  "venue": "Cine Lumière Alianza Francesa · Av. Arequipa 4595",
+  "sessions": [
+    "2026-10-21T17:00:00-05:00",
+    "2026-10-21T19:00:00-05:00",
+    "2026-10-22T17:00:00-05:00",
+    "2026-10-22T19:00:00-05:00",
+    "2026-10-23T17:00:00-05:00",
+    "2026-10-23T19:00:00-05:00",
+    "2026-10-24T17:00:00-05:00",
+    "2026-10-24T19:00:00-05:00",
+    "2026-10-26T17:00:00-05:00",
+    "2026-10-27T17:00:00-05:00",
+    "2026-10-27T19:00:00-05:00",
+    "2026-10-28T17:00:00-05:00",
+    "2026-10-28T19:00:00-05:00"
+  ],
+  "url": "https://aflima.org.pe/evento/38-festival-de-cine-europeo/",
+  "source": "Alianza Francesa de Lima",
+  "tags": [
+    "cine",
+    "festival",
+    "ingreso libre"
+  ]
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-18",
+  "icon": "ticket",
+  "tone": "green",
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora y recinto confirmados; cupos pendientes de comprobar.",
+  "confirmationNoteEn": "Date, time and venue confirmed; availability not verified.",
+  "id": "bad-boys-palmeiras-pisco-18oct-2026",
+  "category": "sports",
+  "city": "Ica",
+  "district": "Pisco",
+  "title": "Bad Boys vs. Juventud Palmeiras · Copa Perú",
+  "titleEn": "Bad Boys vs. Juventud Palmeiras · Copa Perú",
+  "description": "Partido de la Etapa Nacional de la Copa Perú VAOPE 2026. La ficha oficial de venta confirma el domingo 18 de octubre a las 18:00 en Pisco. Disponibilidad final por comprobar.",
+  "descriptionEn": "Copa Perú national-stage match. The official ticket listing confirms October 18 at 18:00 in Pisco. Final availability remains unverified.",
+  "venue": "Estadio Teobaldo Pinillos Olaechea · Pisco",
+  "sessions": [
+    "2026-10-18T18:00:00-05:00"
+  ],
+  "url": "https://vaope.com/eventos/futbol/cd-bad-boys-vs-juventud-palmeiras-por-la-copa-peru-vaope-2026",
+  "source": "Copa Perú VAOPE · venta oficial",
+  "tags": [
+    "fútbol",
+    "Copa Perú"
+  ]
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-18",
+  "icon": "ticket",
+  "tone": "green",
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora y recinto confirmados; cupos pendientes de comprobar.",
+  "confirmationNoteEn": "Date, time and venue confirmed; availability not verified.",
+  "id": "arsenal-arenal-chorrillos-18oct-2026",
+  "category": "sports",
+  "city": "Lima",
+  "district": "Chorrillos",
+  "title": "Arsenal FBC vs. Alianza Arenal Moro · Copa Perú",
+  "titleEn": "Arsenal FBC vs. Alianza Arenal Moro · Copa Perú",
+  "description": "Partido de Copa Perú VAOPE 2026. La ficha oficial de venta confirma el domingo 18 de octubre a las 17:30 en el Estadio Municipal de Chorrillos. Disponibilidad final por comprobar.",
+  "descriptionEn": "Copa Perú match. The official ticket listing confirms October 18 at 17:30 at Chorrillos Municipal Stadium. Final availability remains unverified.",
+  "venue": "Estadio Municipal de Chorrillos",
+  "sessions": [
+    "2026-10-18T17:30:00-05:00"
+  ],
+  "url": "https://vaope.com/eventos/futbol/arsenal-fbc-vs-alianza-arenal-moro-por-la-copa-peru-vaope-2026",
+  "source": "Copa Perú VAOPE · venta oficial",
+  "tags": [
+    "fútbol",
+    "Copa Perú"
+  ]
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-19",
+  "icon": "ticket",
+  "tone": "green",
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora y recinto confirmados; aforo o cupos pendientes de comprobar.",
+  "confirmationNoteEn": "Date, time and venue confirmed; remaining capacity not verified.",
+  "id": "atletico-grau-adt-23oct-2026",
+  "category": "sports",
+  "city": "Piura",
+  "district": "La Matanza",
+  "title": "Atlético Grau vs. ADT · Liga 1",
+  "titleEn": "Atlético Grau vs. ADT · Liga 1",
+  "description": "La ficha oficial de VAOPE confirma el viernes 23 de octubre a las 15:15 en el Estadio Municipal Ambrosio Maco Arroyo, La Matanza. Entrada nominativa: solo puede nominarse una vez. Disponibilidad por comprobar.",
+  "descriptionEn": "The official VAOPE listing confirms October 23 at 15:15 at Ambrosio Maco Arroyo Municipal Stadium, La Matanza. Tickets must be assigned to a named attendee only once. Availability unverified.",
+  "venue": "Estadio Municipal Ambrosio Maco Arroyo · La Matanza",
+  "sessions": [
+    "2026-10-23T15:15:00-05:00"
+  ],
+  "url": "https://vaope.com/eventos/futbol/atletico-grau-vs-adt-por-la-liga-1",
+  "source": "VAOPE · venta oficial",
+  "tags": [
+    "fútbol",
+    "Liga 1"
+  ]
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-19",
+  "icon": "ticket",
+  "tone": "green",
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora y recinto confirmados; aforo o cupos pendientes de comprobar.",
+  "confirmationNoteEn": "Date, time and venue confirmed; remaining capacity not verified.",
+  "id": "bnp-biblioteca-noche-22oct-2026",
+  "category": "culture",
+  "city": "Lima",
+  "district": "San Borja",
+  "title": "La Biblioteca abre de noche",
+  "titleEn": "The Library Opens at Night",
+  "description": "Recorrido mediado por la BNP y narración oral «Ánimas del purgatorio». Jueves 22 de octubre a las 18:00, duración publicada de una hora. Para mayores de 12 años. Entrada libre hasta completar aforo.",
+  "descriptionEn": "Guided BNP visit and storytelling on October 22 at 18:00, lasting one hour. For attendees over 12. Free admission subject to capacity.",
+  "venue": "Biblioteca Nacional del Perú · Av. De la Poesía 160",
+  "sessions": [
+    "2026-10-22T18:00:00-05:00"
+  ],
+  "url": "https://eventos.bnp.gob.pe/agenda-cultural/visitas-mediadas/la-biblioteca-abre-de-noche-6291",
+  "source": "Biblioteca Nacional del Perú",
+  "tags": [
+    "lectura",
+    "visita mediada",
+    "ingreso libre"
+  ]
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-19",
+  "icon": "ticket",
+  "tone": "green",
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora y recinto confirmados; aforo o cupos pendientes de comprobar.",
+  "confirmationNoteEn": "Date, time and venue confirmed; remaining capacity not verified.",
+  "id": "bnp-discos-thriller-22oct-2026",
+  "category": "culture",
+  "city": "Lima",
+  "district": "San Borja",
+  "title": "Discos Thriller · Sonidos de la biblioteca",
+  "titleEn": "Discos Thriller · Sounds of the Library",
+  "description": "Sesión de música disco y cultura de baile con DJ Eterno de Discos Eternos. Jueves 22 de octubre a las 19:00 en el anfiteatro de la BNP; duración publicada de tres horas. Actividad presencial, gratuita y de ingreso libre.",
+  "descriptionEn": "Disco music and dance-culture session with DJ Eterno on October 22 at 19:00 in the BNP amphitheater; published duration three hours. Free in-person event.",
+  "venue": "Anfiteatro BNP · Av. De la Poesía 160",
+  "sessions": [
+    "2026-10-22T19:00:00-05:00"
+  ],
+  "url": "https://eventos.bnp.gob.pe/agenda-cultural/sonidos-de-la-biblioteca/discos-thriller-6287",
+  "source": "Biblioteca Nacional del Perú",
+  "tags": [
+    "música",
+    "baile",
+    "ingreso libre"
+  ]
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-19",
+  "icon": "ticket",
+  "tone": "green",
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora y recinto confirmados; aforo o cupos pendientes de comprobar.",
+  "confirmationNoteEn": "Date, time and venue confirmed; remaining capacity not verified.",
+  "id": "bnp-mavka-24oct-2026",
+  "category": "culture",
+  "city": "Lima",
+  "district": "San Borja",
+  "title": "Mavka: Guardiana del bosque · Bibliocine",
+  "titleEn": "Mavka: The Forest Song · Library Cinema",
+  "description": "Proyección para niños, niñas y familias el sábado 24 de octubre a las 18:30, en el hall principal de la BNP. Duración publicada: dos horas. Entrada libre hasta completar aforo.",
+  "descriptionEn": "Family film screening on October 24 at 18:30 in the BNP main hall. Published duration two hours. Free admission subject to capacity.",
+  "venue": "Hall principal BNP · Av. De la Poesía 160",
+  "sessions": [
+    "2026-10-24T18:30:00-05:00"
+  ],
+  "url": "https://eventos.bnp.gob.pe/agenda-cultural/bibliocine/mavka-guardiana-del-bosque-6288",
+  "source": "Biblioteca Nacional del Perú",
+  "tags": [
+    "cine",
+    "familias",
+    "ingreso libre"
+  ]
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-19",
+  "icon": "ticket",
+  "tone": "green",
+  "confirmationLabel": "Por confirmar: admisión",
+  "confirmationLabelEn": "To confirm: admission",
+  "confirmationNote": "Actividad sujeta a postulación y selección; convocatoria desde el 23 de octubre.",
+  "confirmationNoteEn": "Application and selection required; applications open October 23.",
+  "id": "mali-genealogias-14nov-2026",
+  "category": "culture",
+  "city": "Lima",
+  "district": "Cercado de Lima",
+  "title": "Genealogías hechas a mano: de Guadalajara a Lima",
+  "titleEn": "Handmade Genealogies: From Guadalajara to Lima",
+  "description": "Laboratorio con Luis F. Muñoz, coorganizado por MALI y AAJ!, el 14 de noviembre de 11:00 a 13:00. Requiere postulación: convocatoria desde el 23 de octubre hasta el 4 de noviembre y selección el 6 de noviembre. No se garantiza admisión.",
+  "descriptionEn": "Workshop with Luis F. Muñoz, organized by MALI and AAJ!, on November 14 from 11:00 to 13:00. Applications October 23–November 4; selected participants announced November 6. Admission is not guaranteed.",
+  "venue": "Auditorio MALI · Av. 9 de diciembre 125",
+  "sessions": [
+    "2026-11-14T11:00:00-05:00"
+  ],
+  "url": "https://mali.pe/es/activity/laboratorio-genealogias-hechas-a-mano-de-guadalajara-a-lima-a-cargo-de-luis-f-munoz-mexico/",
+  "source": "MALI · Programas Públicos",
+  "tags": [
+    "arte",
+    "laboratorio",
+    "postulación"
+  ]
+}
+,
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-20",
+  "icon": "ticket",
+  "tone": "lilac",
+  "id": "senor-milagros-ccpucp-oct-2026",
+  "category": "shows",
+  "city": "Lima",
+  "district": "San Isidro",
+  "title": "Señor de los Milagros · Teatro CCPUCP",
+  "titleEn": "Señor de los Milagros · CCPUCP Theatre",
+  "description": "Seis funciones: 22, 23, 24 y 26 de octubre a las 20:00; 25 de octubre a las 16:00 y 19:00. Teatro CCPUCP, Av. Camino Real 1075. Duración: 105 minutos. Producción de la Facultad de Derecho PUCP y Comisión Arte & Derecho. No se agrega función el 27 por el rango automático de la agenda. Consulta disponibilidad.",
+  "descriptionEn": "Six performances: October 22, 23, 24 and 26 at 20:00; October 25 at 16:00 and 19:00. CCPUCP Theatre, Av. Camino Real 1075. Runtime: 105 minutes. Produced by PUCP Law Faculty and Arte & Derecho. No October 27 performance is inferred from the calendar header. Check availability.",
+  "venue": "Teatro Centro Cultural PUCP",
+  "sessions": [
+    "2026-10-22T20:00:00-05:00",
+    "2026-10-23T20:00:00-05:00",
+    "2026-10-24T20:00:00-05:00",
+    "2026-10-25T16:00:00-05:00",
+    "2026-10-25T19:00:00-05:00",
+    "2026-10-26T20:00:00-05:00"
+  ],
+  "url": "https://centrocultural.pucp.edu.pe/teatro/item/5383-se%C3%B1or-de-los-milagros.html",
+  "source": "Centro Cultural PUCP",
+  "tags": [
+    "teatro"
+  ],
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Funciones confirmadas por el organizador; venta Joinnus devolvió 405 al consultar. No acredita cancelación ni cupos.",
+  "confirmationNoteEn": "Organizer confirms performances; the Joinnus sales page returned 405. This does not establish cancellation or remaining capacity."
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-20",
+  "icon": "music",
+  "tone": "green",
+  "id": "indira-rustica-costa-verde-20oct-2026",
+  "category": "shows",
+  "city": "Lima",
+  "district": "Barranco",
+  "title": "Indira Orbegozo · Rústica Costa Verde",
+  "titleEn": "Indira Orbegozo · Rústica Costa Verde",
+  "description": "Cena show del 20 de octubre a las 21:00 en Rústica Costa Verde, Playa Barranquito, Circuito de Playas, Barranco. La ficha del organizador confirma artista, fecha y hora. Consulta precio, condiciones y disponibilidad antes de asistir.",
+  "descriptionEn": "Dinner show on October 20 at 21:00 at Rústica Costa Verde, Playa Barranquito, Circuito de Playas, Barranco. The organizer confirms performer, date and time. Check price, conditions and availability before attending.",
+  "venue": "Rústica Costa Verde · Playa Barranquito",
+  "sessions": [
+    "2026-10-20T21:00:00-05:00"
+  ],
+  "url": "https://rustica.pe/shows/indira-orbegozo-en-rustica-costa-verde/local/costa-verde/2026-10-20",
+  "source": "Rústica",
+  "tags": [
+    "música",
+    "cena show"
+  ],
+  "confirmationLabel": "Por confirmar: condiciones y disponibilidad",
+  "confirmationLabelEn": "To confirm: terms and availability",
+  "confirmationNote": "Fecha, hora y local comprobados; precio, admisión y cupos no comprobados.",
+  "confirmationNoteEn": "Date, time and venue checked; price, admission and remaining capacity not verified."
+}
+,
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-21",
+  "icon": "museum",
+  "tone": "blue",
+  "id": "mali-redes-codesido-21oct-2026",
+  "category": "culture",
+  "city": "Lima",
+  "district": "Cercado de Lima",
+  "title": "Conversatorio: Redes en torno a Julia Codesido",
+  "titleEn": "Talk: Networks around Julia Codesido",
+  "description": "Conversatorio sobre las redes artísticas, intelectuales y afectivas de Julia Codesido, el 21 de octubre a las 17:00 en el Auditorio MALI. Participan Andrea García Rodríguez y Yocelyn Valdebenito, con comentarios de Ricardo Kusunoki. La ficha incluye formulario de inscripción; consulta admisión y cupos.",
+  "descriptionEn": "Talk on Julia Codesido's artistic, intellectual and affective networks, October 21 at 17:00 in the MALI Auditorium. The listing includes a registration form; check admission and capacity.",
+  "venue": "Auditorio MALI · Av. 9 de Diciembre 125",
+  "sessions": [
+    "2026-10-21T17:00:00-05:00"
+  ],
+  "url": "https://mali.pe/es/activity/conversatorio-redes-artisticas-intelectuales-y-afectivas-en-torno-a-la-obra-de-julia-codesido/",
+  "source": "MALI · Programas Públicos",
+  "tags": [
+    "arte",
+    "conversatorio"
+  ],
+  "confirmationLabel": "Por confirmar: admisión y cupos",
+  "confirmationLabelEn": "To confirm: admission and capacity",
+  "confirmationNote": "Fecha, hora, recinto y formulario comprobados; condiciones de admisión y cupos no comprobados.",
+  "confirmationNoteEn": "Date, time, venue and registration form checked; admission terms and capacity not verified."
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-21",
+  "icon": "museum",
+  "tone": "lilac",
+  "id": "noche-mali-octubre-30oct-2026",
+  "category": "culture",
+  "city": "Lima",
+  "district": "Cercado de Lima",
+  "title": "Noche MALI · Edición octubre",
+  "titleEn": "MALI Night · October edition",
+  "description": "Apertura nocturna del MALI el 30 de octubre de 18:00 a 22:00, con visitas mediadas, talleres, feria textil, danza, karaoke criollo y presentación de Bartola. Entrada reducida indicada por el museo: S/12.90. Consulta disponibilidad.",
+  "descriptionEn": "MALI night opening on October 30, 18:00–22:00, with guided visits, workshops, textile fair, dance, criollo karaoke and a performance by Bartola. Museum-listed reduced admission: S/12.90. Check availability.",
+  "venue": "Museo de Arte de Lima · Av. 9 de Diciembre 125",
+  "sessions": [
+    "2026-10-30T18:00:00-05:00"
+  ],
+  "url": "https://mali.pe/es/activity/noche-mali-edicion-octubre/",
+  "source": "MALI · Programas Públicos",
+  "tags": [
+    "museo",
+    "arte",
+    "música"
+  ],
+  "confirmationLabel": "Por confirmar: disponibilidad",
+  "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, horario, programación y precio comprobados; cupos o disponibilidad no comprobados.",
+  "confirmationNoteEn": "Date, schedule, program and price checked; remaining capacity or availability not verified."
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-21",
+  "icon": "music",
+  "tone": "green",
+  "id": "jarana-pucp-29oct-2026",
+  "category": "shows",
+  "city": "Lima",
+  "district": "San Miguel",
+  "title": "Jarana en la PUCP · Tradición y sentir criollo",
+  "titleEn": "Jarana at PUCP · Criollo tradition",
+  "description": "Concierto gratuito del conjunto criollo-costeño del CEMDUC, el 29 de octubre de 19:30 a 21:00 en el Auditorio de Derecho del campus PUCP. Abierto al público externo con inscripción hasta el 28 de octubre a las 23:59; cupos pendientes.",
+  "descriptionEn": "Free concert by CEMDUC's criollo-costeño ensemble on October 29, 19:30–21:00, at the PUCP Law Auditorium. External visitors must register by October 28 at 23:59; capacity pending.",
+  "venue": "Auditorio de Derecho PUCP · Av. Universitaria 1801",
+  "sessions": [
+    "2026-10-29T19:30:00-05:00"
+  ],
+  "url": "https://agenda.pucp.edu.pe/evento/el-cemduc-presenta-jarana-en-la-pucp-al-ritmo-de-tradicion-y-sentir-criollo-06102026101427/",
+  "source": "Agenda PUCP · CEMDUC",
+  "tags": [
+    "música criolla",
+    "gratuito",
+    "inscripción"
+  ],
+  "confirmationLabel": "Por confirmar: inscripción y cupos",
+  "confirmationLabelEn": "To confirm: registration and capacity",
+  "confirmationNote": "Actividad gratuita y abierta a público externo; requiere inscripción hasta el 28 de octubre. Cupos no comprobados.",
+  "confirmationNoteEn": "Free and open to external visitors; registration required by October 28. Capacity not verified."
+},
+{
+  "kind": "event",
+  "reviewedAt": "2026-10-21",
+  "icon": "music",
+  "tone": "lilac",
+  "id": "kate-candela-rustica-ica-30oct-2026",
+  "category": "shows",
+  "city": "Ica",
+  "district": "Ica",
+  "title": "Kate Candela Halloween · Rústica Ica",
+  "titleEn": "Kate Candela Halloween · Rústica Ica",
+  "description": "Show de salsa de Kate Candela el 30 de octubre a las 22:00 en Rústica Ica, Av. José Matías Manzanilla 190. La ficha indica entrada general de S/20; consulta condiciones y disponibilidad.",
+  "descriptionEn": "Kate Candela salsa show on October 30 at 22:00 at Rústica Ica, Av. José Matías Manzanilla 190. The listing states S/20 general admission; check terms and availability.",
+  "venue": "Rústica Ica · Av. José Matías Manzanilla 190",
+  "sessions": [
+    "2026-10-30T22:00:00-05:00"
+  ],
+  "url": "https://rustica.pe/shows/kate-candela-halloween/local/ica/2026-10-30",
+  "source": "Rústica",
+  "tags": [
+    "salsa",
+    "Halloween"
+  ],
+  "confirmationLabel": "Por confirmar: condiciones y disponibilidad",
+  "confirmationLabelEn": "To confirm: terms and availability",
+  "confirmationNote": "Fecha, hora, local y precio publicados por el organizador; condiciones de ingreso y cupos no comprobados.",
+  "confirmationNoteEn": "Organizer publishes date, time, venue and price; admission terms and capacity not verified."
+},
+{
+  "kind": "event", "reviewedAt": "2026-10-22", "icon": "music", "tone": "blue",
+  "id": "zelda-symphonic-legends-lima-22oct-2026", "category": "shows", "city": "Lima", "district": "Cercado de Lima",
+  "title": "Zelda Symphonic Legends en Lima", "titleEn": "Zelda Symphonic Legends in Lima",
+  "description": "Concierto sinfónico inspirado en The Legend of Zelda, el 22 de octubre a las 20:00 en el Teatro Manuel Ascencio Segura. La ficha de venta confirma función, recinto y organizadora; consulta disponibilidad antes de asistir.",
+  "descriptionEn": "Symphonic concert inspired by The Legend of Zelda on October 22 at 20:00 at Teatro Manuel Ascencio Segura. The sales listing confirms performance, venue and organizer; check availability before attending.",
+  "venue": "Teatro Manuel Ascencio Segura · Jr. Huancavelica 265", "sessions": ["2026-10-22T20:00:00-05:00"],
+  "url": "https://teleticket.com.pe/evento/zelda-symphonic-legends-en-lima-teatro-manuel-ascencio-segura", "source": "Teleticket · OLE Eventos",
+  "tags": ["música sinfónica", "videojuegos", "Zelda"], "confirmationLabel": "Por confirmar: disponibilidad", "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora, recinto y organizadora comprobados; cupos no comprobados.", "confirmationNoteEn": "Date, time, venue and organizer checked; remaining capacity not verified."
+},
+{
+  "kind": "event", "reviewedAt": "2026-10-22", "icon": "music", "tone": "green",
+  "id": "grupo-fuego-noche-reencuentro-22oct-2026", "category": "shows", "city": "Lima", "district": "Cercado de Lima",
+  "title": "Grupo Fuego · Noche de reencuentro", "titleEn": "Grupo Fuego · Reunion Night",
+  "description": "Noche de reencuentro de Grupo Fuego, el 22 de octubre a las 20:00 en Brisas del Titicaca. La ficha individual indica entradas de S/80 a S/150; consulta disponibilidad.",
+  "descriptionEn": "Grupo Fuego reunion night on October 22 at 20:00 at Brisas del Titicaca. The individual listing states tickets from S/80 to S/150; check availability.",
+  "venue": "Brisas del Titicaca · Jr. Héroes de Tarapacá 168", "sessions": ["2026-10-22T20:00:00-05:00"],
+  "url": "https://teleticket.com.pe/evento/grupo-fuego-presenta-noche-de-reencuentro-brisas-del-titicaca-asociacion-cultural", "source": "Teleticket · Brisas del Titicaca",
+  "tags": ["música", "reencuentro"], "confirmationLabel": "Por confirmar: disponibilidad", "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora, recinto, organizador y precios publicados; cupos no comprobados.", "confirmationNoteEn": "Date, time, venue, organizer and listed prices checked; remaining capacity not verified."
+},
+{
+  "kind": "event", "reviewedAt": "2026-10-22", "icon": "music", "tone": "lilac",
+  "id": "tributo-sabina-rock-pez-22oct-2026", "category": "shows", "city": "Lima", "district": "Miraflores",
+  "title": "Tributo a Joaquín Sabina · Hola y adiós", "titleEn": "Joaquín Sabina Tribute · Hola y adiós",
+  "description": "Show íntimo de José Carrasco dedicado a Joaquín Sabina, el 22 de octubre. Ingreso desde las 20:00 e inicio artístico anunciado a las 22:00 en Rock and Pez; consumo mínimo S/40. Consulta disponibilidad.",
+  "descriptionEn": "José Carrasco's intimate Joaquín Sabina tribute on October 22. Entry from 20:00 and advertised show start at 22:00 at Rock and Pez; S/40 minimum purchase. Check availability.",
+  "venue": "Rock and Pez · Miraflores", "sessions": ["2026-10-22T22:00:00-05:00"],
+  "url": "https://teleticket.com.pe/evento/tributo-a-joaquin-sabina-hola-y-adios-rock-and-pez-", "source": "Teleticket · Rock and Pez",
+  "tags": ["tributo", "trova", "música"], "confirmationLabel": "Por confirmar: disponibilidad", "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "La ficha diferencia ingreso 20:00 e inicio del show 22:00; cupos no comprobados.", "confirmationNoteEn": "The listing distinguishes 20:00 entry from 22:00 show start; remaining capacity not verified."
+},
+{
+  "kind": "event", "reviewedAt": "2026-10-22", "icon": "music", "tone": "orange",
+  "id": "william-luna-estacion-barranco-22oct-2026", "category": "shows", "city": "Lima", "district": "Barranco",
+  "title": "William Luna en concierto íntimo", "titleEn": "William Luna Intimate Concert",
+  "description": "Concierto íntimo de William Luna, el 22 de octubre a las 21:00 en La Estación de Barranco. Entradas publicadas de S/100 a S/120 y consumo mínimo de S/50 por persona; consulta disponibilidad.",
+  "descriptionEn": "William Luna intimate concert on October 22 at 21:00 at La Estación de Barranco. Listed tickets from S/100 to S/120 and S/50 minimum purchase per person; check availability.",
+  "venue": "La Estación de Barranco · Av. Pedro de Osma 112", "sessions": ["2026-10-22T21:00:00-05:00"],
+  "url": "https://teleticket.com.pe/evento/william-luna-en-concierto-intimo-la-estacion", "source": "Teleticket · La Estación de Barranco",
+  "tags": ["música andina", "concierto íntimo"], "confirmationLabel": "Por confirmar: disponibilidad", "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora, recinto, organizador, precios y consumo mínimo publicados; cupos no comprobados.", "confirmationNoteEn": "Date, time, venue, organizer, listed prices and minimum purchase checked; remaining capacity not verified."
+},
+{
+  "kind": "event", "reviewedAt": "2026-10-22", "icon": "community", "tone": "lilac",
+  "id": "kpop-random-dance-iquitos-23oct-2026", "category": "culture", "city": "Iquitos", "district": "Iquitos",
+  "title": "Viernes de K-Pop Random Dance", "titleEn": "K-Pop Random Dance Friday",
+  "description": "Encuentro gratuito de K-Pop Random Dance con Army Iquitos, el 23 de octubre de 20:00 a 21:00 en la Rotonda del primer nivel de Mall Aventura Iquitos. Consulta aforo.",
+  "descriptionEn": "Free K-Pop Random Dance gathering with Army Iquitos on October 23, 20:00–21:00, at the first-floor Rotunda of Mall Aventura Iquitos. Check capacity.",
+  "venue": "Mall Aventura Iquitos · Rotonda, nivel 1 · Av. José Abelardo Quiñones 1010", "sessions": ["2026-10-23T20:00:00-05:00"],
+  "url": "https://mallaventura.pe/iquitos/eventos/viernes-de-kpop-random-dance-2/", "source": "Mall Aventura Iquitos",
+  "tags": ["K-Pop", "baile", "gratuito", "Army Iquitos"], "confirmationLabel": "Por confirmar: aforo", "confirmationLabelEn": "To confirm: capacity",
+  "confirmationNote": "Fecha, horario, recinto y gratuidad comprobados; aforo no comprobado.", "confirmationNoteEn": "Date, schedule, venue and free admission checked; capacity not verified."
+},
+{
+  "kind": "event", "reviewedAt": "2026-10-22", "icon": "family", "tone": "green",
+  "id": "taller-los-lirios-iquitos-23oct-2026", "category": "family", "city": "Iquitos", "district": "Iquitos",
+  "title": "Taller creativo con Los Lirios", "titleEn": "Creative Workshop with Los Lirios",
+  "description": "Taller familiar gratuito de creatividad y aprendizaje con Los Lirios, el 23 de octubre de 18:00 a 19:00 en la Rotonda del primer nivel de Mall Aventura Iquitos. Consulta aforo y requisitos de edad.",
+  "descriptionEn": "Free family creativity and learning workshop with Los Lirios on October 23, 18:00–19:00, at the first-floor Rotunda of Mall Aventura Iquitos. Check capacity and age requirements.",
+  "venue": "Mall Aventura Iquitos · Rotonda, nivel 1 · Av. José Abelardo Quiñones 1010", "sessions": ["2026-10-23T18:00:00-05:00"],
+  "url": "https://mallaventura.pe/iquitos/eventos/taller-con-los-lirios-3/", "source": "Mall Aventura Iquitos",
+  "tags": ["taller", "familia", "niños", "gratuito"], "confirmationLabel": "Por confirmar: aforo y requisitos", "confirmationLabelEn": "To confirm: capacity and requirements",
+  "confirmationNote": "Fecha, horario, recinto y gratuidad comprobados; aforo y edades no comprobados.", "confirmationNoteEn": "Date, schedule, venue and free admission checked; capacity and ages not verified."
+},
+{
+  "kind": "event", "reviewedAt": "2026-10-22", "icon": "family", "tone": "orange",
+  "id": "show-terror-cecy-iquitos-25oct-2026", "category": "family", "city": "Iquitos", "district": "Iquitos",
+  "title": "Show de terror con Cecy Producciones", "titleEn": "Horror Show with Cecy Producciones",
+  "description": "Espectáculo gratuito de Halloween con Cecy Producciones, el 25 de octubre de 18:00 a 19:00 en la Rotonda del primer nivel de Mall Aventura Iquitos. Consulta aforo y recomendación de edad.",
+  "descriptionEn": "Free Halloween show with Cecy Producciones on October 25, 18:00–19:00, at the first-floor Rotunda of Mall Aventura Iquitos. Check capacity and age guidance.",
+  "venue": "Mall Aventura Iquitos · Rotonda, nivel 1 · Av. José Abelardo Quiñones 1010", "sessions": ["2026-10-25T18:00:00-05:00"],
+  "url": "https://mallaventura.pe/iquitos/eventos/show-de-terror-con-cecy-producciones/", "source": "Mall Aventura Iquitos",
+  "tags": ["Halloween", "show", "gratuito", "familia"], "confirmationLabel": "Por confirmar: aforo y edad", "confirmationLabelEn": "To confirm: capacity and age guidance",
+  "confirmationNote": "Fecha, horario, recinto y gratuidad comprobados; aforo y recomendación de edad no comprobados.", "confirmationNoteEn": "Date, schedule, venue and free admission checked; capacity and age guidance not verified."
+},
+{
+  "kind": "event", "reviewedAt": "2026-10-23", "icon": "music", "tone": "green",
+  "id": "tropi-peru-los-mirlos-24oct-2026", "category": "shows", "city": "Lima", "district": "Jesús María",
+  "title": "Tropi Perú · Una noche con Los Mirlos", "titleEn": "Tropi Perú · A Night with Los Mirlos",
+  "description": "Noche de cumbia tropical peruana con Los Mirlos, el 24 de octubre a las 19:00 en C.C. Maracaná. La ficha individual indica cuatro horas de duración, entradas de S/55 a S/235.70 y acceso solo para mayores de 18 años; consulta disponibilidad.",
+  "descriptionEn": "Peruvian tropical cumbia night with Los Mirlos on October 24 at 19:00 at C.C. Maracaná. The individual listing states a four-hour duration, tickets from S/55 to S/235.70 and 18+ admission; check availability.",
+  "venue": "C.C. Maracaná · Jr. Huáscar 1652", "sessions": ["2026-10-24T19:00:00-05:00"],
+  "url": "https://teleticket.com.pe/evento/tropi-peru-una-noche-con-los-mirlos-cc-maracana", "source": "Teleticket · Amadeus Productions Investment",
+  "tags": ["cumbia", "música amazónica", "Los Mirlos", "mayores de 18"], "confirmationLabel": "Por confirmar: disponibilidad", "confirmationLabelEn": "To confirm: availability",
+  "confirmationNote": "Fecha, hora, recinto, duración, precios, restricción de edad y organizador comprobados; cupos no comprobados.", "confirmationNoteEn": "Date, time, venue, duration, prices, age restriction and organizer checked; remaining capacity not verified."
+}
 ];
 
