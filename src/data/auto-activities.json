@@ -1,126 +1,5 @@
 [
   {
-    "id": "gtn-raices-de-jauja-noche-de-gala-andina",
-    "sessions": ["2026-10-22T20:00:00-05:00"],
-    "kind": "event",
-    "category": "shows",
-    "city": "Lima",
-    "district": "San Borja",
-    "title": "Raíces de Jauja: Noche de Gala Andina",
-    "titleEn": "Raíces de Jauja: Noche de Gala Andina",
-    "description": "Raíces de Jauja y Savia Andina: 22 de octubre a las 20:00 en el Gran Teatro Nacional, Lima. Horario confirmado por el recinto; cupos pendientes. La tabla de venta conserva fechas tarifarias de 2025 y no prueba disponibilidad.",
-    "descriptionEn": "Raíces de Jauja and Savia Andina: October 22 at 20:00, Gran Teatro Nacional, Lima. Venue confirms schedule; capacity pending. Sales price table retains 2025 dates and does not prove availability.",
-    "venue": "Gran Teatro Nacional",
-    "dates": [
-      "2026-10-22"
-    ],
-    "source": "Gran Teatro Nacional",
-    "url": "https://granteatronacional.pe/evento/raices-de-jauja-noche-de-gala-andina",
-    "reviewedAt": "2026-10-20",
-    "icon": "music",
-    "tone": "green",
-    "tags": [
-      "música"
-    ],
-    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/raices2.jpg?itok=QweiMJcd"
-  },
-  {
-    "id": "gtn-orquesta-sinfonica-nacional-de-jazz-foxtrot-y-gershwin",
-    "kind": "event",
-    "category": "shows",
-    "city": "Lima",
-    "district": "San Borja",
-    "title": "Orquesta Sinfónica Nacional: De jazz, foxtrot y Gershwin",
-    "titleEn": "Orquesta Sinfónica Nacional: De jazz, foxtrot y Gershwin",
-    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
-    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
-    "venue": "Gran Teatro Nacional",
-    "dates": [
-      "2026-10-23"
-    ],
-    "source": "Gran Teatro Nacional",
-    "url": "https://granteatronacional.pe/evento/orquesta-sinfonica-nacional-de-jazz-foxtrot-y-gershwin",
-    "reviewedAt": "2026-10-17",
-    "icon": "music",
-    "tone": "green",
-    "tags": [
-      "música"
-    ],
-    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/jazz-foxtrot-gershwin.jpg?itok=YpJ9FM9V"
-  },
-  {
-    "id": "gtn-visita-gtn-accesible-2",
-    "kind": "event",
-    "category": "culture",
-    "city": "Lima",
-    "district": "San Borja",
-    "title": "Visita GTN accesible",
-    "titleEn": "Visita GTN accesible",
-    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
-    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
-    "venue": "Gran Teatro Nacional",
-    "dates": [
-      "2026-10-23"
-    ],
-    "source": "Gran Teatro Nacional",
-    "url": "https://granteatronacional.pe/evento/visita-gtn-accesible-2",
-    "reviewedAt": "2026-10-17",
-    "icon": "art",
-    "tone": "green",
-    "tags": [
-      "accesible"
-    ],
-    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/visitaGTN26marzo_1_2.jpg?itok=2lVNy_jV"
-  },
-  {
-    "id": "gtn-tania-libertad",
-    "kind": "event",
-    "category": "shows",
-    "city": "Lima",
-    "district": "San Borja",
-    "title": "Tania Libertad",
-    "titleEn": "Tania Libertad",
-    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
-    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
-    "venue": "Gran Teatro Nacional",
-    "dates": [
-      "2026-10-24"
-    ],
-    "source": "Gran Teatro Nacional",
-    "url": "https://granteatronacional.pe/evento/tania-libertad",
-    "reviewedAt": "2026-10-17",
-    "icon": "music",
-    "tone": "green",
-    "tags": [
-      "música"
-    ],
-    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/Tania-Libertad.jpg?itok=euRNlzYM"
-  },
-  {
-    "id": "gtn-el-peru-en-un-solo-canto",
-    "kind": "event",
-    "category": "shows",
-    "city": "Lima",
-    "district": "San Borja",
-    "title": "El Perú en un solo canto",
-    "titleEn": "El Perú en un solo canto",
-    "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
-    "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
-    "venue": "Gran Teatro Nacional",
-    "dates": [
-      "2026-10-25"
-    ],
-    "source": "Gran Teatro Nacional",
-    "url": "https://granteatronacional.pe/evento/el-peru-en-un-solo-canto",
-    "reviewedAt": "2026-10-17",
-    "icon": "music",
-    "tone": "green",
-    "tags": [
-      "danza"
-    ],
-    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/un-solo-canto2.jpg?itok=-2PfbJSO"
-  },
-  {
     "id": "gtn-coro-nacional-de-ninos-del-peru-estampas-criollas-0",
     "kind": "event",
     "category": "shows",
@@ -136,7 +15,7 @@
     ],
     "source": "Gran Teatro Nacional",
     "url": "https://granteatronacional.pe/evento/coro-nacional-de-ninos-del-peru-estampas-criollas-0",
-    "reviewedAt": "2026-10-17",
+    "reviewedAt": "2026-10-28",
     "icon": "music",
     "tone": "green",
     "tags": [
@@ -160,7 +39,7 @@
     ],
     "source": "Gran Teatro Nacional",
     "url": "https://granteatronacional.pe/evento/amy-gutierrez-mi-primer-gran-teatro",
-    "reviewedAt": "2026-10-17",
+    "reviewedAt": "2026-10-28",
     "icon": "music",
     "tone": "green",
     "tags": [
@@ -184,7 +63,7 @@
     ],
     "source": "Gran Teatro Nacional",
     "url": "https://granteatronacional.pe/evento/cecilia-bracamonte-gracias-por-tanto",
-    "reviewedAt": "2026-10-17",
+    "reviewedAt": "2026-10-28",
     "icon": "music",
     "tone": "green",
     "tags": [
@@ -208,7 +87,7 @@
     ],
     "source": "Gran Teatro Nacional",
     "url": "https://granteatronacional.pe/evento/gran-gala-lirica-solistas-de-la-opera-del-teatro-colon",
-    "reviewedAt": "2026-10-17",
+    "reviewedAt": "2026-10-28",
     "icon": "music",
     "tone": "green",
     "tags": [
@@ -217,13 +96,13 @@
     "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/solistas.jpg?itok=RL8zAdYV"
   },
   {
-    "id": "gtn-sinfonia-por-el-peru-0",
+    "id": "gtn-orquesta-y-coro-juvenil-sinfonia-por-el-peru-sinfonia-nro-9-ludwig-van-beethoven",
     "kind": "event",
     "category": "shows",
     "city": "Lima",
     "district": "San Borja",
-    "title": "Sinfonía por el Perú",
-    "titleEn": "Sinfonía por el Perú",
+    "title": "Orquesta y Coro Juvenil Sinfonía por el Perú: Sinfonía nro. 9 – Ludwig Van Beethoven",
+    "titleEn": "Orquesta y Coro Juvenil Sinfonía por el Perú: Sinfonía nro. 9 – Ludwig Van Beethoven",
     "description": "Actividad en el Gran Teatro Nacional. Confirma horario, cupos y condiciones en su agenda oficial.",
     "descriptionEn": "Event at the National Grand Theater. Check time, availability and terms on its official calendar.",
     "venue": "Gran Teatro Nacional",
@@ -231,8 +110,8 @@
       "2026-11-18"
     ],
     "source": "Gran Teatro Nacional",
-    "url": "https://granteatronacional.pe/evento/sinfonia-por-el-peru-0",
-    "reviewedAt": "2026-10-17",
+    "url": "https://granteatronacional.pe/evento/orquesta-y-coro-juvenil-sinfonia-por-el-peru-sinfonia-nro-9-ludwig-van-beethoven",
+    "reviewedAt": "2026-10-28",
     "icon": "music",
     "tone": "green",
     "tags": [
@@ -256,7 +135,7 @@
     ],
     "source": "Gran Teatro Nacional",
     "url": "https://granteatronacional.pe/evento/visita-gtn-accesible-3",
-    "reviewedAt": "2026-10-17",
+    "reviewedAt": "2026-10-28",
     "icon": "art",
     "tone": "green",
     "tags": [
@@ -280,109 +159,12 @@
     ],
     "source": "Gran Teatro Nacional",
     "url": "https://granteatronacional.pe/evento/visita-gtn-accesible-4",
-    "reviewedAt": "2026-10-17",
+    "reviewedAt": "2026-10-28",
     "icon": "art",
     "tone": "green",
     "tags": [
       "accesible"
     ],
     "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/visitaGTN26marzo_1_4.jpg?itok=LW7xhjwW"
-  },
-  {
-    "id": "gtn-coro-nacional-del-peru-petite-messe-solennelle-de-rossini",
-    "kind": "event",
-    "category": "culture",
-    "city": "Lima",
-    "district": "San Borja",
-    "title": "Coro Nacional del Perú: Petite Messe Solennelle de Rossini",
-    "titleEn": "Coro Nacional del Perú: Petite Messe Solennelle de Rossini",
-    "description": "Concierto gratuito del Coro Nacional con la Petite Messe Solennelle de Rossini. Función confirmada el 11 de octubre a las 11:30; ingreso con inscripción previa en Joinnus y cupos limitados.",
-    "descriptionEn": "Free National Choir concert featuring Rossini's Petite Messe Solennelle. Confirmed for October 11 at 11:30; advance registration through Joinnus is required and capacity is limited.",
-    "venue": "Gran Teatro Nacional",
-    "sessions": [
-      "2026-10-11T11:30:00-05:00"
-    ],
-    "source": "Gran Teatro Nacional",
-    "url": "https://granteatronacional.pe/evento/coro-nacional-del-peru-petite-messe-solennelle-de-rossini",
-    "reviewedAt": "2026-10-11",
-    "icon": "art",
-    "tone": "green",
-    "tags": [
-      "¡es gratis!"
-    ],
-    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/rossini_0.jpg?itok=NiwA5bxh"
-  },
-  {
-    "id": "gtn-sesiones-gtn-una-muerte-light",
-    "kind": "event",
-    "category": "culture",
-    "city": "Lima",
-    "district": "San Borja",
-    "title": "Sesiones GTN: Una Muerte Light",
-    "titleEn": "Sesiones GTN: Una Muerte Light",
-    "description": "Función teatral gratuita el 13 de octubre a las 20:30. La inscripción previa figura agotada; edad mínima recomendada: 14 años.",
-    "descriptionEn": "Free theatre performance on October 13 at 20:30. Advance registration is shown as sold out; recommended minimum age: 14.",
-    "venue": "Gran Teatro Nacional",
-    "sessions": [
-      "2026-10-13T20:30:00-05:00"
-    ],
-    "source": "Gran Teatro Nacional",
-    "url": "https://granteatronacional.pe/evento/sesiones-gtn-una-muerte-light",
-    "reviewedAt": "2026-10-13",
-    "icon": "art",
-    "tone": "green",
-    "tags": [
-      "¡es gratis!"
-    ],
-    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/muerte-light.jpg?itok=CB-X-EJd"
-  },
-  {
-    "id": "gtn-sesiones-gtn-sinfonia-por-el-peru",
-    "kind": "event",
-    "category": "culture",
-    "city": "Lima",
-    "district": "San Borja",
-    "title": "Sesiones GTN: Sinfonía por el Perú",
-    "titleEn": "Sesiones GTN: Sinfonía por el Perú",
-    "description": "Presentación didáctica gratuita de Sinfonía por el Perú el 14 de octubre a las 19:00 en el Gran Teatro Nacional. La ficha oficial informa inscripción agotada; no se ofrece disponibilidad de entradas.",
-    "descriptionEn": "Free educational performance by Sinfonía por el Perú on October 14 at 19:00 at Gran Teatro Nacional. The official page reports registration is sold out; ticket availability is not offered.",
-    "venue": "Gran Teatro Nacional",
-    "sessions": [
-      "2026-10-14T19:00:00-05:00"
-    ],
-    "source": "Gran Teatro Nacional",
-    "url": "https://granteatronacional.pe/evento/sesiones-gtn-sinfonia-por-el-peru",
-    "reviewedAt": "2026-10-14",
-    "icon": "art",
-    "tone": "green",
-    "tags": [
-      "¡es gratis!"
-    ],
-    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/sinfonia-por-el-peru.jpg?itok=kG_PxSRf"
-  },
-  {
-    "id": "gtn-orquesta-sinfonica-nacional-juvenil-bicentenario-modo-mozart",
-    "kind": "event",
-    "category": "shows",
-    "city": "Lima",
-    "district": "San Borja",
-    "title": "Orquesta Sinfónica Nacional Juvenil Bicentenario: Modo Mozart",
-    "titleEn": "Orquesta Sinfónica Nacional Juvenil Bicentenario: Modo Mozart",
-    "description": "Concierto de la Orquesta Sinfónica Nacional Juvenil Bicentenario dirigido por Pablo Sabat. Función confirmada el 16 de octubre a las 20:00; entradas a la venta por Joinnus.",
-    "descriptionEn": "Concert by the National Bicentennial Youth Symphony Orchestra conducted by Pablo Sabat. Confirmed on October 16 at 20:00; tickets sold through Joinnus.",
-    "venue": "Gran Teatro Nacional",
-    "source": "Gran Teatro Nacional",
-    "url": "https://granteatronacional.pe/evento/orquesta-sinfonica-nacional-juvenil-bicentenario-modo-mozart",
-    "reviewedAt": "2026-10-16",
-    "icon": "music",
-    "tone": "green",
-    "tags": [
-      "música"
-    ],
-    "imageUrl": "https://granteatronacional.pe/sites/default/files/styles/370x305/public/ImagenesEvento/modo-mozart.jpg?itok=Pgz-Q3Xt",
-    "sessions": [
-      "2026-10-16T20:00:00-05:00"
-    ]
   }
 ]
-
